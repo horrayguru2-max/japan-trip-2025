@@ -337,6 +337,52 @@
     .acc-day-badge { width: 38px; height: 38px; }
     .acc-title h3 { font-size: 0.88rem; }
   }
+
+  /* ── REF LINKS ── */
+  .ref-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    background: #fff0f5;
+    color: var(--red);
+    border-radius: 4px;
+    padding: 1px 6px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 4px;
+    vertical-align: middle;
+    border: 1px solid #fde8e8;
+  }
+  .ref-link:hover { background: #fde8e8; }
+
+  /* ── BILINGUAL NAMES ── */
+  .sub-name { font-size: 0.68rem; color: var(--muted); font-weight: 400; display: block; margin-top: 2px; letter-spacing: 0.01em; }
+
+  /* ── MAP EMBED ── */
+  .map-embed { width: 100%; height: 260px; border: 0; border-radius: 8px; margin: 10px 0 6px; display: block; }
+
+  /* ── OPTIONAL SIGHTS ── */
+  .opt-section { margin: 20px 0 0; }
+  .opt-section > .sec-head { font-size: 0.82rem; }
+  .opt-card {
+    background: white;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    margin-bottom: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+  .opt-card-head {
+    padding: 12px 16px;
+    background: #fafafa;
+    border-bottom: 1px solid var(--border);
+  }
+  .opt-card-head h4 { font-size: 0.9rem; font-weight: 700; margin-bottom: 2px; }
+  .opt-card-head .sub-name { margin-top: 0; }
+  .opt-card-body { padding: 10px 14px; font-size: 0.83rem; color: #444; }
+  .opt-card-body p { margin: 4px 0; }
+  .opt-card-body .how { background: #f0f8ff; border-left: 3px solid var(--accent); border-radius: 0 4px 4px 0; padding: 6px 10px; margin-top: 8px; font-size: 0.78rem; color: #555; }
 </style>
 </head>
 <body>
@@ -436,7 +482,7 @@
         <div class="tl-item">
           <div class="tl-time">10:00</div>
           <div class="tl-dot-wrap"><div class="tl-dot"></div><div class="tl-line"></div></div>
-          <div class="tl-content">大阪城公园 · 先让孩子玩儿童游乐场 → 再走向天守阁 <span class="tag tag-blue">¥600</span></div>
+          <div class="tl-content">大阪城公园 <small class="sub-name" style="display:inline">大阪城公園 · Osaka Castle Park</small> · 先让孩子玩儿童游乐场 → 再走向天守阁 <span class="tag tag-blue">¥600</span> <a class="ref-link" href="https://www.instagram.com/reel/DWTpQMEE8lR/?igsh=MzE2dGI5bXBjZ3Q1" target="_blank">📎 参考</a></div>
         </div>
         <div class="tl-item">
           <div class="tl-time">12:00</div>
@@ -461,7 +507,7 @@
         <div class="tl-item">
           <div class="tl-time">18:30</div>
           <div class="tl-dot-wrap"><div class="tl-dot"></div></div>
-          <div class="tl-content">🥩 晚餐：焼肉南大門（大阪市中央区東心斎橋1-8-15）<br><small><span class="tag tag-gold">¥3,000–5,000/人</span> · 4.5⭐ 和牛！</small></div>
+          <div class="tl-content">🥩 晚餐：焼肉南大門 <small class="sub-name" style="display:inline">焼肉 大阪 南大門 · Yakiniku Nandaimon</small>（大阪市中央区東心斎橋1-8-15）<a class="ref-link" href="https://www.instagram.com/reels/DXEp-mrSl8J/" target="_blank">📎 参考</a><br><small><span class="tag tag-gold">¥3,000–5,000/人</span> · 4.5⭐ 和牛！</small></div>
         </div>
       </div>
       <div class="tip warn">⚠️ 南大門营业：Mon/Thu/Fri 17:00–23:30 · Sat 16:00–23:30 · Sun 16:00–23:00 · <strong>周三公休！</strong></div>
@@ -567,7 +613,7 @@
         <div class="tl-item">
           <div class="tl-time">10:00</div>
           <div class="tl-dot-wrap"><div class="tl-dot"></div><div class="tl-line"></div></div>
-          <div class="tl-content">清水寺 · 清水舞台 · 音羽の滝三流水许愿 <span class="tag tag-blue">¥500</span></div>
+          <div class="tl-content">清水寺 <small class="sub-name" style="display:inline">清水寺 · Kiyomizudera</small> · 清水舞台 · 音羽の滝三流水许愿 <span class="tag tag-blue">¥500</span> <a class="ref-link" href="https://www.instagram.com/reels/DSZz8BNRlri/" target="_blank">📎 参考</a></div>
         </div>
         <div class="tl-item">
           <div class="tl-time">11:00</div>
@@ -582,7 +628,7 @@
         <div class="tl-item">
           <div class="tl-time">14:00</div>
           <div class="tl-dot-wrap"><div class="tl-dot"></div><div class="tl-line"></div></div>
-          <div class="tl-content">京阪线 → 伏见稻荷大社 <span class="tag tag-red">¥170 · 15分</span> · 只走前段千本鸟居！</div>
+          <div class="tl-content">京阪线 → 伏见稻荷大社 <small class="sub-name" style="display:inline">伏見稲荷大社 · Fushimi Inari Taisha</small> <span class="tag tag-red">¥170 · 15分</span> · 只走前段千本鸟居！</div>
         </div>
         <div class="tl-item">
           <div class="tl-time">15:30</div>
@@ -617,11 +663,11 @@
       <div class="tbl-wrap">
         <table>
           <tr><th>景点</th><th>费用</th><th>开放</th><th>亮点</th></tr>
-          <tr><td>💰 御金神社</td><td>免费（福财布¥1,000–2,000）</td><td>10:00–16:00</td><td>日本唯一金箔鸟居！祈财运</td></tr>
-          <tr><td>锦市场</td><td>小食¥200–500</td><td>09:00–18:00</td><td>京都厨房！抹茶・厚蛋烧・京漬物</td></tr>
-          <tr><td>🖤 檀王法林寺黑猫</td><td>免费</td><td>10:00–16:00</td><td>日本唯一黑色招财猫！僧侣开光</td></tr>
-          <tr><td>二条城</td><td>¥1,300</td><td>08:45–17:00</td><td>鶯張り走廊！孩子会好奇</td></tr>
-          <tr><td>鸭川跳石头</td><td>免费</td><td>全天</td><td>孩子最开心！完全免费</td></tr>
+          <tr><td>💰 御金神社<small class="sub-name">御金神社 · Mikane Jinja</small></td><td>免费（福财布¥1,000–2,000）</td><td>10:00–16:00</td><td>日本唯一金箔鸟居！祈财运 <a class="ref-link" href="https://www.facebook.com/reel/2319035911954698" target="_blank">📎</a></td></tr>
+          <tr><td>锦市场<small class="sub-name">錦市場 · Nishiki Market</small></td><td>小食¥200–500</td><td>09:00–18:00</td><td>京都厨房！抹茶・厚蛋烧・京漬物</td></tr>
+          <tr><td>🖤 檀王法林寺黑猫<small class="sub-name">壇王法林寺 · Dan-no-Hori-ji</small></td><td>免费</td><td>10:00–16:00</td><td>日本唯一黑色招财猫！僧侣开光 <a class="ref-link" href="https://www.facebook.com/reel/1426570785269256" target="_blank">📎</a></td></tr>
+          <tr><td>二条城<small class="sub-name">二條城 · Nijo Castle</small></td><td>¥1,300</td><td>08:45–17:00</td><td>鶯張り走廊！孩子会好奇</td></tr>
+          <tr><td>鸭川跳石头<small class="sub-name">鴨川 · Kamo River</small></td><td>免费</td><td>全天</td><td>孩子最开心！完全免费</td></tr>
         </table>
       </div>
       <div class="timeline">
@@ -710,7 +756,7 @@
         <div class="tl-item">
           <div class="tl-time">11:00</div>
           <div class="tl-dot-wrap"><div class="tl-dot"></div><div class="tl-line"></div></div>
-          <div class="tl-content">🚂 嵯峨野小火车 · 亀岡→嵯峨 约25分钟穿越峡谷！ <span class="tag tag-blue">大人¥880 / 儿童¥440</span></div>
+          <div class="tl-content">🚂 嵯峨野小火车 <small class="sub-name" style="display:inline">嵯峨野トロッコ鉄道 · Sagano Scenic Railway</small> · 亀岡→嵯峨 约25分钟穿越峡谷！ <span class="tag tag-blue">大人¥880 / 儿童¥440</span></div>
         </div>
         <div class="tl-item">
           <div class="tl-time">12:00</div>
@@ -739,6 +785,7 @@
         </div>
       </div>
       <div class="tip warn">⚠️ 嵯峨野小火车必须提前网上预约！sagano-kanko.co.jp — 9月旺季极快售完！</div>
+      <div class="tip info">✨ <strong>岚山完整三合一体验</strong>（如想全程，建议新干线推迟至16:30出发）：🚂 嵯峨野小火车 → 🐴 保津川接驳马车（馬車）→ 🛶 保津川游船（保津川下り · Hozugawa River Boat Ride）顺流2小时回岚山 → 🎋 竹林<br><small>保津川游船：大人约¥4,100 / 儿童约¥3,100 · 传统木船约2小时，沿途峡谷+急流，超疗愈！</small> <a class="ref-link" href="https://www.instagram.com/reels/DVBqeyjk_Z4/" target="_blank">📎 游船参考</a> <a class="ref-link" href="https://www.instagram.com/reels/DXs5gfxidkD/" target="_blank">📎 完整一天</a></div>
     </div>
   </div>
 
@@ -802,7 +849,7 @@
           <div class="tl-content">晚餐：ひつまぶし 鳗鱼饭 or 手羽先鸡翅 <span class="tag tag-gold">¥2,000–5,000</span></div>
         </div>
       </div>
-      <div class="tip warn">⚠️ 吉卜力公园门票极难买！提前2–3个月在 l-tike.com 抢购！建议预约10:00入场批次。</div>
+      <div class="tip warn">⚠️ 吉卜力公园 <small style="font-size:0.7rem">ジブリパーク · Ghibli Park</small> 门票极难买！提前2–3个月在 l-tike.com 抢购！建议预约10:00入场批次。 <a class="ref-link" href="https://www.instagram.com/reel/DUHPorpEwMw/?igsh=dGQ0MnpoazVobGxo" target="_blank">📎 参考</a></div>
     </div>
   </div>
 
@@ -938,7 +985,7 @@
         <div class="tl-item">
           <div class="tl-time">10:00</div>
           <div class="tl-dot-wrap"><div class="tl-dot"></div><div class="tl-line"></div></div>
-          <div class="tl-content">住吉大社（太鼓桥！免费！孩子爱走！）</div>
+          <div class="tl-content">住吉大社 <small class="sub-name" style="display:inline">住吉大社 · Sumiyoshi Taisha</small>（太鼓桥 太鼓橋！免费！孩子爱走！）<a class="ref-link" href="https://www.facebook.com/reel/1631787884660144" target="_blank">📎 参考</a></div>
         </div>
         <div class="tl-item">
           <div class="tl-time">11:30</div>
@@ -989,7 +1036,7 @@
         <div class="tl-item">
           <div class="tl-time">10:30</div>
           <div class="tl-dot-wrap"><div class="tl-dot"></div><div class="tl-line"></div></div>
-          <div class="tl-content">★ 海游馆水族馆（企鹅・水母・海豚・鲸鲨！约3小时）<span class="tag tag-blue">成人¥2,700 / 儿童¥1,400</span></div>
+          <div class="tl-content">★ 海游馆水族馆 <small class="sub-name" style="display:inline">海遊館 · Osaka Aquarium Kaiyukan</small>（企鹅・水母・海豚・鲸鲨！约3小时）<span class="tag tag-blue">成人¥2,700 / 儿童¥1,400</span> <a class="ref-link" href="https://www.instagram.com/reel/DVOUzHME0Dz/?igsh=anlnYzR2NTZ1NTVq" target="_blank">📎 参考</a> <a class="ref-link" href="https://www.instagram.com/reel/DQllEnxj_AO/?igsh=c2R3eG9nb2tjN2Yx" target="_blank">📎 摩天轮+水族馆</a></div>
         </div>
         <div class="tl-item">
           <div class="tl-time">13:30</div>
@@ -1066,6 +1113,108 @@
     </div>
   </div>
 
+  <!-- ── 可选景点 & 延伸行程 ── -->
+  <div class="opt-section">
+    <p class="sec-head">🗺 可选景点 &amp; 延伸行程</p>
+    <div class="tip info" style="margin-bottom:10px">以下景点不在主行程内，供参考和日后规划用，可视时间和体力灵活加入。</div>
+
+    <p class="sec-head" style="margin-top:14px">京都周边延伸（从京都出发一日游）</p>
+
+    <div class="opt-card">
+      <div class="opt-card-head">
+        <div>
+          <h4>⛵ 伊根渔村舟屋 <a class="ref-link" href="https://www.instagram.com/reels/DYbZovKs-kB/" target="_blank">📎 参考</a></h4>
+          <span class="sub-name">伊根の舟屋 · Ine Fishing Village</span>
+        </div>
+      </div>
+      <div class="opt-card-body">
+        <p>京都海边的宁静渔村，以沿海传统舟屋闻名，风景超疗愈，人潮比大阪京都少很多。</p>
+        <div class="how">🚗 自驾从大阪或京都约2小时最方便；也可搭 JR + 巴士前往。</div>
+      </div>
+    </div>
+
+    <div class="opt-card">
+      <div class="opt-card-head">
+        <div>
+          <h4>🌊 天橋立 <a class="ref-link" href="https://www.instagram.com/p/DX85i_PTZZu/" target="_blank">📎 参考</a></h4>
+          <span class="sub-name">天橋立 · Amanohashidate</span>
+        </div>
+      </div>
+      <div class="opt-card-body">
+        <p>日本三景之一，以横跨海湾的松树林沙洲闻名，可搭缆车欣赏绝景，也适合骑脚车与搭船慢慢探索。</p>
+        <div class="how">🚃 从京都站搭 JR 特急到天橋立駅约2小时；下车后步行即可到缆车与观景区。</div>
+      </div>
+    </div>
+
+    <div class="opt-card">
+      <div class="opt-card-head">
+        <div>
+          <h4>🛶 西舞鹤 吉原入江</h4>
+          <span class="sub-name">西舞鶴 吉原入江 · Nishimaizuru Yoshiwara Cove</span>
+        </div>
+      </div>
+      <div class="opt-card-body">
+        <p>京都北部隐藏版水岸渔村，两旁排列传统民宅与渔船，气氛宁静，很像远离城市的另一个世界。</p>
+        <div class="how">🚃 从京都搭 JR 到西舞鶴駅（Nishi-Maizuru Station），再转巴士或步行前往吉原地区。</div>
+      </div>
+    </div>
+
+    <div class="tip" style="margin:4px 0 12px">💡 <strong>天橋立 + 伊根舟屋 组合一日游：</strong>两者相距约40分钟车程，自驾最方便，可在京都其中一天出发。</div>
+
+    <p class="sec-head" style="margin-top:14px">大阪周边延伸</p>
+
+    <div class="opt-card">
+      <div class="opt-card-head">
+        <div>
+          <h4>⚔️ 淡路岛二次元之森 <a class="ref-link" href="https://www.instagram.com/reels/DYPQlmxMwYG/" target="_blank">📎 参考</a></h4>
+          <span class="sub-name">ニジゲンノモリ · Nijigen no Mori</span>
+        </div>
+      </div>
+      <div class="opt-card-body">
+        <p>位于淡路岛的动漫主题乐园：《进击的巨人》《火影忍者》《勇者斗恶龙》《蜡笔小新》主题园区，还有超刺激飞索体验！</p>
+        <div class="how">🚗 大阪自驾约1.5小时；或搭高速巴士前往淡路岛，园区官网有详细交通指引。</div>
+      </div>
+    </div>
+
+    <p class="sec-head" style="margin-top:14px">特别交通体验</p>
+
+    <div class="opt-card">
+      <div class="opt-card-head">
+        <div>
+          <h4>🚃 Aoniyoshi 近铁观光列车 <a class="ref-link" href="https://www.instagram.com/reels/DYjwfVRJHXW/" target="_blank">📎 参考</a></h4>
+          <span class="sub-name">近鉄 あをによし · Kintetsu Aoniyoshi</span>
+        </div>
+      </div>
+      <div class="opt-card-body">
+        <p>车厢走奈良时代风格，座位宽敞，设有小包厢与咖啡车厢，超有日本复古贵族感。不是最快路线，但体验感满满！</p>
+        <p><strong>运行路线：</strong>京都 ↔ 近鉄奈良 ↔ 大阪难波</p>
+        <p><strong>推荐玩法：</strong>京都搭 Aoniyoshi → 奈良游半天（鹿公园 + 东大寺）→ 再从奈良搭近铁回大阪难波。</p>
+        <div class="tbl-wrap" style="margin-top:8px">
+          <table>
+            <tr><th>费用项目</th><th>大约价格</th></tr>
+            <tr><td>基本车资（京都→大阪难波）</td><td>¥1,200–1,500</td></tr>
+            <tr><td>Aoniyoshi 特急指定席</td><td>¥700–1,000</td></tr>
+            <tr><td>每人合计</td><td>约¥2,000–2,500 ≈ RM60–80</td></tr>
+          </table>
+        </div>
+        <div class="how">⚠️ 非常热门！建议提前1个月抢票：近铁官网 kintetsu.co.jp / Klook / KKday</div>
+      </div>
+    </div>
+
+    <div class="opt-card">
+      <div class="opt-card-head">
+        <div>
+          <h4>🎋 岚山人少拍照隐藏路线 <a class="ref-link" href="https://www.instagram.com/reels/DXLxzw_ji8a/" target="_blank">📎 参考</a></h4>
+          <span class="sub-name">嵐山 隠れルート · Arashiyama Hidden Route</span>
+        </div>
+      </div>
+      <div class="opt-card-body">
+        <p>避开人潮的岚山摄影路线：岚电（Randen Tram）出发 → 小众寺庙罗汉雕像 → 传统木造街道 → 隐藏版竹林 → 河边茶屋（需划船抵达）→ 中之岛河畔散步。</p>
+        <p><em>适合：喜欢拍照+不想挤人，节奏慢，很适合半日～一日游。</em></p>
+      </div>
+    </div>
+  </div>
+
   <!-- DAY 13 -->
   <div class="card">
     <div class="acc-header" onclick="toggleAcc(this)">
@@ -1103,17 +1252,18 @@
 <section id="tab-map" class="tab-panel">
 
   <div class="city-section">
-    <div class="city-title osaka">🏯 大阪第一段 — Hotel Universal Port Vita（USJ旁 樱岛）</div>
+    <div class="city-title osaka">🏯 大阪第一段 — Hotel Universal Port Vita（USJ旁 桜島 · Sakurajima）</div>
     <div class="card" style="border-radius:0 0 10px 10px">
       <div style="padding:12px 14px">
+        <iframe class="map-embed" src="https://maps.google.com/maps?q=Universal+Studios+Japan+Osaka&output=embed&z=15" loading="lazy" allowfullscreen></iframe>
         <div class="tbl-wrap">
           <table>
             <tr><th>目的地</th><th>步行</th><th>交通</th><th>费用</th></tr>
-            <tr><td>★ USJ 入口</td><td>🚶 5分 0.4km</td><td>—</td><td>免费</td></tr>
-            <tr><td>西九条駅（换线）</td><td>🚶 15分</td><td>🚃 JR梦咲线 3分</td><td>¥160</td></tr>
-            <tr><td>难波駅（Namba）</td><td>—</td><td>🚃 JR约25分（换乘）</td><td>¥280</td></tr>
-            <tr><td>大阪城 森ノ宮駅</td><td>—</td><td>🚃 JR约30分</td><td>¥280</td></tr>
-            <tr><td>大阪站（Osaka）</td><td>—</td><td>🚃 JR约20分</td><td>¥200</td></tr>
+            <tr><td>★ USJ 入口<small class="sub-name">ユニバーサル・スタジオ・ジャパン</small></td><td>🚶 5分 0.4km</td><td>—</td><td>免费</td></tr>
+            <tr><td>西九条駅（换线）<small class="sub-name">Nishikujo Station</small></td><td>🚶 15分</td><td>🚃 JR梦咲线 3分</td><td>¥160</td></tr>
+            <tr><td>难波駅<small class="sub-name">難波駅 · Namba Station</small></td><td>—</td><td>🚃 JR约25分（换乘）</td><td>¥280</td></tr>
+            <tr><td>大阪城 森ノ宮駅<small class="sub-name">大阪城公園 · Osaka Castle</small></td><td>—</td><td>🚃 JR约30分</td><td>¥280</td></tr>
+            <tr><td>大阪站<small class="sub-name">大阪駅 · Osaka Station</small></td><td>—</td><td>🚃 JR约20分</td><td>¥200</td></tr>
           </table>
         </div>
       </div>
@@ -1121,23 +1271,24 @@
   </div>
 
   <div class="city-section">
-    <div class="city-title osaka">🏯 大阪市区景点距离（难波/心斋桥圈）</div>
+    <div class="city-title osaka">🏯 大阪市区景点距离（难波 難波 / 心斋桥 心斎橋 圈）</div>
     <div class="card" style="border-radius:0 0 10px 10px">
       <div style="padding:12px 14px">
+        <iframe class="map-embed" src="https://maps.google.com/maps?q=Dotonbori+Osaka+Japan&output=embed&z=14" loading="lazy" allowfullscreen></iframe>
         <div class="tbl-wrap">
           <table>
             <tr><th>从</th><th>到</th><th>步行</th><th>交通</th></tr>
-            <tr><td>道顿堀</td><td>心斋桥筋</td><td>🚶 5分 0.4km</td><td>—</td></tr>
-            <tr><td>心斋桥筋</td><td>黑门市场</td><td>🚶 10分 0.8km</td><td>—</td></tr>
-            <tr><td>难波駅</td><td>住吉大社駅</td><td>—</td><td>🚃 南海高野线 15分 ¥520</td></tr>
-            <tr><td>道顿堀</td><td>难波八阪神社</td><td>🚶 10分 0.8km</td><td>—</td></tr>
+            <tr><td>道顿堀<small class="sub-name">道頓堀 · Dotonbori</small></td><td>心斋桥筋<small class="sub-name">心斎橋筋</small></td><td>🚶 5分 0.4km</td><td>—</td></tr>
+            <tr><td>心斋桥筋</td><td>黑门市场<small class="sub-name">黒門市場 · Kuromon Market</small></td><td>🚶 10分 0.8km</td><td>—</td></tr>
+            <tr><td>难波駅</td><td>住吉大社駅<small class="sub-name">Sumiyoshi-taisha Sta.</small></td><td>—</td><td>🚃 南海高野线 15分 ¥520</td></tr>
+            <tr><td>道顿堀</td><td>难波八阪神社<small class="sub-name">難波八阪神社</small></td><td>🚶 10分 0.8km</td><td>—</td></tr>
             <tr><td>难波八阪神社</td><td>黑门市场</td><td>🚶 8分 0.7km</td><td>—</td></tr>
-            <tr><td>本町駅</td><td>心斋桥</td><td>🚶 18分 1.5km</td><td>🚇 地铁1站 ¥230</td></tr>
-            <tr><td>本町駅</td><td>★ 海游馆</td><td>—</td><td>🚇 中央线 15分 ¥280</td></tr>
-            <tr><td>海游馆</td><td>天保山摩天轮</td><td>🚶 5分 0.5km</td><td>—</td></tr>
-            <tr><td>本町駅</td><td>天王寺</td><td>—</td><td>🚇 御堂筋线 8分 ¥230</td></tr>
-            <tr><td>天王寺動物園</td><td>新世界</td><td>🚶 5分 0.5km</td><td>—</td></tr>
-            <tr><td>新世界</td><td>Abeno Harukas</td><td>🚶 3分 0.3km</td><td>—</td></tr>
+            <tr><td>本町駅<small class="sub-name">Hommachi Sta.</small></td><td>心斋桥</td><td>🚶 18分 1.5km</td><td>🚇 地铁1站 ¥230</td></tr>
+            <tr><td>本町駅</td><td>★ 海游馆<small class="sub-name">海遊館 · Kaiyukan</small></td><td>—</td><td>🚇 中央线 15分 ¥280</td></tr>
+            <tr><td>海游馆</td><td>天保山摩天轮<small class="sub-name">天保山大観覧車</small></td><td>🚶 5分 0.5km</td><td>—</td></tr>
+            <tr><td>本町駅</td><td>天王寺<small class="sub-name">天王寺 · Tennoji</small></td><td>—</td><td>🚇 御堂筋线 8分 ¥230</td></tr>
+            <tr><td>天王寺動物園</td><td>新世界<small class="sub-name">新世界 · Shinsekai</small></td><td>🚶 5分 0.5km</td><td>—</td></tr>
+            <tr><td>新世界</td><td>Abeno Harukas<small class="sub-name">あべのハルカス</small></td><td>🚶 3分 0.3km</td><td>—</td></tr>
           </table>
         </div>
       </div>
@@ -1145,20 +1296,21 @@
   </div>
 
   <div class="city-section">
-    <div class="city-title kyoto">⛩️ 京都 — 四条河原町 / 祗園（推荐酒店圈）</div>
+    <div class="city-title kyoto">⛩️ 京都市区 — 四条河原町 四条河原町 / 祗園 祇園（推荐酒店圈）</div>
     <div class="card" style="border-radius:0 0 10px 10px">
       <div style="padding:12px 14px">
+        <iframe class="map-embed" src="https://maps.google.com/maps?q=Shijo+Kawaramachi+Kyoto+Japan&output=embed&z=14" loading="lazy" allowfullscreen></iframe>
         <div class="tbl-wrap">
           <table>
             <tr><th>目的地</th><th>步行</th><th>交通</th><th>费用</th></tr>
-            <tr><td>💰 御金神社</td><td>🚶 10分 0.8km</td><td>—</td><td>免费</td></tr>
-            <tr><td>🖤 檀王法林寺（黑猫）</td><td>🚶 18分 1.5km</td><td>—</td><td>免费</td></tr>
-            <tr><td>锦市场</td><td>🚶 7分 0.5km</td><td>—</td><td>免费</td></tr>
-            <tr><td>清水寺</td><td>—</td><td>🚌 公车206号 20分</td><td>¥230</td></tr>
-            <tr><td>二条城</td><td>🚶 20分 1.5km</td><td>—</td><td>—</td></tr>
-            <tr><td>嵐山</td><td>—</td><td>🚃 阪急 25分</td><td>¥220</td></tr>
-            <tr><td>伏见稻荷</td><td>—</td><td>🚃 京阪线 15分</td><td>¥170</td></tr>
-            <tr><td>京都站（新干线）</td><td>—</td><td>🚇 地铁 10分</td><td>¥270</td></tr>
+            <tr><td>💰 御金神社<small class="sub-name">御金神社 · Mikane Jinja</small></td><td>🚶 10分 0.8km</td><td>—</td><td>免费</td></tr>
+            <tr><td>🖤 檀王法林寺（黑猫）<small class="sub-name">壇王法林寺 · Dan-no-Hori-ji</small></td><td>🚶 18分 1.5km</td><td>—</td><td>免费</td></tr>
+            <tr><td>锦市场<small class="sub-name">錦市場 · Nishiki Market</small></td><td>🚶 7分 0.5km</td><td>—</td><td>免费</td></tr>
+            <tr><td>清水寺<small class="sub-name">清水寺 · Kiyomizudera</small></td><td>—</td><td>🚌 公车206号 20分</td><td>¥230</td></tr>
+            <tr><td>二条城<small class="sub-name">二條城 · Nijo Castle</small></td><td>🚶 20分 1.5km</td><td>—</td><td>—</td></tr>
+            <tr><td>嵐山<small class="sub-name">嵐山 · Arashiyama</small></td><td>—</td><td>🚃 阪急 25分</td><td>¥220</td></tr>
+            <tr><td>伏见稻荷<small class="sub-name">伏見稲荷大社 · Fushimi Inari</small></td><td>—</td><td>🚃 京阪线 15分</td><td>¥170</td></tr>
+            <tr><td>京都站（新干线）<small class="sub-name">京都駅 · Kyoto Station</small></td><td>—</td><td>🚇 地铁 10分</td><td>¥270</td></tr>
           </table>
         </div>
         <p class="sec-head">Day 5 步行路线（全步行！）</p>
@@ -1172,15 +1324,23 @@
             <tr><td>二条城 → 鸭川</td><td>约1km</td><td>约12分</td></tr>
           </table>
         </div>
-        <p class="sec-head">嵐山景点间距（Day 6）</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="city-section">
+    <div class="city-title kyoto">🎋 嵐山 Arashiyama 景点间距（Day 6）</div>
+    <div class="card" style="border-radius:0 0 10px 10px">
+      <div style="padding:12px 14px">
+        <iframe class="map-embed" src="https://maps.google.com/maps?q=Arashiyama+Kyoto+Japan&output=embed&z=14" loading="lazy" allowfullscreen></iframe>
         <div class="tbl-wrap">
           <table>
             <tr><th>景点</th><th>到下一个</th><th>时间</th></tr>
-            <tr><td>嵐山駅</td><td>竹林之道</td><td>🚶 5分</td></tr>
-            <tr><td>竹林之道</td><td>野宮神社</td><td>🚶 2分（在竹林内）</td></tr>
-            <tr><td>野宮神社</td><td>天龙寺</td><td>🚶 5分</td></tr>
-            <tr><td>天龙寺</td><td>嵯峨野小火车トロッコ嵯峨駅</td><td>🚶 8分</td></tr>
-            <tr><td>渡月桥</td><td>嵐山駅（阪急）</td><td>🚶 5分</td></tr>
+            <tr><td>嵐山駅<small class="sub-name">Arashiyama Station</small></td><td>竹林之道<small class="sub-name">竹林の道 · Bamboo Grove</small></td><td>🚶 5分</td></tr>
+            <tr><td>竹林之道</td><td>野宮神社<small class="sub-name">野宮神社 · Nonomiya Shrine</small></td><td>🚶 2分（在竹林内）</td></tr>
+            <tr><td>野宮神社</td><td>天龙寺<small class="sub-name">天龍寺 · Tenryu-ji</small></td><td>🚶 5分</td></tr>
+            <tr><td>天龙寺</td><td>嵯峨野小火车 トロッコ嵯峨駅<small class="sub-name">Sagano Scenic Railway</small></td><td>🚶 8分</td></tr>
+            <tr><td>渡月桥<small class="sub-name">渡月橋 · Togetsu-kyo</small></td><td>嵐山駅（阪急）</td><td>🚶 5分</td></tr>
           </table>
         </div>
       </div>
@@ -1188,35 +1348,39 @@
   </div>
 
   <div class="city-section">
-    <div class="city-title nagoya">🌿 名古屋 — Nishitetsu Hotel Croom（久屋大通駅步行3–5分）</div>
+    <div class="city-title nagoya">🌿 名古屋 名古屋 Nagoya — Nishitetsu Hotel Croom（久屋大通駅 步行3–5分）</div>
     <div class="card" style="border-radius:0 0 10px 10px">
       <div style="padding:12px 14px">
+        <iframe class="map-embed" src="https://maps.google.com/maps?q=Hisaya+Odori+Park+Nagoya+Japan&output=embed&z=14" loading="lazy" allowfullscreen></iframe>
         <div class="tbl-wrap">
           <table>
             <tr><th>目的地</th><th>步行</th><th>交通</th><th>费用</th></tr>
-            <tr><td>★ 吉卜力公园</td><td>步行3分→久屋大通駅</td><td>🚇 东山线25分+Linimo13分</td><td>¥580</td></tr>
-            <tr><td>名古屋城（市役所駅）</td><td>—</td><td>🚇 名城线 约10分</td><td>¥210</td></tr>
-            <tr><td>大须観音駅</td><td>—</td><td>🚇 地铁 约10分</td><td>¥210</td></tr>
-            <tr><td>大须商业街</td><td>🚶 20分 1.5km</td><td>🚇 地铁1站</td><td>¥210</td></tr>
-            <tr><td>名古屋站（新干线）</td><td>—</td><td>🚇 地铁 约8分</td><td>¥210</td></tr>
+            <tr><td>★ 吉卜力公园<small class="sub-name">ジブリパーク · Ghibli Park</small></td><td>步行3分→久屋大通駅</td><td>🚇 东山線25分+Linimo 13分</td><td>¥580</td></tr>
+            <tr><td>名古屋城（市役所駅）<small class="sub-name">名古屋城 · Nagoya Castle</small></td><td>—</td><td>🚇 名城线 约10分</td><td>¥210</td></tr>
+            <tr><td>大须観音駅<small class="sub-name">大須観音 · Osu Kannon</small></td><td>—</td><td>🚇 地铁 约10分</td><td>¥210</td></tr>
+            <tr><td>大须商业街<small class="sub-name">大須商店街 · Osu Shopping</small></td><td>🚶 20分 1.5km</td><td>🚇 地铁1站</td><td>¥210</td></tr>
+            <tr><td>名古屋站（新干线）<small class="sub-name">名古屋駅 · Nagoya Station</small></td><td>—</td><td>🚇 地铁 约8分</td><td>¥210</td></tr>
           </table>
         </div>
+        <p class="sec-head">吉卜力公园 ジブリパーク 交通路线</p>
+        <iframe class="map-embed" src="https://maps.google.com/maps?q=Ghibli+Park+Expo+Memorial+Park+Nagoya+Japan&output=embed&z=14" loading="lazy" allowfullscreen></iframe>
       </div>
     </div>
   </div>
 
   <div class="city-section">
-    <div class="city-title" style="background:#444">🚄 城市间交通</div>
+    <div class="city-title" style="background:#444">🚄 城市间交通 · 总路线图</div>
     <div class="card" style="border-radius:0 0 10px 10px">
       <div style="padding:12px 14px">
+        <iframe class="map-embed" src="https://maps.google.com/maps?q=Shin-Osaka+Station+Japan&output=embed&z=7" loading="lazy" allowfullscreen></iframe>
         <div class="tbl-wrap">
           <table>
             <tr><th>路线</th><th>方式</th><th>时间</th><th>费用/人</th></tr>
-            <tr><td>KIX → 难波</td><td>南海 Rapi:t</td><td>38分</td><td>¥1,450</td></tr>
-            <tr><td>大阪 → 京都</td><td>JR新快速</td><td>55分</td><td>¥570</td></tr>
-            <tr><td>京都 → 名古屋</td><td>新干线 Nozomi</td><td>35分</td><td>¥5,610</td></tr>
-            <tr><td>名古屋 → 新大阪</td><td>新干线 Nozomi</td><td>50分</td><td>¥6,680</td></tr>
-            <tr><td>难波 → KIX</td><td>南海 Rapi:t</td><td>38分</td><td>¥1,450</td></tr>
+            <tr><td>KIX → 难波<small class="sub-name">関西国際空港 → 難波</small></td><td>南海 Rapi:t ラピート</td><td>38分</td><td>¥1,450</td></tr>
+            <tr><td>大阪 → 京都<small class="sub-name">大阪 → 京都</small></td><td>JR新快速 JR新快速</td><td>55分</td><td>¥570</td></tr>
+            <tr><td>京都 → 名古屋<small class="sub-name">京都 → 名古屋</small></td><td>新干线 Nozomi のぞみ</td><td>35分</td><td>¥5,610</td></tr>
+            <tr><td>名古屋 → 新大阪<small class="sub-name">名古屋 → 新大阪</small></td><td>新干线 Nozomi のぞみ</td><td>50分</td><td>¥6,680</td></tr>
+            <tr><td>难波 → KIX<small class="sub-name">難波 → 関西国際空港</small></td><td>南海 Rapi:t ラピート</td><td>38分</td><td>¥1,450</td></tr>
           </table>
         </div>
       </div>
