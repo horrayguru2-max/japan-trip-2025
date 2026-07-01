@@ -43,11 +43,17 @@
 | 🖤 檀王法林寺 (Dan-no-Hori-ji Temple / 壇王法林寺) 黑猫招财猫 | 京都 | 日本唯一黑色招财猫，僧侣开光，免费 | 免费 | Day 5 |
 | 💰 御金神社 (Mikane Jinja / 御金神社) 金箔鸟居 | 京都 | 日本唯一金箔鸟居，祈财运，福财布 | 免费参拜 | Day 5 |
 | ★ 吉卜力公园 (Ghibli Park / ジブリパーク) | 名古屋 | 龙猫 + 千寻 + 哈尔移动城堡，须提前2–3个月抢票 | 成人¥2,500 / 儿童¥1,500 | Day 7 |
-| ★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館) | 大阪 | 鲸鲨展缸，关西最震撼水族馆，亲子必去 | 成人¥2,700 / 儿童¥1,400 | Day 11 |
+| ★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館) | 大阪 | 鲸鲨展缸，关西最震撼水族馆，亲子必去 | 成人¥2,700 / 儿童¥1,400 | Day 2 |
 
 ---
 
 ## 大阪第一段 (Osaka · Day 1–3)
+
+| 目的地 | 距酒店距离 | 交通 |
+|--------|----------|------|
+| USJ 入口 (USJ Entrance / USJ入口) | 0.4km | 步行约5分 |
+| ★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館) | 约0.5km（隔海） | 步行10分至ユニバーサルシティポート → キャプテンライン渡轮约10分 |
+| 天保山大摩天轮 (Tempozan Ferris Wheel / 天保山大観覧車) | 同上 | 渡轮抵达海遊館后步行5分 |
 
 ### Day 1 · Sep 9 (Wed) — ✈ 抵达大阪 (Osaka / 大阪)
 
@@ -63,30 +69,27 @@
 
 ---
 
-### Day 2 · Sep 10 (Thu) — 大阪 (Osaka) 市区漫步
+### Day 2 · Sep 10 (Thu) — ★ 海游馆水族馆 + 天保山摩天轮（渡轮顺路直达！）
 
 | 景点 | 费用 | 亲子适合度 | 参考链接 |
 |------|------|----------|---------|
-| 大阪城公园 (Osaka Castle Park / 大阪城公園) + 天守阁 (Tenshu / 天守閣) | 公园免费 · 天守阁¥600 | ⭐⭐⭐ 历史+大草地+儿童游乐场 | [大阪城省力攻略](https://www.instagram.com/reel/DWTpQMEE8lR/?igsh=MzE2dGI5bXBjZ3Q1) · [亲子入园指南](https://www.instagram.com/reels/DUh7htiE6lH/) |
-| 黑门市场 (Kuromon Ichiba Market / 黒門市場) | 免费入场，小食¥200–800 | ⭐⭐⭐ 边走边吃 | — |
-| 心斋桥筋 (Shinsaibashi-suji / 心斎橋筋) | 免费 | ⭐⭐ 购物药妆 | — |
-| 道顿堀 (Dotonbori / 道頓堀) | 免费 | ⭐⭐⭐ 格力高牌 (Glico Man / グリコサイン) 必拍！ | — |
-| 🥩 焼肉南大門 (Yakiniku Osaka Nandaimon / 焼肉 南大門) | 约¥3,000–5,000/人 | ⭐⭐⭐ 和牛！4.5⭐ | [烧肉参考影片](https://www.instagram.com/reel/DXEp-mrSl8J/?igsh=MWhicnB6bTNla3ZveA==) · [参考2](https://www.instagram.com/reel/DW6Hq5Dk3PM/?igsh=MWtkcTZpc2ZtNThlOQ==) |
+| ⛴ キャプテンライン渡轮 (Captain Line Ferry / キャプテンライン) USJ↔海遊館 | 单程 大人¥900 / 小学生¥500 / 幼儿¥400 | ⭐⭐⭐ 约10分钟水上接驳，孩子超兴奋！ | [キャプテンライン官网](https://www.mmjp.or.jp/Capt-Line/) |
+| ★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館) | 成人¥2,700 / 儿童¥1,400 | ⭐⭐⭐ 鲸鲨展缸，关西最震撼水族馆，约3小时 | [水族馆参考](https://www.instagram.com/reel/DVOUzHME0Dz/?igsh=anlnYzR2NTZ1NTVq) |
+| 天保山大摩天轮 (Tempozan Giant Ferris Wheel / 天保山大観覧車) | ¥1,000 | ⭐⭐⭐ 高空看大阪港！孩子超喜欢！ | — |
+| 天保山ハーバービレッジ (Tempozan Harbor Village / 天保山マーケットプレース) | 小食¥500–1,500 | ⭐⭐ 海景美食街 | — |
 
-**行程建议（轻松节奏）：**
+**行程建议（渡轮顺路，不用回市区再跑一趟）：**
 
-- **09:00** 酒店出发 → JR梦咲线 → 西九条 → JR大阪环状线 → **森ノ宮駅 (Morinomiya Station / 森ノ宮駅)**（约30分 ¥280）⭐ 推荐从这站进入！人比正门少，靠近儿童游乐场！
-- **10:00** 大阪城公园 · 先让孩子玩**儿童游乐场 (Children's Playground / 遊具エリア)**，再慢慢散步向天守阁（¥600）
-- **12:00** 公园内野餐 or 日式定食 (Teishoku / 定食) ¥1,000–1,500
-- **13:30** JR → 难波 (Namba) → 黑门市场午后小食
-- **15:00** 心斋桥筋 · 唐吉诃德 (Don Quijote / ドン・キホーテ) 药妆
-- **17:30** 道顿堀 · 格力高牌必拍！章鱼烧 (Takoyaki / たこ焼き)
-- **18:30** 🥩 晚餐：焼肉南大門 📍 大阪市中央区東心斎橋1-8-15（步行5分 0.3km）
+- **09:30** 酒店步行约10分钟 → **ユニバーサルシティポート (Universal City Port)**，沿港边散步过去
+- **09:45** ⛴ 搭乘 キャプテンライン渡轮，约10分钟抵达 **海遊館西はとば (Kaiyukan West Pier)**，孩子会超喜欢坐船！
+- **10:00** ★ 海游馆水族馆（企鹅・水母・鲸鲨！约3小时）
+- **13:00** 天保山ハーバービレッジ午餐，海景餐厅 ¥1,000–2,000
+- **14:30** 天保山大摩天轮（¥1,000）
+- **15:30** ⛴ 渡轮返回 ユニバーサルシティポート
+- **16:00** 步行回酒店午休/自由活动，为明天USJ储备体力！
+- **18:30** 酒店附近晚餐，早点休息！
 
-> 🎡 **大阪城公园亲子贴士：** 建议从**森ノ宮駅 (Morinomiya Station)** B3出口进入，这侧人潮少、路线舒服，先经过儿童游乐场和大片草地再走向天守阁。公园路面大多平坦，stroller友善，但部分区域有上坡。不必搭园内小火车，带孩子散步慢逛反而更轻松，景色也更多！
-
-> ⚠️ 南大門营业时间：Mon/Thu/Fri 17:00–23:30 · Sat 16:00–23:30 · Sun 16:00–23:00 · **周三公休！今天周四正常营业。**  
-> 📞 电话：06-6252-2989
+> 💡 **キャプテンライン渡轮班次：** 上午每30分钟一班（09:45–17:15），下午每60分钟一班，遇天候不佳可能停航，建议出发前查询[官网班次](https://www.mmjp.or.jp/Capt-Line/)。
 
 其他参考：[Kid-Friendly Osaka](https://www.instagram.com/reel/DWgc3bNiVVv/?igsh=aHdmaGZueTJobXJw) · [大阪能量地图（小红书）](http://xhslink.com/o/5huhjaE1Kec)
 
@@ -336,12 +339,14 @@
 
 **行程建议：**
 
-- **09:30** 酒店 → 地铁御堂筋线 → 难波 → 南海本线 (Nankai Main Line / 南海本線) → **堺駅 (Sakai Station / 堺駅)**（约30分 ¥670）→ 打车/步行前往 Noah Dolphin Dome
+- **09:00** 酒店（本町）→ 地铁御堂筋线 (Midosuji Line) → **难波駅** 转乘 → 南海本线 (Nankai Main Line / 南海本線) 直达 → **堺駅 (Sakai Station / 堺駅)**（全程只需1次换乘，约20分 ¥670）→ 出站步行10分 → 🐬 Noah Dolphin Dome
 - **10:00** 🐬 **Noah Dolphin Dome**（日场 成人¥1,210 / 儿童¥770，营业 10:00–20:00）· 可加购喂海豚体验 ¥1,100！
-- **12:30** 返回大阪（南海本线回难波）→ **新世界 (Shinsekai)** 串炸午餐
+- **12:30** 原路返回：南海本线 → 难波駅（约20分）→ **新世界 (Shinsekai)** 串炸午餐
 - **14:00** **Abeno Harukas 300 展望台**（新世界步行3分，¥1,500）
 - **15:30** 地铁 → 心斋桥筋 + 美国村扫货
 - **19:00** 道顿堀晚餐，螃蟹道乐 (Kani Doraku / かに道楽) ¥3,000–6,000 or 一兰拉面 (Ichiran Ramen / 一蘭ラーメン)
+
+> 💡 Noah Dolphin Dome 交通：南海电铁堺駅出站后徒步约10分钟即达，中途只需在难波转乘1次，不用打车，路线简单！
 
 ---
 
@@ -365,22 +370,30 @@
 
 ---
 
-### Day 11 · Sep 19 (Sat) — ★ 海游馆水族馆 + 天保山大摩天轮
+### Day 11 · Sep 19 (Sat) — 大阪城公园 + 黑门市场 + 心斋桥 + 道顿堀（大阪市区漫步）
 
 | 景点 | 费用 | 亲子适合度 | 参考链接 |
 |------|------|----------|---------|
-| ★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館) | 成人¥2,700 / 儿童¥1,400 | ⭐⭐⭐ 鲸鲨展缸 (Whale Shark Tank / ジンベエザメ)！圆柱形巨型水缸，不同楼层都能看！约3小时 | [水族馆参考](https://www.instagram.com/reel/DVOUzHME0Dz/?igsh=anlnYzR2NTZ1NTVq) · [摩天轮+水族馆](https://www.instagram.com/reel/DQllEnxj_AO/?igsh=c2R3eG9nb2tjN2Yx) |
-| 天保山大摩天轮 (Tempozan Giant Ferris Wheel / 天保山大観覧車) | ¥1,000 | ⭐⭐⭐ 高空看大阪港！孩子超喜欢！ | — |
+| 大阪城公园 (Osaka Castle Park / 大阪城公園) + 天守阁 (Tenshu / 天守閣) | 公园免费 · 天守阁¥600 | ⭐⭐⭐ 历史+大草地+儿童游乐场 | [大阪城省力攻略](https://www.instagram.com/reel/DWTpQMEE8lR/?igsh=MzE2dGI5bXBjZ3Q1) · [亲子入园指南](https://www.instagram.com/reels/DUh7htiE6lH/) |
+| 黑门市场 (Kuromon Ichiba Market / 黒門市場) | 免费入场，小食¥200–800 | ⭐⭐⭐ 边走边吃 | — |
+| 心斋桥筋 (Shinsaibashi-suji / 心斎橋筋) | 免费 | ⭐⭐ 购物药妆 | — |
+| 道顿堀 (Dotonbori / 道頓堀) | 免费 | ⭐⭐⭐ 格力高牌 (Glico Man / グリコサイン) 必拍！ | — |
+| 🥩 焼肉南大門 (Yakiniku Osaka Nandaimon / 焼肉 南大門) | 约¥3,000–5,000/人 | ⭐⭐⭐ 和牛！4.5⭐ | [烧肉参考影片](https://www.instagram.com/reel/DXEp-mrSl8J/?igsh=MWhicnB6bTNla3ZveA==) · [参考2](https://www.instagram.com/reel/DW6Hq5Dk3PM/?igsh=MWtkcTZpc2ZtNThlOQ==) |
 
-**行程建议：**
+**行程建议（本町酒店出发，比原本更顺路）：**
 
-- **10:00** 酒店 → 地铁中央线 (Chuo Line / 中央線) → **大阪港駅 (Osaka-ko Station / 大阪港駅)**（约15分 ¥280）
-- **10:30** ★ 海游馆水族馆（企鹅・水母・海豚・鲸鲨！约3小时）
-- **13:30** 天保山 (Tempozan / 天保山) 附近午餐，海景餐厅 ¥1,000–2,000
-- **15:00** 天保山大摩天轮（¥1,000，步行5分 0.5km）
-- **16:30** 地铁返回本町駅（约15分 ¥280）
-- **17:00** 心斋桥药妆最后扫货！
-- **19:00** 道顿堀晚餐，一兰拉面 + Pablo芝士挞 (Pablo Cheese Tart / パブロチーズタルト)！
+- **09:30** 酒店（本町）→ 地铁中央线 (Chuo Line / 中央線) → **森ノ宮駅 (Morinomiya Station / 森ノ宮駅)**（直达约10分 ¥240，无需换乘！）
+- **10:00** 大阪城公园 · 先让孩子玩**儿童游乐场 (Children's Playground / 遊具エリア)**，再慢慢散步向天守阁（¥600）
+- **12:00** 公园内野餐 or 日式定食 (Teishoku / 定食) ¥1,000–1,500
+- **13:30** 地铁中央线 → **谷町四丁目駅 (Tanimachi 4-chome)** 转乘谷町线 (Tanimachi Line) → **谷町九丁目駅 (Tanimachi 9-chome)**，步行5分 → 黑门市场午后小食
+- **15:00** 步行/地铁 → 心斋桥筋 · 唐吉诃德 (Don Quijote / ドン・キホーテ) 药妆
+- **17:30** 道顿堀 · 格力高牌必拍！章鱼烧 (Takoyaki / たこ焼き)
+- **18:30** 🥩 晚餐：焼肉南大門 📍 大阪市中央区東心斎橋1-8-15（步行回本町区域，最方便的一晚！）
+
+> 🎡 **大阪城公园亲子贴士：** 建议从**森ノ宮駅 (Morinomiya Station)** B3出口进入，这侧人潮少、路线舒服，先经过儿童游乐场和大片草地再走向天守阁。公园路面大多平坦，stroller友善，但部分区域有上坡。不必搭园内小火车，带孩子散步慢逛反而更轻松，景色也更多！
+
+> ⚠️ 南大門营业时间：Mon/Thu/Fri 17:00–23:30 · Sat 16:00–23:30 · Sun 16:00–23:00 · **周三公休！今天周六正常营业。**  
+> 📞 电话：06-6252-2989
 
 ---
 

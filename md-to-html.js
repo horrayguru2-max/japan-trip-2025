@@ -167,11 +167,41 @@ const h2Blocks = h2Idxs.map((start, i) => {
   return { title, contentLines };
 });
 
-function renderDistanceTable(raw, headerOverride) {
+// Pulls the Japanese (or fallback) place name out of a "目的地" cell like
+// "💰 御金神社 (Mikane Jinja / 御金神社)" for use in a Google Maps search query.
+function extractPlaceQuery(cellText) {
+  const slashMatch = cellText.match(/\(([^\/\)]*)\/\s*([^)]+)\)/);
+  if (slashMatch) return slashMatch[2].trim();
+  const parenMatch = cellText.match(/\(([^)]+)\)/);
+  if (parenMatch) return parenMatch[1].trim();
+  return cellText.replace(/[★💰🖤🎡🥩🐬🚃🐴🛶⚠️⛴]/g, '').trim();
+}
+
+function travelModeFor(transportText) {
+  return /步行/.test(transportText) ? 'walking' : 'transit';
+}
+
+function buildDirectionsUrl(origin, destination, mode) {
+  const params = new URLSearchParams({ api: '1', origin, destination, travelmode: mode });
+  return `https://www.google.com/maps/dir/?${params.toString()}`;
+}
+
+function renderDistanceTable(raw, headerOverride, linkCtx) {
   if (!raw) return '';
   const header = headerOverride || raw.header;
   const headHtml = header.map(c => `<th>${inlineConvert(c)}</th>`).join('');
-  const bodyHtml = raw.rows.map(r => `<tr>${r.map(c => `<td>${inlineConvert(c)}</td>`).join('')}</tr>`).join('\n');
+  const bodyHtml = raw.rows.map(r => {
+    const cells = r.map((c, idx) => {
+      if (linkCtx && idx === 1) {
+        const destQuery = `${extractPlaceQuery(r[0])}, ${linkCtx.cityHint}`;
+        const mode = travelModeFor(r[2] || '');
+        const url = buildDirectionsUrl(linkCtx.origin, destQuery, mode);
+        return `<td><a class="dist-link" href="${url}" target="_blank" rel="noopener">${inlineConvert(c)} 🔗</a></td>`;
+      }
+      return `<td>${inlineConvert(c)}</td>`;
+    }).join('');
+    return `<tr>${cells}</tr>`;
+  }).join('\n');
   return `<div class="table-wrap"><table><thead><tr>${headHtml}</tr></thead><tbody>${bodyHtml}</tbody></table></div>`;
 }
 
@@ -229,19 +259,22 @@ if (optionalExtLines) {
 
 // ---------- Build 🗺 地图 & 距离 tab ----------
 
-const cityMapLabels = {
-  '大阪第一段 (Osaka · Day 1–3)': '🏯 大阪 · Day 1–3（Hotel Universal Port Vita）',
-  '京都 (Kyoto / 京都) — Day 4–6 · 2晚': '⛩️ 京都 · Day 4–6',
-  '名古屋 (Nagoya / 名古屋) — Day 7–8 · 2晚（三天两夜）': '🌿 名古屋 · Day 7–8',
-  '大阪第二段 (Osaka · Day 9–13)': '🏯 大阪 · Day 9–13（Miyako City Hommachi）'
+const cityMapMeta = {
+  '大阪第一段 (Osaka · Day 1–3)': { label: '🏯 大阪 · Day 1–3（Hotel Universal Port Vita）', origin: 'Hotel Universal Port Vita, Osaka', mapQuery: 'Hotel Universal Port Vita, Osaka', cityHint: 'Osaka' },
+  '京都 (Kyoto / 京都) — Day 4–6 · 2晚': { label: '⛩️ 京都 · Day 4–6', origin: 'Shijo Kawaramachi Station, Kyoto', mapQuery: 'Shijo Kawaramachi Station, Kyoto', cityHint: 'Kyoto' },
+  '名古屋 (Nagoya / 名古屋) — Day 7–8 · 2晚（三天两夜）': { label: '🌿 名古屋 · Day 7–8', origin: 'Nishitetsu Hotel Croom Nagoya, Nagoya', mapQuery: 'Nishitetsu Hotel Croom Nagoya, Nagoya', cityHint: 'Nagoya' },
+  '大阪第二段 (Osaka · Day 9–13)': { label: '🏯 大阪 · Day 9–13（Miyako City Hommachi）', origin: 'Miyako City Osaka Hommachi, Osaka', mapQuery: 'Miyako City Osaka Hommachi, Osaka', cityHint: 'Osaka' }
 };
 
-let mapHtml = '<p class="tab-intro">按城市列出住宿到各景点的步行 / 交通距离参考。</p>\n';
+let mapHtml = '<p class="tab-intro">按城市列出住宿到各景点的步行 / 交通距离参考，点击 🔗 直接在 Google 地图查看实际路线。</p>\n';
 cityDaySections.forEach(city => {
-  const label = cityMapLabels[city.cityTitle] || city.cityTitle;
+  const meta = cityMapMeta[city.cityTitle] || { label: city.cityTitle, origin: null, mapQuery: null, cityHint: '' };
   const table = city.introTable || (city.cityTitle.startsWith('大阪第一段') ? OSAKA1_DISTANCE : null);
-  mapHtml += `<h3>${label}</h3>\n`;
-  mapHtml += table ? renderDistanceTable(table) : '<p>暂无距离数据</p>';
+  mapHtml += `<h3>${meta.label}</h3>\n`;
+  if (meta.mapQuery) {
+    mapHtml += `<div class="map-embed"><iframe src="https://www.google.com/maps?q=${encodeURIComponent(meta.mapQuery)}&output=embed" loading="lazy" allowfullscreen></iframe></div>\n`;
+  }
+  mapHtml += table ? renderDistanceTable(table, null, meta.origin ? { origin: meta.origin, cityHint: meta.cityHint } : null) : '<p>暂无距离数据</p>';
 });
 
 // ---------- Build 🏨 住宿 tab ----------
@@ -305,6 +338,10 @@ h4 { font-size: 0.95rem; color: var(--ink2); margin: 1rem 0 0.3rem; }
 p { color: var(--ink2); margin: 0.4rem 0; }
 p.meta { font-size: 0.82rem; color: #999; font-style: italic; margin-top: 1.5rem; }
 p.tab-intro { font-size: 0.85rem; color: #999; margin-bottom: 0.8rem; }
+.map-embed { width: 100%; height: 260px; border-radius: 10px; overflow: hidden; margin: 0.6rem 0 1rem; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+.map-embed iframe { width: 100%; height: 100%; border: 0; }
+a.dist-link { color: var(--tip); font-weight: 600; white-space: nowrap; }
+a.dist-link:hover { text-decoration: underline; }
 p.hotel-sub { font-size: 0.82rem; color: var(--ink2); font-weight: 600; margin-top: 0.6rem; }
 a { color: var(--tip); text-decoration: none; }
 a:hover { text-decoration: underline; }
