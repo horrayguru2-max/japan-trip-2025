@@ -31,7 +31,7 @@
 | Hotel Universal Port Vita | Sep 9–12 · 3晚 | 大阪 USJ旁 樱岛 (Sakurajima / 桜島) | USJ合作酒店，步行5分到入口，提前入园约15分钟 |
 | 京都酒店（待定） | Sep 12–14 · 2晚 | 四条河原町 (Shijo Kawaramachi / 四条河原町) / 祗園 (Gion / 祇園) | 御金神社步行10分，黑猫招财猫步行18分 |
 | Nishitetsu Hotel Croom Nagoya | Sep 14–16 · 2晚 | 名古屋市中区 久屋大通 (Hisaya-odori / 久屋大通) | 地铁东山线直达藤が丘，换Linimo去吉卜力公园 |
-| Miyako City Osaka Hommachi | Sep 16–21 · 5晚 | 大阪 本町 (Hommachi / 本町) | 心斋桥步行15分，KIX南海线方便 |
+| Miyako City Osaka Hommachi | Wed Sep 16 – Mon Sep 21 · 5晚 | 大阪 本町 (Hommachi / 本町) | 心斋桥步行15分，KIX南海线方便 |
 
 ---
 
@@ -94,12 +94,12 @@
 
 ### Day 3 · Sep 11 (Fri) — ★ USJ Universal Studios Japan
 
-| 区域 | 推荐项目 | 6岁适合度 | 备注 |
-|------|--------|---------|------|
-| 超级任天堂世界 (Super Nintendo World / スーパー・ニンテンドー・ワールド) | Mario赛车 (Mario Kart: Koopa's Challenge) | ⭐⭐⭐ | 排队最长，开园第一个冲！ |
-| 哈利波特魔法世界 (Wizarding World of Harry Potter / ウィザーディング・ワールド) | 霍格华兹城堡 (Hogwarts Castle) + 黄油啤酒 (Butterbeer / バタービール) | ⭐⭐⭐ | 必喝黄油啤酒！ |
-| Minion Park (小黄人乐园 / ミニオン・パーク) | 小黄人系列设施 | ⭐⭐⭐ | 6岁超爱，身高限制少！ |
-| 侏罗纪世界 (Jurassic World: The Ride / ジュラシック・ワールド) | 水上冒险 | ⭐⭐⭐ | 9月热天正好！ |
+| 区域 | 推荐项目 | 6岁适合度 | 备注 | 参考链接 |
+|------|--------|---------|------|---------|
+| 超级任天堂世界 (Super Nintendo World / スーパー・ニンテンドー・ワールド) | Mario赛车 (Mario Kart: Koopa's Challenge) | ⭐⭐⭐ | 排队最长，开园第一个冲！ | — |
+| 哈利波特魔法世界 (Wizarding World of Harry Potter / ウィザーディング・ワールド) | 霍格华兹城堡 (Hogwarts Castle) + 黄油啤酒 (Butterbeer / バタービール) | ⭐⭐⭐ | 必喝黄油啤酒！ | — |
+| Minion Park (小黄人乐园 / ミニオン・パーク) | 小黄人系列设施 | ⭐⭐⭐ | 6岁超爱，身高限制少！ | — |
+| 侏罗纪世界 (Jurassic World: The Ride / ジュラシック・ワールド) | 水上冒险 | ⭐⭐⭐ | 9月热天正好！ | [侏罗纪VR恐龙巴士](http://xhslink.com/o/4P0rV1mOISi) |
 
 **行程建议：**
 
@@ -208,28 +208,28 @@
 | 天龙寺 (Tenryu-ji Temple / 天龍寺) | ¥500 | ⭐⭐⭐ 世界遗产禅庭・曹源池庭园 (Sogen-chi Garden / 曹源池庭園) | — |
 | ⚠️ 嵯峨野小火车 (Sagano Scenic Railway / 嵯峨野トロッコ鉄道) | 大人¥880 / 儿童¥440 | ⭐⭐⭐ 穿越保津川峡谷 (Hozu River Gorge / 保津峡)！约25分 · 必坐！ | [小火车预约官网](https://sagano-kanko.co.jp) · [岚山全天体验](https://www.instagram.com/reels/DXs5gfxidkD/) |
 | 🐴 保津川马车 (Horse Carriage / 馬車) | 约¥500–800/人 | ⭐⭐ 龟岡站外乘搭前往乘船处，日本怀旧感！ | — |
-| 🛶 保津川游船 (Hozugawa River Boat Ride / 保津川下り) | 大人约¥4,100 / 儿童约¥3,100 | ⭐⭐⭐ 传统木船顺流而下约2小时，沿途峡谷+急流，超疗愈！ | [游船参考](https://www.instagram.com/reels/DVBqeyjk_Z4/) |
+| 🛶 保津川游船 (Hozugawa River Boat Ride / 保津川下り) | 大人约¥4,100 / 儿童约¥3,100 | ⭐⭐⭐ 传统木船顺流而下约2小时，沿途峡谷+急流，超疗愈！ | [游船参考1](https://www.instagram.com/reels/DVBqeyjk_Z4/) · [参考2](https://www.instagram.com/reel/DZjVb4qzpli/?igsh=MWJycm43bzBmenkxeQ==) · [参考3](https://www.instagram.com/reel/DXrRBtFkQo0/?igsh=MWJrMDFjbW80cXM0dQ==) |
 | 渡月桥 (Togetsu-kyo Bridge / 渡月橋) | 免费 | ⭐⭐⭐ 嵐山最美地标 | — |
 
-**行程建议：**
+**行程建议（🎋🚃🐴🛶 三合一完整版）：**
 
 - **07:30** 京都酒店退房，行李宅急便寄名古屋 Nishitetsu Hotel Croom（¥1,500–2,000/件）
 - **08:00** 酒店 → 嵐山站 (Arashiyama Station / 嵐山駅)，阪急嵐山线 (Hankyu Arashiyama Line / 阪急嵐山線)（约25分 ¥220）
-- **08:30** 竹林之道（早晨人超少！光线最美！）
+- **08:30** 🎋 竹林之道（早晨人超少！光线最美！）
 - **09:00** 野宮神社
 - **09:30** 天龙寺庭园
-- **11:00** 嵯峨野小火车 · 亀岡 (Kameoka / 亀岡) → 嵯峨 (Saga / 嵯峨)，约25分钟，穿越峡谷！
-- **12:00** 渡月桥附近午餐，豆腐料理 (Tofu Cuisine / 豆腐料理) / 抹茶甜品 ¥1,500–2,500
-- **13:30** 阪急 → 四条大宮 (Shijo Omiya / 四条大宮) → 地铁 → **京都站 (Kyoto Station / 京都駅)**，约30分
-- **14:30** 京都站 → **名古屋站 (Nagoya Station / 名古屋駅)**，新干线 Nozomi (Shinkansen Nozomi / のぞみ)（约35分 ¥5,610/人）
-- **15:30** Nishitetsu Hotel Croom Nagoya check-in，取行李，休息！
-- **18:00** 名古屋站附近晚餐：矢場とん 味噌猪排 (Misokatsu / 味噌カツ) 名古屋名物！¥1,500–2,500
+- **10:45** 步行至 トロッコ嵯峨駅 (Saga-Arashiyama Romantic Train Station / トロッコ嵯峨駅)
+- **11:00** 🚃 嵯峨野小火车 トロッコ嵯峨駅 → トロッコ亀岡駅 (Kameoka / 亀岡)，约25分，穿越保津川峡谷！
+- **11:30** 🐴 马车 (Horse Carriage / 馬車) 亀岡站外乘搭 → 保津川游船乘船处，约20分
+- **12:00** 🛶 保津川游船出发！传统木船顺流而下约2小时，沿途峡谷急流，孩子坐着完全不累！
+- **14:00** 游船抵达嵐山！渡月桥附近午餐，豆腐料理 (Tofu Cuisine / 豆腐料理) / 抹茶甜品 ¥1,500–2,500
+- **15:30** 阪急 → 四条大宮 (Shijo Omiya / 四条大宮) → 地铁 → **京都站 (Kyoto Station / 京都駅)**，约30分
+- **16:30** 京都站 → **名古屋站 (Nagoya Station / 名古屋駅)**，新干线 Nozomi (Shinkansen Nozomi / のぞみ)（约35分 ¥5,610/人）
+- **17:10** Nishitetsu Hotel Croom Nagoya check-in，取行李，休息！
+- **19:00** 名古屋站附近晚餐：矢場とん 味噌猪排 (Misokatsu / 味噌カツ) 名古屋名物！¥1,500–2,500
 
-> ⚠️ **嵯峨野小火车必须提前网上预约！** [sagano-kanko.co.jp](https://sagano-kanko.co.jp) — 9月旺季极快售完！
-
-> ✨ **升级版：岚山完整三合一体验**（如想全程体验，适合把名古屋新干线推迟到16:30出发）  
-> 路线：嵯峨野小火车 トロッコ嵯峨駅 → トロッコ亀岡駅（25分）→ 🐴 马车（20分）→ 🛶 保津川游船（顺流2小时回岚山）→ 🎋 竹林 → 渡月桥午餐  
-> 好处：超疗愈，孩子在船上完全不累，沿途峡谷风景很美，是完全不同于市区的京都体验！
+> ⚠️ **嵯峨野小火车必须提前网上预约！** [sagano-kanko.co.jp](https://sagano-kanko.co.jp) — 9月旺季极快售完！  
+> ⚠️ **保津川游船也建议提前网上预约！** [hozugawakudari.jp](https://www.hozugawakudari.jp) — 9月旺季人多，可网上预订指定日期班次！
 
 ---
 
@@ -252,11 +252,11 @@
 
 ### Day 7 · Sep 15 (Tue) — ★ 吉卜力公园 (Ghibli Park) 全日游！
 
-| 区域 | 亮点 | 6岁适合度 |
-|------|------|---------|
-| 青春の丘 (Youth Hill / 青春の丘) | 地球屋 (Laputa Earth Building / 地球屋) + 猫巴士 (Catbus / ねこバス) 展示 | ⭐⭐⭐ |
-| 吉卜力大倉庫 (Ghibli's Grand Warehouse / ジブリの大倉庫) | 千与千寻 (Spirited Away / 千と千尋の神隠し) 场景 + 魔女宅急便 (Kiki's / 魔女の宅急便) 工作室 | ⭐⭐⭐ |
-| 魔女の谷 (Valley of Witches / 魔女の谷) | 哈尔移动城堡 (Howl's Moving Castle / ハウルの動く城) 巨型模型！必拍全家福！ | ⭐⭐⭐ |
+| 区域 | 亮点 | 6岁适合度 | 参考链接 |
+|------|------|---------|---------|
+| 青春の丘 (Youth Hill / 青春の丘) | 地球屋 (Laputa Earth Building / 地球屋) + 猫巴士 (Catbus / ねこバス) 展示 | ⭐⭐⭐ | — |
+| 吉卜力大倉庫 (Ghibli's Grand Warehouse / ジブリの大倉庫) | 千与千寻 (Spirited Away / 千と千尋の神隠し) 场景 + 魔女宅急便 (Kiki's / 魔女の宅急便) 工作室 | ⭐⭐⭐ | [千与千寻世界](https://www.instagram.com/reel/DUHPorpEwMw/?igsh=dGQ0MnpoazVobGxo) |
+| 魔女の谷 (Valley of Witches / 魔女の谷) | 哈尔移动城堡 (Howl's Moving Castle / ハウルの動く城) 巨型模型！必拍全家福！ | ⭐⭐⭐ | — |
 
 **交通路线（去吉卜力公园）：**
 
@@ -289,11 +289,11 @@
 
 ### Day 8 · Sep 16 (Wed) — 名古屋城 + 大须 → 大阪！
 
-| 景点 | 费用 | 亲子适合度 |
-|------|------|----------|
-| 名古屋城 (Nagoya Castle / 名古屋城) | ¥500 ≈ RM13 | ⭐⭐⭐ 金鯱 (Kinshachi / 金鯱) + 本丸御殿 (Honmaru Palace / 本丸御殿) 精美屏风画 |
-| 大须観音 (Osu Kannon Temple / 大須観音) | 免费 | ⭐⭐⭐ 香烟袅袅 · 鸽子成群，孩子超开心！ |
-| 大须商业街 (Osu Shopping Street / 大須商店街) | 免费（扭蛋¥200–500）| ⭐⭐⭐ 扭蛋 (Gashapon / ガシャポン) + 古着 (Vintage / 古着) |
+| 景点 | 费用 | 亲子适合度 | 参考链接 |
+|------|------|----------|---------|
+| 名古屋城 (Nagoya Castle / 名古屋城) | ¥500 ≈ RM13 | ⭐⭐⭐ 金鯱 (Kinshachi / 金鯱) + 本丸御殿 (Honmaru Palace / 本丸御殿) 精美屏风画 | — |
+| 大须観音 (Osu Kannon Temple / 大須観音) | 免费 | ⭐⭐⭐ 香烟袅袅 · 鸽子成群，孩子超开心！ | — |
+| 大须商业街 (Osu Shopping Street / 大須商店街) | 免费（扭蛋¥200–500）| ⭐⭐⭐ 扭蛋 (Gashapon / ガシャポン) + 古着 (Vintage / 古着) | — |
 
 **行程建议：**
 
@@ -325,21 +325,21 @@
 
 ---
 
-### Day 9 · Sep 17 (Thu) — 天王寺動物園 + Abeno Harukas 展望台 + 心斋桥
+### Day 9 · Sep 17 (Thu) — 🐬 Noah Dolphin Dome 看海豚 + Abeno Harukas 展望台 + 心斋桥
 
-| 景点 | 费用 | 亲子适合度 |
-|------|------|----------|
-| 天王寺動物園 (Tennoji Zoological Garden / 天王寺動物園) | ¥500 | ⭐⭐⭐ 长颈鹿・北极熊・大猩猩！约2小时 |
-| 新世界 (Shinsekai / 新世界) 串炸 | 午餐¥1,000–1,500 | ⭐⭐⭐ 大阪庶民美食！ |
-| Abeno Harukas 300 展望台 (Abeno Harukas Observatory / あべのハルカス300) | ¥1,500 | ⭐⭐⭐ 关西最高楼60楼！俯瞰大阪全景 |
-| 心斋桥筋 + 美国村 (Amerikamura / アメリカ村) | 免费 | ⭐⭐ 购物药妆 |
+| 景点 | 费用 | 亲子适合度 | 参考链接 |
+|------|------|----------|---------|
+| 🐬 Noah Dolphin Dome (ノア ドルフィン ドーム) | 日场：成人¥1,210 / 儿童¥770 · 6岁以下免费 | ⭐⭐⭐ 海豚表演！可近距离喂海豚¥1,100！孩子必看！ | [官网](https://www.dolphindome.jp/english-page/) · [小红书参考](https://www.xiaohongshu.com/explore/68881ab8000000001c035a05) |
+| 新世界 (Shinsekai / 新世界) 串炸 | 午餐¥1,000–1,500 | ⭐⭐⭐ 大阪庶民美食！ | — |
+| Abeno Harukas 300 展望台 (Abeno Harukas Observatory / あべのハルカス300) | ¥1,500 | ⭐⭐⭐ 关西最高楼60楼！俯瞰大阪全景 | — |
+| 心斋桥筋 + 美国村 (Amerikamura / アメリカ村) | 免费 | ⭐⭐ 购物药妆 | — |
 
 **行程建议：**
 
-- **10:00** 酒店 → 地铁御堂筋线 → **天王寺駅 (Tennoji Station / 天王寺駅)**（约8分 ¥230）
-- **10:30** 天王寺動物園（¥500！孩子超喜欢！）
-- **12:30** **新世界** 串炸午餐（步行5分 0.5km）
-- **14:00** **Abeno Harukas 300 展望台**（步行3分，¥1,500）
+- **09:30** 酒店 → 地铁御堂筋线 → 难波 → 南海本线 (Nankai Main Line / 南海本線) → **堺駅 (Sakai Station / 堺駅)**（约30分 ¥670）→ 打车/步行前往 Noah Dolphin Dome
+- **10:00** 🐬 **Noah Dolphin Dome**（日场 成人¥1,210 / 儿童¥770，营业 10:00–20:00）· 可加购喂海豚体验 ¥1,100！
+- **12:30** 返回大阪（南海本线回难波）→ **新世界 (Shinsekai)** 串炸午餐
+- **14:00** **Abeno Harukas 300 展望台**（新世界步行3分，¥1,500）
 - **15:30** 地铁 → 心斋桥筋 + 美国村扫货
 - **19:00** 道顿堀晚餐，螃蟹道乐 (Kani Doraku / かに道楽) ¥3,000–6,000 or 一兰拉面 (Ichiran Ramen / 一蘭ラーメン)
 
@@ -481,7 +481,7 @@
 | ★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館) | ¥2,700 ≈ RM67 | ¥1,400 ≈ RM35 |
 | Abeno Harukas 300 展望台 | ¥1,500 ≈ RM37 | — |
 | 天保山大摩天轮 (Tempozan Ferris Wheel / 天保山大観覧車) | ¥1,000 ≈ RM25 | — |
-| 天王寺動物園 (Tennoji Zoo / 天王寺動物園) | ¥500 ≈ RM13 | — |
+| 🐬 Noah Dolphin Dome (ノア ドルフィン ドーム) | 日场：成人¥1,210 / 儿童¥770 ≈ RM30/RM19 | — |
 
 ### 主要交通费（每人 Per Person）
 
@@ -516,6 +516,7 @@
 | ⚠️ USJ门票 + Express Pass | 越早越好 | [usjticketing.com](https://www.usjticketing.com/) |
 | ⚠️ 吉卜力公园门票 | 提前 **2–3个月** 抢！极难买！ | [l-tike.com](https://l-tike.com) |
 | ⚠️ 嵯峨野小火车预约 | 提前1–2个月，9月旺季很快售完 | [sagano-kanko.co.jp](https://sagano-kanko.co.jp) |
+| ⚠️ 保津川游船预约 | 提前1–2个月，9月旺季人多 | [hozugawakudari.jp](https://www.hozugawakudari.jp) |
 | 京都酒店确认 | — | 建议四条河原町 / 祗園一带 |
 | ICOCA交通卡 | 抵达KIX当天购买 | JR西日本服务台 |
 
