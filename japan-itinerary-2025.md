@@ -3,24 +3,24 @@
 **三口之家 · 6岁幼娃轻松慢游版 · 13天12晚**  
 ✈ Sep 9 (Wed) 19:30 抵达 KIX → Sep 21 (Mon) 20:55 出发
 
-> 行程仍在规划中，酒店待全部确认后更新。
+> ⚠️ **名古屋与京都顺序已对调**（原因：吉卜力公园每周二定休，原行程 Day 7 = Sep 15 正好是星期二；对调后吉卜力落在 Day 5 = Sep 13 星期日，完美避开）。**两间酒店的入住日期需要连带对调：名古屋酒店改订 Sep 12–14，京都酒店改订 Sep 14–16——请务必先联系两间酒店确认能否改期／是否有房，再视为最终行程！**
 
 ---
 
 ## 总路线
 
 ```
-大阪 (Osaka) Day 1–3  →  京都 (Kyoto) Day 4–6  →  名古屋 (Nagoya) Day 7–8  →  大阪 (Osaka) Day 9–13
+大阪 (Osaka) Day 1–3  →  名古屋 (Nagoya) Day 4–6  →  京都 (Kyoto) Day 6夜–8  →  大阪 (Osaka) Day 9–13
 ```
 
-完全顺路！沿东海道方向一路来回，不走回头路，轻松适合一家三口。
+完全顺路！沿东海道新干线方向一路来回，物理里程与原行程相同，不会绕路，轻松适合一家三口。
 
 | 城市 | 日程 | 晚数 | 酒店 | 抵达交通 |
 |------|------|------|------|---------|
 | 🏯 大阪 (Osaka / 大阪) | Day 1–3 | 3晚 | Hotel Universal Port Vita | ✈ 抵达 KIX |
-| ⛩️ 京都 (Kyoto / 京都) | Day 4–6 | 2晚 | 四条河原町推荐（待定） | JR新快速 约55分 ¥570 |
-| 🌿 名古屋 (Nagoya / 名古屋) | Day 6夜–Day 8 | 2晚 | Nishitetsu Hotel Croom Nagoya | 新干线 Nozomi 约35分 ¥5,610/人 |
-| 🏯 大阪 (Osaka / 大阪) 回程 | Day 8–13 | 5晚 | Miyako City Osaka Hommachi | 新干线 Nozomi 约50分 ¥6,680/人 |
+| 🌿 名古屋 (Nagoya / 名古屋) | Day 4–6 | 2晚 | Nishitetsu Hotel Croom Nagoya | 新干线 Nozomi 约50分 ¥6,680/人（经新大阪转乘）|
+| ⛩️ 京都 (Kyoto / 京都) | Day 6夜–Day 8 | 2晚 | Daiwa Roynet Hotel Kyoto-Terrace Hachijo Premier | 新干线 Nozomi 约35分 ¥5,610/人 |
+| 🏯 大阪 (Osaka / 大阪) 回程 | Day 8–13 | 5晚 | Miyako City Osaka Hommachi | JR新快速 约55分 ¥570 |
 
 ---
 
@@ -29,8 +29,8 @@
 | 酒店 | 入住日期 | 地点 | 备注 |
 |------|---------|------|------|
 | Hotel Universal Port Vita | Sep 9–12 · 3晚 | 大阪 USJ旁 樱岛 (Sakurajima / 桜島) | USJ合作酒店，步行5分到入口，提前入园约15分钟 |
-| 京都酒店（待定） | Sep 12–14 · 2晚 | 四条河原町 (Shijo Kawaramachi / 四条河原町) / 祗園 (Gion / 祇園) | 御金神社步行10分，黑猫招财猫步行18分 |
-| Nishitetsu Hotel Croom Nagoya | Sep 14–16 · 2晚 | 名古屋市中区 久屋大通 (Hisaya-odori / 久屋大通) | 地铁东山线直达藤が丘，换Linimo去吉卜力公园 |
+| Nishitetsu Hotel Croom Nagoya | ⚠️ 需改订 Sep 12–14 · 2晚 | 名古屋市中区 久屋大通 (Hisaya-odori / 久屋大通) | 地铁东山线直达藤が丘，换Linimo去吉卜力公园 · 原订Sep14–16，需联系酒店改期 |
+| Daiwa Roynet Hotel Kyoto-Terrace Hachijo Premier | ⚠️ 需改订 Sep 14–16 · 2晚 | 京都駅八条口 (Kyoto Station Hachijo Exit / 京都駅八条口) | Non-Smoking Superior Twin Room（Train View），1 room · 原订Sep12–14，需联系酒店改期 · 位置在京都站南侧，非四条河原町/祗園 |
 | Miyako City Osaka Hommachi | Wed Sep 16 – Mon Sep 21 · 5晚 | 大阪 本町 (Hommachi / 本町) | 心斋桥步行15分，KIX南海线方便 |
 
 ---
@@ -40,9 +40,9 @@
 | 景点 | 城市 | 特色 | 费用 | 日程 |
 |------|------|------|------|------|
 | ★ USJ (Universal Studios Japan / ユニバーサル・スタジオ・ジャパン) | 大阪 | 任天堂世界 + 哈利波特 + 小黄人 + 侏罗纪世界 | 成人¥10,400 / 儿童¥6,900 | Day 3 |
-| 🖤 檀王法林寺 (Dan-no-Hori-ji Temple / 壇王法林寺) 黑猫招财猫 | 京都 | 日本唯一黑色招财猫，僧侣开光，免费 | 免费 | Day 5 |
-| 💰 御金神社 (Mikane Jinja / 御金神社) 金箔鸟居 | 京都 | 日本唯一金箔鸟居，祈财运，福财布 | 免费参拜 | Day 5 |
-| ★ 吉卜力公园 (Ghibli Park / ジブリパーク) | 名古屋 | 龙猫 + 千寻 + 哈尔移动城堡，须提前2–3个月抢票 | 成人¥2,500 / 儿童¥1,500 | Day 7 |
+| 🖤 檀王法林寺 (Dan-no-Hori-ji Temple / 壇王法林寺) 黑猫招财猫 | 京都 | 日本唯一黑色招财猫，僧侣开光，免费 | 免费 | Day 7 |
+| 💰 御金神社 (Mikane Jinja / 御金神社) 金箔鸟居 | 京都 | 日本唯一金箔鸟居，祈财运，福财布 | 免费参拜 | Day 7 |
+| ★ 吉卜力公园 (Ghibli Park / ジブリパーク) | 名古屋 | 龙猫 + 千寻 + 哈尔移动城堡，须提前2–3个月抢票 | 成人¥2,500 / 儿童¥1,500 | Day 5（★ 已避开周二定休！） |
 | ★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館) | 大阪 | 鲸鲨展缸，关西最震撼水族馆，亲子必去 | 成人¥2,700 / 儿童¥1,400 | Day 2 |
 
 ---
@@ -112,7 +112,7 @@
 - **13:00** ⭐ **步行5分钟回酒店午休**——住USJ旁最大福利，孩子午睡充电
 - **14:30** Minion Park 小黄人
 - **16:00** 侏罗纪世界水上冒险
-- **19:30** 步行5分钟回酒店，早睡！明天出发京都
+- **19:30** 步行5分钟回酒店，早睡！明天出发名古屋
 
 | 票种 | 费用 |
 |------|------|
@@ -124,121 +124,9 @@
 
 ---
 
-## 京都 (Kyoto / 京都) — Day 4–6 · 2晚
+## 名古屋 (Nagoya / 名古屋) — Day 4–6 · 2晚
 
-**酒店：待定 — 建议四条河原町 (Shijo Kawaramachi / 四条河原町) 或 祗園 (Gion / 祇園)**
-
-| 目的地 | 距酒店距离 | 交通 |
-|--------|----------|------|
-| 💰 御金神社 (Mikane Jinja / 御金神社) | 0.8km | 步行约10分 |
-| 🖤 檀王法林寺 (Dan-no-Hori-ji / 壇王法林寺) | 1.5km | 步行约18分 |
-| 锦市场 (Nishiki Market / 錦市場) | 0.5km | 步行约7分 |
-| 清水寺 (Kiyomizudera / 清水寺) | 3km | 公车约20分 ¥230 |
-| 二条城 (Nijo Castle / 二条城) | 1.5km | 步行约20分 |
-| 嵐山 (Arashiyama / 嵐山) | 11km | 阪急电铁约25分 ¥220 |
-| 京都站 (Kyoto Station / 京都駅) 新干线 | 3.5km | 地铁约10分 ¥270 |
-
-> 💡 行李宅急便 (Yamato Transport Takkyubin / ヤマト運輸 宅急便)：从USJ酒店前台寄至京都酒店，¥1,200–2,000/件，轻装游览。
-
----
-
-### Day 4 · Sep 12 (Sat) — 京都抵达 · 清水寺 + 伏见稻荷
-
-| 景点 | 费用 | 亲子适合度 | 参考链接 |
-|------|------|----------|---------|
-| 清水寺 (Kiyomizudera Temple / 清水寺) | ¥500 | ⭐⭐⭐ 清水舞台 · 音羽の滝许愿 | [清水寺影片](https://www.instagram.com/reels/DSZz8BNRlri/) |
-| 三年坂 (Sanneizaka / 産寧坂) + 二年坂 (Nineizaka / 二寧坂) | 免费 | ⭐⭐⭐ 石板坡道漫步 · 纪念品 | — |
-| 伏见稻荷大社 (Fushimi Inari Taisha / 伏見稲荷大社) 千本鸟居 | 免费 | ⭐⭐⭐ 孩子爱穿越！只走前段20分钟即可 | — |
-| 祗園白川 (Gion Shirakawa / 祇園白川) 傍晚散步 | 免费 | ⭐⭐⭐ 柳树+石板路+江户氛围 | — |
-| 先斗町 (Pontocho / 先斗町) 晚餐 | ¥2,000–3,500 | ⭐⭐⭐ 京料理 (Kyoto Kaiseki / 京料理) | — |
-
-**行程建议：**
-
-- **08:00** USJ酒店退房，行李宅急便寄京都酒店
-- **08:30** USJ酒店 → 大阪站 (Osaka Station / 大阪駅) → **京都站 (Kyoto Station / 京都駅)**，JR新快速 (JR Shinkaisoku / 新快速)（约55分 ¥570）
-- **09:30** 京都站 → 清水道 (Kiyomizumichi / 清水道) 巴士站，公车206号（约30分 ¥230）
-- **10:00** 清水寺 · 清水舞台 (Kiyomizu Stage / 清水の舞台) · 音羽の滝 (Otowa Waterfall / 音羽の滝) 三流水许愿
-- **11:00** 三年坂 + 二年坂石板坡道漫步
-- **12:30** 祗園一带午餐，京都定食 (Kyoto Teishoku / 京都定食) ¥1,200–2,000
-- **14:00** 京阪线 (Keihan Railway / 京阪電鉄) → **伏见稻荷大社**（约15分 ¥170）· 只走前段千本鸟居！
-- **15:30** 返回 → 京都酒店 check-in，取宅急便行李
-- **17:00** 祗園白川傍晚散步（免费，最上镜路线！）
-- **19:00** 先斗町晚餐
-
-参考：[京都参考1](https://www.instagram.com/reels/DXJr-HJAGsd/) · [京都参考2](https://www.instagram.com/reels/DXy4brkTYAl/)
-
----
-
-### Day 5 · Sep 13 (Sun) — 💰 御金神社 + 锦市场 + 🖤 黑猫招财猫 + 二条城
-
-| 景点 | 费用 | 开放时间 | 亮点 | 参考链接 |
-|------|------|---------|------|---------|
-| 💰 御金神社 (Mikane Jinja / 御金神社) | 免费参拜（福财布¥1,000–2,000）| 10:00–16:00 | 日本唯一金箔鸟居！祭金山毘古神，掌管金钱・证券・不动产 | [御金神社参考](https://www.facebook.com/reel/2319035911954698) |
-| 锦市场 (Nishiki Market / 錦市場) | 免费，小食¥200–500 | 09:00–18:00 | 京都厨房！抹茶 (Matcha / 抹茶)・厚蛋烧 (Tamagoyaki / 厚焼き玉子)・京漬物 (Tsukemono / 京漬物) | — |
-| 🖤 檀王法林寺 (Dan-no-Hori-ji Temple / 壇王法林寺) | 免费 | 10:00–16:00 | 日本唯一黑色招财猫！举右手招财+避邪，每只经僧侣开光 (Kaiko / 開眼供養) | [黑猫招财猫参考](https://www.facebook.com/reel/1426570785269256) |
-| 二条城 (Nijo Castle / 二条城) | ¥1,300 ≈ RM32 | 08:45–17:00 | 德川家康将军御所 · 走廊会发出鶯鳴声 (Nightingale Floor / 鶯張り)！孩子好奇 | — |
-| 鸭川 (Kamo River / 鴨川) 跳石头 | 免费 | 全天 | 跳石头 (Tobi-ishi / 飛び石)！孩子最开心！完全免费 | — |
-
-**行程建议：**
-
-- **09:30** 出发 → 步行约10分（0.8km）→ **御金神社**
-  - ✔ 记得洗钱 (Washing Money / お金を洗う)！
-  - ✔ 买福財布 (Fukuzaifuku Wallet Charm / 福財布)！
-  - ✔ 求银杏御神签 (Ginko Omikuji / 銀杏おみくじ)！
-- **10:30** 步行约7分（0.5km）→ **锦市场** 试吃
-- **11:15** 步行约15分（1.2km）→ **🖤 檀王法林寺**（10:00开门，第一时间进！）
-- **12:30** 锦市场一带午餐 ¥1,200–2,000
-- **13:30** 步行约20分 → **二条城**（约2小时）
-- **15:30** 步行约12分 → **鸭川**河边，孩子跳石头！
-- **17:00** 返回酒店休息，整理行李（明天出发名古屋）
-- **19:00** 祗園四条 (Gion-Shijo / 祇園四条) 晚餐，京都拉面 / 居酒屋 (Izakaya / 居酒屋) ¥1,800–2,800
-
-> 📍 **黑猫招财猫地址：** 京都府京都市左京区川端通三条上る法林寺門前町36  
-> Google Maps搜："檀王法林寺" 或 "Dan-no-Hori-ji Temple Kyoto"  
-> 📍 **御金神社地址：** 〒604-0042 京都府京都市中京区押西洞院町614  
-> Google Maps搜："御金神社" 或 "Mikane Jinja Shrine Kyoto"
-
-参考：[京都庙宇参考](https://www.facebook.com/reel/1301844568384717)
-
----
-
-### Day 6 · Sep 14 (Mon) — 嵐山竹林 + 嵯峨野小火车 → 名古屋！
-
-| 景点 | 费用 | 亲子适合度 | 参考链接 |
-|------|------|----------|---------|
-| 竹林之道 (Bamboo Grove / 竹林の道) | 免费 | ⭐⭐⭐ 早晨人少，光线最美！ | [嵐山隐藏路线](https://www.instagram.com/reels/DXLxzw_ji8a/) |
-| 野宮神社 (Nonomiya Shrine / 野宮神社) | 免费 | ⭐⭐ 小红鸟居，祈愿学业/缘分 | — |
-| 天龙寺 (Tenryu-ji Temple / 天龍寺) | ¥500 | ⭐⭐⭐ 世界遗产禅庭・曹源池庭园 (Sogen-chi Garden / 曹源池庭園) | — |
-| ⚠️ 嵯峨野小火车 (Sagano Scenic Railway / 嵯峨野トロッコ鉄道) | 大人¥880 / 儿童¥440 | ⭐⭐⭐ 穿越保津川峡谷 (Hozu River Gorge / 保津峡)！约25分 · 必坐！ | [小火车预约官网](https://sagano-kanko.co.jp) · [岚山全天体验](https://www.instagram.com/reels/DXs5gfxidkD/) |
-| 🐴 保津川马车 (Horse Carriage / 馬車) | 约¥500–800/人 | ⭐⭐ 龟岡站外乘搭前往乘船处，日本怀旧感！ | — |
-| 🛶 保津川游船 (Hozugawa River Boat Ride / 保津川下り) | 大人约¥4,100 / 儿童约¥3,100 | ⭐⭐⭐ 传统木船顺流而下约2小时，沿途峡谷+急流，超疗愈！ | [游船参考1](https://www.instagram.com/reels/DVBqeyjk_Z4/) · [参考2](https://www.instagram.com/reel/DZjVb4qzpli/?igsh=MWJycm43bzBmenkxeQ==) · [参考3](https://www.instagram.com/reel/DXrRBtFkQo0/?igsh=MWJrMDFjbW80cXM0dQ==) |
-| 渡月桥 (Togetsu-kyo Bridge / 渡月橋) | 免费 | ⭐⭐⭐ 嵐山最美地标 | — |
-
-**行程建议（🎋🚃🐴🛶 三合一完整版）：**
-
-- **07:30** 京都酒店退房，行李宅急便寄名古屋 Nishitetsu Hotel Croom（¥1,500–2,000/件）
-- **08:00** 酒店 → 嵐山站 (Arashiyama Station / 嵐山駅)，阪急嵐山线 (Hankyu Arashiyama Line / 阪急嵐山線)（约25分 ¥220）
-- **08:30** 🎋 竹林之道（早晨人超少！光线最美！）
-- **09:00** 野宮神社
-- **09:30** 天龙寺庭园
-- **10:45** 步行至 トロッコ嵯峨駅 (Saga-Arashiyama Romantic Train Station / トロッコ嵯峨駅)
-- **11:00** 🚃 嵯峨野小火车 トロッコ嵯峨駅 → トロッコ亀岡駅 (Kameoka / 亀岡)，约25分，穿越保津川峡谷！
-- **11:30** 🐴 马车 (Horse Carriage / 馬車) 亀岡站外乘搭 → 保津川游船乘船处，约20分
-- **12:00** 🛶 保津川游船出发！传统木船顺流而下约2小时，沿途峡谷急流，孩子坐着完全不累！
-- **14:00** 游船抵达嵐山！渡月桥附近午餐，豆腐料理 (Tofu Cuisine / 豆腐料理) / 抹茶甜品 ¥1,500–2,500
-- **15:30** 阪急 → 四条大宮 (Shijo Omiya / 四条大宮) → 地铁 → **京都站 (Kyoto Station / 京都駅)**，约30分
-- **16:30** 京都站 → **名古屋站 (Nagoya Station / 名古屋駅)**，新干线 Nozomi (Shinkansen Nozomi / のぞみ)（约35分 ¥5,610/人）
-- **17:10** Nishitetsu Hotel Croom Nagoya check-in，取行李，休息！
-- **19:00** 名古屋站附近晚餐：矢場とん 味噌猪排 (Misokatsu / 味噌カツ) 名古屋名物！¥1,500–2,500
-
-> ⚠️ **嵯峨野小火车必须提前网上预约！** [sagano-kanko.co.jp](https://sagano-kanko.co.jp) — 9月旺季极快售完！  
-> ⚠️ **保津川游船也建议提前网上预约！** [hozugawakudari.jp](https://www.hozugawakudari.jp) — 9月旺季人多，可网上预订指定日期班次！
-
----
-
-## 名古屋 (Nagoya / 名古屋) — Day 7–8 · 2晚（三天两夜）
-
-**酒店：Nishitetsu Hotel Croom Nagoya (西鉄ホテルクルーム名古屋)**  
+**酒店：Nishitetsu Hotel Croom Nagoya (西鉄ホテルクルーム名古屋)** ⚠️ 需改订 Sep 12–14  
 📍 名古屋市中区 (Naka-ku / 中区)  
 最近站：久屋大通駅 (Hisaya-odori Station / 久屋大通駅) 步行约3–5分钟  
 参考：[Trip.com Nishitetsu Hotel Croom Nagoya](https://www.trip.com/w/loWkjbpmWU2)
@@ -253,7 +141,31 @@
 
 ---
 
-### Day 7 · Sep 15 (Tue) — ★ 吉卜力公园 (Ghibli Park) 全日游！
+### Day 4 · Sep 12 (Sat) — 大阪→名古屋 · 名古屋城 + 大须
+
+| 景点 | 费用 | 亲子适合度 | 参考链接 |
+|------|------|----------|---------|
+| 名古屋城 (Nagoya Castle / 名古屋城) | ¥500 ≈ RM13 | ⭐⭐⭐ 金鯱 (Kinshachi / 金鯱) + 本丸御殿 (Honmaru Palace / 本丸御殿) 精美屏风画 | — |
+| 大须観音 (Osu Kannon Temple / 大須観音) | 免费 | ⭐⭐⭐ 香烟袅袅 · 鸽子成群，孩子超开心！ | — |
+| 大须商业街 (Osu Shopping Street / 大須商店街) | 免费（扭蛋¥200–500）| ⭐⭐⭐ 扭蛋 (Gashapon / ガシャポン) + 古着 (Vintage / 古着) | — |
+
+**行程建议：**
+
+- **08:30** Hotel Universal Port Vita退房，行李可自行带走或宅急便寄至Nishitetsu Hotel Croom Nagoya（¥1,200–2,000/件）
+- **09:00** 酒店 → ユニバーサルシティ駅 → JR夢咲線/大阪環状線 → **新大阪駅 (Shin-Osaka Station / 新大阪駅)**（约30分 ¥400）
+- **09:45** 新大阪駅 → **名古屋駅 (Nagoya Station / 名古屋駅)**，新干线 Nozomi (Shinkansen Nozomi / のぞみ)（约50分 ¥6,680/人）
+- **10:40** 抵达名古屋駅 → 地铁名城線 → 市役所駅 → Nishitetsu Hotel Croom Nagoya 寄存行李（正式check-in约15:00后）
+- **11:30** 名古屋城（约1.5小时，¥500）
+- **13:00** 午餐：名古屋コーチン親子丼 (Nagoya Cochin Chicken Oyakodon / 親子丼) ¥1,000–1,800
+- **14:30** 地铁 → 大须観音駅 → 大须観音 + 大须商业街漫步扭蛋（约1.5小时）
+- **16:30** 返回酒店check-in，放行李休息
+- **19:00** 晚餐：矢場とん 味噌猪排 (Misokatsu / 味噌カツ) 名古屋名物！¥1,500–2,500
+
+> 💡 大阪(USJ)→名古屋全程约需1小时50分（含转乘），实际班次请出发前在 Navitime / Google Maps 查询确认，此为估算时间。
+
+---
+
+### Day 5 · Sep 13 (Sun) — ★ 吉卜力公园 (Ghibli Park) 全日游！
 
 | 区域 | 亮点 | 6岁适合度 | 参考链接 |
 |------|------|---------|---------|
@@ -286,30 +198,128 @@
 
 📌 参考：[🎫 吉卜力购票 l-tike.com](https://l-tike.com) · [📹 吉卜力攻略（小红书）](http://xhslink.com/o/fngG3DGLEY) · [📹 千与千寻世界](https://www.instagram.com/reel/DUHPorpEwMw/?igsh=dGQ0MnpoazVobGxo)
 
-> ⚠️ **吉卜力公园门票极难买！提前2–3个月在 l-tike.com 抢购！** 建议预约10:00入场批次。6岁孩子看到龙猫 (Totoro / トトロ) 会超级感动！
+> ⚠️ **吉卜力公园门票极难买！提前2–3个月在 l-tike.com 抢购！** 建议预约10:00入场批次。6岁孩子看到龙猫 (Totoro / トトロ) 会超级感动！✅ **此日为星期日，吉卜力公园正常营业！**
 
 ---
 
-### Day 8 · Sep 16 (Wed) — 名古屋城 + 大须 → 大阪！
+### Day 6 · Sep 14 (Mon) — 名古屋→京都 · 清水寺 + 伏见稻荷
 
 | 景点 | 费用 | 亲子适合度 | 参考链接 |
 |------|------|----------|---------|
-| 名古屋城 (Nagoya Castle / 名古屋城) | ¥500 ≈ RM13 | ⭐⭐⭐ 金鯱 (Kinshachi / 金鯱) + 本丸御殿 (Honmaru Palace / 本丸御殿) 精美屏风画 | — |
-| 大须観音 (Osu Kannon Temple / 大須観音) | 免费 | ⭐⭐⭐ 香烟袅袅 · 鸽子成群，孩子超开心！ | — |
-| 大须商业街 (Osu Shopping Street / 大須商店街) | 免费（扭蛋¥200–500）| ⭐⭐⭐ 扭蛋 (Gashapon / ガシャポン) + 古着 (Vintage / 古着) | — |
+| 清水寺 (Kiyomizudera Temple / 清水寺) | ¥500 | ⭐⭐⭐ 清水舞台 · 音羽の滝许愿 | [清水寺影片](https://www.instagram.com/reels/DSZz8BNRlri/) |
+| 三年坂 (Sanneizaka / 産寧坂) + 二年坂 (Nineizaka / 二寧坂) | 免费 | ⭐⭐⭐ 石板坡道漫步 · 纪念品 | — |
+| 伏见稻荷大社 (Fushimi Inari Taisha / 伏見稲荷大社) 千本鸟居 | 免费 | ⭐⭐⭐ 孩子爱穿越！只走前段20分钟即可 | — |
+| 京都拉面小路 (Kyoto Ramen Koji / 京都拉麺小路) 晚餐 | ¥1,000–1,500 | ⭐⭐⭐ 就在京都站10楼，8间人气拉面店任选，回酒店超方便 | — |
 
 **行程建议：**
 
-- **09:00** 名古屋酒店退房，行李宅急便寄大阪 Miyako City Hommachi
-- **09:30** 步行3分 → 久屋大通駅 → 地铁名城线 (Meijo Line / 名城線) → 市役所駅 (Shiyakusho Station / 市役所駅)（约10分 ¥210）
-- **10:00** 名古屋城（约1.5小时，¥500）
-- **12:00** 午餐：名古屋コーチン親子丼 (Nagoya Cochin Chicken Oyakodon / 親子丼) ¥1,000–1,800
-- **13:30** 地铁 → 大须観音駅 (Osu-kannon Station / 大須観音駅)（约10分 ¥210）
-- **14:00** 大须観音 + 大须商业街漫步扭蛋（约1.5小时）
-- **15:30** 地铁 → 名古屋站 → **新干线 Nozomi → 新大阪駅 (Shin-Osaka Station / 新大阪駅)**（约50分 ¥6,680/人）
-- **17:00** 新大阪 → 地铁御堂筋线 (Midosuji Line / 御堂筋線) → **本町駅 (Hommachi Station / 本町駅)**（约15分 ¥280）
-- **17:30** Miyako City Osaka Hommachi check-in！大阪第二段开始！
+- **08:00** Nishitetsu Hotel Croom Nagoya退房，行李可自己带着走（京都新酒店就在京都站旁，不必寄宅急便）
+- **08:30** 酒店 → 名古屋駅，地铁名城線（约10分 ¥210）
+- **09:00** 名古屋駅 → **京都駅 (Kyoto Station / 京都駅)**，新干线 Nozomi（约35分 ¥5,610/人）
+- **09:35** 抵达京都站，出**八条口** → Daiwa Roynet Hotel Kyoto-Terrace Hachijo Premier 寄存行李（正式check-in约15:00后）
+- **09:55** 京都站中央口/烏丸口 → 清水道 (Kiyomizumichi / 清水道) 巴士站，市巴士100/206号（约20分 ¥230）
+- **10:25** 清水寺 · 清水舞台 (Kiyomizu Stage / 清水の舞台) · 音羽の滝 (Otowa Waterfall / 音羽の滝) 三流水许愿
+- **11:25** 三年坂 + 二年坂石板坡道漫步
+- **12:40** 祗園一带午餐，京都定食 (Kyoto Teishoku / 京都定食) ¥1,200–2,000
+- **14:00** 步行至京阪祇園四条駅 → 伏见稻荷駅，京阪本線 (Keihan Main Line / 京阪本線)（约15分 ¥270）· 只走前段千本鸟居！
+- **15:30** 伏见稻荷駅 → 京都駅，**JR奈良線直達**（约5分 ¥150，超近！）
+- **15:45** 返回酒店 check-in，放行李休息
+- **19:00** 京都拉面小路晚餐（京都站内10楼，走回房间只要几分钟）
+
+> 💡 名古屋→京都新干线只需35分钟，比原本大阪出发更快，抵达时间更早，一天下来更从容。
+
+参考：[京都参考1](https://www.instagram.com/reels/DXJr-HJAGsd/) · [京都参考2](https://www.instagram.com/reels/DXy4brkTYAl/)
+
+---
+
+## 京都 (Kyoto / 京都) — Day 6夜–8 · 2晚
+
+**酒店：Daiwa Roynet Hotel Kyoto-Terrace Hachijo Premier（ダイワロイネットホテル京都テラス八条プレミア）** ⚠️ 需改订 Sep 14–16
+📍 京都駅八条口 (Kyoto Station Hachijo Exit / 京都駅八条口)
+Non-Smoking Superior Twin Room（Train View），1 room
+
+> 💡 **位置优势：** 酒店就在京都站南侧八条口，出站即到！所有 JR / 新干线 / 大部分地铁巴士的起点都在京都站，行李寄放、退房当天直接搭车去嵐山或大阪都非常方便。
+
+| 目的地 | 距酒店距离 | 交通 |
+|--------|----------|------|
+| 清水寺 (Kiyomizudera / 清水寺) | 4km | 市巴士100/206号 约20分 ¥230 |
+| 伏见稻荷大社 (Fushimi Inari Taisha / 伏見稲荷大社) | 2km | JR奈良線 直達2站 约5分 ¥150（超近！） |
+| 锦市场 (Nishiki Market / 錦市場) | 3km | 地下鉄烏丸線 京都→四条 约5分 ¥220 + 步行5分 |
+| 💰 御金神社 (Mikane Jinja / 御金神社) | 2.5km | 地下鉄烏丸線→烏丸御池駅 约8分 ¥260 + 步行8分 |
+| 🖤 檀王法林寺 (Dan-no-Hori-ji / 壇王法林寺) | 4km | 地下鉄+步行 或 巴士 约25分 |
+| 二条城 (Nijo Castle / 二条城) | 3.5km | 地下鉄烏丸線→烏丸御池→東西線→二条城前駅 约15分 ¥260 |
+| 嵐山 (Arashiyama / 嵐山) | 10km | JR嵯峨野線 直達嵯峨嵐山駅 约16分 ¥240（比阪急更快，不用转乘！） |
+| 大阪 / 新大阪 | 0km | 就在同一个京都站，JR新快速直達 |
+
+---
+
+### Day 7 · Sep 15 (Tue) — 💰 御金神社 + 锦市场 + 🖤 黑猫招财猫 + 二条城
+
+| 景点 | 费用 | 开放时间 | 亮点 | 参考链接 |
+|------|------|---------|------|---------|
+| 💰 御金神社 (Mikane Jinja / 御金神社) | 免费参拜（福财布¥1,000–2,000）| 10:00–16:00 | 日本唯一金箔鸟居！祭金山毘古神，掌管金钱・证券・不动产 | [御金神社参考](https://www.facebook.com/reel/2319035911954698) |
+| 锦市场 (Nishiki Market / 錦市場) | 免费，小食¥200–500 | 09:00–18:00 | 京都厨房！抹茶 (Matcha / 抹茶)・厚蛋烧 (Tamagoyaki / 厚焼き玉子)・京漬物 (Tsukemono / 京漬物) | — |
+| 🖤 檀王法林寺 (Dan-no-Hori-ji Temple / 壇王法林寺) | 免费 | 10:00–16:00 | 日本唯一黑色招财猫！举右手招财+避邪，每只经僧侣开光 (Kaiko / 開眼供養) | [黑猫招财猫参考](https://www.facebook.com/reel/1426570785269256) |
+| 二条城 (Nijo Castle / 二条城) | ¥1,300 ≈ RM32 | 08:45–17:00 | 德川家康将军御所 · 走廊会发出鶯鳴声 (Nightingale Floor / 鶯張り)！孩子好奇 | — |
+| 鸭川 (Kamo River / 鴨川) 跳石头 | 免费 | 全天 | 跳石头 (Tobi-ishi / 飛び石)！孩子最开心！完全免费 | — |
+
+**行程建议（京都站出发）：**
+
+- **09:00** 酒店 → 京都駅 → 地下鉄烏丸線 (Karasuma Line / 烏丸線) → **烏丸御池駅 (Karasuma-Oike Station / 烏丸御池駅)**（约8分 ¥260）
+- **09:15** 步行约8分（0.6km）→ **御金神社**
+  - ✔ 记得洗钱 (Washing Money / お金を洗う)！
+  - ✔ 买福財布 (Fukuzaifuku Wallet Charm / 福財布)！
+  - ✔ 求银杏御神签 (Ginko Omikuji / 銀杏おみくじ)！
+- **10:15** 步行约15分（1.2km）→ **二条城**（约1.5–2小时）
+- **12:30** 步行/地下鉄返回 烏丸御池一带午餐 ¥1,200–2,000
+- **13:30** 步行约15分或地下鉄1站 → **锦市场** 试吃
+- **14:30** 巴士/步行约25分 → **🖤 檀王法林寺**（10:00–16:00开放，注意时间）
+- **15:30** 步行至旁边的 **鸭川**河边，孩子跳石头！
+- **16:30** 步行至三条京阪駅 → 地下鉄東西線 → 烏丸御池 → 烏丸線 → **京都駅**（约20分 ¥260），返回酒店休息，整理行李（明天嵐山一日游）
+- **19:00** 京都站周边晚餐，京都拉面 / 居酒屋 (Izakaya / 居酒屋) ¥1,800–2,800
+
+> 📍 **黑猫招财猫地址：** 京都府京都市左京区川端通三条上る法林寺門前町36  
+> Google Maps搜："檀王法林寺" 或 "Dan-no-Hori-ji Temple Kyoto"  
+> 📍 **御金神社地址：** 〒604-0042 京都府京都市中京区押西洞院町614  
+> Google Maps搜："御金神社" 或 "Mikane Jinja Shrine Kyoto"
+
+参考：[京都庙宇参考](https://www.facebook.com/reel/1301844568384717)
+
+---
+
+### Day 8 · Sep 16 (Wed) — 嵐山竹林 + 嵯峨野小火车 → 大阪！
+
+| 景点 | 费用 | 亲子适合度 | 参考链接 |
+|------|------|----------|---------|
+| 竹林之道 (Bamboo Grove / 竹林の道) | 免费 | ⭐⭐⭐ 早晨人少，光线最美！ | [嵐山隐藏路线](https://www.instagram.com/reels/DXLxzw_ji8a/) |
+| 野宮神社 (Nonomiya Shrine / 野宮神社) | 免费 | ⭐⭐ 小红鸟居，祈愿学业/缘分 | — |
+| 天龙寺 (Tenryu-ji Temple / 天龍寺) | ¥500 | ⭐⭐⭐ 世界遗产禅庭・曹源池庭园 (Sogen-chi Garden / 曹源池庭園) | — |
+| ⚠️ 嵯峨野小火车 (Sagano Scenic Railway / 嵯峨野トロッコ鉄道) | 大人¥880 / 儿童¥440 | ⭐⭐⭐ 穿越保津川峡谷 (Hozu River Gorge / 保津峡)！约25分 · 必坐！ | [小火车预约官网](https://sagano-kanko.co.jp) · [岚山全天体验](https://www.instagram.com/reels/DXs5gfxidkD/) |
+| 🐴 保津川马车 (Horse Carriage / 馬車) | 约¥500–800/人 | ⭐⭐ 龟岡站外乘搭前往乘船处，日本怀旧感！ | — |
+| 🛶 保津川游船 (Hozugawa River Boat Ride / 保津川下り) | 大人约¥4,100 / 儿童约¥3,100 | ⭐⭐⭐ 传统木船顺流而下约2小时，沿途峡谷+急流，超疗愈！ | [游船参考1](https://www.instagram.com/reels/DVBqeyjk_Z4/) · [参考2](https://www.instagram.com/reel/DZjVb4qzpli/?igsh=MWJycm43bzBmenkxeQ==) · [参考3](https://www.instagram.com/reel/DXrRBtFkQo0/?igsh=MWJrMDFjbW80cXM0dQ==) |
+| 渡月桥 (Togetsu-kyo Bridge / 渡月橋) | 免费 | ⭐⭐⭐ 嵐山最美地标 | — |
+
+**行程建议（🎋🚃🐴🛶 三合一完整版 · 京都站出发，回程直接返回大阪）：**
+
+- **07:30** 酒店退房，大件行李寄放酒店前台或京都站宅急便柜台寄至大阪 Miyako City Hommachi（¥1,200–2,000/件），随身包直接出发
+- **08:00** 京都駅 → **JR嵯峨野線 (山陰本線) 直達**，嵯峨嵐山駅 (Saga-Arashiyama Station / 嵯峨嵐山駅)（约16分 ¥240，比阪急更快更简单，不用转乘！）
+- **08:20** 🎋 竹林之道（早晨人超少！光线最美！）
+- **08:50** 野宮神社
+- **09:20** 天龙寺庭园
+- **10:30** 步行至 トロッコ嵯峨駅 (Saga-Arashiyama Romantic Train Station / トロッコ嵯峨駅)
+- **11:00** 🚃 嵯峨野小火车 トロッコ嵯峨駅 → トロッコ亀岡駅 (Kameoka / 亀岡)，约25分，穿越保津川峡谷！
+- **11:30** 🐴 马车 (Horse Carriage / 馬車) 亀岡站外乘搭 → 保津川游船乘船处，约20分
+- **12:00** 🛶 保津川游船出发！传统木船顺流而下约2小时，沿途峡谷急流，孩子坐着完全不累！
+- **14:00** 游船抵达嵐山！渡月桥附近午餐，豆腐料理 (Tofu Cuisine / 豆腐料理) / 抹茶甜品 ¥1,500–2,500
+- **15:30** 步行回 嵯峨嵐山駅 → **JR嵯峨野線直達 → 京都駅**（约16分 ¥240）
+- **15:50** 抵达京都站，如寄放行李需取回，稍作休整
+- **16:20** 京都駅 → **大阪駅/新大阪駅**，JR新快速 (JR Shinkaisoku / 新快速)（约55分 ¥570/人）
+- **17:15** 抵达大阪 → 地铁御堂筋线 (Midosuji Line / 御堂筋線) → **本町駅 (Hommachi Station / 本町駅)**（约15分 ¥280）
+- **17:45** Miyako City Osaka Hommachi check-in！大阪第二段开始！
 - **19:30** 道顿堀晚餐 · 章鱼烧 + 串炸 (Kushikatsu / 串カツ) ¥1,500–2,500 · 欢迎回大阪！
+
+> ⚠️ **嵯峨野小火车必须提前网上预约！** [sagano-kanko.co.jp](https://sagano-kanko.co.jp) — 9月旺季极快售完！  
+> ⚠️ **保津川游船也建议提前网上预约！** [hozugawakudari.jp](https://www.hozugawakudari.jp) — 9月旺季人多，可网上预订指定日期班次！
 
 ---
 
@@ -501,9 +511,9 @@
 | 路线 | 交通方式 | 时间 | 费用 |
 |------|--------|------|------|
 | KIX → 难波 (Namba / 難波) | 南海电铁 Rapi:t (Nankai Rapi:t / ラピート) | 约38分 | ¥1,450 ≈ RM36 |
-| 大阪 (Osaka) → 京都 (Kyoto) | JR新快速 (JR Shinkaisoku / 新快速) | 约55分 | ¥570 ≈ RM14 |
-| 京都 (Kyoto) → 名古屋 (Nagoya) | 新干线 Nozomi (Shinkansen Nozomi / のぞみ) | 约35分 | ¥5,610 ≈ RM140/人 |
-| 名古屋 (Nagoya) → 新大阪 (Shin-Osaka / 新大阪) | 新干线 Nozomi | 约50分 | ¥6,680 ≈ RM166/人 |
+| 大阪 (Osaka/新大阪) → 名古屋 (Nagoya) | 新干线 Nozomi (Shinkansen Nozomi / のぞみ) | 约50分（不含市内转乘） | ¥6,680 ≈ RM166/人 |
+| 名古屋 (Nagoya) → 京都 (Kyoto) | 新干线 Nozomi | 约35分 | ¥5,610 ≈ RM140/人 |
+| 京都 (Kyoto) → 大阪 (Osaka) | JR新快速 (JR Shinkaisoku / 新快速) | 约55分 | ¥570 ≈ RM14 |
 | 市内地铁 (Subway / 地下鉄) 单程 | — | — | ¥210–290 ≈ RM5–7 |
 | 名古屋：久屋大通 → 吉卜力公园 | 地铁东山线 + リニモ Linimo | 约40分 | ¥580 |
 | 难波 → KIX | 南海电铁 Rapi:t | 约38分 | ¥1,450 ≈ RM36 |
@@ -513,7 +523,7 @@
 | 项目 | 估算 |
 |------|------|
 | 景点门票（3人合计） | 约¥95,000 |
-| 新干线（京都→名古屋 + 名古屋→大阪）×3人 | 约¥37,000 |
+| 新干线（大阪→名古屋 + 名古屋→京都）×3人 | 约¥37,000 |
 | KIX往返南海电铁 × 3人 | 约¥8,700 |
 | 市内交通 ICOCA（3人 · 13天）| 约¥18,000 |
 | 餐饮（3人 · 13天 · 约¥5,500/天）| 约¥71,500 |
@@ -530,9 +540,10 @@
 | ⚠️ 吉卜力公园门票 | 提前 **2–3个月** 抢！极难买！ | [l-tike.com](https://l-tike.com) |
 | ⚠️ 嵯峨野小火车预约 | 提前1–2个月，9月旺季很快售完 | [sagano-kanko.co.jp](https://sagano-kanko.co.jp) |
 | ⚠️ 保津川游船预约 | 提前1–2个月，9月旺季人多 | [hozugawakudari.jp](https://www.hozugawakudari.jp) |
-| 京都酒店确认 | — | 建议四条河原町 / 祗園一带 |
+| ⚠️ 名古屋酒店改期 | 尽快联系确认 | Nishitetsu Hotel Croom Nagoya 原订Sep14–16，需改为 Sep12–14 |
+| ⚠️ 京都酒店改期 | 尽快联系确认 | Daiwa Roynet Hotel Kyoto-Terrace Hachijo Premier 原订Sep12–14，需改为 Sep14–16 |
 | ICOCA交通卡 | 抵达KIX当天购买 | JR西日本服务台 |
 
 ---
 
-*最后更新：2026-07-01 · 行程仍在调整中，酒店待全部确认后更新*
+*最后更新：2026-07-06 · 名古屋与京都行程顺序已对调（大阪→名古屋→京都→大阪），吉卜力公园改到 Day 5 (Sep 13 周日)，避开原定 Day 7 (Sep 15 周二) 的定休日。两间酒店的入住日期需连带改期，改期确认前请视为草案行程。*
