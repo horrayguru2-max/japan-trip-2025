@@ -131,6 +131,9 @@
 最近站：久屋大通駅 (Hisaya-odori Station / 久屋大通駅) 步行约3–5分钟  
 参考：[Trip.com Nishitetsu Hotel Croom Nagoya](https://www.trip.com/w/loWkjbpmWU2)
 
+> 💡 **大阪→名古屋交通：** 新大阪站 (Shin-Osaka) 转乘东海道新干线 (Tokaido Shinkansen) → 名古屋站 (Nagoya Station)。  
+> 📝 **备注：** 若改订 Airbnb，地点要选在**名古屋站 (Nagoya Station) 附近**，方便新干线转乘与前往吉卜力公园/名古屋城。
+
 | 目的地 | 距离 | 交通 |
 |--------|------|------|
 | ★ 吉卜力公园 (Ghibli Park / ジブリパーク) | 15km | 步行3分→久屋大通駅→地铁东山线25分→藤が丘→Linimo 13分 ≈¥580 |
