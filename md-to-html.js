@@ -228,13 +228,17 @@ for (const block of h2Blocks) {
     const h3Idxs = findHeadingIdxs(block.contentLines, 3);
     const introLines = h3Idxs.length ? block.contentLines.slice(0, h3Idxs[0]) : block.contentLines;
     const introTable = parseTableRaw(introLines);
+    // Narrative notes before the destination table (hotel name, address, 💡/📝 blockquotes)
+    // — kept separately so they still render instead of being silently dropped.
+    const introNoteLines = trimBlock(introLines.filter(l => !l.trim().startsWith('|')));
+    const introNotesHtml = introNoteLines.length ? convert(introNoteLines.join('\n')) : '';
     const days = h3Idxs.map((start, i) => {
       const end = i + 1 < h3Idxs.length ? h3Idxs[i + 1] : block.contentLines.length;
       const title = block.contentLines[start].replace(/^###\s+/, '').trim();
       const bodyLines = trimBlock(block.contentLines.slice(start + 1, end));
       return { title, bodyLines };
     });
-    cityDaySections.push({ cityTitle: block.title, introTable, days });
+    cityDaySections.push({ cityTitle: block.title, introTable, introNotesHtml, days });
   } else if (block.title.includes('可选景点')) {
     optionalExtLines = trimBlock(block.contentLines);
   } else if (block.title.includes('费用参考')) {
@@ -249,6 +253,7 @@ for (const block of h2Blocks) {
 let itineraryHtml = itineraryTop;
 cityDaySections.forEach(city => {
   itineraryHtml += `<div class="city-group">${inlineConvert(city.cityTitle)}</div>\n`;
+  if (city.introNotesHtml) itineraryHtml += city.introNotesHtml + '\n';
   city.days.forEach(day => {
     itineraryHtml += `<details class="day"><summary>${inlineConvert(day.title)}</summary><div class="day-body">${convert(day.bodyLines.join('\n'))}</div></details>\n`;
   });
