@@ -261,17 +261,41 @@ if (optionalExtLines) {
 
 const cityMapMeta = {
   '大阪第一段 (Osaka · Day 1–3)': { label: '🏯 大阪 · Day 1–3（Hotel Universal Port Vita）', origin: 'Hotel Universal Port Vita, Osaka', mapQuery: 'Hotel Universal Port Vita, Osaka', cityHint: 'Osaka' },
-  '京都 (Kyoto / 京都) — Day 4–6 · 2晚': { label: '⛩️ 京都 · Day 4–6', origin: 'Shijo Kawaramachi Station, Kyoto', mapQuery: 'Shijo Kawaramachi Station, Kyoto', cityHint: 'Kyoto' },
-  '名古屋 (Nagoya / 名古屋) — Day 7–8 · 2晚（三天两夜）': { label: '🌿 名古屋 · Day 7–8', origin: 'Nishitetsu Hotel Croom Nagoya, Nagoya', mapQuery: 'Nishitetsu Hotel Croom Nagoya, Nagoya', cityHint: 'Nagoya' },
+  '名古屋 (Nagoya / 名古屋) — Day 4–6 · 2晚': { label: '🌿 名古屋 · Day 4–6', origin: 'Nishitetsu Hotel Croom Nagoya, Nagoya', mapQuery: 'Nishitetsu Hotel Croom Nagoya, Nagoya', cityHint: 'Nagoya' },
+  '京都 (Kyoto / 京都) — Day 6夜–8 · 2晚': { label: '⛩️ 京都 · Day 6夜–8', origin: 'Shijo Kawaramachi Station, Kyoto', mapQuery: 'Shijo Kawaramachi Station, Kyoto', cityHint: 'Kyoto' },
   '大阪第二段 (Osaka · Day 9–13)': { label: '🏯 大阪 · Day 9–13（Miyako City Hommachi）', origin: 'Miyako City Osaka Hommachi, Osaka', mapQuery: 'Miyako City Osaka Hommachi, Osaka', cityHint: 'Osaka' }
 };
 
-let mapHtml = '<p class="tab-intro">按城市列出住宿到各景点的步行 / 交通距离参考，点击 🔗 直接在 Google 地图查看实际路线。</p>\n';
+// Encodes a value for the classic (no-API-key) Google Maps URL scheme, where spaces
+// must come through as literal "+" — URLSearchParams would instead escape a literal
+// "+" separator to %2B, breaking the "waypoint+to:waypoint" directions syntax below.
+function encodeMapsParam(str) {
+  return encodeURIComponent(str).replace(/%20/g, '+');
+}
+
+// Builds a no-API-key Google Maps directions embed connecting origin -> waypoint1 -> waypoint2,
+// so the iframe shows the actual route line/distance between the hotel and its top highlights.
+function buildRouteEmbedUrl(origin, waypoints, mode) {
+  const dirflg = mode === 'walking' ? 'w' : mode === 'driving' ? 'd' : 'r';
+  const saddr = encodeMapsParam(origin);
+  const daddr = waypoints.map(encodeMapsParam).join('+to:');
+  return `https://www.google.com/maps?saddr=${saddr}&daddr=${daddr}&dirflg=${dirflg}&output=embed`;
+}
+
+let mapHtml = '<p class="tab-intro">按城市列出住宿到各景点的步行 / 交通距离参考；地图会画出酒店 → 前两大重点景点的实际路线，点击 🔗 可在 Google 地图查看其他景点的路线。</p>\n';
 cityDaySections.forEach(city => {
   const meta = cityMapMeta[city.cityTitle] || { label: city.cityTitle, origin: null, mapQuery: null, cityHint: '' };
   const table = city.introTable || (city.cityTitle.startsWith('大阪第一段') ? OSAKA1_DISTANCE : null);
   mapHtml += `<h3>${meta.label}</h3>\n`;
-  if (meta.mapQuery) {
+  const topRows = table ? table.rows.slice(0, 2) : [];
+  if (meta.origin && topRows.length > 0) {
+    const waypoints = topRows.map(r => `${extractPlaceQuery(r[0])}, ${meta.cityHint}`);
+    const mode = travelModeFor(topRows[0][2] || '');
+    const routeUrl = buildRouteEmbedUrl(meta.origin, waypoints, mode);
+    const waypointLabels = topRows.map(r => inlineConvert(r[0])).join(' → ');
+    mapHtml += `<div class="map-embed"><iframe src="${routeUrl}" loading="lazy" allowfullscreen></iframe></div>\n`;
+    mapHtml += `<p class="map-route-caption">📍 路线：${inlineConvert(meta.label.replace(/^\S+\s/, ''))}酒店 → ${waypointLabels}</p>\n`;
+  } else if (meta.mapQuery) {
     mapHtml += `<div class="map-embed"><iframe src="https://www.google.com/maps?q=${encodeURIComponent(meta.mapQuery)}&output=embed" loading="lazy" allowfullscreen></iframe></div>\n`;
   }
   mapHtml += table ? renderDistanceTable(table, null, meta.origin ? { origin: meta.origin, cityHint: meta.cityHint } : null) : '<p>暂无距离数据</p>';
@@ -338,8 +362,9 @@ h4 { font-size: 0.95rem; color: var(--ink2); margin: 1rem 0 0.3rem; }
 p { color: var(--ink2); margin: 0.4rem 0; }
 p.meta { font-size: 0.82rem; color: #999; font-style: italic; margin-top: 1.5rem; }
 p.tab-intro { font-size: 0.85rem; color: #999; margin-bottom: 0.8rem; }
-.map-embed { width: 100%; height: 260px; border-radius: 10px; overflow: hidden; margin: 0.6rem 0 1rem; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+.map-embed { width: 100%; height: 260px; border-radius: 10px; overflow: hidden; margin: 0.6rem 0; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
 .map-embed iframe { width: 100%; height: 100%; border: 0; }
+p.map-route-caption { font-size: 0.82rem; color: var(--ink2); margin: 0 0 1rem; }
 a.dist-link { color: var(--tip); font-weight: 600; white-space: nowrap; }
 a.dist-link:hover { text-decoration: underline; }
 p.hotel-sub { font-size: 0.82rem; color: var(--ink2); font-weight: 600; margin-top: 0.6rem; }
