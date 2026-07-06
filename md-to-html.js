@@ -264,12 +264,18 @@ if (optionalExtLines) {
 
 // ---------- Build 🗺 地图 & 距离 tab ----------
 
-const cityMapMeta = {
-  '大阪第一段 (Osaka · Day 1–3)': { label: '🏯 大阪 · Day 1–3（Hotel Universal Port Vita）', origin: 'Hotel Universal Port Vita, Osaka', mapQuery: 'Hotel Universal Port Vita, Osaka', cityHint: 'Osaka' },
-  '名古屋 (Nagoya / 名古屋) — Day 4–6 · 2晚': { label: '🌿 名古屋 · Day 4–6', origin: 'Nishitetsu Hotel Croom Nagoya, Nagoya', mapQuery: 'Nishitetsu Hotel Croom Nagoya, Nagoya', cityHint: 'Nagoya' },
-  '京都 (Kyoto / 京都) — Day 6夜–8 · 2晚': { label: '⛩️ 京都 · Day 6夜–8', origin: 'Shijo Kawaramachi Station, Kyoto', mapQuery: 'Shijo Kawaramachi Station, Kyoto', cityHint: 'Kyoto' },
-  '大阪第二段 (Osaka · Day 9–13)': { label: '🏯 大阪 · Day 9–13（Miyako City Hommachi）', origin: 'Miyako City Osaka Hommachi, Osaka', mapQuery: 'Miyako City Osaka Hommachi, Osaka', cityHint: 'Osaka' }
-};
+// Matched by keyword (not full title) so date/Day-range edits to the section headings
+// never silently desync this table from the actual city blocks.
+const cityMapMetaRules = [
+  { test: t => t.includes('大阪第一段'), label: '🏯 大阪 · Day 1–3（Hotel Universal Port Vita）', origin: 'Hotel Universal Port Vita, Osaka', mapQuery: 'Hotel Universal Port Vita, Osaka', cityHint: 'Osaka' },
+  { test: t => t.includes('名古屋'), label: '🌿 名古屋 · Day 4–6', origin: 'Nishitetsu Hotel Croom Nagoya, Nagoya', mapQuery: 'Nishitetsu Hotel Croom Nagoya, Nagoya', cityHint: 'Nagoya' },
+  { test: t => t.includes('京都'), label: '⛩️ 京都 · Day 6夜–8', origin: 'Shijo Kawaramachi Station, Kyoto', mapQuery: 'Shijo Kawaramachi Station, Kyoto', cityHint: 'Kyoto' },
+  { test: t => t.includes('大阪第二段'), label: '🏯 大阪 · Day 9–13（Miyako City Hommachi）', origin: 'Miyako City Osaka Hommachi, Osaka', mapQuery: 'Miyako City Osaka Hommachi, Osaka', cityHint: 'Osaka' }
+];
+function lookupCityMapMeta(title) {
+  const rule = cityMapMetaRules.find(r => r.test(title));
+  return rule || { label: title, origin: null, mapQuery: null, cityHint: '' };
+}
 
 // Encodes a value for the classic (no-API-key) Google Maps URL scheme, where spaces
 // must come through as literal "+" — URLSearchParams would instead escape a literal
@@ -289,7 +295,7 @@ function buildRouteEmbedUrl(origin, waypoints, mode) {
 
 let mapHtml = '<p class="tab-intro">按城市列出住宿到各景点的步行 / 交通距离参考；地图会画出酒店 → 前两大重点景点的实际路线，点击 🔗 可在 Google 地图查看其他景点的路线。</p>\n';
 cityDaySections.forEach(city => {
-  const meta = cityMapMeta[city.cityTitle] || { label: city.cityTitle, origin: null, mapQuery: null, cityHint: '' };
+  const meta = lookupCityMapMeta(city.cityTitle);
   const table = city.introTable || (city.cityTitle.startsWith('大阪第一段') ? OSAKA1_DISTANCE : null);
   mapHtml += `<h3>${meta.label}</h3>\n`;
   const topRows = table ? table.rows.slice(0, 2) : [];

@@ -10,17 +10,17 @@
 ## 总路线
 
 ```
-大阪 (Osaka) Day 1–3  →  名古屋 (Nagoya) Day 4–6  →  京都 (Kyoto) Day 6夜–8  →  大阪 (Osaka) Day 9–13
+大阪 (Osaka) Sep 9–11 (Wed–Fri) · Day 1–3  →  名古屋 (Nagoya) Sep 12–14 (Sat–Mon) · Day 4–6  →  京都 (Kyoto) Sep 14–16 (Mon–Wed) · Day 6夜–8  →  大阪 (Osaka) Sep 16–21 (Wed–Mon) · Day 9–13
 ```
 
 完全顺路！沿东海道新干线方向一路来回，物理里程与原行程相同，不会绕路，轻松适合一家三口。
 
 | 城市 | 日程 | 晚数 | 酒店 | 抵达交通 |
 |------|------|------|------|---------|
-| 🏯 大阪 (Osaka / 大阪) | Day 1–3 | 3晚 | Hotel Universal Port Vita | ✈ 抵达 KIX |
-| 🌿 名古屋 (Nagoya / 名古屋) | Day 4–6 | 2晚 | Nishitetsu Hotel Croom Nagoya | 新干线 Nozomi 约50分 ¥6,680/人（经新大阪转乘）|
-| ⛩️ 京都 (Kyoto / 京都) | Day 6夜–Day 8 | 2晚 | Daiwa Roynet Hotel Kyoto-Terrace Hachijo Premier | 新干线 Nozomi 约35分 ¥5,610/人 |
-| 🏯 大阪 (Osaka / 大阪) 回程 | Day 8–13 | 5晚 | Miyako City Osaka Hommachi | JR新快速 约55分 ¥570 |
+| 🏯 大阪 (Osaka / 大阪) | Sep 9–11 (Wed–Fri) · Day 1–3 | 3晚 | Hotel Universal Port Vita | ✈ 抵达 KIX |
+| 🌿 名古屋 (Nagoya / 名古屋) | Sep 12–14 (Sat–Mon) · Day 4–6 | 2晚 | Nishitetsu Hotel Croom Nagoya | 新干线 Nozomi 约50分 ¥6,680/人（经新大阪转乘）|
+| ⛩️ 京都 (Kyoto / 京都) | Sep 14–16 (Mon–Wed) · Day 6夜–8 | 2晚 | Daiwa Roynet Hotel Kyoto-Terrace Hachijo Premier | 新干线 Nozomi 约35分 ¥5,610/人 |
+| 🏯 大阪 (Osaka / 大阪) 回程 | Sep 16–21 (Wed–Mon) · Day 8–13 | 5晚 | Miyako City Osaka Hommachi | JR新快速 约55分 ¥570 |
 
 ---
 
@@ -47,7 +47,7 @@
 
 ---
 
-## 大阪第一段 (Osaka · Day 1–3)
+## 大阪第一段 (Osaka · Sep 9–11 (Wed–Fri) · Day 1–3)
 
 | 目的地 | 距酒店距离 | 交通 |
 |--------|----------|------|
@@ -124,7 +124,7 @@
 
 ---
 
-## 名古屋 (Nagoya / 名古屋) — Day 4–6 · 2晚
+## 名古屋 (Nagoya / 名古屋) — Sep 12–14 (Sat–Mon) · Day 4–6 · 2晚
 
 **酒店：Nishitetsu Hotel Croom Nagoya (西鉄ホテルクルーム名古屋)** ⚠️ 需改订 Sep 12–14  
 📍 名古屋市中区 (Naka-ku / 中区)  
@@ -235,7 +235,7 @@
 
 ---
 
-## 京都 (Kyoto / 京都) — Day 6夜–8 · 2晚
+## 京都 (Kyoto / 京都) — Sep 14–16 (Mon–Wed) · Day 6夜–8 · 2晚
 
 **酒店：Daiwa Roynet Hotel Kyoto-Terrace Hachijo Premier（ダイワロイネットホテル京都テラス八条プレミア）** ⚠️ 需改订 Sep 14–16
 📍 京都駅八条口 (Kyoto Station Hachijo Exit / 京都駅八条口)
@@ -326,7 +326,7 @@ Non-Smoking Superior Twin Room（Train View），1 room
 
 ---
 
-## 大阪第二段 (Osaka · Day 9–13)
+## 大阪第二段 (Osaka · Sep 16–21 (Wed–Mon) · Day 9–13)
 
 **酒店：Miyako City Osaka Hommachi (都シティ大阪本町)**  
 📍 大阪市中央区 (Chuo-ku / 中央区)  
