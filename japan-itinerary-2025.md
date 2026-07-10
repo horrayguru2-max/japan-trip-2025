@@ -1,4 +1,4 @@
-# 🇯🇵 日本家庭自助游攻略 2025 · 大阪 + 京都 + 名古屋
+# 🇯🇵 日本家庭自助游攻略 2026 · 大阪 + 京都 + 名古屋
 
 **三口之家 · 6岁幼娃轻松慢游版 · 13天12晚**  
 ✈ Sep 9 (Wed) 19:30 抵达 KIX → Sep 21 (Mon) 20:55 出发
@@ -42,7 +42,7 @@
 | ★ USJ (Universal Studios Japan / ユニバーサル・スタジオ・ジャパン) | 大阪 | 任天堂世界 + 哈利波特 + 小黄人 + 侏罗纪世界 | 成人¥10,400 / 儿童¥6,900 | Day 3 |
 | 🖤 檀王法林寺 (Dan-no-Hori-ji Temple / 壇王法林寺) 黑猫招财猫 | 京都 | 日本唯一黑色招财猫，僧侣开光，免费 | 免费 | Day 7 |
 | 💰 御金神社 (Mikane Jinja / 御金神社) 金箔鸟居 | 京都 | 日本唯一金箔鸟居，祈财运，福财布 | 免费参拜 | Day 7 |
-| ★ 吉卜力公园 (Ghibli Park / ジブリパーク) | 名古屋 | 龙猫 + 千寻 + 哈尔移动城堡，须提前2–3个月抢票 | 成人¥2,500 / 儿童¥1,500 | Day 5（★ 已避开周二定休！） |
+| ★ 吉卜力公园 (Ghibli Park / ジブリパーク) | 名古屋 | ✅ **已购票**（大さんぽ券 O-Sanpo Day Pass Standard・土日祝）：吉卜力大倉庫 + もののけの里 + 魔女の谷（户外）3个区域，不含青春の丘 & どんどこ森 | 成人¥3,800 / 儿童¥1,900（票根登记：Lead participant CHIN） | Day 5（★ 已避开周二定休！大倉庫入场时段 10:00） |
 | ★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館) | 大阪 | 鲸鲨展缸，关西最震撼水族馆，亲子必去 | 成人¥2,700 / 儿童¥1,400 | Day 2 |
 
 ---
@@ -168,13 +168,28 @@
 
 ---
 
-### Day 5 · Sep 13 (Sun) — ★ 吉卜力公园 (Ghibli Park) 全日游！
+### Day 5 · Sep 13 (Sun) — ★ 吉卜力公园 (Ghibli Park) 全日游！✅ 门票已购
+
+> ✅ **门票已购买：O-Sanpo Day Pass Standard（大さんぽ券スタンダード）· 土日祝票**
+> Lead participant: CHIN　·　Date: 13 Sep 2026 10:00（= 吉卜力大倉庫指定入场时段）
+>
+> **Standard 票种只含 3 个区域，与 Premium 不同，请务必留意：**
+> | 区域 | Standard 是否包含 | 备注 |
+> |------|:---:|------|
+> | 吉卜力大倉庫 (Ghibli's Grand Warehouse / ジブリの大倉庫) | ✅ | 指定时段入场，本次为 **10:00**，须在11:00前入场 |
+> | もののけの里 (Mononoke Village / もののけの里) | ✅ | 自由入场至16:30，可体验たたら场、五平饼 (Gohei-mochi) 小吃 |
+> | 魔女の谷 (Valley of Witches / 魔女の谷) **户外区域** | ✅ | 自由入场，可看哈尔移动城堡巨型模型外观、荻野邸/魔女の家外观拍照 |
+> | 魔女の谷 **室内建筑**（荻野邸 / 魔女の家 / 哈尔移动城堡内部） | ❌ 不含，需当天现场加购 | 荻野邸¥400 + 魔女の家¥400 + 哈尔移动城堡¥1,000／人，三合一套票¥1,800／人；**数量有限，建议开园后立刻去买，售完即止，当天无法从Standard升级Premium** |
+> | 青春の丘 (Hill of Youth / 青春の丘：地球屋 + 猫巴士猫の事務所) | ❌ 不含 | 只能在户外远观，无法入内看猫巴士展示 |
+> | どんどこ森 (Dondoko Forest / どんどこ森：龙猫の家 + 大龙猫爬网) | ❌ 不含 | 6岁孩子最爱的龙猫爬网设施本次去不了，提前跟孩子说一声，管理期待值 |
+>
+> 周末/假日开园时间 **09:00–17:00**。（来源：[吉卜力公园官方购票页](https://ghibli-park.jp/ticket/) · [O-Sanpo Day Pass Standard/Premium 对比指南](https://ghiblipark.guide/en/osanpo-daypass.html)）
 
 | 区域 | 亮点 | 6岁适合度 | 参考链接 |
 |------|------|---------|---------|
-| 青春の丘 (Youth Hill / 青春の丘) | 地球屋 (Laputa Earth Building / 地球屋) + 猫巴士 (Catbus / ねこバス) 展示 | ⭐⭐⭐ | — |
-| 吉卜力大倉庫 (Ghibli's Grand Warehouse / ジブリの大倉庫) | 千与千寻 (Spirited Away / 千と千尋の神隠し) 场景 + 魔女宅急便 (Kiki's / 魔女の宅急便) 工作室 | ⭐⭐⭐ | [千与千寻世界](https://www.instagram.com/reel/DUHPorpEwMw/?igsh=dGQ0MnpoazVobGxo) |
-| 魔女の谷 (Valley of Witches / 魔女の谷) | 哈尔移动城堡 (Howl's Moving Castle / ハウルの動く城) 巨型模型！必拍全家福！ | ⭐⭐⭐ | — |
+| 吉卜力大倉庫 (Ghibli's Grand Warehouse / ジブリの大倉庫) | 千与千寻 (Spirited Away / 千と千尋の神隠し) 场景 + 魔女宅急便 (Kiki's / 魔女の宅急便) 工作室 + 迷你剧场 | ⭐⭐⭐ | [千与千寻世界](https://www.instagram.com/reel/DUHPorpEwMw/?igsh=dGQ0MnpoazVobGxo) |
+| もののけの里 (Mononoke Village / もののけの里) | 山间聚落造景 + たたら场 + 五平饼小吃 | ⭐⭐ | — |
+| 魔女の谷户外 (Valley of Witches Outdoor / 魔女の谷) | 哈尔移动城堡 (Howl's Moving Castle / ハウルの動く城) 巨型模型！必拍全家福！ | ⭐⭐⭐ | — |
 
 **交通路线（去吉卜力公园）：**
 
@@ -188,20 +203,24 @@
 → 步行 → ★ 吉卜力公园入口
 ```
 
-**行程建议：**
+**行程建议（Standard 票专用排序：先抢建筑同日票，再赶10:00大倉庫时段）：**
 
-- **09:00** 出发
-- **10:00** ★ 吉卜力公园入场（成人¥2,500 / 儿童¥1,500）
-- **10:00–12:30** 青春の丘 + 吉卜力大倉庫
-- **12:30** 园内主题餐厅午餐 ¥1,500–2,500
-- **14:00** 魔女の谷 · 哈尔移动城堡必拍！
+- **08:20** 酒店出发（地铁+リニモ 全程约40分钟）
+- **09:00** 抵达吉卜力公园，开园入场
+- **09:05** ★ **第一件事：前往魔女の谷建筑售票处排队/领号码券**，购买荻野邸+魔女の家+哈尔移动城堡三合一同日票 ¥1,800/人（数量有限，售完即止！）
+- **09:30** 魔女の谷户外拍照：哈尔移动城堡巨型模型、荻野邸/魔女の家外观
+- **10:00** ★ 吉卜力大倉庫入场（票根指定时段，须11:00前入场）
+- **11:30** もののけの里：たたら场 + 五平饼小吃
+- **12:30** 园内午餐 ¥1,500–2,500
+- **13:30**（依号码券叫号时间）返回魔女の谷，凭同日票进入荻野邸 + 魔女の家 + 哈尔移动城堡室内
+- **15:30** 纪念品店扫货（大倉庫内 or 魔女の谷礼品店）
 - **16:00** 返回酒店（约40分钟）
 - **17:00** 酒店休息！孩子今天会很累很开心！
 - **19:00** 晚餐：ひつまぶし 鳗鱼饭 (Hitsumabushi Eel Rice / ひつまぶし) or 世界の山ちゃん 手羽先 (Tebasaki Chicken Wings / 手羽先) ¥2,000–5,000
 
-📌 参考：[🎫 吉卜力购票 l-tike.com](https://l-tike.com) · [📹 吉卜力攻略（小红书）](http://xhslink.com/o/fngG3DGLEY) · [📹 千与千寻世界](https://www.instagram.com/reel/DUHPorpEwMw/?igsh=dGQ0MnpoazVobGxo)
+📌 参考：[吉卜力公园官方购票页](https://ghibli-park.jp/ticket/) · [O-Sanpo Day Pass Standard/Premium 对比指南](https://ghiblipark.guide/en/osanpo-daypass.html) · [📹 吉卜力攻略（小红书）](http://xhslink.com/o/fngG3DGLEY) · [📹 千与千寻世界](https://www.instagram.com/reel/DUHPorpEwMw/?igsh=dGQ0MnpoazVobGxo) · [魔女の谷建筑同日票排队实拍（小红书）](http://xhslink.com/o/8M7eMFU8aC7)
 
-> ⚠️ **吉卜力公园门票极难买！提前2–3个月在 l-tike.com 抢购！** 建议预约10:00入场批次。6岁孩子看到龙猫 (Totoro / トトロ) 会超级感动！✅ **此日为星期日，吉卜力公园正常营业！**
+> ⚠️ 门票已购，无需再抢票。✅ 此日为星期日，吉卜力公园正常营业（09:00–17:00）。6岁孩子看不到龙猫爬网和猫巴士（Standard不含青春の丘/どんどこ森），但大倉庫的千寻场景和魔女の谷的哈尔城堡巨型模型依然很震撼！
 
 ---
 
@@ -502,7 +521,8 @@ Non-Smoking Superior Twin Room（Train View），1 room
 | 二条城 (Nijo Castle / 二条城) | ¥1,300 ≈ RM32 | — |
 | 嵯峨野小火车 (Sagano Scenic Railway / 嵯峨野トロッコ鉄道) | ¥880 ≈ RM22 | ¥440 ≈ RM11 |
 | 天龙寺 (Tenryu-ji / 天龍寺) 庭园 | ¥500 ≈ RM13 | — |
-| ★ 吉卜力公园 (Ghibli Park / ジブリパーク) | ¥2,500 ≈ RM62 | ¥1,500 ≈ RM37 |
+| ★ 吉卜力公园 O-Sanpo Day Pass Standard 土日祝（已购）(Ghibli Park / ジブリパーク) | ¥3,800 ≈ RM95 | ¥1,900 ≈ RM48 |
+| 　└ 魔女の谷建筑三合一同日票（可选加购）| ¥1,800 ≈ RM45／人 | 同左 |
 | 名古屋城 (Nagoya Castle / 名古屋城) | ¥500 ≈ RM13 | — |
 | ★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館) | ¥2,700 ≈ RM67 | ¥1,400 ≈ RM35 |
 | Abeno Harukas 300 展望台 | ¥1,500 ≈ RM37 | — |
@@ -525,13 +545,13 @@ Non-Smoking Superior Twin Room（Train View），1 room
 
 | 项目 | 估算 |
 |------|------|
-| 景点门票（3人合计） | 约¥95,000 |
+| 景点门票（3人合计，含已购吉卜力Standard票） | 约¥98,000 |
 | 新干线（大阪→名古屋 + 名古屋→京都）×3人 | 约¥37,000 |
 | KIX往返南海电铁 × 3人 | 约¥8,700 |
 | 市内交通 ICOCA（3人 · 13天）| 约¥18,000 |
 | 餐饮（3人 · 13天 · 约¥5,500/天）| 约¥71,500 |
 | 购物伴手礼 (Omiyage / お土産) | 约¥25,000 |
-| **合计（不含机票住宿）** | **约¥255,200 ≈ RM9,300** |
+| **合计（不含机票住宿）** | **约¥258,200 ≈ RM9,400** |
 
 ---
 
@@ -540,7 +560,8 @@ Non-Smoking Superior Twin Room（Train View），1 room
 | 项目 | 预订时间 | 链接 |
 |------|---------|------|
 | ⚠️ USJ门票 + Express Pass | 越早越好 | [usjticketing.com](https://www.usjticketing.com/) |
-| ⚠️ 吉卜力公园门票 | 提前 **2–3个月** 抢！极难买！ | [l-tike.com](https://l-tike.com) |
+| ✅ 吉卜力公园门票（O-Sanpo Day Pass Standard 土日祝，Lead: CHIN，13 Sep 2026 10:00）| **已购买** | [吉卜力公园官方](https://ghibli-park.jp/ticket/) |
+| ⚠️ 魔女の谷建筑同日票（荻野邸+魔女の家+哈尔城堡，¥1,800/人）| 当天开园后现场购买，数量有限 | 园内魔女の谷售票处 |
 | ⚠️ 嵯峨野小火车预约 | 提前1–2个月，9月旺季很快售完 | [sagano-kanko.co.jp](https://sagano-kanko.co.jp) |
 | ⚠️ 保津川游船预约 | 提前1–2个月，9月旺季人多 | [hozugawakudari.jp](https://www.hozugawakudari.jp) |
 | ⚠️ 名古屋酒店改期 | 尽快联系确认 | Nishitetsu Hotel Croom Nagoya 原订Sep14–16，需改为 Sep12–14 |
@@ -549,4 +570,4 @@ Non-Smoking Superior Twin Room（Train View），1 room
 
 ---
 
-*最后更新：2026-07-06 · 名古屋与京都行程顺序已对调（大阪→名古屋→京都→大阪），吉卜力公园改到 Day 5 (Sep 13 周日)，避开原定 Day 7 (Sep 15 周二) 的定休日。两间酒店的入住日期需连带改期，改期确认前请视为草案行程。*
+*最后更新：2026-07-10 · 整份行程年份更正为 2026 年（原文档误标 2025，日期与星期对照实际为 2026 年）。吉卜力公园门票已确认购买：O-Sanpo Day Pass Standard 土日祝（Lead participant: CHIN，13 Sep 2026 10:00 = 大倉庫入场时段），Day 5 行程已按 Standard 票种（不含青春の丘 / どんどこ森，魔女の谷仅户外）重新规划。名古屋与京都行程顺序已对调（大阪→名古屋→京都→大阪），吉卜力公园落在 Day 5 (Sep 13 周日)，避开原定 Day 7 (Sep 15 周二) 的定休日。两间酒店的入住日期需连带改期，改期确认前请视为草案行程。*
