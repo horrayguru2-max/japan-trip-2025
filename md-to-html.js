@@ -269,7 +269,7 @@ if (optionalExtLines) {
 const cityMapMetaRules = [
   { test: t => t.includes('大阪第一段'), label: '🏯 大阪 · Day 1–3（Hotel Universal Port Vita）', origin: 'Hotel Universal Port Vita, Osaka', mapQuery: 'Hotel Universal Port Vita, Osaka', cityHint: 'Osaka' },
   { test: t => t.includes('名古屋'), label: '🌿 名古屋 · Day 4–6', origin: 'Nishitetsu Hotel Croom Nagoya, Nagoya', mapQuery: 'Nishitetsu Hotel Croom Nagoya, Nagoya', cityHint: 'Nagoya' },
-  { test: t => t.includes('京都'), label: '⛩️ 京都 · Day 6夜–8', origin: 'Shijo Kawaramachi Station, Kyoto', mapQuery: 'Shijo Kawaramachi Station, Kyoto', cityHint: 'Kyoto' },
+  { test: t => t.includes('京都'), label: '⛩️ 京都 · Day 6夜–8（Rinn Kyoto Station）', origin: 'Rinn Kyoto Station, Kyoto', mapQuery: 'Rinn Kyoto Station, Kyoto', cityHint: 'Kyoto' },
   { test: t => t.includes('大阪第二段'), label: '🏯 大阪 · Day 9–13（Miyako City Hommachi）', origin: 'Miyako City Osaka Hommachi, Osaka', mapQuery: 'Miyako City Osaka Hommachi, Osaka', cityHint: 'Osaka' }
 ];
 function lookupCityMapMeta(title) {

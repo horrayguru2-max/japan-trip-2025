@@ -3,7 +3,7 @@
 **三口之家 · 6岁幼娃轻松慢游版 · 13天12晚**  
 ✈ Sep 9 (Wed) 19:30 抵达 KIX → Sep 21 (Mon) 20:55 出发
 
-> ⚠️ **名古屋与京都顺序已对调**（原因：吉卜力公园每周二定休，原行程 Day 7 = Sep 15 正好是星期二；对调后吉卜力落在 Day 5 = Sep 13 星期日，完美避开）。**两间酒店的入住日期需要连带对调：名古屋酒店改订 Sep 12–14，京都酒店改订 Sep 14–16——请务必先联系两间酒店确认能否改期／是否有房，再视为最终行程！**
+> ⚠️ **名古屋与京都顺序已对调**（原因：吉卜力公园每周二定休，原行程 Day 7 = Sep 15 正好是星期二；对调后吉卜力落在 Day 5 = Sep 13 星期日，完美避开）。**名古屋酒店需改订 Sep 12–14，请务必先联系酒店确认能否改期／是否有房；京都改为新订 Rinn Kyoto Station Sep 14–16——两者确认前请视为草案行程！**
 
 ---
 
@@ -19,7 +19,7 @@
 |------|------|------|------|---------|
 | 🏯 大阪 (Osaka / 大阪) | Sep 9–11 (Wed–Fri) · Day 1–3 | 3晚 | Hotel Universal Port Vita | ✈ 抵达 KIX |
 | 🌿 名古屋 (Nagoya / 名古屋) | Sep 12–14 (Sat–Mon) · Day 4–6 | 2晚 | Nishitetsu Hotel Croom Nagoya | 新干线 Nozomi 约50分 ¥6,680/人（经新大阪转乘）|
-| ⛩️ 京都 (Kyoto / 京都) | Sep 14–16 (Mon–Wed) · Day 6夜–8 | 2晚 | Daiwa Roynet Hotel Kyoto-Terrace Hachijo Premier | 新干线 Nozomi 约35分 ¥5,610/人 |
+| ⛩️ 京都 (Kyoto / 京都) | Sep 14–16 (Mon–Wed) · Day 6夜–8 | 2晚 | Rinn Kyoto Station | 新干线 Nozomi 约35分 ¥5,610/人 |
 | 🏯 大阪 (Osaka / 大阪) 回程 | Sep 16–21 (Wed–Mon) · Day 8–13 | 5晚 | Miyako City Osaka Hommachi | JR新快速 约55分 ¥570 |
 
 ---
@@ -30,7 +30,7 @@
 |------|---------|------|------|
 | Hotel Universal Port Vita | Sep 9–12 · 3晚 | 大阪 USJ旁 樱岛 (Sakurajima / 桜島) | USJ合作酒店，步行5分到入口，提前入园约15分钟 |
 | Nishitetsu Hotel Croom Nagoya | ⚠️ 需改订 Sep 12–14 · 2晚 | 名古屋市中区 久屋大通 (Hisaya-odori / 久屋大通) | 地铁东山线直达藤が丘，换Linimo去吉卜力公园 · 原订Sep14–16，需联系酒店改期 |
-| Daiwa Roynet Hotel Kyoto-Terrace Hachijo Premier | ⚠️ 需改订 Sep 14–16 · 2晚 | 京都駅八条口 (Kyoto Station Hachijo Exit / 京都駅八条口) | Non-Smoking Superior Twin Room（Train View），1 room · 原订Sep12–14，需联系酒店改期 · 位置在京都站南侧，非四条河原町/祗園 |
+| Rinn Kyoto Station | Sep 14–16 · 2晚 | 京都市下京区北不動堂町522 (Kitafudodocho, Shimogyo Ward) | 京都站步行约10分钟（约500m）· 四星 · 31间客房 |
 | Miyako City Osaka Hommachi | Wed Sep 16 – Mon Sep 21 · 5晚 | 大阪 本町 (Hommachi / 本町) | 心斋桥步行15分，KIX南海线方便 |
 
 ---
@@ -235,10 +235,10 @@
 
 **行程建议：**
 
-- **08:00** Nishitetsu Hotel Croom Nagoya退房，行李可自己带着走（京都新酒店就在京都站旁，不必寄宅急便）
+- **08:00** Nishitetsu Hotel Croom Nagoya退房，行李可自己带着走（京都新酒店步行约10分钟可达，不必寄宅急便）
 - **08:30** 酒店 → 名古屋駅，地铁名城線（约10分 ¥210）
 - **09:00** 名古屋駅 → **京都駅 (Kyoto Station / 京都駅)**，新干线 Nozomi（约35分 ¥5,610/人）
-- **09:35** 抵达京都站，出**八条口** → Daiwa Roynet Hotel Kyoto-Terrace Hachijo Premier 寄存行李（正式check-in约15:00后）
+- **09:35** 抵达京都站 → 步行约10分钟（约500m）→ Rinn Kyoto Station 寄存行李（正式check-in约15:00后）
 - **09:55** 京都站中央口/烏丸口 → 清水道 (Kiyomizumichi / 清水道) 巴士站，市巴士100/206号（约20分 ¥230）
 - **10:25** 清水寺 · 清水舞台 (Kiyomizu Stage / 清水の舞台) · 音羽の滝 (Otowa Waterfall / 音羽の滝) 三流水许愿
 - **11:25** 三年坂 + 二年坂石板坡道漫步
@@ -256,11 +256,11 @@
 
 ## 京都 (Kyoto / 京都) — Sep 14–16 (Mon–Wed) · Day 6夜–8 · 2晚
 
-**酒店：Daiwa Roynet Hotel Kyoto-Terrace Hachijo Premier（ダイワロイネットホテル京都テラス八条プレミア）** ⚠️ 需改订 Sep 14–16
-📍 京都駅八条口 (Kyoto Station Hachijo Exit / 京都駅八条口)
-Non-Smoking Superior Twin Room（Train View），1 room
+**酒店：Rinn Kyoto Station**
+📍 京都市下京区北不動堂町522 (522 Kitafudodocho, Shimogyo Ward, Kyoto)
+京都站步行约10分钟（约500m）· 四星 · 31间客房
 
-> 💡 **位置优势：** 酒店就在京都站南侧八条口，出站即到！所有 JR / 新干线 / 大部分地铁巴士的起点都在京都站，行李寄放、退房当天直接搭车去嵐山或大阪都非常方便。
+> 💡 **位置优势：** 酒店距京都站步行约10分钟，所有 JR / 新干线 / 大部分地铁巴士的起点都在京都站，行李寄放、退房当天直接搭车去嵐山或大阪依然方便，只是不像正对车站出口那样零距离。
 
 | 目的地 | 距酒店距离 | 交通 |
 |--------|----------|------|
@@ -581,7 +581,7 @@ Non-Smoking Superior Twin Room（Train View），1 room
 | ⚠️ 嵯峨野小火车预约 | 提前1–2个月，9月旺季很快售完 | [sagano-kanko.co.jp](https://sagano-kanko.co.jp) |
 | ⚠️ 保津川游船预约 | 提前1–2个月，9月旺季人多 | [hozugawakudari.jp](https://www.hozugawakudari.jp) |
 | ⚠️ 名古屋酒店改期 | 尽快联系确认 | Nishitetsu Hotel Croom Nagoya 原订Sep14–16，需改为 Sep12–14 |
-| ⚠️ 京都酒店改期 | 尽快联系确认 | Daiwa Roynet Hotel Kyoto-Terrace Hachijo Premier 原订Sep12–14，需改为 Sep14–16 |
+| ⚠️ 京都酒店预订 | 尽快确认预订 | Rinn Kyoto Station，Sep 14–16 · 2晚 |
 | ICOCA交通卡 | 抵达KIX当天购买 | JR西日本服务台 |
 
 ---
