@@ -267,6 +267,7 @@ if (optionalExtLines) {
 // Matched by keyword (not full title) so date/Day-range edits to the section headings
 // never silently desync this table from the actual city blocks.
 const cityMapMetaRules = [
+  { test: t => t.includes('新山'), label: '🇲🇾 新山 · Day 0（SEM9 Senai Hotel）', origin: 'SEM9 Senai Hotel, Johor Bahru, Malaysia', mapQuery: 'SEM9 Senai Hotel, Johor Bahru, Malaysia', cityHint: 'Johor Bahru, Malaysia' },
   { test: t => t.includes('大阪第一段'), label: '🏯 大阪 · Day 1–3（Hotel Universal Port Vita）', origin: 'Hotel Universal Port Vita, Osaka', mapQuery: 'Hotel Universal Port Vita, Osaka', cityHint: 'Osaka' },
   { test: t => t.includes('名古屋'), label: '🌿 名古屋 · Day 4–6', origin: 'Nishitetsu Hotel Croom Nagoya, Nagoya', mapQuery: 'Nishitetsu Hotel Croom Nagoya, Nagoya', cityHint: 'Nagoya' },
   { test: t => t.includes('京都'), label: '⛩️ 京都 · Day 6夜–8（Rinn Kyoto Station）', origin: 'Rinn Kyoto Station, Kyoto', mapQuery: 'Rinn Kyoto Station, Kyoto', cityHint: 'Kyoto' },
@@ -314,7 +315,13 @@ cityDaySections.forEach(city => {
 
 // ---------- Build 🏨 住宿 tab ----------
 
-let hotelsHtml = '';
+const VOUCHERS_DRIVE_URL = 'https://drive.google.com/drive/folders/15b3HNyrht43G0Fm6--sdJV9BPMlwAU99?usp=drive_link';
+
+let hotelsHtml = `<div class="hotel-card" style="border-left:3px solid var(--gold);">
+<h3>🎫 订票凭证 / Booking Vouchers</h3>
+<p class="hotel-note">所有酒店入住凭证、门票 PDF 存在私人 Google Drive 文件夹（不公开在此页面，避免订单号/PIN码外泄）：<br><a href="${VOUCHERS_DRIVE_URL}" target="_blank" rel="noopener">📂 打开 Google Drive 凭证文件夹</a></p>
+<p class="hotel-note" style="font-size:0.8rem;color:#999;">⚠️ 此页面会公开在 GitHub Pages，请确认该 Drive 文件夹的分享权限设置为仅限你自己或指定帐号可开启。</p>
+</div>\n`;
 if (hotelsTableRaw) {
   hotelsTableRaw.rows.forEach((row, idx) => {
     const [name, dates, location, note] = row;
@@ -455,7 +462,7 @@ const output = `<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>🇯🇵 日本家庭自助游攻略 2025 · 大阪 + 京都 + 名古屋</title>
+<title>🇯🇵 日本家庭自助游攻略 2026 · 大阪 + 京都 + 名古屋</title>
 <style>${css}</style>
 </head>
 <body>
@@ -471,7 +478,7 @@ const output = `<!DOCTYPE html>
 <div class="tab-bar">
   <label class="tab-label" for="tab-1">📅 逐日行程</label>
   <label class="tab-label" for="tab-2">🗺 地图 & 距离</label>
-  <label class="tab-label" for="tab-3">🏨 住宿</label>
+  <label class="tab-label" for="tab-3">🏨 住宿 & 🎫 凭证</label>
   <label class="tab-label" for="tab-4">💴 费用</label>
   <label class="tab-label" for="tab-5">✅ 清单</label>
 </div>

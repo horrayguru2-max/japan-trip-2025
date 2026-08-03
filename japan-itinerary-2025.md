@@ -10,13 +10,14 @@
 ## 总路线
 
 ```
-大阪 (Osaka) Sep 9–11 (Wed–Fri) · Day 1–3  →  名古屋 (Nagoya) Sep 12–14 (Sat–Mon) · Day 4–6  →  京都 (Kyoto) Sep 14–16 (Mon–Wed) · Day 6夜–8  →  大阪 (Osaka) Sep 16–21 (Wed–Mon) · Day 9–13
+新山 (Johor Bahru) Sep 8–9 (Tue–Wed) · Day 0（出发前一晚）  →  大阪 (Osaka) Sep 9–11 (Wed–Fri) · Day 1–3  →  名古屋 (Nagoya) Sep 12–14 (Sat–Mon) · Day 4–6  →  京都 (Kyoto) Sep 14–16 (Mon–Wed) · Day 6夜–8  →  大阪 (Osaka) Sep 16–21 (Wed–Mon) · Day 9–13
 ```
 
 完全顺路！沿东海道新干线方向一路来回，物理里程与原行程相同，不会绕路，轻松适合一家三口。
 
 | 城市 | 日程 | 晚数 | 酒店 | 抵达交通 |
 |------|------|------|------|---------|
+| 🇲🇾 新山 (Johor Bahru / Johor Bahru) | Sep 8–9 (Tue–Wed) · Day 0 | 1晚 | SEM9 Senai Hotel | 出发前一晚过夜，方便隔天早班机 |
 | 🏯 大阪 (Osaka / 大阪) | Sep 9–11 (Wed–Fri) · Day 1–3 | 3晚 | Hotel Universal Port Vita | ✈ 抵达 KIX |
 | 🌿 名古屋 (Nagoya / 名古屋) | Sep 12–14 (Sat–Mon) · Day 4–6 | 2晚 | Nishitetsu Hotel Croom Nagoya | 新干线 Nozomi 约50分 ¥6,680/人（经新大阪转乘）|
 | ⛩️ 京都 (Kyoto / 京都) | Sep 14–16 (Mon–Wed) · Day 6夜–8 | 2晚 | Rinn Kyoto Station | 新干线 Nozomi 约35分 ¥5,610/人 |
@@ -28,6 +29,7 @@
 
 | 酒店 | 入住日期 | 地点 | 备注 |
 |------|---------|------|------|
+| SEM9 Senai Hotel | Sep 8–9 · 1晚 | 新山 士乃机场旁 (Senai / Senai Airport) | 出发前一晚过夜，方便隔天早班机（Agoda Booking ID: 2031572647）|
 | Hotel Universal Port Vita | Sep 9–12 · 3晚 | 大阪 USJ旁 樱岛 (Sakurajima / 桜島) | USJ合作酒店，步行5分到入口，提前入园约15分钟 |
 | Nishitetsu Hotel Croom Nagoya | ⚠️ 需改订 Sep 12–14 · 2晚 | 名古屋市中区 久屋大通 (Hisaya-odori / 久屋大通) | 地铁东山线直达藤が丘，换Linimo去吉卜力公园 · 原订Sep14–16，需联系酒店改期 |
 | Rinn Kyoto Station | Sep 14–16 · 2晚 | 京都市下京区北不動堂町522 (Kitafudodocho, Shimogyo Ward) | 京都站步行约10分钟（约500m）· 四星 · 31间客房 |
@@ -44,6 +46,30 @@
 | 💰 御金神社 (Mikane Jinja / 御金神社) 金箔鸟居 | 京都 | 日本唯一金箔鸟居，祈财运，福财布 | 免费参拜 | Day 7 |
 | ★ 吉卜力公园 (Ghibli Park / ジブリパーク) | 名古屋 | ✅ **已购票**（大さんぽ券 O-Sanpo Day Pass Standard・土日祝）：吉卜力大倉庫 + もののけの里 + 魔女の谷（户外）3个区域，不含青春の丘 & どんどこ森 | 成人¥3,800 / 儿童¥1,900（票根登记：Lead participant CHIN） | Day 5（★ 已避开周二定休！大倉庫入场时段 10:00） |
 | ★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館) | 大阪 | 鲸鲨展缸，关西最震撼水族馆，亲子必去 | 成人¥2,700 / 儿童¥1,400 | Day 2 |
+
+---
+
+## 新山 (Johor Bahru / Johor Bahru) — Sep 8–9 (Tue–Wed) · Day 0 · 1晚
+
+**酒店：SEM9 Senai – Formerly Known as Perth Hotel**
+📍 21, Jalan Terminal 1, Senai Centerpoint, Senai / Airport, Johor Bahru, Malaysia, 81400
+📞 +60197710117 · Agoda Booking ID: 2031572647
+
+> 💡 出发前一晚先在士乃机场 (Senai Airport) 附近过夜，隔天从容出发，不必当天赶早班机。
+
+| 目的地 | 距酒店距离 | 交通 |
+|--------|----------|------|
+| Senai International Airport (士乃国际机场) | — | 酒店步行/接驳车可达 |
+
+---
+
+### Day 0 · Sep 8 (Tue) — 新山出发，SEM9 Senai 过夜
+
+| 时间 | 行程 | 交通 / 费用 |
+|------|------|-----------|
+| — | 从家出发前往新山士乃 (Senai) | — |
+| — | Check-in SEM9 Senai Hotel，休息一晚 | — |
+| Sep 9 早上 | 退房，前往机场准备出发 | — |
 
 ---
 
