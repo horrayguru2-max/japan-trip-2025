@@ -107,6 +107,9 @@
 #### ★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館)
 
 > 💡 出发前上官网查一下当期有没有特展/夜间开放/期间限定活动，行程可以配合调整
+> 💡 10:00入馆到约13:00离开这段时间，能碰到的喂食秀：10:00企鹅、10:30太平洋鱼群、10:50环斑海豹+南跳岩企鹅、11:15浣熊、11:30水獭、11:40海豚——挺密集的，可以照这个顺路线。完整表见下方展开（官网没有鲸鲨喂食秀这一项）。
+
+<details class="ref-drop"><summary>▾ 官网 Feeding Time 完整时刻表（2026-08-06查）</summary><div class="ref-drop-body"><div class="table-wrap"><table><thead><tr><th>生物</th><th>楼层/区域</th><th>时间</th></tr></thead><tbody><tr><td>🦦 水獭 (Otter)</td><td>Japan Forest</td><td>11:30 / 13:30 / 15:30</td></tr><tr><td>🦭 海狮/海豹 (Sea lion/seal)</td><td>Monterey Bay</td><td>09:50 / 13:20 / 14:50</td></tr><tr><td>🐾 南美浣熊 (Coati)</td><td>Gulf of Panama</td><td>11:15 / 15:30</td></tr><tr><td>🐧 企鹅 (Penguin)</td><td>Antarctica</td><td>10:00 / 14:20</td></tr><tr><td>🐬 太平洋斑纹海豚</td><td>Tasman Sea</td><td>11:40 / 14:00 / 16:30</td></tr><tr><td>🐟 太平洋鱼群</td><td>Pacific Ocean (7F)</td><td>10:30 / 15:00</td></tr><tr><td>🦭 环斑海豹</td><td>Arctic (6F)</td><td>10:50 / 15:35</td></tr><tr><td>🐧 南跳岩企鹅</td><td>Falkland Islands (4F)</td><td>10:50 / 15:10</td></tr></tbody></table></div></div></details>
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
@@ -191,9 +194,6 @@
 最近站：久屋大通駅 (Hisaya-odori Station / 久屋大通駅) 步行约3–5分钟  
 参考：[Trip.com Nishitetsu Hotel Croom Nagoya](https://www.trip.com/w/loWkjbpmWU2)
 
-> 💡 **大阪→名古屋交通：** 新大阪站 (Shin-Osaka) 转乘东海道新干线 (Tokaido Shinkansen) → 名古屋站 (Nagoya Station)。  
-> 📝 **备注：** 若改订 Airbnb，地点要选在**名古屋站 (Nagoya Station) 附近**，方便新干线转乘与前往吉卜力公园/名古屋城。
-
 | 目的地 | 距离 | 交通 |
 |--------|------|------|
 | ★ 吉卜力公园 (Ghibli Park / ジブリパーク) | 15km | 步行3分→久屋大通駅→地铁东山线25分→藤が丘→Linimo 13分 ≈¥580 |
@@ -208,7 +208,7 @@
 
 #### 🚄 大阪 → 名古屋
 
-> 💡 大阪(USJ)→名古屋全程约需1小时50分（含转乘），实际班次请出发前在 Navitime / Google Maps 查询确认，此为估算时间。
+> 💡 大阪→名古屋交通：新大阪站 (Shin-Osaka) 转乘东海道新干线 (Tokaido Shinkansen) → 名古屋站 (Nagoya Station)，全程约需1小时50分（含转乘），实际班次请出发前在 Navitime / Google Maps 查询确认，此为估算时间。
 > 💡 行李也可以不自己带，改用宅急便直送 Nishitetsu Hotel Croom Nagoya，约¥1,200–2,000/件。
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
@@ -294,8 +294,7 @@
 **酒店：Rinn Kyoto Station**
 📍 京都市下京区北不動堂町522 (522 Kitafudodocho, Shimogyo Ward, Kyoto)
 京都站步行约10分钟（约500m）· 四星 · 31间客房
-
-> 💡 **位置优势：** 酒店距京都站步行约10分钟，所有 JR / 新干线 / 大部分地铁巴士的起点都在京都站，行李寄放、退房当天直接搭车去嵐山或大阪依然方便，只是不像正对车站出口那样零距离。
+位置优势：所有 JR / 新干线 / 大部分地铁巴士的起点都在京都站，行李寄放、退房当天直接搭车去嵐山或大阪依然方便，只是不像正对车站出口那样零距离。
 
 | 目的地 | 距酒店距离 | 交通 |
 |--------|----------|------|
@@ -460,12 +459,16 @@
 #### 🐬 Noah Dolphin Dome (ノア ドルフィン ドーム)
 
 > 💡 交通：南海电铁堺駅出站后徒步约10分钟即达，中途只需在难波转乘1次，不用打车，路线简单！
-> 💡 表演时间：官网只公布"训练参观一天4次+喂食体验"，没有固定整点时刻表，喂食体验要现场或官网预约（最多可提前1小时），到场后务必先查当日时刻表。
+> 💡 营业时间 10:00–20:00（最后入馆19:30），年中无休——官网写「没有固定公休日，但海豚状况不佳时可能临时无预告休馆」，没有要刻意避开的星期几。已选定 **10:30 喂食体验 + 12:00 浅水区互动**，完整场次/价格表见下方展开。
+
+<details class="ref-drop"><summary>▾ 官网完整资料（营业时间/三个体验项目详情，2026-08-06查）</summary><div class="ref-drop-body"><div class="table-wrap"><table><thead><tr><th>项目</th><th>9/17当天场次</th><th>价格</th><th>年龄/身高要求</th><th>预约</th></tr></thead><tbody><tr><td>🐬 餌やり体験（喂食）</td><td>10:30 / 12:00 / 13:30 / 15:00 / 16:30</td><td>¥1,100/人</td><td>4岁以下需家长陪同</td><td>不接受预约，现场排队</td></tr><tr><td>🌊 浅瀬で遊ぼう（浅水区互动）</td><td>12:00 / 15:00 / 17:30</td><td>大人¥7,700 / 小孩¥6,600</td><td>5岁以上+身高110cm以上</td><td>网上预约享95折，也可现场报名</td></tr><tr><td>🏊 ドルフィンスイム（下水游泳）</td><td>11:15 / 12:45 / 14:15 / 15:45 / 18:00(夜场)</td><td>大人¥14,300 / 小孩¥9,900</td><td>5岁以上+身高110cm以上，含泳衣租借</td><td>建议预约</td></tr></tbody></table></div></div></details>
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
 | 09:00 | 酒店（本町）→ 地铁御堂筋线 (Midosuji Line) → 难波駅 转乘 → 南海本线 (Nankai Main Line / 南海本線) 直达 → 堺駅 (Sakai Station / 堺駅)，出站步行10分 | [📍](https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=Noah+Dolphin+Dome%2C+Osaka&travelmode=transit) | 全程只1次换乘，约20分 ¥670 | [官网](https://www.dolphindome.jp/english-page/) |
-| 10:00 | 🐬 Noah Dolphin Dome（营业 10:00–20:00），海豚表演！可近距离喂海豚，孩子必看！ | — | 成人¥1,210 / 儿童¥770 · 喂食¥1,100 | [小红书参考](https://www.xiaohongshu.com/explore/68881ab8000000001c035a05) |
+| 10:00 | 抵达入馆，先熟悉场馆 | — | 成人¥1,210 / 儿童¥770 | [小红书参考](https://www.xiaohongshu.com/explore/68881ab8000000001c035a05) |
+| 10:30 | 🐬 餌やり体験 喂食体验（15分钟，含训练观察），现场排队，先到先得 | — | ¥1,100/人 | — |
+| 12:00 | 🌊 浅瀬で遊ぼう 浅水区互动（15分钟，5岁以上+身高110cm以上） | — | 大人¥7,700 / 小孩¥6,600 | — |
 
 #### 🍢 新世界 (Shinsekai / 新世界)
 

@@ -135,6 +135,13 @@ details.hotel-addr summary::-webkit-details-marker { display: none; }
 details.hotel-addr .hotel-addr-body { padding: 0 0.7rem 0.6rem; }
 details.hotel-addr .hotel-addr-body p { font-size: 0.78rem; color: var(--ink2); margin: 0.2rem 0; white-space: normal; }
 
+/* Reference dropdown — collapsed extra data (official schedules/pricing tables) inside a POI */
+details.ref-drop { display: block; background: var(--accent-l); border: 1px solid var(--bdr); border-radius: 8px; margin: 0.5rem 0; }
+details.ref-drop summary { display: inline-block; padding: 0.4rem 0.7rem; cursor: pointer; font-size: 0.8rem; font-weight: 600; color: var(--ink2); list-style: none; user-select: none; }
+details.ref-drop summary::-webkit-details-marker { display: none; }
+details.ref-drop .ref-drop-body { padding: 0 0.7rem 0.7rem; }
+details.ref-drop .ref-drop-body table { font-size: 0.82rem; }
+
 @media (max-width: 600px) {
   h1 { font-size: 1.3rem; }
   h2 { font-size: 1.05rem; }
@@ -183,7 +190,9 @@ details.hotel-addr .hotel-addr-body p { font-size: 0.78rem; color: var(--ink2); 
 
 <div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>09:30</td><td>酒店步行约10分钟出发 → ユニバーサルシティポート (Universal City Port)，沿港边散步过去</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Hotel+Universal+Port+Vita%2C+Osaka&destination=Universal+City+Port%2C+Osaka&travelmode=walking" target="_blank">📍</a></td><td>—</td><td>—</td></tr>
 <tr><td>09:45</td><td>在 Universal City Port 搭乘 キャプテンライン渡轮 (Captain Line Ferry)，约10分钟抵达 海遊館西はとば (Kaiyukan West Pier)，孩子会超喜欢坐船！</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Universal+City+Port%2C+Osaka&destination=Kaiyukan+West+Pier%2C+Osaka&travelmode=transit" target="_blank">📍</a></td><td>单程 大人¥900 / 小学生¥500 / 幼儿¥400</td><td><a href="https://www.mmjp.or.jp/Capt-Line/" target="_blank">官网</a></td></tr></tbody></table></div></div></details>
-<details class="poi"><summary>📍 ★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館)</summary><div class="poi-body"><blockquote class="tip"><p>💡 出发前上官网查一下当期有没有特展/夜间开放/期间限定活动，行程可以配合调整</p></blockquote>
+<details class="poi"><summary>📍 ★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館)</summary><div class="poi-body"><blockquote class="tip"><p>💡 出发前上官网查一下当期有没有特展/夜间开放/期间限定活动，行程可以配合调整</p><p>💡 10:00入馆到约13:00离开这段时间，能碰到的喂食秀：10:00企鹅、10:30太平洋鱼群、10:50环斑海豹+南跳岩企鹅、11:15浣熊、11:30水獭、11:40海豚——挺密集的，可以照这个顺路线。完整表见下方展开（官网没有鲸鲨喂食秀这一项）。</p></blockquote>
+
+<p><details class="ref-drop"><summary>▾ 官网 Feeding Time 完整时刻表（2026-08-06查）</summary><div class="ref-drop-body"><div class="table-wrap"><table><thead><tr><th>生物</th><th>楼层/区域</th><th>时间</th></tr></thead><tbody><tr><td>🦦 水獭 (Otter)</td><td>Japan Forest</td><td>11:30 / 13:30 / 15:30</td></tr><tr><td>🦭 海狮/海豹 (Sea lion/seal)</td><td>Monterey Bay</td><td>09:50 / 13:20 / 14:50</td></tr><tr><td>🐾 南美浣熊 (Coati)</td><td>Gulf of Panama</td><td>11:15 / 15:30</td></tr><tr><td>🐧 企鹅 (Penguin)</td><td>Antarctica</td><td>10:00 / 14:20</td></tr><tr><td>🐬 太平洋斑纹海豚</td><td>Tasman Sea</td><td>11:40 / 14:00 / 16:30</td></tr><tr><td>🐟 太平洋鱼群</td><td>Pacific Ocean (7F)</td><td>10:30 / 15:00</td></tr><tr><td>🦭 环斑海豹</td><td>Arctic (6F)</td><td>10:50 / 15:35</td></tr><tr><td>🐧 南跳岩企鹅</td><td>Falkland Islands (4F)</td><td>10:50 / 15:10</td></tr></tbody></table></div></div></details></p>
 
 <div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>10:00</td><td>下船后步行1分钟即达海遊館入口，参观企鹅・水母・鲸鲨！关西最震撼水族馆，约3小时</td><td>—</td><td>成人¥2,700 / 儿童¥1,400</td><td><a href="https://www.instagram.com/reel/DVOUzHME0Dz/?igsh=anlnYzR2NTZ1NTVq" target="_blank">参考</a></td></tr></tbody></table></div></div></details>
 <details class="poi"><summary>📍 天保山ハーバービレッジ (Tempozan Harbor Village / 天保山マーケットプレース) · 午餐</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>13:00</td><td>从海遊館出发，步行约5分钟到天保山ハーバービレッジ，海景餐厅午餐</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Osaka+Aquarium+Kaiyukan%2C+Osaka&destination=Tempozan+Harbor+Village%2C+Osaka&travelmode=walking" target="_blank">📍</a></td><td>¥1,000–2,000</td><td>—</td></tr></tbody></table></div></div></details>
@@ -219,9 +228,7 @@ details.hotel-addr .hotel-addr-body p { font-size: 0.78rem; color: var(--ink2); 
 <div class="city-group">名古屋 (Nagoya / 名古屋) — Sep 12–14 (Sat–Mon) · Day 4–5 · 2晚</div>
 <div class="hotel-intro"><p class="hotel-name">🏨 <strong>酒店：Nishitetsu Hotel Croom Nagoya (西鉄ホテルクルーム名古屋)</strong> ✅ 已确认 Sep 12–14</p><details class="hotel-addr"><summary>📍 地址 / 联系方式 ▾</summary><div class="hotel-addr-body"><p>📍 名古屋市中区 (Naka-ku / 中区)</p><p>最近站：久屋大通駅 (Hisaya-odori Station / 久屋大通駅) 步行约3–5分钟</p><p>参考：<a href="https://www.trip.com/w/loWkjbpmWU2" target="_blank">Trip.com Nishitetsu Hotel Croom Nagoya</a></p></div></details></div>
 
-<blockquote class="tip"><p>💡 <strong>大阪→名古屋交通：</strong> 新大阪站 (Shin-Osaka) 转乘东海道新干线 (Tokaido Shinkansen) → 名古屋站 (Nagoya Station)。</p><p>📝 <strong>备注：</strong> 若改订 Airbnb，地点要选在<strong>名古屋站 (Nagoya Station) 附近</strong>，方便新干线转乘与前往吉卜力公园/名古屋城。</p></blockquote>
-
-<details class="day"><summary>Day 4 · Sep 12 (Sat) — 大阪→名古屋 · 名古屋城 + 大须</summary><div class="day-body"><details class="poi"><summary>📍 🚄 大阪 → 名古屋</summary><div class="poi-body"><blockquote class="tip"><p>💡 大阪(USJ)→名古屋全程约需1小时50分（含转乘），实际班次请出发前在 Navitime / Google Maps 查询确认，此为估算时间。</p><p>💡 行李也可以不自己带，改用宅急便直送 Nishitetsu Hotel Croom Nagoya，约¥1,200–2,000/件。</p></blockquote>
+<details class="day"><summary>Day 4 · Sep 12 (Sat) — 大阪→名古屋 · 名古屋城 + 大须</summary><div class="day-body"><details class="poi"><summary>📍 🚄 大阪 → 名古屋</summary><div class="poi-body"><blockquote class="tip"><p>💡 大阪→名古屋交通：新大阪站 (Shin-Osaka) 转乘东海道新干线 (Tokaido Shinkansen) → 名古屋站 (Nagoya Station)，全程约需1小时50分（含转乘），实际班次请出发前在 Navitime / Google Maps 查询确认，此为估算时间。</p><p>💡 行李也可以不自己带，改用宅急便直送 Nishitetsu Hotel Croom Nagoya，约¥1,200–2,000/件。</p></blockquote>
 
 <div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>08:30</td><td>Hotel Universal Port Vita退房</td><td>—</td><td>—</td><td>—</td></tr>
 <tr><td>09:00</td><td>酒店 → ユニバーサルシティ駅 → JR夢咲線/大阪環状線 → 新大阪駅 (Shin-Osaka Station / 新大阪駅)</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Hotel+Universal+Port+Vita%2C+Osaka&destination=Shin-Osaka+Station%2C+Osaka&travelmode=transit" target="_blank">📍</a></td><td>约30分 ¥400</td><td>—</td></tr>
@@ -248,9 +255,7 @@ details.hotel-addr .hotel-addr-body p { font-size: 0.78rem; color: var(--ink2); 
 <tr><td>19:00</td><td>晚餐：ひつまぶし 鳗鱼饭 (Hitsumabushi Eel Rice / ひつまぶし) or 世界の山ちゃん 手羽先 (Tebasaki Chicken Wings / 手羽先)</td><td>—</td><td>¥2,000–5,000</td><td>—</td></tr></tbody></table></div></div></details>
 </div></details>
 <div class="city-group">京都 (Kyoto / 京都) — Sep 14–16 (Mon–Wed) · Day 6–7 · 2晚</div>
-<div class="hotel-intro"><p class="hotel-name">🏨 <strong>酒店：Rinn Kyoto Station</strong></p><details class="hotel-addr"><summary>📍 地址 / 联系方式 ▾</summary><div class="hotel-addr-body"><p>📍 京都市下京区北不動堂町522 (522 Kitafudodocho, Shimogyo Ward, Kyoto)</p><p>京都站步行约10分钟（约500m）· 四星 · 31间客房</p></div></details></div>
-
-<blockquote class="tip"><p>💡 <strong>位置优势：</strong> 酒店距京都站步行约10分钟，所有 JR / 新干线 / 大部分地铁巴士的起点都在京都站，行李寄放、退房当天直接搭车去嵐山或大阪依然方便，只是不像正对车站出口那样零距离。</p></blockquote>
+<div class="hotel-intro"><p class="hotel-name">🏨 <strong>酒店：Rinn Kyoto Station</strong></p><details class="hotel-addr"><summary>📍 地址 / 联系方式 ▾</summary><div class="hotel-addr-body"><p>📍 京都市下京区北不動堂町522 (522 Kitafudodocho, Shimogyo Ward, Kyoto)</p><p>京都站步行约10分钟（约500m）· 四星 · 31间客房</p><p>位置优势：所有 JR / 新干线 / 大部分地铁巴士的起点都在京都站，行李寄放、退房当天直接搭车去嵐山或大阪依然方便，只是不像正对车站出口那样零距离。</p></div></details></div>
 
 <details class="day"><summary>Day 6 · Sep 14 (Mon) — 名古屋→京都 · 清水寺 + 伏见稻荷</summary><div class="day-body"><details class="poi"><summary>📍 🚄 名古屋 → 京都</summary><div class="poi-body"><blockquote class="tip"><p>💡 名古屋→京都新干线只需35分钟，比原本大阪出发更快，抵达时间更早，一天下来更从容。</p></blockquote>
 
@@ -310,10 +315,14 @@ details.hotel-addr .hotel-addr-body p { font-size: 0.78rem; color: var(--ink2); 
 <details class="poi"><summary>📍 🏨 Check-in · 晚餐</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>15:00</td><td>正式check-in，放行李休息</td><td>—</td><td>—</td><td>—</td></tr>
 <tr><td>18:30</td><td>酒店附近晚餐，早点休息，明天开始大阪第二段正式行程</td><td>—</td><td>¥1,500–2,500</td><td>—</td></tr></tbody></table></div></div></details>
 </div></details>
-<details class="day"><summary>Day 9 · Sep 17 (Thu) — 🐬 Noah Dolphin Dome 看海豚 + Abeno Harukas 展望台</summary><div class="day-body"><details class="poi"><summary>📍 🐬 Noah Dolphin Dome (ノア ドルフィン ドーム)</summary><div class="poi-body"><blockquote class="tip"><p>💡 交通：南海电铁堺駅出站后徒步约10分钟即达，中途只需在难波转乘1次，不用打车，路线简单！</p><p>💡 表演时间：官网只公布"训练参观一天4次+喂食体验"，没有固定整点时刻表，喂食体验要现场或官网预约（最多可提前1小时），到场后务必先查当日时刻表。</p></blockquote>
+<details class="day"><summary>Day 9 · Sep 17 (Thu) — 🐬 Noah Dolphin Dome 看海豚 + Abeno Harukas 展望台</summary><div class="day-body"><details class="poi"><summary>📍 🐬 Noah Dolphin Dome (ノア ドルフィン ドーム)</summary><div class="poi-body"><blockquote class="tip"><p>💡 交通：南海电铁堺駅出站后徒步约10分钟即达，中途只需在难波转乘1次，不用打车，路线简单！</p><p>💡 营业时间 10:00–20:00（最后入馆19:30），年中无休——官网写「没有固定公休日，但海豚状况不佳时可能临时无预告休馆」，没有要刻意避开的星期几。已选定 <strong>10:30 喂食体验 + 12:00 浅水区互动</strong>，完整场次/价格表见下方展开。</p></blockquote>
+
+<p><details class="ref-drop"><summary>▾ 官网完整资料（营业时间/三个体验项目详情，2026-08-06查）</summary><div class="ref-drop-body"><div class="table-wrap"><table><thead><tr><th>项目</th><th>9/17当天场次</th><th>价格</th><th>年龄/身高要求</th><th>预约</th></tr></thead><tbody><tr><td>🐬 餌やり体験（喂食）</td><td>10:30 / 12:00 / 13:30 / 15:00 / 16:30</td><td>¥1,100/人</td><td>4岁以下需家长陪同</td><td>不接受预约，现场排队</td></tr><tr><td>🌊 浅瀬で遊ぼう（浅水区互动）</td><td>12:00 / 15:00 / 17:30</td><td>大人¥7,700 / 小孩¥6,600</td><td>5岁以上+身高110cm以上</td><td>网上预约享95折，也可现场报名</td></tr><tr><td>🏊 ドルフィンスイム（下水游泳）</td><td>11:15 / 12:45 / 14:15 / 15:45 / 18:00(夜场)</td><td>大人¥14,300 / 小孩¥9,900</td><td>5岁以上+身高110cm以上，含泳衣租借</td><td>建议预约</td></tr></tbody></table></div></div></details></p>
 
 <div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>09:00</td><td>酒店（本町）→ 地铁御堂筋线 (Midosuji Line) → 难波駅 转乘 → 南海本线 (Nankai Main Line / 南海本線) 直达 → 堺駅 (Sakai Station / 堺駅)，出站步行10分</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=Noah+Dolphin+Dome%2C+Osaka&travelmode=transit" target="_blank">📍</a></td><td>全程只1次换乘，约20分 ¥670</td><td><a href="https://www.dolphindome.jp/english-page/" target="_blank">官网</a></td></tr>
-<tr><td>10:00</td><td>🐬 Noah Dolphin Dome（营业 10:00–20:00），海豚表演！可近距离喂海豚，孩子必看！</td><td>—</td><td>成人¥1,210 / 儿童¥770 · 喂食¥1,100</td><td><a href="https://www.xiaohongshu.com/explore/68881ab8000000001c035a05" target="_blank">小红书参考</a></td></tr></tbody></table></div></div></details>
+<tr><td>10:00</td><td>抵达入馆，先熟悉场馆</td><td>—</td><td>成人¥1,210 / 儿童¥770</td><td><a href="https://www.xiaohongshu.com/explore/68881ab8000000001c035a05" target="_blank">小红书参考</a></td></tr>
+<tr><td>10:30</td><td>🐬 餌やり体験 喂食体验（15分钟，含训练观察），现场排队，先到先得</td><td>—</td><td>¥1,100/人</td><td>—</td></tr>
+<tr><td>12:00</td><td>🌊 浅瀬で遊ぼう 浅水区互动（15分钟，5岁以上+身高110cm以上）</td><td>—</td><td>大人¥7,700 / 小孩¥6,600</td><td>—</td></tr></tbody></table></div></div></details>
 <details class="poi"><summary>📍 🍢 新世界 (Shinsekai / 新世界)</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>12:30</td><td>原路返回：南海本线 → 难波駅（约20分）→ 新世界串炸午餐，大阪庶民美食</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Noah+Dolphin+Dome%2C+Osaka&destination=Shinsekai%2C+Osaka&travelmode=transit" target="_blank">📍</a></td><td>¥1,000–1,500</td><td>—</td></tr></tbody></table></div></div></details>
 <details class="poi"><summary>📍 🏙 Abeno Harukas 300 展望台 (Abeno Harukas Observatory / あべのハルカス300)</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>14:00</td><td>新世界步行3分即达，关西最高楼60楼！俯瞰大阪全景</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Shinsekai%2C+Osaka&destination=Abeno+Harukas%2C+Osaka&travelmode=walking" target="_blank">📍</a></td><td>¥1,500</td><td>—</td></tr></tbody></table></div></div></details>
 <details class="poi"><summary>📍 🦀 晚餐 + 🚤 とんぼりリバークルーズ（道顿堀）</summary><div class="poi-body"><blockquote class=""><p>📍 とんぼりリバークルーズ乘船处：太左衛門橋船着场（ドン・キホーテ道頓堀店1楼报到）· 营业11:00–21:00，每半小时一班（每小时00分/30分）· 约20分钟航程</p></blockquote>

@@ -221,8 +221,10 @@ const OSAKA1_DISTANCE = {
 };
 
 // Renders a city's intro notes, collapsing the hotel name's address/phone/station
-// lines into a <details> toggle so the address block doesn't visually dominate the
-// day accordion above it — only the hotel name stays visible by default.
+// lines into a <details> toggle so this block doesn't visually dominate the day
+// accordion above it; only the hotel name stays visible by default. Any plain
+// (non-blockquote) line directly following the address, with no blank line in
+// between, is treated as more address-block content and folded in too.
 function renderCityIntroNotes(introNoteLines) {
   if (!introNoteLines.length) return '';
   const hotelIdx = introNoteLines.findIndex(l => /^\*\*酒店[:：]/.test(l.trim()));
@@ -237,6 +239,7 @@ function renderCityIntroNotes(introNoteLines) {
     addrLines.push(t);
     j++;
   }
+
   const before = introNoteLines.slice(0, hotelIdx);
   const after = introNoteLines.slice(j);
 
@@ -244,7 +247,8 @@ function renderCityIntroNotes(introNoteLines) {
   if (before.length) html += convert(before.join('\n')) + '\n';
   html += `<div class="hotel-intro"><p class="hotel-name">🏨 ${inlineConvert(hotelLine)}</p>`;
   if (addrLines.length) {
-    html += `<details class="hotel-addr"><summary>📍 地址 / 联系方式 ▾</summary><div class="hotel-addr-body">${addrLines.map(l => `<p>${inlineConvert(l)}</p>`).join('')}</div></details>`;
+    const addrHtml = addrLines.map(l => `<p>${inlineConvert(l)}</p>`).join('');
+    html += `<details class="hotel-addr"><summary>📍 地址 / 联系方式 ▾</summary><div class="hotel-addr-body">${addrHtml}</div></details>`;
   }
   html += `</div>\n`;
   if (after.length) html += convert(after.join('\n')) + '\n';
@@ -482,6 +486,13 @@ details.hotel-addr summary { display: inline-block; padding: 0.35rem 0.7rem; cur
 details.hotel-addr summary::-webkit-details-marker { display: none; }
 details.hotel-addr .hotel-addr-body { padding: 0 0.7rem 0.6rem; }
 details.hotel-addr .hotel-addr-body p { font-size: 0.78rem; color: var(--ink2); margin: 0.2rem 0; white-space: normal; }
+
+/* Reference dropdown — collapsed extra data (official schedules/pricing tables) inside a POI */
+details.ref-drop { display: block; background: var(--accent-l); border: 1px solid var(--bdr); border-radius: 8px; margin: 0.5rem 0; }
+details.ref-drop summary { display: inline-block; padding: 0.4rem 0.7rem; cursor: pointer; font-size: 0.8rem; font-weight: 600; color: var(--ink2); list-style: none; user-select: none; }
+details.ref-drop summary::-webkit-details-marker { display: none; }
+details.ref-drop .ref-drop-body { padding: 0 0.7rem 0.7rem; }
+details.ref-drop .ref-drop-body table { font-size: 0.82rem; }
 
 @media (max-width: 600px) {
   h1 { font-size: 1.3rem; }
