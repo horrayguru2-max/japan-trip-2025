@@ -38,8 +38,8 @@
 | 景点 | 城市 | 特色 | 费用 | 日程 |
 |------|------|------|------|------|
 | ★ USJ (Universal Studios Japan / ユニバーサル・スタジオ・ジャパン) | 大阪 | 任天堂世界 + 哈利波特 + 小黄人 + 侏罗纪世界 | 成人¥10,400 / 儿童¥6,900 | Day 3 |
-| 🖤 檀王法林寺 (Dan-no-Hori-ji Temple / 壇王法林寺) 黑猫招财猫 | 京都 | 日本唯一黑色招财猫，僧侣开光，免费 | 免费 | Day 7 |
-| 💰 御金神社 (Mikane Jinja / 御金神社) 金箔鸟居 | 京都 | 日本唯一金箔鸟居，祈财运，福财布 | 免费参拜 | Day 7 |
+| 🖤 檀王法林寺 (Dan-no-Hori-ji Temple / 壇王法林寺) 黑猫招财猫 | 京都 | 日本唯一黑色招财猫，僧侣开光，免费 | 免费 | Day 8 |
+| 💰 御金神社 (Mikane Jinja / 御金神社) 金箔鸟居 | 京都 | 日本唯一金箔鸟居，祈财运，福财布 | 免费参拜 | Day 8 |
 | ★ 吉卜力公园 (Ghibli Park / ジブリパーク) | 名古屋 | ✅ **已购票**（大さんぽ券 O-Sanpo Day Pass Standard・土日祝）：吉卜力大倉庫 + もののけの里 + 魔女の谷（户外）3个区域，不含青春の丘 & どんどこ森 | 成人¥3,800 / 儿童¥1,900（票根登记：Lead participant CHIN） | Day 5（★ 已避开周二定休！大倉庫入场时段 10:00） |
 | ★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館) | 大阪 | 鲸鲨展缸，关西最震撼水族馆，亲子必去 | 成人¥2,700 / 儿童¥1,400 | Day 2 |
 
@@ -350,51 +350,55 @@
 
 ---
 
-### Day 7 · Sep 15 (Tue) — 🖤 黑猫招财猫 + 💰 御金神社 + 二条城 + 锦市场
+### Day 7 · Sep 15 (Tue) — 嵐山竹林 + 嵯峨野小火车 + 保津川游船
 
-> 💡 顺序调整：先去黑猫招财猫（离酒店较远），再往西边逛回市中心，最后在锦市场附近直接吃晚餐——比绕回酒店再出门吃饭更省路程，因为つじや就在锦市场旁边的四条河原町，走路几分钟。
+> 💡 二条城这次排不进去（一天塞不下嵐山+二条城+晚餐），先移出正式行程，如果想留着请告诉我要搬去哪天。
 
-#### 🖤 檀王法林寺 · 黑猫招财猫 (Dan-no-Hori-ji Temple / 壇王法林寺)
-
-> 📍 地址：京都府京都市左京区川端通三条上る法林寺門前町36 · Google Maps搜"檀王法林寺" 或 "Dan-no-Hori-ji Temple Kyoto" · 开放时间 10:00–16:00，日本唯一黑色招财猫，每只经僧侣开光 (Kaiko / 開眼供養)
+#### 🚄 京都 → 嵐山
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| 09:00 | 酒店 → 京都駅 → 巴士/地铁至三条京阪一带 → 步行前往檀王法林寺 | [📍](https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=Dan-no-Hori-ji+Temple%2C+Kyoto&travelmode=transit) | 约25分 | — |
-| 09:30 | 🖤 檀王法林寺参观黑猫招财猫 | — | 免费 | [黑猫招财猫参考](https://www.facebook.com/reel/1426570785269256) |
-| 10:00 | 步行至旁边的鸭川 (Kamo River / 鴨川) 河边，跳石头 (Tobi-ishi / 飛び石)！孩子最开心，完全免费 | — | 免费 | — |
+| 08:00 | 京都駅 → JR嵯峨野線 (山陰本線) 直達，嵯峨嵐山駅 (Saga-Arashiyama Station / 嵯峨嵐山駅)，比阪急更快更简单，不用转乘 | [📍](https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=Saga-Arashiyama+Station%2C+Kyoto&travelmode=transit) | 约16分 ¥240 | — |
 
-#### 💰 御金神社 (Mikane Jinja / 御金神社)
-
-> 📍 地址：〒604-0042 京都府京都市中京区押西洞院町614 · Google Maps搜"御金神社" 或 "Mikane Jinja Shrine Kyoto" · 开放时间 10:00–16:00
+#### 🎋 竹林之道・野宮神社・天龙寺
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| 10:30 | 步行/地铁往西前往御金神社：✔洗钱 (Washing Money / お金を洗う) · ✔买福財布 (Fukuzaifuku Wallet Charm / 福財布) · ✔求银杏御神签 (Ginko Omikuji / 銀杏おみくじ) | [📍](https://www.google.com/maps/dir/?api=1&origin=Dan-no-Hori-ji+Temple%2C+Kyoto&destination=Mikane+Jinja%2C+Kyoto&travelmode=transit) | 约15–20分 | — |
+| 08:20 | 竹林之道 (Bamboo Grove / 竹林の道)，早晨人超少！光线最美！ | [📍](https://www.google.com/maps/dir/?api=1&origin=Saga-Arashiyama+Station%2C+Kyoto&destination=Arashiyama+Bamboo+Grove%2C+Kyoto&travelmode=walking) | 免费 | [嵐山隐藏路线](https://www.instagram.com/reels/DXLxzw_ji8a/) |
+| 08:50 | 野宮神社 (Nonomiya Shrine / 野宮神社)，小红鸟居，祈愿学业/缘分 | — | 免费 | — |
+| 09:20 | 天龙寺 (Tenryu-ji Temple / 天龍寺) 庭园，世界遗产禅庭・曹源池庭园 (Sogen-chi Garden / 曹源池庭園) | — | ¥500 | — |
 
-#### 🏯 二条城 (Nijo Castle / 二条城)
+#### 🚃 嵯峨野小火车 (Sagano Scenic Railway / 嵯峨野トロッコ鉄道)
 
-| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
-|------|------|------|-----------|---------|
-| 12:00 | 步行约15分（1.2km）→ 二条城，德川家康将军御所，走廊会发出鶯鳴声 (Nightingale Floor / 鶯張り)！孩子好奇（约1.5–2小时） | [📍](https://www.google.com/maps/dir/?api=1&origin=Mikane+Jinja%2C+Kyoto&destination=Nijo+Castle%2C+Kyoto&travelmode=walking) | ¥1,300 | — |
-| 13:45 | 步行/地下鉄返回 烏丸御池一带午餐 | — | ¥1,200–2,000 | — |
-
-#### 🥬 锦市场 (Nishiki Market / 錦市場)
+> ⚠️ 必须提前网上预约！[sagano-kanko.co.jp](https://sagano-kanko.co.jp) — 9月旺季极快售完！
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| 15:00 | 步行约15分或地下鉄1站 → 锦市场试吃，京都厨房！抹茶 (Matcha / 抹茶)・厚蛋烧 (Tamagoyaki / 厚焼き玉子)・京漬物 (Tsukemono / 京漬物) | [📍](https://www.google.com/maps/dir/?api=1&origin=Nijo+Castle%2C+Kyoto&destination=Nishiki+Market%2C+Kyoto&travelmode=walking) | ¥200–500 | — |
+| 10:30 | 步行至 トロッコ嵯峨駅 (Saga-Arashiyama Romantic Train Station / トロッコ嵯峨駅) | [📍](https://www.google.com/maps/dir/?api=1&origin=Tenryu-ji+Temple%2C+Kyoto&destination=Torokko+Saga+Station%2C+Kyoto&travelmode=walking) | — | — |
+| 11:00 | トロッコ嵯峨駅 → トロッコ亀岡駅 (Kameoka / 亀岡)，约25分，穿越保津川峡谷 (Hozu River Gorge / 保津峡)！必坐 | — | 大人¥880 / 儿童¥440 | [岚山全天体验](https://www.instagram.com/reels/DXs5gfxidkD/) |
 
-#### 🍶 晚餐：炭火串焼つじや 四条御幸町店
+#### 🛶 保津川马车・游船
 
-> 📍 地址：京都府京都市下京区四条御幸町下ル大寿町400（阪急河原町駅步行2分，就在锦市场旁边）· 电话：075-371-5825 · 建议用 [Tabelog](https://tabelog.com/en/kyoto/A2601/A260201/26020272/) 线上即时订位，不需打电话 · 营业 17:00–24:00（LO 23:00）
+> ⚠️ 游船也建议提前网上预约！[hozugawakudari.jp](https://www.hozugawakudari.jp) — 9月旺季人多，可网上预订指定日期班次！
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| 16:30 | 步行至四条河原町 (Shijo Kawaramachi) 一带（锦市场走过去约5–10分钟），逛逛消化 | [📍](https://www.google.com/maps/dir/?api=1&origin=Nishiki+Market%2C+Kyoto&destination=Shijo+Kawaramachi%2C+Kyoto&travelmode=walking) | — | — |
-| 16:45 | 抵达炭火串焼つじや排队，17:00开门（IG博主4:45到场为第二组，顺利吃到第一轮） | — | — | [IG参考](https://www.instagram.com/p/DXwcD1Byf2Y/) |
+| 11:30 | 🐴 马车 (Horse Carriage / 馬車) 亀岡站外乘搭 → 保津川游船乘船处，日本怀旧感，约20分 | — | 约¥500–800/人 | — |
+| 12:00 | 🛶 保津川游船 (Hozugawa River Boat Ride / 保津川下り) 出发！传统木船顺流而下约2小时，沿途峡谷急流，孩子坐着完全不累 | — | 大人约¥4,100 / 儿童约¥3,100 | [游船参考1](https://www.instagram.com/reels/DVBqeyjk_Z4/) · [参考2](https://www.instagram.com/reel/DZjVb4qzpli/?igsh=MWJycm43bzBmenkxeQ==) |
+| 14:00 | 游船抵达嵐山！渡月桥 (Togetsu-kyo Bridge / 渡月橋) 附近午餐，豆腐料理 (Tofu Cuisine / 豆腐料理) / 抹茶甜品 | — | ¥1,500–2,500 | — |
+
+#### 🥬 锦市场 + 🍶 晚餐：炭火串焼つじや 四条御幸町店
+
+> 📍 つじや地址：京都府京都市下京区四条御幸町下ル大寿町400（阪急河原町駅步行2分，就在锦市场旁边）· 电话：075-371-5825 · 建议用 [Tabelog](https://tabelog.com/en/kyoto/A2601/A260201/26020272/) 线上即时订位，不需打电话 · 营业 17:00–24:00（LO 23:00）
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 15:30 | 步行回 嵯峨嵐山駅 → JR嵯峨野線直達 → 京都駅 | [📍](https://www.google.com/maps/dir/?api=1&origin=Togetsukyo+Bridge%2C+Kyoto&destination=Kyoto+Station%2C+Kyoto&travelmode=transit) | 约16分 ¥240 | — |
+| 15:50 | 抵达京都站，稍作休整 | — | — | — |
+| 16:15 | 地下鉄烏丸線 京都→四条，步行至锦市场逛逛试吃，抹茶 (Matcha / 抹茶)・厚蛋烧 (Tamagoyaki / 厚焼き玉子)・京漬物 (Tsukemono / 京漬物) | [📍](https://www.google.com/maps/dir/?api=1&origin=Kyoto+Station%2C+Kyoto&destination=Nishiki+Market%2C+Kyoto&travelmode=transit) | 约5分 ¥220，小食¥200–500 | — |
+| 16:45 | 步行至四条河原町，抵达炭火串焼つじや排队，17:00开门（IG博主4:45到场为第二组，顺利吃到第一轮） | [📍](https://www.google.com/maps/dir/?api=1&origin=Nishiki+Market%2C+Kyoto&destination=Shijo+Kawaramachi%2C+Kyoto&travelmode=walking) | — | [IG参考](https://www.instagram.com/p/DXwcD1Byf2Y/) |
 | 17:00 | 晚餐：几乎每道都好吃，原隻烧鱿鱼/扇贝/大虾/多春鱼/刺身拼盘 | — | 人均约¥4,800 | [Tabelog订位](https://tabelog.com/en/kyoto/A2601/A260201/26020272/) |
-| 18:30 | 步行至阪急/京阪河原町駅 → 巴士或地铁转乘 → 京都駅，返回酒店休息，整理行李（明天返回大阪） | [📍](https://www.google.com/maps/dir/?api=1&origin=Shijo+Kawaramachi%2C+Kyoto&destination=Rinn+Kyoto+Station%2C+Kyoto&travelmode=transit) | — | — |
+| 18:30 | 步行至阪急/京阪河原町駅 → 巴士或地铁转乘 → 京都駅，返回酒店休息，整理行李（明天退房返回大阪） | [📍](https://www.google.com/maps/dir/?api=1&origin=Shijo+Kawaramachi%2C+Kyoto&destination=Rinn+Kyoto+Station%2C+Kyoto&travelmode=transit) | — | — |
 
 ---
 
@@ -413,25 +417,40 @@
 
 ---
 
-### Day 8 · Sep 16 (Wed) — 京都退房 → 返回大阪！
+### Day 8 · Sep 16 (Wed) — 🖤 黑猫招财猫 + 💰 御金神社 → 返回大阪！
 
-> 💡 原本的嵐山竹林+嵯峨野小火车+保津川游船一日游对6岁孩子来说太累（详见「可选景点」），这天改成轻松的退房+移动+休息日，不用赶早。
+#### 🖤 檀王法林寺 · 黑猫招财猫 (Dan-no-Hori-ji Temple / 壇王法林寺)
+
+> 📍 地址：京都府京都市左京区川端通三条上る法林寺門前町36 · Google Maps搜"檀王法林寺" 或 "Dan-no-Hori-ji Temple Kyoto" · 开放时间 10:00–16:00，日本唯一黑色招财猫，每只经僧侣开光 (Kaiko / 開眼供養)
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 09:00 | 酒店退房，行李寄放前台，随身包直接出发 | — | — | — |
+| 09:00 | 前往檀王法林寺 | [📍](https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=Dan-no-Hori-ji+Temple%2C+Kyoto&travelmode=transit) | 约25分 | — |
+| 09:30 | 🖤 檀王法林寺参观黑猫招财猫 | — | 免费 | [黑猫招财猫参考](https://www.facebook.com/reel/1426570785269256) |
+
+#### 💰 御金神社 (Mikane Jinja / 御金神社)
+
+> 📍 地址：〒604-0042 京都府京都市中京区押西洞院町614 · Google Maps搜"御金神社" 或 "Mikane Jinja Shrine Kyoto" · 开放时间 10:00–16:00
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 10:00 | 步行/地铁前往御金神社：✔洗钱 (Washing Money / お金を洗う) · ✔买福財布 (Fukuzaifuku Wallet Charm / 福財布) · ✔求银杏御神签 (Ginko Omikuji / 銀杏おみくじ) | [📍](https://www.google.com/maps/dir/?api=1&origin=Dan-no-Hori-ji+Temple%2C+Kyoto&destination=Mikane+Jinja%2C+Kyoto&travelmode=transit) | 约15–20分 | — |
 
 #### 🚄 京都 → 大阪
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| 10:00 | 酒店退房，不用赶早，从容收拾 | — | — | — |
-| 10:30 | 京都駅 → 大阪駅/新大阪駅，JR新快速 (JR Shinkaisoku / 新快速) | [📍](https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=Osaka+Station%2C+Osaka&travelmode=transit) | 约55分 ¥570/人 | — |
-| 11:30 | 抵达大阪 → 地铁御堂筋线 (Midosuji Line / 御堂筋線) → 本町駅 (Hommachi Station / 本町駅)，酒店寄放行李（正式check-in约15:00后） | [📍](https://www.google.com/maps/dir/?api=1&origin=Osaka+Station%2C+Osaka&destination=Hommachi+Station%2C+Osaka&travelmode=transit) | 约15分 ¥280 | — |
-| 12:00 | 酒店附近午餐，随意找家店慢慢吃，不赶行程 | — | ¥1,000–1,500 | — |
+| 11:15 | 返回酒店取行李 | [📍](https://www.google.com/maps/dir/?api=1&origin=Mikane+Jinja%2C+Kyoto&destination=Rinn+Kyoto+Station%2C+Kyoto&travelmode=transit) | 约15分 | — |
+| 11:45 | 酒店附近简单午餐 | — | ¥1,000–1,500 | — |
+| 12:30 | 京都駅 → 大阪駅/新大阪駅，JR新快速 (JR Shinkaisoku / 新快速) | [📍](https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=Osaka+Station%2C+Osaka&travelmode=transit) | 约55分 ¥570/人 | — |
+| 13:25 | 抵达大阪 → 地铁御堂筋线 (Midosuji Line / 御堂筋線) → 本町駅 (Hommachi Station / 本町駅)，酒店寄放行李（正式check-in约15:00后） | [📍](https://www.google.com/maps/dir/?api=1&origin=Osaka+Station%2C+Osaka&destination=Hommachi+Station%2C+Osaka&travelmode=transit) | 约15分 ¥280 | — |
 
-#### 🌳 靭公园 (Utsubo Park / 靱公園) · 晚餐
+#### 🏨 Check-in · 晚餐
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
 | 15:00 | 正式check-in，放行李休息 | — | — | — |
-| 16:00 | 步行约10分钟到靭公园，大草地+玫瑰园，本町最近的绿地，孩子可以自由跑跳放电，不赶时间 | [📍](https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=Utsubo+Park%2C+Osaka&travelmode=walking) | 免费 | — |
 | 18:30 | 酒店附近晚餐，早点休息，明天开始大阪第二段正式行程 | — | ¥1,500–2,500 | — |
 
 ---
@@ -637,9 +656,9 @@
 
 | 景点 | 特色 | 交通方式 | 所需时间 | 参考链接 |
 |------|------|---------|---------|---------|
-| 嵐山竹林 + 嵯峨野小火车 + 保津川游船 (Arashiyama Bamboo Grove + Sagano Railway + Hozugawa Boat) | 竹林之道+野宮神社+天龙寺+嵯峨野トロッコ小火车穿越保津峡+保津川游船，体验丰富但一天塞太满，对6岁孩子偏累（多次转乘+长时间坐船），这次先不排进正式行程 | 京都駅→JR嵯峨野線→嵯峨嵐山駅约16分¥240；小火车¥880/440另需网上预约；保津川游船¥4,100/3,100另需网上预约 | 全天 | [嵐山隐藏路线](https://www.instagram.com/reels/DXLxzw_ji8a/) · [小火车预约](https://sagano-kanko.co.jp) · [游船预约](https://www.hozugawakudari.jp) |
+| 二条城 (Nijo Castle / 二条城) | 德川家康将军御所，走廊会发出鶯鳴声 (Nightingale Floor / 鶯張り)，孩子好奇，Day 7 排不进去先移出来 | 地下鉄烏丸線→烏丸御池→東西線→二条城前駅 约15分 ¥260 | 约1.5–2小时 | — |
 | 天橋立 (Amanohashidate / 天橋立) | 日本三景之一，松树林沙洲横跨海湾，缆车绝景，可骑脚车 & 搭船慢慢探索 | 京都站 (Kyoto Station / 京都駅) 搭 JR特急约2小时 → 天橋立駅 (Amanohashidate Station / 天橋立駅)，步行到缆车 | 全天 | [天橋立参考](https://www.instagram.com/p/DX85i_PTZZu/) |
-| 伊根舟屋 (Ine Fishing Village / 伊根の舟屋) | 京都海边宁静渔村，传统舟屋沿海排列，风景超疗愈，人潮少 | 自驾从京都约2小时最方便；也可搭 JR + 巴士前往 | 半天～全天 | [伊根参考](https://www.instagram.com/reels/DYbZovKs-kB/) |
+| 伊根舟屋 (Ine Fishing Village / 伊根の舟屋) | 京都海边宁静渔村，传统舟屋沿海排列，风景超疗愈，人潮少；⚠️ 没有自驾的话公共交通单程要2.5–3小时，比嵐山累很多，建议有租车才考虑 | 自驾从京都约2小时最方便；也可搭 JR + 巴士前往，但转乘多耗时长 | 半天～全天 | [伊根参考](https://www.instagram.com/reels/DYbZovKs-kB/) |
 | 西舞鹤 吉原入江 (Nishimaizuru Yoshiwara Cove / 西舞鶴 吉原入江) | 京都北部隐藏版水岸渔村，传统民宅与渔船，气氛宁静，像远离城市的另一个世界 | 京都站搭 JR 到西舞鶴駅 (Nishi-Maizuru Station / 西舞鶴駅)，转巴士或步行前往吉原地区 | 半天 | — |
 
 > 💡 **天橋立 + 伊根舟屋组合一日游：** 两者相距约40分钟车程，自驾最方便，可以安排在京都的其中一天出发。
@@ -743,7 +762,8 @@
 |------|------|------|
 | KUL→JHB 机票 AirAsia AK6032 | ✅ 已订 | Booking no. TERWUG |
 | Day 1 KIX→酒店接驳车（Trip.com）| ⚠️ 待办：补充资料 | 需要上车地点/时间、车程、车资，详见 Day 1 行程表 |
-| 嵯峨野小火车 / 保津川游船 | 🕒 已移出正式行程 | 改列入「可选景点」，如临时想加回来才需要提前1–2个月预约 |
+| 嵯峨野小火车预约 | ⚠️ 待办：需预约 | 提前1–2个月，9月旺季很快售完，[sagano-kanko.co.jp](https://sagano-kanko.co.jp) |
+| 保津川游船预约 | ⚠️ 待办：需预约 | 提前1–2个月，9月旺季人多，[hozugawakudari.jp](https://www.hozugawakudari.jp) |
 | ICOCA交通卡 | 🕒 无需提前预订 | 抵达当天/Day 2/Day 4 现场买都行，JR西日本服务台 |
 
 ### 🎫 门票 / 景点
