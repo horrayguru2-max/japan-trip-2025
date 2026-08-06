@@ -322,7 +322,7 @@ cityDaySections.forEach(city => {
   });
 });
 if (optionalExtLines) {
-  itineraryHtml += `<details class="day optional"><summary>🗺 可选景点 & 延伸行程（点击展开）</summary><div class="day-body">${convert(optionalExtLines.join('\n'))}</div></details>\n`;
+  overviewHtml += `<details class="day optional"><summary>🗺 可选景点 & 延伸行程（点击展开）</summary><div class="day-body">${convert(optionalExtLines.join('\n'))}</div></details>\n`;
 }
 
 // ---------- Build 🏨 住宿 tab ----------
