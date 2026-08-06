@@ -73,6 +73,10 @@
 
 ## 大阪第一段 (Osaka · Sep 9–11 (Wed–Fri) · Day 1–3)
 
+**酒店：Hotel Universal Port Vita**
+📍 6-1-16 Shimaya, Konohana-ku, Osaka-shi, Osaka 554-0024
+📞 050-1792-7748 · USJ合作酒店，步行5分到入口，提前入园约15分钟
+
 | 目的地 | 距酒店距离 | 交通 |
 |--------|----------|------|
 | USJ 入口 (USJ Entrance / USJ入口) | 0.4km | 步行约5分 |
