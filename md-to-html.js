@@ -95,10 +95,19 @@ function convert(mdText) {
 
     if (trimmed.startsWith('>')) {
       flushList();
-      const content = trimmed.replace(/^>\s*/, '');
-      const cls = content.startsWith('⚠️') ? 'warn' : content.startsWith('💡') ? 'tip' : content.startsWith('✨') ? 'upgrade' : content.startsWith('🎡') ? 'tip' : '';
-      html.push(`<blockquote class="${cls}">${inlineConvert(content)}</blockquote>`);
-      i++; continue;
+      // Consecutive ">" lines (including blank ">" separators) belong to one note,
+      // not a new boxed blockquote per line — merge them so a multi-line tip renders
+      // as a single card instead of a stack of disconnected boxes.
+      const groupLines = [];
+      while (i < lines.length && lines[i].trim().startsWith('>')) {
+        groupLines.push(lines[i].trim().replace(/^>\s?/, ''));
+        i++;
+      }
+      const firstContent = groupLines.find(l => l.trim() !== '') || '';
+      const cls = firstContent.startsWith('⚠️') ? 'warn' : firstContent.startsWith('💡') ? 'tip' : firstContent.startsWith('✨') ? 'upgrade' : firstContent.startsWith('🎡') ? 'tip' : '';
+      const bodyHtml = groupLines.filter(l => l.trim() !== '').map(l => `<p>${inlineConvert(l)}</p>`).join('');
+      html.push(`<blockquote class="${cls}">${bodyHtml}</blockquote>`);
+      continue;
     }
 
     const liMatch = trimmed.match(/^[-*]\s+(.+)/);
@@ -211,7 +220,38 @@ const OSAKA1_DISTANCE = {
   rows: [['USJ 入口 (USJ Entrance)', '0.4km', '步行约5分']]
 };
 
-let itineraryTop = '';   // 总路线 + ★必去亮点
+// Renders a city's intro notes, collapsing the hotel name's address/phone/station
+// lines into a <details> toggle so the address block doesn't visually dominate the
+// day accordion above it — only the hotel name stays visible by default.
+function renderCityIntroNotes(introNoteLines) {
+  if (!introNoteLines.length) return '';
+  const hotelIdx = introNoteLines.findIndex(l => /^\*\*酒店[:：]/.test(l.trim()));
+  if (hotelIdx === -1) return convert(introNoteLines.join('\n'));
+
+  const hotelLine = introNoteLines[hotelIdx].trim();
+  let j = hotelIdx + 1;
+  const addrLines = [];
+  while (j < introNoteLines.length) {
+    const t = introNoteLines[j].trim();
+    if (t === '' || t.startsWith('>')) break;
+    addrLines.push(t);
+    j++;
+  }
+  const before = introNoteLines.slice(0, hotelIdx);
+  const after = introNoteLines.slice(j);
+
+  let html = '';
+  if (before.length) html += convert(before.join('\n')) + '\n';
+  html += `<div class="hotel-intro"><p class="hotel-name">🏨 ${inlineConvert(hotelLine)}</p>`;
+  if (addrLines.length) {
+    html += `<details class="hotel-addr"><summary>📍 地址 / 联系方式 ▾</summary><div class="hotel-addr-body">${addrLines.map(l => `<p>${inlineConvert(l)}</p>`).join('')}</div></details>`;
+  }
+  html += `</div>\n`;
+  if (after.length) html += convert(after.join('\n')) + '\n';
+  return html;
+}
+
+let overviewHtml = '';   // 总路线 + ★必去亮点 (行程总览 tab)
 let hotelsTableRaw = null; // 住宿一览 raw rows
 let cityDaySections = []; // { cityTitle, introTable, days: [{title, bodyLines}] }
 let optionalExtLines = null; // 🗺 可选景点 & 延伸行程
@@ -221,7 +261,7 @@ let checklistLines = null; // ✅ 行前重要 Checklist
 for (const block of h2Blocks) {
   const isCity = /Day\s*\d/.test(block.title);
   if (block.title === '总路线' || block.title === '★ 必去亮点') {
-    itineraryTop += convert(trimBlock(block.contentLines).join('\n')) + '\n';
+    overviewHtml += convert(trimBlock(block.contentLines).join('\n')) + '\n';
   } else if (block.title === '住宿一览') {
     hotelsTableRaw = parseTableRaw(block.contentLines);
   } else if (isCity) {
@@ -231,7 +271,7 @@ for (const block of h2Blocks) {
     // Narrative notes before the destination table (hotel name, address, 💡/📝 blockquotes)
     // — kept separately so they still render instead of being silently dropped.
     const introNoteLines = trimBlock(introLines.filter(l => !l.trim().startsWith('|')));
-    const introNotesHtml = introNoteLines.length ? convert(introNoteLines.join('\n')) : '';
+    const introNotesHtml = renderCityIntroNotes(introNoteLines);
     const days = h3Idxs.map((start, i) => {
       const end = i + 1 < h3Idxs.length ? h3Idxs[i + 1] : block.contentLines.length;
       const title = block.contentLines[start].replace(/^###\s+/, '').trim();
@@ -248,76 +288,44 @@ for (const block of h2Blocks) {
   }
 }
 
+// Splits a day's body on "#### 📍 ..." headings into per-attraction collapsibles
+// (time/route/transport table + POI-level note), so a day with several stops doesn't
+// dump one giant table — each stop opens on its own. Content before the first such
+// heading (rare) renders normally, ungrouped.
+function renderDayBody(bodyLines) {
+  const h4Idxs = findHeadingIdxs(bodyLines, 4);
+  if (h4Idxs.length === 0) return convert(bodyLines.join('\n'));
+  let html = '';
+  const preLines = trimBlock(bodyLines.slice(0, h4Idxs[0]));
+  if (preLines.length) html += convert(preLines.join('\n')) + '\n';
+  h4Idxs.forEach((start, i) => {
+    const end = i + 1 < h4Idxs.length ? h4Idxs[i + 1] : bodyLines.length;
+    const title = bodyLines[start].replace(/^####\s+/, '').trim();
+    const sectionLines = trimBlock(bodyLines.slice(start + 1, end));
+    html += `<details class="poi"><summary>📍 ${inlineConvert(title)}</summary><div class="poi-body">${convert(sectionLines.join('\n'))}</div></details>\n`;
+  });
+  return html;
+}
+
 // ---------- Build 📅 逐日行程 tab ----------
 
-let itineraryHtml = itineraryTop;
+let itineraryHtml = '';
 cityDaySections.forEach(city => {
   itineraryHtml += `<div class="city-group">${inlineConvert(city.cityTitle)}</div>\n`;
   if (city.introNotesHtml) itineraryHtml += city.introNotesHtml + '\n';
   city.days.forEach(day => {
-    itineraryHtml += `<details class="day"><summary>${inlineConvert(day.title)}</summary><div class="day-body">${convert(day.bodyLines.join('\n'))}</div></details>\n`;
+    itineraryHtml += `<details class="day"><summary>${inlineConvert(day.title)}</summary><div class="day-body">${renderDayBody(day.bodyLines)}</div></details>\n`;
   });
 });
 if (optionalExtLines) {
   itineraryHtml += `<details class="day optional"><summary>🗺 可选景点 & 延伸行程（点击展开）</summary><div class="day-body">${convert(optionalExtLines.join('\n'))}</div></details>\n`;
 }
 
-// ---------- Build 🗺 地图 & 距离 tab ----------
-
-// Matched by keyword (not full title) so date/Day-range edits to the section headings
-// never silently desync this table from the actual city blocks.
-const cityMapMetaRules = [
-  { test: t => t.includes('新山'), label: '🇲🇾 新山 · Day 0（SEM9 Senai Hotel）', origin: 'SEM9 Senai Hotel, Johor Bahru, Malaysia', mapQuery: 'SEM9 Senai Hotel, Johor Bahru, Malaysia', cityHint: 'Johor Bahru, Malaysia' },
-  { test: t => t.includes('大阪第一段'), label: '🏯 大阪 · Day 1–3（Hotel Universal Port Vita）', origin: 'Hotel Universal Port Vita, Osaka', mapQuery: 'Hotel Universal Port Vita, Osaka', cityHint: 'Osaka' },
-  { test: t => t.includes('名古屋'), label: '🌿 名古屋 · Day 4–6', origin: 'Nishitetsu Hotel Croom Nagoya, Nagoya', mapQuery: 'Nishitetsu Hotel Croom Nagoya, Nagoya', cityHint: 'Nagoya' },
-  { test: t => t.includes('京都'), label: '⛩️ 京都 · Day 6夜–8（Rinn Kyoto Station）', origin: 'Rinn Kyoto Station, Kyoto', mapQuery: 'Rinn Kyoto Station, Kyoto', cityHint: 'Kyoto' },
-  { test: t => t.includes('大阪第二段'), label: '🏯 大阪 · Day 9–13（Miyako City Hommachi）', origin: 'Miyako City Osaka Hommachi, Osaka', mapQuery: 'Miyako City Osaka Hommachi, Osaka', cityHint: 'Osaka' }
-];
-function lookupCityMapMeta(title) {
-  const rule = cityMapMetaRules.find(r => r.test(title));
-  return rule || { label: title, origin: null, mapQuery: null, cityHint: '' };
-}
-
-// Encodes a value for the classic (no-API-key) Google Maps URL scheme, where spaces
-// must come through as literal "+" — URLSearchParams would instead escape a literal
-// "+" separator to %2B, breaking the "waypoint+to:waypoint" directions syntax below.
-function encodeMapsParam(str) {
-  return encodeURIComponent(str).replace(/%20/g, '+');
-}
-
-// Builds a no-API-key Google Maps directions embed connecting origin -> waypoint1 -> waypoint2,
-// so the iframe shows the actual route line/distance between the hotel and its top highlights.
-function buildRouteEmbedUrl(origin, waypoints, mode) {
-  const dirflg = mode === 'walking' ? 'w' : mode === 'driving' ? 'd' : 'r';
-  const saddr = encodeMapsParam(origin);
-  const daddr = waypoints.map(encodeMapsParam).join('+to:');
-  return `https://www.google.com/maps?saddr=${saddr}&daddr=${daddr}&dirflg=${dirflg}&output=embed`;
-}
-
-let mapHtml = '<p class="tab-intro">按城市列出住宿到各景点的步行 / 交通距离参考；地图会画出酒店 → 前两大重点景点的实际路线，点击 🔗 可在 Google 地图查看其他景点的路线。</p>\n';
-cityDaySections.forEach(city => {
-  const meta = lookupCityMapMeta(city.cityTitle);
-  const table = city.introTable || (city.cityTitle.startsWith('大阪第一段') ? OSAKA1_DISTANCE : null);
-  mapHtml += `<h3>${meta.label}</h3>\n`;
-  const topRows = table ? table.rows.slice(0, 2) : [];
-  if (meta.origin && topRows.length > 0) {
-    const waypoints = topRows.map(r => `${extractPlaceQuery(r[0])}, ${meta.cityHint}`);
-    const mode = travelModeFor(topRows[0][2] || '');
-    const routeUrl = buildRouteEmbedUrl(meta.origin, waypoints, mode);
-    const waypointLabels = topRows.map(r => inlineConvert(r[0])).join(' → ');
-    mapHtml += `<div class="map-embed"><iframe src="${routeUrl}" loading="lazy" allowfullscreen></iframe></div>\n`;
-    mapHtml += `<p class="map-route-caption">📍 路线：${inlineConvert(meta.label.replace(/^\S+\s/, ''))}酒店 → ${waypointLabels}</p>\n`;
-  } else if (meta.mapQuery) {
-    mapHtml += `<div class="map-embed"><iframe src="https://www.google.com/maps?q=${encodeURIComponent(meta.mapQuery)}&output=embed" loading="lazy" allowfullscreen></iframe></div>\n`;
-  }
-  mapHtml += table ? renderDistanceTable(table, null, meta.origin ? { origin: meta.origin, cityHint: meta.cityHint } : null) : '<p>暂无距离数据</p>';
-});
-
 // ---------- Build 🏨 住宿 tab ----------
 
 const VOUCHERS_DRIVE_URL = 'https://drive.google.com/drive/folders/15b3HNyrht43G0Fm6--sdJV9BPMlwAU99?usp=drive_link';
 
-let hotelsHtml = `<div class="hotel-card" style="border-left:3px solid var(--gold);">
+let hotelsHtml = `<div class="hotel-card" style="border-left:3px solid var(--accent);">
 <h3>🎫 订票凭证 / Booking Vouchers</h3>
 <p class="hotel-note">所有酒店入住凭证、门票 PDF 存在私人 Google Drive 文件夹（不公开在此页面，避免订单号/PIN码外泄）：<br><a href="${VOUCHERS_DRIVE_URL}" target="_blank" rel="noopener">📂 打开 Google Drive 凭证文件夹</a></p>
 <p class="hotel-note" style="font-size:0.8rem;color:#999;">⚠️ 此页面会公开在 GitHub Pages，请确认该 Drive 文件夹的分享权限设置为仅限你自己或指定帐号可开启。</p>
@@ -336,9 +344,8 @@ ${table ? `<p class="hotel-sub">附近景点参考：</p>${renderDistanceTable(t
   });
 }
 
-// ---------- Build 💴 费用 & ✅ 清单 tabs ----------
+// ---------- Build ✅ 清单 tab ----------
 
-const costHtml = costLines ? convert(costLines.join('\n')) : '';
 const checklistHtml = checklistLines ? convert(checklistLines.join('\n')) : '';
 
 // ---------- Assemble ----------
@@ -347,23 +354,23 @@ const pageHeaderHtml = convert(pageHeaderLines.join('\n'));
 
 const css = `
 :root {
-  --ink: #1a1a2e;
-  --ink2: #4a5568;
-  --gold: #c8953a;
-  --gold-l: #fdf6dc;
-  --teal: #2d7d6f;
-  --teal-l: #dff0ec;
-  --must: #d4003a;
-  --must-l: #fff0f3;
-  --tip: #1565c0;
-  --tip-l: #e3f0ff;
-  --upgrade: #6b3a8a;
-  --upgrade-l: #f5eef8;
-  --warn-l: #fff8e1;
-  --warn: #e65100;
-  --bg: #faf9f7;
+  --ink: #5f6b75;
+  --ink2: #838d97;
+  --accent: #8ea3b5;
+  --accent-l: #edf1f4;
+  --teal: #8fa9a4;
+  --teal-l: #eaf1ef;
+  --must: #b58e93;
+  --must-l: #f5edee;
+  --tip: #7292ab;
+  --tip-l: #edf2f6;
+  --upgrade: #9c92ab;
+  --upgrade-l: #f2eef5;
+  --warn-l: #f7f0e7;
+  --warn: #bb9270;
+  --bg: #f1f3f4;
   --card: #ffffff;
-  --bdr: rgba(0,0,0,0.08);
+  --bdr: rgba(95,107,117,0.13);
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body {
@@ -373,8 +380,8 @@ body {
   display: flex; justify-content: center; padding: 1.5rem 1rem 4rem;
 }
 .wrap { max-width: 780px; width: 100%; }
-h1 { font-size: 1.6rem; color: var(--ink); margin: 0 0 0.3rem; padding-bottom: 0.6rem; border-bottom: 2px solid var(--gold); }
-h2 { font-size: 1.2rem; color: var(--ink); margin: 1.5rem 0 0.5rem; padding: 0.4rem 0.8rem; background: var(--gold-l); border-left: 3px solid var(--gold); border-radius: 0 6px 6px 0; }
+h1 { font-size: 1.6rem; color: var(--ink); margin: 0 0 0.3rem; padding-bottom: 0.6rem; border-bottom: 2px solid var(--accent); }
+h2 { font-size: 1.2rem; color: var(--ink); margin: 1.5rem 0 0.5rem; padding: 0.4rem 0.8rem; background: var(--accent-l); border-left: 3px solid var(--accent); border-radius: 0 6px 6px 0; }
 h3 { font-size: 1.05rem; color: var(--ink); margin: 1.2rem 0 0.4rem; padding-bottom: 0.2rem; border-bottom: 1px dashed var(--bdr); }
 h4 { font-size: 0.95rem; color: var(--ink2); margin: 1rem 0 0.3rem; }
 p { color: var(--ink2); margin: 0.4rem 0; }
@@ -395,11 +402,13 @@ pre code { background: none; color: inherit; padding: 0; font-size: inherit; }
 hr { border: none; border-top: 1px solid var(--bdr); margin: 1.8rem 0; }
 ul { list-style: none; margin: 0.5rem 0 0.8rem; padding-left: 0; }
 ul li { padding: 0.2rem 0 0.2rem 1.3rem; position: relative; color: var(--ink2); font-size: 0.93rem; }
-ul li::before { content: '·'; position: absolute; left: 0.4rem; color: var(--gold); font-size: 1.3rem; line-height: 1; }
+ul li::before { content: '·'; position: absolute; left: 0.4rem; color: var(--accent); font-size: 1.3rem; line-height: 1; }
 ul li.sub { padding-left: 2.5rem; }
 ul li.sub::before { left: 1.6rem; color: var(--teal); }
-blockquote { margin: 0.6rem 0; padding: 0.6rem 1rem; border-radius: 0 8px 8px 0; font-size: 0.9rem; line-height: 1.65; border-left: 3px solid var(--tip); background: var(--tip-l); color: #1a3a6b; }
-blockquote.tip { border-color: var(--gold); background: var(--gold-l); color: #5c4000; }
+blockquote { max-width: 85%; margin: 0.5rem 0 0.5rem 1.2rem; padding: 0.5rem 0.8rem; border-radius: 0 8px 8px 0; font-size: 0.8rem; line-height: 1.5; border-left: 3px solid var(--tip); background: var(--tip-l); color: #3a4654; }
+blockquote p { margin: 0; }
+blockquote p + p { margin-top: 0.35rem; }
+blockquote.tip { border-color: var(--accent); background: var(--accent-l); color: #3f4a5a; }
 blockquote.warn { border-color: var(--warn); background: var(--warn-l); color: var(--warn); }
 blockquote.upgrade { border-color: var(--upgrade); background: var(--upgrade-l); color: var(--upgrade); }
 .table-wrap { overflow-x: auto; margin: 0.8rem 0 1.2rem; border-radius: 10px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
@@ -408,8 +417,12 @@ thead { background: var(--ink); }
 thead th { color: #fff; padding: 0.55rem 0.75rem; text-align: left; font-weight: 500; white-space: nowrap; }
 tbody tr:nth-child(odd) { background: var(--card); }
 tbody tr:nth-child(even) { background: #f9f9fb; }
-tbody tr:hover { background: var(--gold-l); }
+tbody tr:hover { background: var(--accent-l); }
 td { padding: 0.5rem 0.75rem; color: var(--ink2); vertical-align: top; border-bottom: 1px solid var(--bdr); }
+td details { margin-top: 0.3rem; font-size: 0.8rem; }
+td details summary { display: inline-block; cursor: pointer; color: var(--accent); font-weight: 600; list-style: none; user-select: none; }
+td details summary::-webkit-details-marker { display: none; }
+td details[open] summary { margin-bottom: 0.2rem; }
 td strong { color: var(--ink); }
 
 /* Page header */
@@ -423,13 +436,11 @@ td strong { color: var(--ink); }
 #tab-1:checked ~ .tab-bar label[for="tab-1"],
 #tab-2:checked ~ .tab-bar label[for="tab-2"],
 #tab-3:checked ~ .tab-bar label[for="tab-3"],
-#tab-4:checked ~ .tab-bar label[for="tab-4"],
-#tab-5:checked ~ .tab-bar label[for="tab-5"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+#tab-4:checked ~ .tab-bar label[for="tab-4"] { background: var(--ink); color: #fff; border-color: var(--ink); }
 #tab-1:checked ~ #panel-1,
 #tab-2:checked ~ #panel-2,
 #tab-3:checked ~ #panel-3,
-#tab-4:checked ~ #panel-4,
-#tab-5:checked ~ #panel-5 { display: block; }
+#tab-4:checked ~ #panel-4 { display: block; }
 
 /* City group label */
 .city-group { font-size: 1rem; font-weight: 700; color: var(--card); background: var(--ink); padding: 0.5rem 0.9rem; border-radius: 8px; margin: 1.4rem 0 0.6rem; }
@@ -438,22 +449,46 @@ td strong { color: var(--ink); }
 details.day { background: var(--card); border: 1px solid var(--bdr); border-radius: 10px; margin: 0.6rem 0; overflow: hidden; }
 details.day summary { padding: 0.8rem 1rem; cursor: pointer; font-weight: 600; font-size: 0.92rem; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; }
 details.day summary::-webkit-details-marker { display: none; }
-details.day summary::after { content: '▾'; color: var(--gold); flex-shrink: 0; transition: transform .2s; }
-details.day[open] summary::after { transform: rotate(180deg); }
+details.day summary::after { content: '▾'; color: var(--accent); flex-shrink: 0; transition: transform .2s; }
+details.day[open] > summary::after { transform: rotate(180deg); }
 details.day .day-body { padding: 0 1rem 1rem; }
 details.day.optional summary { color: var(--upgrade); }
+
+/* POI (attraction) accordion — nested one level inside a day, one per stop */
+details.poi { background: var(--accent-l); border: 1px solid var(--bdr); border-radius: 8px; margin: 0.6rem 0; overflow: hidden; }
+details.poi summary { padding: 0.6rem 0.8rem; cursor: pointer; font-weight: 600; font-size: 0.88rem; color: var(--ink); list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; }
+details.poi summary::-webkit-details-marker { display: none; }
+details.poi summary::after { content: '▾'; color: var(--accent); flex-shrink: 0; transition: transform .2s; }
+details.poi[open] > summary::after { transform: rotate(180deg); }
+details.poi .poi-body { padding: 0 0.8rem 0.8rem; background: var(--card); }
+details.poi .poi-body blockquote { max-width: 100%; margin-left: 0.3rem; }
+
+/* Compact note embedded inside a schedule-table cell (row-specific tip) */
+.row-note { margin-top: 0.3rem; padding: 0.25rem 0.5rem 0.25rem 0.9rem; background: var(--accent-l); border-left: 2px solid var(--accent); border-radius: 0 4px 4px 0; font-size: 0.76rem; color: var(--ink2); position: relative; }
+.row-note::before { content: '▸'; position: absolute; left: 0.25rem; color: var(--accent); }
 
 /* Hotel cards */
 .hotel-card { background: var(--card); border: 1px solid var(--bdr); border-radius: 12px; padding: 1rem 1.2rem; margin: 0.9rem 0; box-shadow: 0 1px 4px rgba(0,0,0,0.05); }
 .hotel-card h3 { border: none; margin: 0 0 0.2rem; padding: 0; }
-.hotel-meta { color: var(--gold); font-weight: 600; font-size: 0.85rem; margin-bottom: 0.4rem; }
+.hotel-meta { color: var(--accent); font-weight: 600; font-size: 0.85rem; margin-bottom: 0.4rem; }
 .hotel-note { color: var(--ink2); font-size: 0.88rem; margin-bottom: 0.4rem; }
+
+/* Hotel intro block (city sections) — compact name + collapsible address, same row */
+.hotel-intro { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 0.5rem; margin: 0.6rem 0 0.5rem; }
+.hotel-intro p.hotel-name { flex: 1 1 auto; font-weight: 700; color: var(--ink); font-size: 0.95rem; margin: 0.3rem 0; }
+details.hotel-addr { flex: 0 0 auto; background: var(--accent-l); border: 1px solid var(--bdr); border-radius: 8px; align-self: flex-start; }
+details.hotel-addr[open] { flex-basis: 100%; }
+details.hotel-addr summary { display: inline-block; padding: 0.35rem 0.7rem; cursor: pointer; font-size: 0.78rem; font-weight: 600; color: var(--ink2); list-style: none; user-select: none; white-space: nowrap; }
+details.hotel-addr summary::-webkit-details-marker { display: none; }
+details.hotel-addr .hotel-addr-body { padding: 0 0.7rem 0.6rem; }
+details.hotel-addr .hotel-addr-body p { font-size: 0.78rem; color: var(--ink2); margin: 0.2rem 0; white-space: normal; }
 
 @media (max-width: 600px) {
   h1 { font-size: 1.3rem; }
   h2 { font-size: 1.05rem; }
   body { font-size: 14px; padding: 1rem 0.75rem 3rem; }
   .tab-label { font-size: 0.78rem; padding: 0.5rem 0.3rem; }
+  blockquote { max-width: 90%; margin-left: 0.6rem; }
 }
 `;
 
@@ -462,7 +497,7 @@ const output = `<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>🇯🇵 日本家庭自助游攻略 2026 · 大阪 + 京都 + 名古屋</title>
+<title>🇯🇵 日本家庭自助游攻略 2026 · 大阪 + 名古屋 + 京都</title>
 <style>${css}</style>
 </head>
 <body>
@@ -473,21 +508,18 @@ const output = `<!DOCTYPE html>
 <input type="radio" name="tabs" id="tab-2" class="tabs-input">
 <input type="radio" name="tabs" id="tab-3" class="tabs-input">
 <input type="radio" name="tabs" id="tab-4" class="tabs-input">
-<input type="radio" name="tabs" id="tab-5" class="tabs-input">
 
 <div class="tab-bar">
   <label class="tab-label" for="tab-1">📅 逐日行程</label>
-  <label class="tab-label" for="tab-2">🗺 地图 & 距离</label>
+  <label class="tab-label" for="tab-2">📊 行程总览</label>
   <label class="tab-label" for="tab-3">🏨 住宿 & 🎫 凭证</label>
-  <label class="tab-label" for="tab-4">💴 费用</label>
-  <label class="tab-label" for="tab-5">✅ 清单</label>
+  <label class="tab-label" for="tab-4">✅ 清单</label>
 </div>
 
 <div class="tab-panel" id="panel-1">${itineraryHtml}</div>
-<div class="tab-panel" id="panel-2">${mapHtml}</div>
+<div class="tab-panel" id="panel-2">${overviewHtml}</div>
 <div class="tab-panel" id="panel-3">${hotelsHtml}</div>
-<div class="tab-panel" id="panel-4">${costHtml}</div>
-<div class="tab-panel" id="panel-5">${checklistHtml}</div>
+<div class="tab-panel" id="panel-4">${checklistHtml}</div>
 </div>
 </body>
 </html>`;

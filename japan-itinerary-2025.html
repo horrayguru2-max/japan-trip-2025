@@ -3,26 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>🇯🇵 日本家庭自助游攻略 2026 · 大阪 + 京都 + 名古屋</title>
+<title>🇯🇵 日本家庭自助游攻略 2026 · 大阪 + 名古屋 + 京都</title>
 <style>
 :root {
-  --ink: #1a1a2e;
-  --ink2: #4a5568;
-  --gold: #c8953a;
-  --gold-l: #fdf6dc;
-  --teal: #2d7d6f;
-  --teal-l: #dff0ec;
-  --must: #d4003a;
-  --must-l: #fff0f3;
-  --tip: #1565c0;
-  --tip-l: #e3f0ff;
-  --upgrade: #6b3a8a;
-  --upgrade-l: #f5eef8;
-  --warn-l: #fff8e1;
-  --warn: #e65100;
-  --bg: #faf9f7;
+  --ink: #5f6b75;
+  --ink2: #838d97;
+  --accent: #8ea3b5;
+  --accent-l: #edf1f4;
+  --teal: #8fa9a4;
+  --teal-l: #eaf1ef;
+  --must: #b58e93;
+  --must-l: #f5edee;
+  --tip: #7292ab;
+  --tip-l: #edf2f6;
+  --upgrade: #9c92ab;
+  --upgrade-l: #f2eef5;
+  --warn-l: #f7f0e7;
+  --warn: #bb9270;
+  --bg: #f1f3f4;
   --card: #ffffff;
-  --bdr: rgba(0,0,0,0.08);
+  --bdr: rgba(95,107,117,0.13);
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body {
@@ -32,8 +32,8 @@ body {
   display: flex; justify-content: center; padding: 1.5rem 1rem 4rem;
 }
 .wrap { max-width: 780px; width: 100%; }
-h1 { font-size: 1.6rem; color: var(--ink); margin: 0 0 0.3rem; padding-bottom: 0.6rem; border-bottom: 2px solid var(--gold); }
-h2 { font-size: 1.2rem; color: var(--ink); margin: 1.5rem 0 0.5rem; padding: 0.4rem 0.8rem; background: var(--gold-l); border-left: 3px solid var(--gold); border-radius: 0 6px 6px 0; }
+h1 { font-size: 1.6rem; color: var(--ink); margin: 0 0 0.3rem; padding-bottom: 0.6rem; border-bottom: 2px solid var(--accent); }
+h2 { font-size: 1.2rem; color: var(--ink); margin: 1.5rem 0 0.5rem; padding: 0.4rem 0.8rem; background: var(--accent-l); border-left: 3px solid var(--accent); border-radius: 0 6px 6px 0; }
 h3 { font-size: 1.05rem; color: var(--ink); margin: 1.2rem 0 0.4rem; padding-bottom: 0.2rem; border-bottom: 1px dashed var(--bdr); }
 h4 { font-size: 0.95rem; color: var(--ink2); margin: 1rem 0 0.3rem; }
 p { color: var(--ink2); margin: 0.4rem 0; }
@@ -54,11 +54,13 @@ pre code { background: none; color: inherit; padding: 0; font-size: inherit; }
 hr { border: none; border-top: 1px solid var(--bdr); margin: 1.8rem 0; }
 ul { list-style: none; margin: 0.5rem 0 0.8rem; padding-left: 0; }
 ul li { padding: 0.2rem 0 0.2rem 1.3rem; position: relative; color: var(--ink2); font-size: 0.93rem; }
-ul li::before { content: '·'; position: absolute; left: 0.4rem; color: var(--gold); font-size: 1.3rem; line-height: 1; }
+ul li::before { content: '·'; position: absolute; left: 0.4rem; color: var(--accent); font-size: 1.3rem; line-height: 1; }
 ul li.sub { padding-left: 2.5rem; }
 ul li.sub::before { left: 1.6rem; color: var(--teal); }
-blockquote { margin: 0.6rem 0; padding: 0.6rem 1rem; border-radius: 0 8px 8px 0; font-size: 0.9rem; line-height: 1.65; border-left: 3px solid var(--tip); background: var(--tip-l); color: #1a3a6b; }
-blockquote.tip { border-color: var(--gold); background: var(--gold-l); color: #5c4000; }
+blockquote { max-width: 85%; margin: 0.5rem 0 0.5rem 1.2rem; padding: 0.5rem 0.8rem; border-radius: 0 8px 8px 0; font-size: 0.8rem; line-height: 1.5; border-left: 3px solid var(--tip); background: var(--tip-l); color: #3a4654; }
+blockquote p { margin: 0; }
+blockquote p + p { margin-top: 0.35rem; }
+blockquote.tip { border-color: var(--accent); background: var(--accent-l); color: #3f4a5a; }
 blockquote.warn { border-color: var(--warn); background: var(--warn-l); color: var(--warn); }
 blockquote.upgrade { border-color: var(--upgrade); background: var(--upgrade-l); color: var(--upgrade); }
 .table-wrap { overflow-x: auto; margin: 0.8rem 0 1.2rem; border-radius: 10px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
@@ -67,8 +69,12 @@ thead { background: var(--ink); }
 thead th { color: #fff; padding: 0.55rem 0.75rem; text-align: left; font-weight: 500; white-space: nowrap; }
 tbody tr:nth-child(odd) { background: var(--card); }
 tbody tr:nth-child(even) { background: #f9f9fb; }
-tbody tr:hover { background: var(--gold-l); }
+tbody tr:hover { background: var(--accent-l); }
 td { padding: 0.5rem 0.75rem; color: var(--ink2); vertical-align: top; border-bottom: 1px solid var(--bdr); }
+td details { margin-top: 0.3rem; font-size: 0.8rem; }
+td details summary { display: inline-block; cursor: pointer; color: var(--accent); font-weight: 600; list-style: none; user-select: none; }
+td details summary::-webkit-details-marker { display: none; }
+td details[open] summary { margin-bottom: 0.2rem; }
 td strong { color: var(--ink); }
 
 /* Page header */
@@ -82,13 +88,11 @@ td strong { color: var(--ink); }
 #tab-1:checked ~ .tab-bar label[for="tab-1"],
 #tab-2:checked ~ .tab-bar label[for="tab-2"],
 #tab-3:checked ~ .tab-bar label[for="tab-3"],
-#tab-4:checked ~ .tab-bar label[for="tab-4"],
-#tab-5:checked ~ .tab-bar label[for="tab-5"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+#tab-4:checked ~ .tab-bar label[for="tab-4"] { background: var(--ink); color: #fff; border-color: var(--ink); }
 #tab-1:checked ~ #panel-1,
 #tab-2:checked ~ #panel-2,
 #tab-3:checked ~ #panel-3,
-#tab-4:checked ~ #panel-4,
-#tab-5:checked ~ #panel-5 { display: block; }
+#tab-4:checked ~ #panel-4 { display: block; }
 
 /* City group label */
 .city-group { font-size: 1rem; font-weight: 700; color: var(--card); background: var(--ink); padding: 0.5rem 0.9rem; border-radius: 8px; margin: 1.4rem 0 0.6rem; }
@@ -97,74 +101,72 @@ td strong { color: var(--ink); }
 details.day { background: var(--card); border: 1px solid var(--bdr); border-radius: 10px; margin: 0.6rem 0; overflow: hidden; }
 details.day summary { padding: 0.8rem 1rem; cursor: pointer; font-weight: 600; font-size: 0.92rem; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; }
 details.day summary::-webkit-details-marker { display: none; }
-details.day summary::after { content: '▾'; color: var(--gold); flex-shrink: 0; transition: transform .2s; }
-details.day[open] summary::after { transform: rotate(180deg); }
+details.day summary::after { content: '▾'; color: var(--accent); flex-shrink: 0; transition: transform .2s; }
+details.day[open] > summary::after { transform: rotate(180deg); }
 details.day .day-body { padding: 0 1rem 1rem; }
 details.day.optional summary { color: var(--upgrade); }
+
+/* POI (attraction) accordion — nested one level inside a day, one per stop */
+details.poi { background: var(--accent-l); border: 1px solid var(--bdr); border-radius: 8px; margin: 0.6rem 0; overflow: hidden; }
+details.poi summary { padding: 0.6rem 0.8rem; cursor: pointer; font-weight: 600; font-size: 0.88rem; color: var(--ink); list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; }
+details.poi summary::-webkit-details-marker { display: none; }
+details.poi summary::after { content: '▾'; color: var(--accent); flex-shrink: 0; transition: transform .2s; }
+details.poi[open] > summary::after { transform: rotate(180deg); }
+details.poi .poi-body { padding: 0 0.8rem 0.8rem; background: var(--card); }
+details.poi .poi-body blockquote { max-width: 100%; margin-left: 0.3rem; }
+
+/* Compact note embedded inside a schedule-table cell (row-specific tip) */
+.row-note { margin-top: 0.3rem; padding: 0.25rem 0.5rem 0.25rem 0.9rem; background: var(--accent-l); border-left: 2px solid var(--accent); border-radius: 0 4px 4px 0; font-size: 0.76rem; color: var(--ink2); position: relative; }
+.row-note::before { content: '▸'; position: absolute; left: 0.25rem; color: var(--accent); }
 
 /* Hotel cards */
 .hotel-card { background: var(--card); border: 1px solid var(--bdr); border-radius: 12px; padding: 1rem 1.2rem; margin: 0.9rem 0; box-shadow: 0 1px 4px rgba(0,0,0,0.05); }
 .hotel-card h3 { border: none; margin: 0 0 0.2rem; padding: 0; }
-.hotel-meta { color: var(--gold); font-weight: 600; font-size: 0.85rem; margin-bottom: 0.4rem; }
+.hotel-meta { color: var(--accent); font-weight: 600; font-size: 0.85rem; margin-bottom: 0.4rem; }
 .hotel-note { color: var(--ink2); font-size: 0.88rem; margin-bottom: 0.4rem; }
+
+/* Hotel intro block (city sections) — compact name + collapsible address, same row */
+.hotel-intro { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 0.5rem; margin: 0.6rem 0 0.5rem; }
+.hotel-intro p.hotel-name { flex: 1 1 auto; font-weight: 700; color: var(--ink); font-size: 0.95rem; margin: 0.3rem 0; }
+details.hotel-addr { flex: 0 0 auto; background: var(--accent-l); border: 1px solid var(--bdr); border-radius: 8px; align-self: flex-start; }
+details.hotel-addr[open] { flex-basis: 100%; }
+details.hotel-addr summary { display: inline-block; padding: 0.35rem 0.7rem; cursor: pointer; font-size: 0.78rem; font-weight: 600; color: var(--ink2); list-style: none; user-select: none; white-space: nowrap; }
+details.hotel-addr summary::-webkit-details-marker { display: none; }
+details.hotel-addr .hotel-addr-body { padding: 0 0.7rem 0.6rem; }
+details.hotel-addr .hotel-addr-body p { font-size: 0.78rem; color: var(--ink2); margin: 0.2rem 0; white-space: normal; }
 
 @media (max-width: 600px) {
   h1 { font-size: 1.3rem; }
   h2 { font-size: 1.05rem; }
   body { font-size: 14px; padding: 1rem 0.75rem 3rem; }
   .tab-label { font-size: 0.78rem; padding: 0.5rem 0.3rem; }
+  blockquote { max-width: 90%; margin-left: 0.6rem; }
 }
 </style>
 </head>
 <body>
 <div class="wrap">
-<div class="page-header"><h1>🇯🇵 日本家庭自助游攻略 2026 · 大阪 + 京都 + 名古屋</h1>
+<div class="page-header"><h1>🇯🇵 日本家庭自助游攻略 2026 · 大阪 + 名古屋 + 京都</h1>
 
 <p><strong>三口之家 · 6岁幼娃轻松慢游版 · 13天12晚</strong></p>
-<p>✈ Sep 9 (Wed) 19:30 抵达 KIX → Sep 21 (Mon) 20:55 出发</p>
-
-<p>📱 <strong>手机版行程（线上查看）：</strong> <a href="https://horrayguru2-max.github.io/japan-trip-2025/japan-itinerary-2025.html" target="_blank">horrayguru2-max.github.io/japan-trip-2025</a></p>
-
-<blockquote class="warn">⚠️ <strong>名古屋与京都顺序已对调</strong>（原因：吉卜力公园每周二定休，原行程 Day 7 = Sep 15 正好是星期二；对调后吉卜力落在 Day 5 = Sep 13 星期日，完美避开）。<strong>名古屋酒店需改订 Sep 12–14，请务必先联系酒店确认能否改期／是否有房；京都改为新订 Rinn Kyoto Station Sep 14–16——两者确认前请视为草案行程！</strong></blockquote></div>
+<p>✈ Sep 9 (Wed) 19:30 抵达 KIX → Sep 21 (Mon) 20:55 出发</p></div>
 
 <input type="radio" name="tabs" id="tab-1" class="tabs-input" checked>
 <input type="radio" name="tabs" id="tab-2" class="tabs-input">
 <input type="radio" name="tabs" id="tab-3" class="tabs-input">
 <input type="radio" name="tabs" id="tab-4" class="tabs-input">
-<input type="radio" name="tabs" id="tab-5" class="tabs-input">
 
 <div class="tab-bar">
   <label class="tab-label" for="tab-1">📅 逐日行程</label>
-  <label class="tab-label" for="tab-2">🗺 地图 & 距离</label>
+  <label class="tab-label" for="tab-2">📊 行程总览</label>
   <label class="tab-label" for="tab-3">🏨 住宿 & 🎫 凭证</label>
-  <label class="tab-label" for="tab-4">💴 费用</label>
-  <label class="tab-label" for="tab-5">✅ 清单</label>
+  <label class="tab-label" for="tab-4">✅ 清单</label>
 </div>
 
-<div class="tab-panel" id="panel-1"><pre><code>
-新山 (Johor Bahru) Sep 8–9 (Tue–Wed) · Day 0（出发前一晚）  →  大阪 (Osaka) Sep 9–11 (Wed–Fri) · Day 1–3  →  名古屋 (Nagoya) Sep 12–14 (Sat–Mon) · Day 4–6  →  京都 (Kyoto) Sep 14–16 (Mon–Wed) · Day 6夜–8  →  大阪 (Osaka) Sep 16–21 (Wed–Mon) · Day 9–13
-</code></pre>
+<div class="tab-panel" id="panel-1"><div class="city-group">新山 (Johor Bahru / Johor Bahru) — Sep 8–9 (Tue–Wed) · Day 0 · 1晚</div>
+<div class="hotel-intro"><p class="hotel-name">🏨 <strong>酒店：SEM9 Senai – Formerly Known as Perth Hotel</strong></p><details class="hotel-addr"><summary>📍 地址 / 联系方式 ▾</summary><div class="hotel-addr-body"><p>📍 21, Jalan Terminal 1, Senai Centerpoint, Senai / Airport, Johor Bahru, Malaysia, 81400</p><p>📞 +60197710117 · Agoda Booking ID: 2031572647</p></div></details></div>
 
-<p>完全顺路！沿东海道新干线方向一路来回，物理里程与原行程相同，不会绕路，轻松适合一家三口。</p>
-
-<div class="table-wrap"><table><thead><tr><th>城市</th><th>日程</th><th>晚数</th><th>酒店</th><th>抵达交通</th></tr></thead><tbody><tr><td>🇲🇾 新山 (Johor Bahru / Johor Bahru)</td><td>Sep 8–9 (Tue–Wed) · Day 0</td><td>1晚</td><td>SEM9 Senai Hotel</td><td>出发前一晚过夜，方便隔天早班机</td></tr>
-<tr><td>🏯 大阪 (Osaka / 大阪)</td><td>Sep 9–11 (Wed–Fri) · Day 1–3</td><td>3晚</td><td>Hotel Universal Port Vita</td><td>✈ 抵达 KIX</td></tr>
-<tr><td>🌿 名古屋 (Nagoya / 名古屋)</td><td>Sep 12–14 (Sat–Mon) · Day 4–6</td><td>2晚</td><td>Nishitetsu Hotel Croom Nagoya</td><td>新干线 Nozomi 约50分 ¥6,680/人（经新大阪转乘）</td></tr>
-<tr><td>⛩️ 京都 (Kyoto / 京都)</td><td>Sep 14–16 (Mon–Wed) · Day 6夜–8</td><td>2晚</td><td>Rinn Kyoto Station</td><td>新干线 Nozomi 约35分 ¥5,610/人</td></tr>
-<tr><td>🏯 大阪 (Osaka / 大阪) 回程</td><td>Sep 16–21 (Wed–Mon) · Day 8–13</td><td>5晚</td><td>Miyako City Osaka Hommachi</td><td>JR新快速 约55分 ¥570</td></tr></tbody></table></div>
-<div class="table-wrap"><table><thead><tr><th>景点</th><th>城市</th><th>特色</th><th>费用</th><th>日程</th></tr></thead><tbody><tr><td>★ USJ (Universal Studios Japan / ユニバーサル・スタジオ・ジャパン)</td><td>大阪</td><td>任天堂世界 + 哈利波特 + 小黄人 + 侏罗纪世界</td><td>成人¥10,400 / 儿童¥6,900</td><td>Day 3</td></tr>
-<tr><td>🖤 檀王法林寺 (Dan-no-Hori-ji Temple / 壇王法林寺) 黑猫招财猫</td><td>京都</td><td>日本唯一黑色招财猫，僧侣开光，免费</td><td>免费</td><td>Day 7</td></tr>
-<tr><td>💰 御金神社 (Mikane Jinja / 御金神社) 金箔鸟居</td><td>京都</td><td>日本唯一金箔鸟居，祈财运，福财布</td><td>免费参拜</td><td>Day 7</td></tr>
-<tr><td>★ 吉卜力公园 (Ghibli Park / ジブリパーク)</td><td>名古屋</td><td>✅ <strong>已购票</strong>（大さんぽ券 O-Sanpo Day Pass Standard・土日祝）：吉卜力大倉庫 + もののけの里 + 魔女の谷（户外）3个区域，不含青春の丘 & どんどこ森</td><td>成人¥3,800 / 儿童¥1,900（票根登记：Lead participant CHIN）</td><td>Day 5（★ 已避开周二定休！大倉庫入场时段 10:00）</td></tr>
-<tr><td>★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館)</td><td>大阪</td><td>鲸鲨展缸，关西最震撼水族馆，亲子必去</td><td>成人¥2,700 / 儿童¥1,400</td><td>Day 2</td></tr></tbody></table></div>
-<div class="city-group">新山 (Johor Bahru / Johor Bahru) — Sep 8–9 (Tue–Wed) · Day 0 · 1晚</div>
-<p><strong>酒店：SEM9 Senai – Formerly Known as Perth Hotel</strong></p>
-<p>📍 21, Jalan Terminal 1, Senai Centerpoint, Senai / Airport, Johor Bahru, Malaysia, 81400</p>
-<p>📞 +60197710117 · Agoda Booking ID: 2031572647</p>
-
-<blockquote class="tip">💡 出发前一晚先在士乃机场 (Senai Airport) 附近过夜，隔天从容出发，不必当天赶早班机。</blockquote>
-<details class="day"><summary>Day 0 · Sep 8 (Tue) — ✅ 吉隆坡飞新山（已订票），SEM9 Senai 过夜</summary><div class="day-body"><blockquote class="">✅ <strong>KUL→JHB 机票已订：AirAsia AK6032</strong>（Booking no. TERWUG，订票日期 09 Apr 2026）</blockquote>
-<blockquote class="">乘客：Yun Ching Chin (adult) · Soo Peng Tan (adult) · Hong Yu Chin (child)，each 7kg 手提行李</blockquote>
+<details class="day"><summary>Day 0 · Sep 8 (Tue) — ✅ 吉隆坡飞新山（已订票），SEM9 Senai 过夜</summary><div class="day-body"><blockquote class=""><p>✅ <strong>KUL→JHB 机票已订：AirAsia AK6032</strong>（Booking no. TERWUG，订票日期 09 Apr 2026）</p><p>乘客：Yun Ching Chin (adult) · Soo Peng Tan (adult) · Hong Yu Chin (child)，each 7kg 手提行李</p></blockquote>
 
 <div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>交通 / 费用</th></tr></thead><tbody><tr><td>18:30</td><td>Kuala Lumpur International Airport Terminal 2 (KLIA2) 起飞 · AirAsia AK6032</td><td>Economy Promo</td></tr>
 <tr><td>19:25</td><td>抵达 Senai International Airport (士乃国际机场 / JHB)，非直飞55分钟</td><td>—</td></tr>
@@ -172,341 +174,211 @@ details.day.optional summary { color: var(--upgrade); }
 <tr><td>Sep 9 早上</td><td>退房，前往机场准备出发</td><td>—</td></tr></tbody></table></div></div></details>
 <div class="city-group">大阪第一段 (Osaka · Sep 9–11 (Wed–Fri) · Day 1–3)</div>
 <details class="day"><summary>Day 1 · Sep 9 (Wed) — ✈ 抵达大阪 (Osaka / 大阪)</summary><div class="day-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>交通 / 费用</th></tr></thead><tbody><tr><td>19:30</td><td>抵达 KIX 关西国际机场 (Kansai International Airport / 関西国際空港)</td><td>—</td></tr>
-<tr><td>19:45</td><td>购买 ICOCA 交通卡 (ICOCA IC Card / ICOCAカード) — JR西日本服务台</td><td>¥2,500（含¥500押金）</td></tr>
-<tr><td>20:10</td><td>KIX → 难波站 (Namba Station / 難波駅) · 南海电铁 Rapi:t (Nankai Rapi:t / ラピート)</td><td>¥1,450 · 约38分 · 50km</td></tr>
-<tr><td>20:50</td><td>难波駅 → ユニバーサルシティ駅 (Universal City Station / ユニバーサルシティ駅) · JR大阪环状线 (JR Osaka Loop Line / 大阪環状線) → 西九条 (Nishikujo / 西九条) → JR梦咲线 (JR Yumesaki Line / ゆめ咲線)</td><td>¥280 · 约25分</td></tr>
-<tr><td>21:30</td><td>抵达 Hotel Universal Port Vita，check-in，便利店 (Conbini / コンビニ) 晚餐，早睡！</td><td>—</td></tr></tbody></table></div>
+<tr><td>19:45</td><td>⚠️ 【待补充】搭乘 Trip.com 预订的接驳车直达酒店（不用转车）——需要补上：上车地点/时间、车程、车资</td><td>待确认</td></tr>
+<tr><td>—</td><td>抵达 Hotel Universal Port Vita，check-in，便利店 (Conbini / コンビニ) 晚餐，早睡！</td><td>—</td></tr></tbody></table></div>
 
-<blockquote class="tip">💡 Day 1 只需安全到达酒店！ICOCA卡全程地铁JR通用，离开时退卡可取回¥500押金 + 剩余余额。</blockquote></div></details>
-<details class="day"><summary>Day 2 · Sep 10 (Thu) — ★ 海游馆水族馆 + 天保山摩天轮（渡轮顺路直达！）</summary><div class="day-body"><div class="table-wrap"><table><thead><tr><th>景点</th><th>费用</th><th>亲子适合度</th><th>参考链接</th></tr></thead><tbody><tr><td>⛴ キャプテンライン渡轮 (Captain Line Ferry / キャプテンライン) USJ↔海遊館</td><td>单程 大人¥900 / 小学生¥500 / 幼儿¥400</td><td>⭐⭐⭐ 约10分钟水上接驳，孩子超兴奋！</td><td><a href="https://www.mmjp.or.jp/Capt-Line/" target="_blank">キャプテンライン官网</a></td></tr>
-<tr><td>★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館)</td><td>成人¥2,700 / 儿童¥1,400</td><td>⭐⭐⭐ 鲸鲨展缸，关西最震撼水族馆，约3小时</td><td><a href="https://www.instagram.com/reel/DVOUzHME0Dz/?igsh=anlnYzR2NTZ1NTVq" target="_blank">水族馆参考</a></td></tr>
-<tr><td>天保山大摩天轮 (Tempozan Giant Ferris Wheel / 天保山大観覧車)</td><td>¥1,000</td><td>⭐⭐⭐ 高空看大阪港！孩子超喜欢！</td><td>—</td></tr>
-<tr><td>天保山ハーバービレッジ (Tempozan Harbor Village / 天保山マーケットプレース)</td><td>小食¥500–1,500</td><td>⭐⭐ 海景美食街</td><td>—</td></tr></tbody></table></div>
+<blockquote class="tip"><p>💡 Day 1 只需安全到达酒店，坐接驳车不用买ICOCA。ICOCA交通卡可以晚一点再买（Day 2 出门或 Day 4 去名古屋前都行），全程地铁JR通用，离开时退卡可取回¥500押金 + 剩余余额。</p></blockquote></div></details>
+<details class="day"><summary>Day 2 · Sep 10 (Thu) — ★ 海游馆水族馆 + 天保山摩天轮（渡轮顺路直达！）</summary><div class="day-body"><p>渡轮顺路，不用回市区再跑一趟：</p>
+<details class="poi"><summary>📍 ⛴ キャプテンライン渡轮 (Captain Line Ferry / キャプテンライン)</summary><div class="poi-body"><blockquote class="tip"><p>💡 班次：上午每30分钟一班（09:45–17:15），下午每60分钟一班，遇天候不佳可能停航</p></blockquote>
 
-<p><strong>行程建议（渡轮顺路，不用回市区再跑一趟）：</strong></p>
+<div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>09:30</td><td>酒店步行约10分钟出发 → ユニバーサルシティポート (Universal City Port)，沿港边散步过去</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Hotel+Universal+Port+Vita%2C+Osaka&destination=Universal+City+Port%2C+Osaka&travelmode=walking" target="_blank">📍</a></td><td>—</td><td>—</td></tr>
+<tr><td>09:45</td><td>在 Universal City Port 搭乘 キャプテンライン渡轮 (Captain Line Ferry)，约10分钟抵达 海遊館西はとば (Kaiyukan West Pier)，孩子会超喜欢坐船！</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Universal+City+Port%2C+Osaka&destination=Kaiyukan+West+Pier%2C+Osaka&travelmode=transit" target="_blank">📍</a></td><td>单程 大人¥900 / 小学生¥500 / 幼儿¥400</td><td><a href="https://www.mmjp.or.jp/Capt-Line/" target="_blank">官网</a></td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 ★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館)</summary><div class="poi-body"><blockquote class="tip"><p>💡 出发前上官网查一下当期有没有特展/夜间开放/期间限定活动，行程可以配合调整</p></blockquote>
 
-<ul>
-<li><strong>09:30</strong> 酒店步行约10分钟 → <strong>ユニバーサルシティポート (Universal City Port)</strong>，沿港边散步过去</li>
-<li><strong>09:45</strong> ⛴ 搭乘 キャプテンライン渡轮，约10分钟抵达 <strong>海遊館西はとば (Kaiyukan West Pier)</strong>，孩子会超喜欢坐船！</li>
-<li><strong>10:00</strong> ★ 海游馆水族馆（企鹅・水母・鲸鲨！约3小时）</li>
-<li><strong>13:00</strong> 天保山ハーバービレッジ午餐，海景餐厅 ¥1,000–2,000</li>
-<li><strong>14:30</strong> 天保山大摩天轮（¥1,000）</li>
-<li><strong>15:30</strong> ⛴ 渡轮返回 ユニバーサルシティポート</li>
-<li><strong>16:00</strong> 步行回酒店午休/自由活动，为明天USJ储备体力！</li>
-<li><strong>18:30</strong> 酒店附近晚餐，早点休息！</li>
-</ul>
-
-<blockquote class="tip">💡 <strong>キャプテンライン渡轮班次：</strong> 上午每30分钟一班（09:45–17:15），下午每60分钟一班，遇天候不佳可能停航，建议出发前查询<a href="https://www.mmjp.or.jp/Capt-Line/" target="_blank">官网班次</a>。</blockquote>
+<div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>10:00</td><td>下船后步行1分钟即达海遊館入口，参观企鹅・水母・鲸鲨！关西最震撼水族馆，约3小时</td><td>—</td><td>成人¥2,700 / 儿童¥1,400</td><td><a href="https://www.instagram.com/reel/DVOUzHME0Dz/?igsh=anlnYzR2NTZ1NTVq" target="_blank">参考</a></td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 天保山ハーバービレッジ (Tempozan Harbor Village / 天保山マーケットプレース) · 午餐</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>13:00</td><td>从海遊館出发，步行约5分钟到天保山ハーバービレッジ，海景餐厅午餐</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Osaka+Aquarium+Kaiyukan%2C+Osaka&destination=Tempozan+Harbor+Village%2C+Osaka&travelmode=walking" target="_blank">📍</a></td><td>¥1,000–2,000</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 天保山大摩天轮 (Tempozan Giant Ferris Wheel / 天保山大観覧車)</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>14:30</td><td>从ハーバービレッジ出发，步行约2分钟到摩天轮，高空看大阪港，孩子超喜欢！</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Tempozan+Harbor+Village%2C+Osaka&destination=Tempozan+Ferris+Wheel%2C+Osaka&travelmode=walking" target="_blank">📍</a></td><td>¥1,000</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 返回酒店 / 晚餐</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>15:30</td><td>从摩天轮出发，搭乘渡轮返回 ユニバーサルシティポート (Universal City Port)</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Tempozan+Ferris+Wheel%2C+Osaka&destination=Universal+City+Port%2C+Osaka&travelmode=transit" target="_blank">📍</a></td><td>—</td><td>—</td></tr>
+<tr><td>16:00</td><td>下船后步行约10分钟回酒店午休/自由活动，为明天USJ储备体力</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Universal+City+Port%2C+Osaka&destination=Hotel+Universal+Port+Vita%2C+Osaka&travelmode=walking" target="_blank">📍</a></td><td>—</td><td>—</td></tr>
+<tr><td>18:30</td><td>酒店附近晚餐，早点休息</td><td>—</td><td>—</td><td>—</td></tr></tbody></table></div>
 
 <p>其他参考：<a href="https://www.instagram.com/reel/DWgc3bNiVVv/?igsh=aHdmaGZueTJobXJw" target="_blank">Kid-Friendly Osaka</a> · <a href="http://xhslink.com/o/5huhjaE1Kec" target="_blank">大阪能量地图（小红书）</a></p></div></details>
-<details class="day"><summary>Day 3 · Sep 11 (Fri) — ★ USJ Universal Studios Japan</summary><div class="day-body"><div class="table-wrap"><table><thead><tr><th>区域</th><th>推荐项目</th><th>6岁适合度</th><th>备注</th><th>参考链接</th></tr></thead><tbody><tr><td>超级任天堂世界 (Super Nintendo World / スーパー・ニンテンドー・ワールド)</td><td>Mario赛车 (Mario Kart: Koopa's Challenge)</td><td>⭐⭐⭐</td><td>排队最长，开园第一个冲！</td><td>—</td></tr>
-<tr><td>哈利波特魔法世界 (Wizarding World of Harry Potter / ウィザーディング・ワールド)</td><td>霍格华兹城堡 (Hogwarts Castle) + 黄油啤酒 (Butterbeer / バタービール)</td><td>⭐⭐⭐</td><td>必喝黄油啤酒！</td><td>—</td></tr>
-<tr><td>Minion Park (小黄人乐园 / ミニオン・パーク)</td><td>小黄人系列设施</td><td>⭐⭐⭐</td><td>6岁超爱，身高限制少！</td><td>—</td></tr>
-<tr><td>侏罗纪世界 (Jurassic World: The Ride / ジュラシック・ワールド)</td><td>水上冒险</td><td>⭐⭐⭐</td><td>9月热天正好！</td><td><a href="http://xhslink.com/o/4P0rV1mOISi" target="_blank">侏罗纪VR恐龙巴士</a></td></tr></tbody></table></div>
-
-<p><strong>行程建议：</strong></p>
-
-<ul>
-<li><strong>08:45</strong> 酒店步行 <strong>0.4km（5分钟）</strong> 直达USJ入口，合作酒店可提前15分钟入园！</li>
-<li><strong>09:00</strong> 第一个冲超级任天堂世界 Mario赛车</li>
-<li><strong>11:00</strong> 哈利波特魔法世界 + 黄油啤酒</li>
-<li><strong>13:00</strong> ⭐ <strong>步行5分钟回酒店午休</strong>——住USJ旁最大福利，孩子午睡充电</li>
-<li><strong>14:30</strong> Minion Park 小黄人</li>
-<li><strong>16:00</strong> 侏罗纪世界水上冒险</li>
-<li><strong>19:30</strong> 步行5分钟回酒店，早睡！明天出发名古屋</li>
-</ul>
+</div></details>
+<details class="day"><summary>Day 3 · Sep 11 (Fri) — ★ USJ Universal Studios Japan</summary><div class="day-body"><p>顺序：侏罗纪优先 → 抢13:00超级任天堂世界 → 哈利波特 → Minion Park</p>
 
 <div class="table-wrap"><table><thead><tr><th>票种</th><th>费用</th></tr></thead><tbody><tr><td>成人1日票</td><td>¥10,400 ≈ RM310</td></tr>
 <tr><td>儿童票（4–11岁）</td><td>¥6,900 ≈ RM205</td></tr>
-<tr><td>Express Pass 4（强烈推荐！省排队）</td><td>¥7,800–14,000</td></tr></tbody></table></div>
+<tr><td>Express Pass 4（强烈推荐！省排队，含Nintendo World保证入场）</td><td>¥7,800–14,000</td></tr></tbody></table></div>
 
-<p>📌 参考：<a href="https://www.usjticketing.com/" target="_blank">USJ购票官网</a> · <a href="http://xhslink.com/o/5CUVPmdeiqJ" target="_blank">USJ关西攻略（小红书）</a> · <a href="http://xhslink.com/o/4P0rV1mOISi" target="_blank">侏罗纪VR恐龙巴士</a></p></div></details>
-<div class="city-group">名古屋 (Nagoya / 名古屋) — Sep 12–14 (Sat–Mon) · Day 4–6 · 2晚</div>
-<p><strong>酒店：Nishitetsu Hotel Croom Nagoya (西鉄ホテルクルーム名古屋)</strong> ⚠️ 需改订 Sep 12–14</p>
-<p>📍 名古屋市中区 (Naka-ku / 中区)</p>
-<p>最近站：久屋大通駅 (Hisaya-odori Station / 久屋大通駅) 步行约3–5分钟</p>
-<p>参考：<a href="https://www.trip.com/w/loWkjbpmWU2" target="_blank">Trip.com Nishitetsu Hotel Croom Nagoya</a></p>
+<p>📌 参考：<a href="https://www.usjticketing.com/" target="_blank">USJ购票官网</a> · <a href="http://xhslink.com/o/5CUVPmdeiqJ" target="_blank">USJ关西攻略（小红书）</a></p>
+<details class="poi"><summary>📍 🦖 侏罗纪世界 (Jurassic World: The Ride / ジュラシック・ワールド)</summary><div class="poi-body"><blockquote class="warn"><p>⚠️ 侏罗纪游行备注：目前查到的是 Jurassic World Journey 互动打卡活动（非游行/巡游，Raptor Alert・Dino Encounter 等），2026年档期资料有新旧冲突（一说到8月31日、一说延到9月30日），9月是否还在营业需临行前用 <a href="https://www.usj.co.jp/web/en/us/attractions/show-and-attraction-schedule" target="_blank">USJ官网 Show and Attraction Schedule</a> 确认。目前没查到「侏罗纪主题」的固定巡游表演——每天的定时巡游是25周年纪念游行（皮卡丘+Mario+Hello Kitty等角色），跟侏罗纪无关，具体时间每天公布在同一个官网页面，建议入园当天现场/App查当日时刻表。</p></blockquote>
 
-<blockquote class="tip">💡 <strong>大阪→名古屋交通：</strong> 新大阪站 (Shin-Osaka) 转乘东海道新干线 (Tokaido Shinkansen) → 名古屋站 (Nagoya Station)。</blockquote>
-<blockquote class="">📝 <strong>备注：</strong> 若改订 Airbnb，地点要选在<strong>名古屋站 (Nagoya Station) 附近</strong>，方便新干线转乘与前往吉卜力公园/名古屋城。</blockquote>
-<details class="day"><summary>Day 4 · Sep 12 (Sat) — 大阪→名古屋 · 名古屋城 + 大须</summary><div class="day-body"><div class="table-wrap"><table><thead><tr><th>景点</th><th>费用</th><th>亲子适合度</th><th>参考链接</th></tr></thead><tbody><tr><td>名古屋城 (Nagoya Castle / 名古屋城)</td><td>¥500 ≈ RM13</td><td>⭐⭐⭐ 金鯱 (Kinshachi / 金鯱) + 本丸御殿 (Honmaru Palace / 本丸御殿) 精美屏风画</td><td>—</td></tr>
-<tr><td>大须観音 (Osu Kannon Temple / 大須観音)</td><td>免费</td><td>⭐⭐⭐ 香烟袅袅 · 鸽子成群，孩子超开心！</td><td>—</td></tr>
-<tr><td>大须商业街 (Osu Shopping Street / 大須商店街)</td><td>免费（扭蛋¥200–500）</td><td>⭐⭐⭐ 扭蛋 (Gashapon / ガシャポン) + 古着 (Vintage / 古着)</td><td>—</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>08:45</td><td>酒店出发，步行0.4km（5分钟）直达USJ入口 (USJ Entrance / USJ入口)，合作酒店可提前15分钟入园</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Hotel+Universal+Port+Vita%2C+Osaka&destination=USJ+Entrance%2C+Osaka&travelmode=walking" target="_blank">📍</a></td><td>—</td><td>—</td></tr>
+<tr><td>09:00</td><td>开园！第一个冲侏罗纪世界水上冒险（25.9米高空俯冲新版本，趁人少排队短，9月热天正好，会湿身建议带备用衣服）</td><td>—</td><td>—</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🎮 超级任天堂世界 (Super Nintendo World / スーパー・ニンテンドー・ワールド)</summary><div class="poi-body"><blockquote class="warn"><p>⚠️ 超级任天堂世界入场新规（2026年1月5日起生效）：单日票不含 Express Pass，进超级任天堂世界必须靠官方 App 领取免费的 Area Timed Entry Ticket（数量有限，越早领越好；开园后第一小时内有时可自由进入，但不保证）。领不到免费名额时，备案是入口现场加购¥2,000（数量有限）或行前提早购买付费 Advance Booking。行前3天务必查一次 <a href="https://www.usj.co.jp/web/en/us/enjoy/numbered-ticket/timed-entry-ticket" target="_blank">USJ官网 Timed Entry 说明</a> 确认最新规则是否有变。</p></blockquote>
 
-<p><strong>行程建议：</strong></p>
+<div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>09:15</td><td>打开官方App领取超级任天堂世界 Area Timed Entry Ticket，锁定约13:00时段（越早领越好，可能几十分钟内额满）</td><td>—</td><td>—</td><td><a href="https://www.usj.co.jp/web/en/us/enjoy/numbered-ticket/timed-entry-ticket" target="_blank">Timed Entry说明</a></td></tr>
+<tr><td>13:00</td><td>从酒店返回USJ，凭 Timed Entry Ticket 进超级任天堂世界，Mario赛车 (Mario Kart: Koopa's Challenge)</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Hotel+Universal+Port+Vita%2C+Osaka&destination=Super+Nintendo+World%2C+Osaka&travelmode=walking" target="_blank">📍</a></td><td>—</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 ⚡ 哈利波特魔法世界 (Wizarding World of Harry Potter / ウィザーディング・ワールド)</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>10:00</td><td>霍格华兹城堡 (Hogwarts Castle) + 黄油啤酒 (Butterbeer / バタービール)，必喝！</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>12:00</td><td>园内午餐</td><td>—</td><td>¥1,500–2,500</td><td>—</td></tr>
+<tr><td>12:30</td><td>步行5分钟回酒店稍作休息——住USJ旁最大福利</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=USJ%2C+Osaka&destination=Hotel+Universal+Port+Vita%2C+Osaka&travelmode=walking" target="_blank">📍</a></td><td>—</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🐥 Minion Park (小黄人乐园 / ミニオン・パーク)</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>15:00</td><td>小黄人系列设施，6岁超爱，身高限制少</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>16:30</td><td>纪念品店扫货 / 自由活动，留意当日巡游表演时刻表</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>19:30</td><td>步行5分钟回酒店，早睡！明天出发名古屋</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=USJ%2C+Osaka&destination=Hotel+Universal+Port+Vita%2C+Osaka&travelmode=walking" target="_blank">📍</a></td><td>—</td><td>—</td></tr></tbody></table></div></div></details>
+</div></details>
+<div class="city-group">名古屋 (Nagoya / 名古屋) — Sep 12–14 (Sat–Mon) · Day 4–5 · 2晚</div>
+<div class="hotel-intro"><p class="hotel-name">🏨 <strong>酒店：Nishitetsu Hotel Croom Nagoya (西鉄ホテルクルーム名古屋)</strong> ✅ 已确认 Sep 12–14</p><details class="hotel-addr"><summary>📍 地址 / 联系方式 ▾</summary><div class="hotel-addr-body"><p>📍 名古屋市中区 (Naka-ku / 中区)</p><p>最近站：久屋大通駅 (Hisaya-odori Station / 久屋大通駅) 步行约3–5分钟</p><p>参考：<a href="https://www.trip.com/w/loWkjbpmWU2" target="_blank">Trip.com Nishitetsu Hotel Croom Nagoya</a></p></div></details></div>
 
-<ul>
-<li><strong>08:30</strong> Hotel Universal Port Vita退房，行李可自行带走或宅急便寄至Nishitetsu Hotel Croom Nagoya（¥1,200–2,000/件）</li>
-<li><strong>09:00</strong> 酒店 → ユニバーサルシティ駅 → JR夢咲線/大阪環状線 → <strong>新大阪駅 (Shin-Osaka Station / 新大阪駅)</strong>（约30分 ¥400）</li>
-<li><strong>09:45</strong> 新大阪駅 → <strong>名古屋駅 (Nagoya Station / 名古屋駅)</strong>，新干线 Nozomi (Shinkansen Nozomi / のぞみ)（约50分 ¥6,680/人）</li>
-<li><strong>10:40</strong> 抵达名古屋駅 → 地铁名城線 → 市役所駅 → Nishitetsu Hotel Croom Nagoya 寄存行李（正式check-in约15:00后）</li>
-<li><strong>11:30</strong> 名古屋城（约1.5小时，¥500）</li>
-<li><strong>13:00</strong> 午餐：名古屋コーチン親子丼 (Nagoya Cochin Chicken Oyakodon / 親子丼) ¥1,000–1,800</li>
-<li><strong>14:30</strong> 地铁 → 大须観音駅 → 大须観音 + 大须商业街漫步扭蛋（约1.5小时）</li>
-<li><strong>16:30</strong> 返回酒店check-in，放行李休息</li>
-<li><strong>19:00</strong> 晚餐：矢場とん 味噌猪排 (Misokatsu / 味噌カツ) 名古屋名物！¥1,500–2,500</li>
-</ul>
+<blockquote class="tip"><p>💡 <strong>大阪→名古屋交通：</strong> 新大阪站 (Shin-Osaka) 转乘东海道新干线 (Tokaido Shinkansen) → 名古屋站 (Nagoya Station)。</p><p>📝 <strong>备注：</strong> 若改订 Airbnb，地点要选在<strong>名古屋站 (Nagoya Station) 附近</strong>，方便新干线转乘与前往吉卜力公园/名古屋城。</p></blockquote>
 
-<blockquote class="tip">💡 大阪(USJ)→名古屋全程约需1小时50分（含转乘），实际班次请出发前在 Navitime / Google Maps 查询确认，此为估算时间。</blockquote></div></details>
-<details class="day"><summary>Day 5 · Sep 13 (Sun) — ★ 吉卜力公园 (Ghibli Park) 全日游！✅ 门票已购</summary><div class="day-body"><blockquote class="">✅ <strong>门票已购买：O-Sanpo Day Pass Standard（大さんぽ券スタンダード）· 土日祝票</strong></blockquote>
-<blockquote class="">Lead participant: CHIN　·　Date: 13 Sep 2026 10:00（= 吉卜力大倉庫指定入场时段）</blockquote>
-<blockquote class=""></blockquote>
-<blockquote class=""><strong>Standard 票种只含 3 个区域，与 Premium 不同，请务必留意：</strong></blockquote>
-<blockquote class="">| 区域 | Standard 是否包含 | 备注 |</blockquote>
-<blockquote class="">|------|:---:|------|</blockquote>
-<blockquote class="">| 吉卜力大倉庫 (Ghibli's Grand Warehouse / ジブリの大倉庫) | ✅ | 指定时段入场，本次为 <strong>10:00</strong>，须在11:00前入场 |</blockquote>
-<blockquote class="">| もののけの里 (Mononoke Village / もののけの里) | ✅ | 自由入场至16:30，可体验たたら场、五平饼 (Gohei-mochi) 小吃 |</blockquote>
-<blockquote class="">| 魔女の谷 (Valley of Witches / 魔女の谷) <strong>户外区域</strong> | ✅ | 自由入场，可看哈尔移动城堡巨型模型外观、荻野邸/魔女の家外观拍照 |</blockquote>
-<blockquote class="">| 魔女の谷 <strong>室内建筑</strong>（荻野邸 / 魔女の家 / 哈尔移动城堡内部） | ❌ 不含，需当天现场加购 | 荻野邸¥400 + 魔女の家¥400 + 哈尔移动城堡¥1,000／人，三合一套票¥1,800／人；<strong>数量有限，建议开园后立刻去买，售完即止，当天无法从Standard升级Premium</strong> |</blockquote>
-<blockquote class="">| 青春の丘 (Hill of Youth / 青春の丘：地球屋 + 猫巴士猫の事務所) | ❌ 不含 | 只能在户外远观，无法入内看猫巴士展示 |</blockquote>
-<blockquote class="">| どんどこ森 (Dondoko Forest / どんどこ森：龙猫の家 + 大龙猫爬网) | ❌ 不含 | 6岁孩子最爱的龙猫爬网设施本次去不了，提前跟孩子说一声，管理期待值 |</blockquote>
-<blockquote class=""></blockquote>
-<blockquote class="">周末/假日开园时间 <strong>09:00–17:00</strong>。（来源：<a href="https://ghibli-park.jp/ticket/" target="_blank">吉卜力公园官方购票页</a> · <a href="https://ghiblipark.guide/en/osanpo-daypass.html" target="_blank">O-Sanpo Day Pass Standard/Premium 对比指南</a>）</blockquote>
+<details class="day"><summary>Day 4 · Sep 12 (Sat) — 大阪→名古屋 · 名古屋城 + 大须</summary><div class="day-body"><details class="poi"><summary>📍 🚄 大阪 → 名古屋</summary><div class="poi-body"><blockquote class="tip"><p>💡 大阪(USJ)→名古屋全程约需1小时50分（含转乘），实际班次请出发前在 Navitime / Google Maps 查询确认，此为估算时间。</p><p>💡 行李也可以不自己带，改用宅急便直送 Nishitetsu Hotel Croom Nagoya，约¥1,200–2,000/件。</p></blockquote>
 
-<div class="table-wrap"><table><thead><tr><th>区域</th><th>亮点</th><th>6岁适合度</th><th>参考链接</th></tr></thead><tbody><tr><td>吉卜力大倉庫 (Ghibli's Grand Warehouse / ジブリの大倉庫)</td><td>千与千寻 (Spirited Away / 千と千尋の神隠し) 场景 + 魔女宅急便 (Kiki's / 魔女の宅急便) 工作室 + 迷你剧场</td><td>⭐⭐⭐</td><td><a href="https://www.instagram.com/reel/DUHPorpEwMw/?igsh=dGQ0MnpoazVobGxo" target="_blank">千与千寻世界</a></td></tr>
-<tr><td>もののけの里 (Mononoke Village / もののけの里)</td><td>山间聚落造景 + たたら场 + 五平饼小吃</td><td>⭐⭐</td><td>—</td></tr>
-<tr><td>魔女の谷户外 (Valley of Witches Outdoor / 魔女の谷)</td><td>哈尔移动城堡 (Howl's Moving Castle / ハウルの動く城) 巨型模型！必拍全家福！</td><td>⭐⭐⭐</td><td>—</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>08:30</td><td>Hotel Universal Port Vita退房</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>09:00</td><td>酒店 → ユニバーサルシティ駅 → JR夢咲線/大阪環状線 → 新大阪駅 (Shin-Osaka Station / 新大阪駅)</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Hotel+Universal+Port+Vita%2C+Osaka&destination=Shin-Osaka+Station%2C+Osaka&travelmode=transit" target="_blank">📍</a></td><td>约30分 ¥400</td><td>—</td></tr>
+<tr><td>09:45</td><td>新大阪駅 → 名古屋駅 (Nagoya Station / 名古屋駅)，新干线 Nozomi (Shinkansen Nozomi / のぞみ)</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Shin-Osaka+Station%2C+Osaka&destination=Nagoya+Station%2C+Nagoya&travelmode=transit" target="_blank">📍</a></td><td>约50分 ¥6,680/人</td><td>—</td></tr>
+<tr><td>10:40</td><td>抵达名古屋駅 → 地铁名城線 → 市役所駅 → Nishitetsu Hotel Croom Nagoya 寄存行李（正式check-in约15:00后）</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Nagoya+Station%2C+Nagoya&destination=Nishitetsu+Hotel+Croom+Nagoya%2C+Nagoya&travelmode=transit" target="_blank">📍</a></td><td>—</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🏯 名古屋城 (Nagoya Castle / 名古屋城)</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>11:30</td><td>名古屋城，金鯱 (Kinshachi / 金鯱) + 本丸御殿 (Honmaru Palace / 本丸御殿) 精美屏风画（约1.5小时）</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Nishitetsu+Hotel+Croom+Nagoya%2C+Nagoya&destination=Nagoya+Castle%2C+Nagoya&travelmode=transit" target="_blank">📍</a></td><td>¥500</td><td>—</td></tr>
+<tr><td>13:00</td><td>午餐：名古屋コーチン親子丼 (Nagoya Cochin Chicken Oyakodon / 親子丼)</td><td>—</td><td>¥1,000–1,800</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🛍 大须商业街 (Osu Shopping Street / 大須商店街)</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>14:30</td><td>地铁 → 大须観音駅 → 大须観音 (Osu Kannon Temple / 大須観音，香烟袅袅・鸽子成群) + 大须商业街漫步扭蛋 (Gashapon / ガシャポン)（约1.5小时）</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Nagoya+Castle%2C+Nagoya&destination=Osu+Kannon+Temple%2C+Nagoya&travelmode=transit" target="_blank">📍</a></td><td>扭蛋¥200–500</td><td>—</td></tr>
+<tr><td>16:30</td><td>返回酒店check-in，放行李休息</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Osu+Kannon+Temple%2C+Nagoya&destination=Nishitetsu+Hotel+Croom+Nagoya%2C+Nagoya&travelmode=walking" target="_blank">📍</a></td><td>—</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🍽 晚餐</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>19:00</td><td>晚餐：矢場とん 味噌猪排 (Misokatsu / 味噌カツ) 名古屋名物</td><td>—</td><td>¥1,500–2,500</td><td>—</td></tr></tbody></table></div></div></details>
+</div></details>
+<details class="day"><summary>Day 5 · Sep 13 (Sun) — ★ 吉卜力公园 (Ghibli Park) 全日游！✅ 门票已购</summary><div class="day-body"><blockquote class=""><p>✅ 门票已购买：O-Sanpo Day Pass Standard（大さんぽ券スタンダード）· 土日祝票 · Lead participant: CHIN · Date: 13 Sep 2026 10:00（= 吉卜力大倉庫指定入场时段）</p><p>Standard 票种只含 3 个区域，与 Premium 不同：</p><p>✅ 含：吉卜力大倉庫（指定时段 <strong>10:00</strong> 入场，须11:00前）· もののけの里（自由入场至16:30，たたら场+五平饼小吃）· 魔女の谷户外（自由入场，哈尔城堡巨型模型+荻野邸/魔女の家外观拍照）</p><p>❌ 不含：魔女の谷室内建筑（荻野邸¥400+魔女の家¥400+哈尔城堡¥1,000，三合一¥1,800/人，需当天现场加购，数量有限售完即止，当天无法从Standard升级Premium）· 青春の丘（只能远观，无法入内看猫巴士）· どんどこ森（6岁孩子最爱的龙猫爬网这次去不了，提前跟孩子说一声）</p><p>周末/假日开园时间 <strong>09:00–17:00</strong>，此日为星期日正常营业。（来源：<a href="https://ghibli-park.jp/ticket/" target="_blank">吉卜力公园官方购票页</a> · <a href="https://ghiblipark.guide/en/osanpo-daypass.html" target="_blank">O-Sanpo Day Pass Standard/Premium 对比指南</a>）</p></blockquote>
+<details class="poi"><summary>📍 🚃 前往吉卜力公园</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>08:20</td><td>酒店出发，步行3分→久屋大通駅 (Hisaya-odori / 久屋大通駅)→地铁东山线 (Higashiyama Line / 東山線) 约25分→藤が丘駅 (Fujigaoka Station / 藤が丘駅) 换乘リニモ (Linimo Maglev / リニモ) 约13分→愛・地球博記念公園駅→步行→吉卜力公园入口（全程约40分钟）</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Nishitetsu+Hotel+Croom+Nagoya%2C+Nagoya&destination=Ghibli+Park%2C+Nagoya&travelmode=transit" target="_blank">📍</a></td><td>¥580</td><td>—</td></tr>
+<tr><td>09:00</td><td>抵达吉卜力公园，开园入场</td><td>—</td><td>—</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🏰 魔女の谷 (Valley of Witches / 魔女の谷)</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>09:05</td><td>★ 第一件事：前往魔女の谷建筑售票处排队/领号码券，购买荻野邸+魔女の家+哈尔移动城堡三合一同日票（数量有限，售完即止！）</td><td>—</td><td>¥1,800/人</td><td><a href="http://xhslink.com/o/8M7eMFU8aC7" target="_blank">排队实拍（小红书）</a></td></tr>
+<tr><td>09:30</td><td>魔女の谷户外拍照：哈尔移动城堡 (Howl's Moving Castle / ハウルの動く城) 巨型模型、荻野邸/魔女の家外观，必拍全家福！</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>13:30</td><td>（依号码券叫号时间）返回魔女の谷，凭同日票进入荻野邸 + 魔女の家 + 哈尔移动城堡室内</td><td>—</td><td>—</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 📦 吉卜力大倉庫 (Ghibli's Grand Warehouse / ジブリの大倉庫)</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>10:00</td><td>★ 吉卜力大倉庫入场（票根指定时段，须11:00前入场），千与千寻 (Spirited Away / 千と千尋の神隠し) 场景 + 魔女宅急便 (Kiki's / 魔女の宅急便) 工作室 + 迷你剧场</td><td>—</td><td>—</td><td><a href="https://www.instagram.com/reel/DUHPorpEwMw/?igsh=dGQ0MnpoazVobGxo" target="_blank">千与千寻参考</a></td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 ⛰ もののけの里 (Mononoke Village / もののけの里)</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>11:30</td><td>山间聚落造景，たたら场 + 五平饼小吃</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>12:30</td><td>园内午餐</td><td>—</td><td>¥1,500–2,500</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🎁 返回酒店 / 晚餐</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>15:30</td><td>纪念品店扫货（大倉庫内 or 魔女の谷礼品店）</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>16:00</td><td>返回酒店（约40分钟）</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Ghibli+Park%2C+Nagoya&destination=Nishitetsu+Hotel+Croom+Nagoya%2C+Nagoya&travelmode=transit" target="_blank">📍</a></td><td>—</td><td>—</td></tr>
+<tr><td>17:00</td><td>酒店休息！孩子今天会很累很开心</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>19:00</td><td>晚餐：ひつまぶし 鳗鱼饭 (Hitsumabushi Eel Rice / ひつまぶし) or 世界の山ちゃん 手羽先 (Tebasaki Chicken Wings / 手羽先)</td><td>—</td><td>¥2,000–5,000</td><td>—</td></tr></tbody></table></div></div></details>
+</div></details>
+<div class="city-group">京都 (Kyoto / 京都) — Sep 14–16 (Mon–Wed) · Day 6–7 · 2晚</div>
+<div class="hotel-intro"><p class="hotel-name">🏨 <strong>酒店：Rinn Kyoto Station</strong></p><details class="hotel-addr"><summary>📍 地址 / 联系方式 ▾</summary><div class="hotel-addr-body"><p>📍 京都市下京区北不動堂町522 (522 Kitafudodocho, Shimogyo Ward, Kyoto)</p><p>京都站步行约10分钟（约500m）· 四星 · 31间客房</p></div></details></div>
 
-<p><strong>交通路线（去吉卜力公园）：</strong></p>
+<blockquote class="tip"><p>💡 <strong>位置优势：</strong> 酒店距京都站步行约10分钟，所有 JR / 新干线 / 大部分地铁巴士的起点都在京都站，行李寄放、退房当天直接搭车去嵐山或大阪依然方便，只是不像正对车站出口那样零距离。</p></blockquote>
 
-<pre><code>
-酒店 步行3分
-→ 久屋大通駅 (Hisaya-odori / 久屋大通駅)
-→ 地铁东山线 (Higashiyama Line / 東山線) 约25分 ¥290
-→ 藤が丘駅 (Fujigaoka Station / 藤が丘駅) 换乘
-→ リニモ (Linimo Maglev / リニモ) 约13分 ¥290
-→ 愛・地球博記念公園駅 (Expo Memorial Park Station)
-→ 步行 → ★ 吉卜力公园入口
-</code></pre>
+<details class="day"><summary>Day 6 · Sep 14 (Mon) — 名古屋→京都 · 清水寺 + 伏见稻荷</summary><div class="day-body"><details class="poi"><summary>📍 🚄 名古屋 → 京都</summary><div class="poi-body"><blockquote class="tip"><p>💡 名古屋→京都新干线只需35分钟，比原本大阪出发更快，抵达时间更早，一天下来更从容。</p></blockquote>
 
-<p><strong>行程建议（Standard 票专用排序：先抢建筑同日票，再赶10:00大倉庫时段）：</strong></p>
-
-<ul>
-<li><strong>08:20</strong> 酒店出发（地铁+リニモ 全程约40分钟）</li>
-<li><strong>09:00</strong> 抵达吉卜力公园，开园入场</li>
-<li><strong>09:05</strong> ★ <strong>第一件事：前往魔女の谷建筑售票处排队/领号码券</strong>，购买荻野邸+魔女の家+哈尔移动城堡三合一同日票 ¥1,800/人（数量有限，售完即止！）</li>
-<li><strong>09:30</strong> 魔女の谷户外拍照：哈尔移动城堡巨型模型、荻野邸/魔女の家外观</li>
-<li><strong>10:00</strong> ★ 吉卜力大倉庫入场（票根指定时段，须11:00前入场）</li>
-<li><strong>11:30</strong> もののけの里：たたら场 + 五平饼小吃</li>
-<li><strong>12:30</strong> 园内午餐 ¥1,500–2,500</li>
-<li><strong>13:30</strong>（依号码券叫号时间）返回魔女の谷，凭同日票进入荻野邸 + 魔女の家 + 哈尔移动城堡室内</li>
-<li><strong>15:30</strong> 纪念品店扫货（大倉庫内 or 魔女の谷礼品店）</li>
-<li><strong>16:00</strong> 返回酒店（约40分钟）</li>
-<li><strong>17:00</strong> 酒店休息！孩子今天会很累很开心！</li>
-<li><strong>19:00</strong> 晚餐：ひつまぶし 鳗鱼饭 (Hitsumabushi Eel Rice / ひつまぶし) or 世界の山ちゃん 手羽先 (Tebasaki Chicken Wings / 手羽先) ¥2,000–5,000</li>
-</ul>
-
-<p>📌 参考：<a href="https://ghibli-park.jp/ticket/" target="_blank">吉卜力公园官方购票页</a> · <a href="https://ghiblipark.guide/en/osanpo-daypass.html" target="_blank">O-Sanpo Day Pass Standard/Premium 对比指南</a> · <a href="http://xhslink.com/o/fngG3DGLEY" target="_blank">📹 吉卜力攻略（小红书）</a> · <a href="https://www.instagram.com/reel/DUHPorpEwMw/?igsh=dGQ0MnpoazVobGxo" target="_blank">📹 千与千寻世界</a> · <a href="http://xhslink.com/o/8M7eMFU8aC7" target="_blank">魔女の谷建筑同日票排队实拍（小红书）</a></p>
-
-<blockquote class="warn">⚠️ 门票已购，无需再抢票。✅ 此日为星期日，吉卜力公园正常营业（09:00–17:00）。6岁孩子看不到龙猫爬网和猫巴士（Standard不含青春の丘/どんどこ森），但大倉庫的千寻场景和魔女の谷的哈尔城堡巨型模型依然很震撼！</blockquote></div></details>
-<details class="day"><summary>Day 6 · Sep 14 (Mon) — 名古屋→京都 · 清水寺 + 伏见稻荷</summary><div class="day-body"><div class="table-wrap"><table><thead><tr><th>景点</th><th>费用</th><th>亲子适合度</th><th>参考链接</th></tr></thead><tbody><tr><td>清水寺 (Kiyomizudera Temple / 清水寺)</td><td>¥500</td><td>⭐⭐⭐ 清水舞台 · 音羽の滝许愿</td><td><a href="https://www.instagram.com/reels/DSZz8BNRlri/" target="_blank">清水寺影片</a></td></tr>
-<tr><td>三年坂 (Sanneizaka / 産寧坂) + 二年坂 (Nineizaka / 二寧坂)</td><td>免费</td><td>⭐⭐⭐ 石板坡道漫步 · 纪念品</td><td>—</td></tr>
-<tr><td>伏见稻荷大社 (Fushimi Inari Taisha / 伏見稲荷大社) 千本鸟居</td><td>免费</td><td>⭐⭐⭐ 孩子爱穿越！只走前段20分钟即可</td><td>—</td></tr>
-<tr><td>京都拉面小路 (Kyoto Ramen Koji / 京都拉麺小路) 晚餐</td><td>¥1,000–1,500</td><td>⭐⭐⭐ 就在京都站10楼，8间人气拉面店任选，回酒店超方便</td><td>—</td></tr></tbody></table></div>
-
-<p><strong>行程建议：</strong></p>
-
-<ul>
-<li><strong>08:00</strong> Nishitetsu Hotel Croom Nagoya退房，行李可自己带着走（京都新酒店步行约10分钟可达，不必寄宅急便）</li>
-<li><strong>08:30</strong> 酒店 → 名古屋駅，地铁名城線（约10分 ¥210）</li>
-<li><strong>09:00</strong> 名古屋駅 → <strong>京都駅 (Kyoto Station / 京都駅)</strong>，新干线 Nozomi（约35分 ¥5,610/人）</li>
-<li><strong>09:35</strong> 抵达京都站 → 步行约10分钟（约500m）→ Rinn Kyoto Station 寄存行李（正式check-in约15:00后）</li>
-<li><strong>09:55</strong> 京都站中央口/烏丸口 → 清水道 (Kiyomizumichi / 清水道) 巴士站，市巴士100/206号（约20分 ¥230）</li>
-<li><strong>10:25</strong> 清水寺 · 清水舞台 (Kiyomizu Stage / 清水の舞台) · 音羽の滝 (Otowa Waterfall / 音羽の滝) 三流水许愿</li>
-<li><strong>11:25</strong> 三年坂 + 二年坂石板坡道漫步</li>
-<li><strong>12:40</strong> 祗園一带午餐，京都定食 (Kyoto Teishoku / 京都定食) ¥1,200–2,000</li>
-<li><strong>14:00</strong> 步行至京阪祇園四条駅 → 伏见稻荷駅，京阪本線 (Keihan Main Line / 京阪本線)（约15分 ¥270）· 只走前段千本鸟居！</li>
-<li><strong>15:30</strong> 伏见稻荷駅 → 京都駅，<strong>JR奈良線直達</strong>（约5分 ¥150，超近！）</li>
-<li><strong>15:45</strong> 返回酒店 check-in，放行李休息</li>
-<li><strong>19:00</strong> 京都拉面小路晚餐（京都站内10楼，走回房间只要几分钟）</li>
-</ul>
-
-<blockquote class="tip">💡 名古屋→京都新干线只需35分钟，比原本大阪出发更快，抵达时间更早，一天下来更从容。</blockquote>
+<div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>08:00</td><td>Nishitetsu Hotel Croom Nagoya退房</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>08:30</td><td>酒店 → 名古屋駅，地铁名城線</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Nishitetsu+Hotel+Croom+Nagoya%2C+Nagoya&destination=Nagoya+Station%2C+Nagoya&travelmode=transit" target="_blank">📍</a></td><td>约10分 ¥210</td><td>—</td></tr>
+<tr><td>09:00</td><td>名古屋駅 → 京都駅 (Kyoto Station / 京都駅)，新干线 Nozomi</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Nagoya+Station%2C+Nagoya&destination=Kyoto+Station%2C+Kyoto&travelmode=transit" target="_blank">📍</a></td><td>约35分 ¥5,610/人</td><td>—</td></tr>
+<tr><td>09:35</td><td>抵达京都站 → 步行约10分钟（约500m）→ Rinn Kyoto Station 寄存行李（正式check-in约15:00后）</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Kyoto+Station%2C+Kyoto&destination=Rinn+Kyoto+Station%2C+Kyoto&travelmode=walking" target="_blank">📍</a></td><td>—</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 ⛩️ 清水寺 (Kiyomizudera Temple / 清水寺)</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>09:55</td><td>京都站中央口/烏丸口 → 清水道 (Kiyomizumichi / 清水道) 巴士站，市巴士100/206号</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=Kiyomizudera%2C+Kyoto&travelmode=transit" target="_blank">📍</a></td><td>约20分 ¥230</td><td><a href="https://www.instagram.com/reels/DSZz8BNRlri/" target="_blank">清水寺影片</a></td></tr>
+<tr><td>10:25</td><td>清水寺 · 清水舞台 (Kiyomizu Stage / 清水の舞台) · 音羽の滝 (Otowa Waterfall / 音羽の滝) 三流水许愿</td><td>—</td><td>¥500</td><td>—</td></tr>
+<tr><td>11:25</td><td>三年坂 (Sanneizaka / 産寧坂) + 二年坂 (Nineizaka / 二寧坂) 石板坡道漫步，纪念品</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>12:40</td><td>祗園一带午餐，京都定食 (Kyoto Teishoku / 京都定食)</td><td>—</td><td>¥1,200–2,000</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🦊 伏见稻荷大社 (Fushimi Inari Taisha / 伏見稲荷大社)</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>14:00</td><td>步行至京阪祇園四条駅 → 伏见稻荷駅，京阪本線 (Keihan Main Line / 京阪本線)，千本鸟居只走前段20分钟即可，孩子爱穿越！</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Kiyomizudera%2C+Kyoto&destination=Fushimi+Inari+Taisha%2C+Kyoto&travelmode=transit" target="_blank">📍</a></td><td>约15分 ¥270</td><td>—</td></tr>
+<tr><td>15:30</td><td>伏见稻荷駅 → 京都駅，JR奈良線直達（超近！）</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Fushimi+Inari+Taisha%2C+Kyoto&destination=Kyoto+Station%2C+Kyoto&travelmode=transit" target="_blank">📍</a></td><td>约5分 ¥150</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🍜 返回酒店 / 晚餐</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>15:45</td><td>返回酒店 check-in，放行李休息</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Kyoto+Station%2C+Kyoto&destination=Rinn+Kyoto+Station%2C+Kyoto&travelmode=walking" target="_blank">📍</a></td><td>—</td><td>—</td></tr>
+<tr><td>19:00</td><td>京都拉面小路 (Kyoto Ramen Koji / 京都拉麺小路) 晚餐，8间人气拉面店任选，就在京都站10楼，回酒店超方便</td><td>—</td><td>¥1,000–1,500</td><td>—</td></tr></tbody></table></div>
 
 <p>参考：<a href="https://www.instagram.com/reels/DXJr-HJAGsd/" target="_blank">京都参考1</a> · <a href="https://www.instagram.com/reels/DXy4brkTYAl/" target="_blank">京都参考2</a></p></div></details>
-<div class="city-group">京都 (Kyoto / 京都) — Sep 14–16 (Mon–Wed) · Day 6夜–8 · 2晚</div>
-<p><strong>酒店：Rinn Kyoto Station</strong></p>
-<p>📍 京都市下京区北不動堂町522 (522 Kitafudodocho, Shimogyo Ward, Kyoto)</p>
-<p>京都站步行约10分钟（约500m）· 四星 · 31间客房</p>
+</div></details>
+<details class="day"><summary>Day 7 · Sep 15 (Tue) — 🖤 黑猫招财猫 + 💰 御金神社 + 二条城 + 锦市场</summary><div class="day-body"><blockquote class="tip"><p>💡 顺序调整：先去黑猫招财猫（离酒店较远），再往西边逛回市中心，最后在锦市场附近直接吃晚餐——比绕回酒店再出门吃饭更省路程，因为つじや就在锦市场旁边的四条河原町，走路几分钟。</p></blockquote>
+<details class="poi"><summary>📍 🖤 檀王法林寺 · 黑猫招财猫 (Dan-no-Hori-ji Temple / 壇王法林寺)</summary><div class="poi-body"><blockquote class=""><p>📍 地址：京都府京都市左京区川端通三条上る法林寺門前町36 · Google Maps搜"檀王法林寺" 或 "Dan-no-Hori-ji Temple Kyoto" · 开放时间 10:00–16:00，日本唯一黑色招财猫，每只经僧侣开光 (Kaiko / 開眼供養)</p></blockquote>
 
-<blockquote class="tip">💡 <strong>位置优势：</strong> 酒店距京都站步行约10分钟，所有 JR / 新干线 / 大部分地铁巴士的起点都在京都站，行李寄放、退房当天直接搭车去嵐山或大阪依然方便，只是不像正对车站出口那样零距离。</blockquote>
-<details class="day"><summary>Day 7 · Sep 15 (Tue) — 💰 御金神社 + 锦市场 + 🖤 黑猫招财猫 + 二条城</summary><div class="day-body"><div class="table-wrap"><table><thead><tr><th>景点</th><th>费用</th><th>开放时间</th><th>亮点</th><th>参考链接</th></tr></thead><tbody><tr><td>💰 御金神社 (Mikane Jinja / 御金神社)</td><td>免费参拜（福财布¥1,000–2,000）</td><td>10:00–16:00</td><td>日本唯一金箔鸟居！祭金山毘古神，掌管金钱・证券・不动产</td><td><a href="https://www.facebook.com/reel/2319035911954698" target="_blank">御金神社参考</a></td></tr>
-<tr><td>锦市场 (Nishiki Market / 錦市場)</td><td>免费，小食¥200–500</td><td>09:00–18:00</td><td>京都厨房！抹茶 (Matcha / 抹茶)・厚蛋烧 (Tamagoyaki / 厚焼き玉子)・京漬物 (Tsukemono / 京漬物)</td><td>—</td></tr>
-<tr><td>🖤 檀王法林寺 (Dan-no-Hori-ji Temple / 壇王法林寺)</td><td>免费</td><td>10:00–16:00</td><td>日本唯一黑色招财猫！举右手招财+避邪，每只经僧侣开光 (Kaiko / 開眼供養)</td><td><a href="https://www.facebook.com/reel/1426570785269256" target="_blank">黑猫招财猫参考</a></td></tr>
-<tr><td>二条城 (Nijo Castle / 二条城)</td><td>¥1,300 ≈ RM32</td><td>08:45–17:00</td><td>德川家康将军御所 · 走廊会发出鶯鳴声 (Nightingale Floor / 鶯張り)！孩子好奇</td><td>—</td></tr>
-<tr><td>鸭川 (Kamo River / 鴨川) 跳石头</td><td>免费</td><td>全天</td><td>跳石头 (Tobi-ishi / 飛び石)！孩子最开心！完全免费</td><td>—</td></tr>
-<tr><td>🍶 炭火串焼つじや 四条御幸町店 (Sumibi Kushiyaki Tsujiya Shijo-gokomachi) 晚餐</td><td>人均约¥4,800（2人共¥9,660，含3杯酒）</td><td>17:00–24:00（LO 23:00）</td><td>IG爆红炭火串烧居酒屋，几乎每道都好吃，店员友善·线上点餐有翻译，阪急河原町駅步行2分，建议Tabelog线上即时订位（不需电话）</td><td><a href="https://tabelog.com/en/kyoto/A2601/A260201/26020272/" target="_blank">Tabelog订位</a> · <a href="https://www.instagram.com/p/DXwcD1Byf2Y/" target="_blank">IG参考</a></td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>09:00</td><td>酒店 → 京都駅 → 巴士/地铁至三条京阪一带 → 步行前往檀王法林寺</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=Dan-no-Hori-ji+Temple%2C+Kyoto&travelmode=transit" target="_blank">📍</a></td><td>约25分</td><td>—</td></tr>
+<tr><td>09:30</td><td>🖤 檀王法林寺参观黑猫招财猫</td><td>—</td><td>免费</td><td><a href="https://www.facebook.com/reel/1426570785269256" target="_blank">黑猫招财猫参考</a></td></tr>
+<tr><td>10:00</td><td>步行至旁边的鸭川 (Kamo River / 鴨川) 河边，跳石头 (Tobi-ishi / 飛び石)！孩子最开心，完全免费</td><td>—</td><td>免费</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 💰 御金神社 (Mikane Jinja / 御金神社)</summary><div class="poi-body"><blockquote class=""><p>📍 地址：〒604-0042 京都府京都市中京区押西洞院町614 · Google Maps搜"御金神社" 或 "Mikane Jinja Shrine Kyoto" · 开放时间 10:00–16:00</p></blockquote>
 
-<p><strong>行程建议（京都站出发）：</strong></p>
+<div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>10:30</td><td>步行/地铁往西前往御金神社：✔洗钱 (Washing Money / お金を洗う) · ✔买福財布 (Fukuzaifuku Wallet Charm / 福財布) · ✔求银杏御神签 (Ginko Omikuji / 銀杏おみくじ)</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Dan-no-Hori-ji+Temple%2C+Kyoto&destination=Mikane+Jinja%2C+Kyoto&travelmode=transit" target="_blank">📍</a></td><td>约15–20分</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🏯 二条城 (Nijo Castle / 二条城)</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>12:00</td><td>步行约15分（1.2km）→ 二条城，德川家康将军御所，走廊会发出鶯鳴声 (Nightingale Floor / 鶯張り)！孩子好奇（约1.5–2小时）</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Mikane+Jinja%2C+Kyoto&destination=Nijo+Castle%2C+Kyoto&travelmode=walking" target="_blank">📍</a></td><td>¥1,300</td><td>—</td></tr>
+<tr><td>13:45</td><td>步行/地下鉄返回 烏丸御池一带午餐</td><td>—</td><td>¥1,200–2,000</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🥬 锦市场 (Nishiki Market / 錦市場)</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>15:00</td><td>步行约15分或地下鉄1站 → 锦市场试吃，京都厨房！抹茶 (Matcha / 抹茶)・厚蛋烧 (Tamagoyaki / 厚焼き玉子)・京漬物 (Tsukemono / 京漬物)</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Nijo+Castle%2C+Kyoto&destination=Nishiki+Market%2C+Kyoto&travelmode=walking" target="_blank">📍</a></td><td>¥200–500</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🍶 晚餐：炭火串焼つじや 四条御幸町店</summary><div class="poi-body"><blockquote class=""><p>📍 地址：京都府京都市下京区四条御幸町下ル大寿町400（阪急河原町駅步行2分，就在锦市场旁边）· 电话：075-371-5825 · 建议用 <a href="https://tabelog.com/en/kyoto/A2601/A260201/26020272/" target="_blank">Tabelog</a> 线上即时订位，不需打电话 · 营业 17:00–24:00（LO 23:00）</p></blockquote>
 
-<ul>
-<li><strong>09:00</strong> 酒店 → 京都駅 → 地下鉄烏丸線 (Karasuma Line / 烏丸線) → <strong>烏丸御池駅 (Karasuma-Oike Station / 烏丸御池駅)</strong>（约8分 ¥260）</li>
-<li><strong>09:15</strong> 步行约8分（0.6km）→ <strong>御金神社</strong></li>
-<li>✔ 记得洗钱 (Washing Money / お金を洗う)！</li>
-<li>✔ 买福財布 (Fukuzaifuku Wallet Charm / 福財布)！</li>
-<li>✔ 求银杏御神签 (Ginko Omikuji / 銀杏おみくじ)！</li>
-<li><strong>10:15</strong> 步行约15分（1.2km）→ <strong>二条城</strong>（约1.5–2小时）</li>
-<li><strong>12:30</strong> 步行/地下鉄返回 烏丸御池一带午餐 ¥1,200–2,000</li>
-<li><strong>13:30</strong> 步行约15分或地下鉄1站 → <strong>锦市场</strong> 试吃</li>
-<li><strong>14:30</strong> 巴士/步行约25分 → <strong>🖤 檀王法林寺</strong>（10:00–16:00开放，注意时间）</li>
-<li><strong>15:30</strong> 步行至旁边的 <strong>鸭川</strong>河边，孩子跳石头！</li>
-<li><strong>16:00</strong> 步行/公交至 <strong>四条河原町 (Shijo Kawaramachi)</strong> 一带（约15–20分钟），逛逛消化</li>
-<li><strong>16:45</strong> 抵达 🍶 <strong>炭火串焼つじや 四条御幸町店</strong> 排队，17:00开门，建议提早到场或提前用 Tabelog 订位（IG博主4:45到场为第二组，顺利吃到第一轮）</li>
-<li><strong>17:00</strong> 晚餐：炭火串焼つじや，几乎每道都好吃，店员友善·线上点餐有翻译，建议先用 <a href="https://tabelog.com/en/kyoto/A2601/A260201/26020272/" target="_blank">Tabelog</a> 线上即时订位（不需电话）</li>
-<li><strong>18:30</strong> 步行至阪急/京阪 <strong>河原町駅</strong> → 巴士或地铁转乘 → <strong>京都駅</strong>，返回酒店休息，整理行李（明天嵐山一日游）</li>
-</ul>
+<div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>16:30</td><td>步行至四条河原町 (Shijo Kawaramachi) 一带（锦市场走过去约5–10分钟），逛逛消化</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Nishiki+Market%2C+Kyoto&destination=Shijo+Kawaramachi%2C+Kyoto&travelmode=walking" target="_blank">📍</a></td><td>—</td><td>—</td></tr>
+<tr><td>16:45</td><td>抵达炭火串焼つじや排队，17:00开门（IG博主4:45到场为第二组，顺利吃到第一轮）</td><td>—</td><td>—</td><td><a href="https://www.instagram.com/p/DXwcD1Byf2Y/" target="_blank">IG参考</a></td></tr>
+<tr><td>17:00</td><td>晚餐：几乎每道都好吃，原隻烧鱿鱼/扇贝/大虾/多春鱼/刺身拼盘</td><td>—</td><td>人均约¥4,800</td><td><a href="https://tabelog.com/en/kyoto/A2601/A260201/26020272/" target="_blank">Tabelog订位</a></td></tr>
+<tr><td>18:30</td><td>步行至阪急/京阪河原町駅 → 巴士或地铁转乘 → 京都駅，返回酒店休息，整理行李（明天返回大阪）</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Shijo+Kawaramachi%2C+Kyoto&destination=Rinn+Kyoto+Station%2C+Kyoto&travelmode=transit" target="_blank">📍</a></td><td>—</td><td>—</td></tr></tbody></table></div></div></details>
+</div></details>
+<div class="city-group">大阪第二段 (Osaka · Sep 16–21 (Wed–Mon) · Day 8–13)</div>
+<div class="hotel-intro"><p class="hotel-name">🏨 <strong>酒店：Miyako City Osaka Hommachi (都シティ大阪本町)</strong></p><details class="hotel-addr"><summary>📍 地址 / 联系方式 ▾</summary><div class="hotel-addr-body"><p>📍 大阪市中央区 (Chuo-ku / 中央区)</p><p>最近站：本町駅 (Hommachi Station / 本町駅) 地铁中央线 / 御堂筋线，步行约3分钟</p></div></details></div>
 
-<blockquote class="">📍 <strong>黑猫招财猫地址：</strong> 京都府京都市左京区川端通三条上る法林寺門前町36</blockquote>
-<blockquote class="">Google Maps搜："檀王法林寺" 或 "Dan-no-Hori-ji Temple Kyoto"</blockquote>
-<blockquote class="">📍 <strong>御金神社地址：</strong> 〒604-0042 京都府京都市中京区押西洞院町614</blockquote>
-<blockquote class="">Google Maps搜："御金神社" 或 "Mikane Jinja Shrine Kyoto"</blockquote>
-<blockquote class="">📍 <strong>炭火串焼つじや 四条御幸町店 地址：</strong> 京都府京都市下京区四条御幸町下ル大寿町400（阪急河原町駅步行2分）</blockquote>
-<blockquote class="">电话：075-371-5825 · 建议用 <a href="https://tabelog.com/en/kyoto/A2601/A260201/26020272/" target="_blank">Tabelog</a> 线上即时订位，不需打电话</blockquote>
+<details class="day"><summary>Day 8 · Sep 16 (Wed) — 京都退房 → 返回大阪！</summary><div class="day-body"><blockquote class="tip"><p>💡 原本的嵐山竹林+嵯峨野小火车+保津川游船一日游对6岁孩子来说太累（详见「可选景点」），这天改成轻松的退房+移动+休息日，不用赶早。</p></blockquote>
+<details class="poi"><summary>📍 🚄 京都 → 大阪</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>10:00</td><td>酒店退房，不用赶早，从容收拾</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>10:30</td><td>京都駅 → 大阪駅/新大阪駅，JR新快速 (JR Shinkaisoku / 新快速)</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=Osaka+Station%2C+Osaka&travelmode=transit" target="_blank">📍</a></td><td>约55分 ¥570/人</td><td>—</td></tr>
+<tr><td>11:30</td><td>抵达大阪 → 地铁御堂筋线 (Midosuji Line / 御堂筋線) → 本町駅 (Hommachi Station / 本町駅)，酒店寄放行李（正式check-in约15:00后）</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Osaka+Station%2C+Osaka&destination=Hommachi+Station%2C+Osaka&travelmode=transit" target="_blank">📍</a></td><td>约15分 ¥280</td><td>—</td></tr>
+<tr><td>12:00</td><td>酒店附近午餐，随意找家店慢慢吃，不赶行程</td><td>—</td><td>¥1,000–1,500</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🌳 靭公园 (Utsubo Park / 靱公園) · 晚餐</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>15:00</td><td>正式check-in，放行李休息</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>16:00</td><td>步行约10分钟到靭公园，大草地+玫瑰园，本町最近的绿地，孩子可以自由跑跳放电，不赶时间</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=Utsubo+Park%2C+Osaka&travelmode=walking" target="_blank">📍</a></td><td>免费</td><td>—</td></tr>
+<tr><td>18:30</td><td>酒店附近晚餐，早点休息，明天开始大阪第二段正式行程</td><td>—</td><td>¥1,500–2,500</td><td>—</td></tr></tbody></table></div></div></details>
+</div></details>
+<details class="day"><summary>Day 9 · Sep 17 (Thu) — 🐬 Noah Dolphin Dome 看海豚 + Abeno Harukas 展望台</summary><div class="day-body"><details class="poi"><summary>📍 🐬 Noah Dolphin Dome (ノア ドルフィン ドーム)</summary><div class="poi-body"><blockquote class="tip"><p>💡 交通：南海电铁堺駅出站后徒步约10分钟即达，中途只需在难波转乘1次，不用打车，路线简单！</p><p>💡 表演时间：官网只公布"训练参观一天4次+喂食体验"，没有固定整点时刻表，喂食体验要现场或官网预约（最多可提前1小时），到场后务必先查当日时刻表。</p></blockquote>
 
-<p>参考：<a href="https://www.facebook.com/reel/1301844568384717" target="_blank">京都庙宇参考</a> · <a href="https://tabelog.com/en/kyoto/A2601/A260201/26020272/" target="_blank">Tsujiya Tabelog订位</a> · <a href="https://www.instagram.com/p/DXwcD1Byf2Y/" target="_blank">Tsujiya IG参考</a></p></div></details>
-<details class="day"><summary>Day 8 · Sep 16 (Wed) — 嵐山竹林 + 嵯峨野小火车 → 大阪！</summary><div class="day-body"><div class="table-wrap"><table><thead><tr><th>景点</th><th>费用</th><th>亲子适合度</th><th>参考链接</th></tr></thead><tbody><tr><td>竹林之道 (Bamboo Grove / 竹林の道)</td><td>免费</td><td>⭐⭐⭐ 早晨人少，光线最美！</td><td><a href="https://www.instagram.com/reels/DXLxzw_ji8a/" target="_blank">嵐山隐藏路线</a></td></tr>
-<tr><td>野宮神社 (Nonomiya Shrine / 野宮神社)</td><td>免费</td><td>⭐⭐ 小红鸟居，祈愿学业/缘分</td><td>—</td></tr>
-<tr><td>天龙寺 (Tenryu-ji Temple / 天龍寺)</td><td>¥500</td><td>⭐⭐⭐ 世界遗产禅庭・曹源池庭园 (Sogen-chi Garden / 曹源池庭園)</td><td>—</td></tr>
-<tr><td>⚠️ 嵯峨野小火车 (Sagano Scenic Railway / 嵯峨野トロッコ鉄道)</td><td>大人¥880 / 儿童¥440</td><td>⭐⭐⭐ 穿越保津川峡谷 (Hozu River Gorge / 保津峡)！约25分 · 必坐！</td><td><a href="https://sagano-kanko.co.jp" target="_blank">小火车预约官网</a> · <a href="https://www.instagram.com/reels/DXs5gfxidkD/" target="_blank">岚山全天体验</a></td></tr>
-<tr><td>🐴 保津川马车 (Horse Carriage / 馬車)</td><td>约¥500–800/人</td><td>⭐⭐ 龟岡站外乘搭前往乘船处，日本怀旧感！</td><td>—</td></tr>
-<tr><td>🛶 保津川游船 (Hozugawa River Boat Ride / 保津川下り)</td><td>大人约¥4,100 / 儿童约¥3,100</td><td>⭐⭐⭐ 传统木船顺流而下约2小时，沿途峡谷+急流，超疗愈！</td><td><a href="https://www.instagram.com/reels/DVBqeyjk_Z4/" target="_blank">游船参考1</a> · <a href="https://www.instagram.com/reel/DZjVb4qzpli/?igsh=MWJycm43bzBmenkxeQ==" target="_blank">参考2</a> · <a href="https://www.instagram.com/reel/DXrRBtFkQo0/?igsh=MWJrMDFjbW80cXM0dQ==" target="_blank">参考3</a></td></tr>
-<tr><td>渡月桥 (Togetsu-kyo Bridge / 渡月橋)</td><td>免费</td><td>⭐⭐⭐ 嵐山最美地标</td><td>—</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>09:00</td><td>酒店（本町）→ 地铁御堂筋线 (Midosuji Line) → 难波駅 转乘 → 南海本线 (Nankai Main Line / 南海本線) 直达 → 堺駅 (Sakai Station / 堺駅)，出站步行10分</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=Noah+Dolphin+Dome%2C+Osaka&travelmode=transit" target="_blank">📍</a></td><td>全程只1次换乘，约20分 ¥670</td><td><a href="https://www.dolphindome.jp/english-page/" target="_blank">官网</a></td></tr>
+<tr><td>10:00</td><td>🐬 Noah Dolphin Dome（营业 10:00–20:00），海豚表演！可近距离喂海豚，孩子必看！</td><td>—</td><td>成人¥1,210 / 儿童¥770 · 喂食¥1,100</td><td><a href="https://www.xiaohongshu.com/explore/68881ab8000000001c035a05" target="_blank">小红书参考</a></td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🍢 新世界 (Shinsekai / 新世界)</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>12:30</td><td>原路返回：南海本线 → 难波駅（约20分）→ 新世界串炸午餐，大阪庶民美食</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Noah+Dolphin+Dome%2C+Osaka&destination=Shinsekai%2C+Osaka&travelmode=transit" target="_blank">📍</a></td><td>¥1,000–1,500</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🏙 Abeno Harukas 300 展望台 (Abeno Harukas Observatory / あべのハルカス300)</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>14:00</td><td>新世界步行3分即达，关西最高楼60楼！俯瞰大阪全景</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Shinsekai%2C+Osaka&destination=Abeno+Harukas%2C+Osaka&travelmode=walking" target="_blank">📍</a></td><td>¥1,500</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🦀 晚餐 + 🚤 とんぼりリバークルーズ（道顿堀）</summary><div class="poi-body"><blockquote class=""><p>📍 とんぼりリバークルーズ乘船处：太左衛門橋船着场（ドン・キホーテ道頓堀店1楼报到）· 营业11:00–21:00，每半小时一班（每小时00分/30分）· 约20分钟航程</p></blockquote>
 
-<p><strong>行程建议（🎋🚃🐴🛶 三合一完整版 · 京都站出发，回程直接返回大阪）：</strong></p>
+<div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>16:00</td><td>天王寺駅 → 地铁御堂筋线 → 難波・道頓堀方向</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Abeno+Harukas%2C+Osaka&destination=Dotonbori%2C+Osaka&travelmode=transit" target="_blank">📍</a></td><td>约20分</td><td>—</td></tr>
+<tr><td>17:00</td><td>🚤 とんぼりリバークルーズ，坐船游道顿堀川约20分钟，格力高牌从水上看不同角度，孩子会很兴奋</td><td>—</td><td>大人¥2,000 / 小学生¥500 / 学龄前儿童1名免费</td><td>—</td></tr>
+<tr><td>19:00</td><td>道顿堀晚餐，螃蟹道乐 (Kani Doraku / かに道楽) or 一兰拉面 (Ichiran Ramen / 一蘭ラーメン)</td><td>—</td><td>¥3,000–6,000</td><td>—</td></tr></tbody></table></div></div></details>
+</div></details>
+<details class="day"><summary>Day 10 · Sep 18 (Fri) — 住吉大社 + ⛩️ 大鳥大社 + 黑门市场</summary><div class="day-body"><details class="poi"><summary>📍 ⛩️ 住吉大社 (Sumiyoshi Taisha Shrine / 住吉大社)</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>09:30</td><td>酒店 → 地铁 → 难波駅 → 南海高野线 (Nankai Koya Line / 南海高野線) → 住吉大社駅 (Sumiyoshi-taisha Station / 住吉大社駅)</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=Sumiyoshi+Taisha%2C+Osaka&travelmode=transit" target="_blank">📍</a></td><td>约15分 ¥520</td><td>—</td></tr>
+<tr><td>10:00</td><td>住吉大社，朱红太鼓橋 (Taiko-bashi / 太鼓橋) 拱桥，孩子爱走！日本三大住吉社</td><td>—</td><td>免费</td><td><a href="https://www.facebook.com/reel/1631787884660144" target="_blank">大阪庙宇参考</a></td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 ⛩️ 大鳥大社 (Otori Taisha Shrine / 大鳥大社)</summary><div class="poi-body"><blockquote class="tip"><p>💡 跟住吉大社顺路：住吉大社步行5分钟到JR住吉駅，搭JR阪和線继续往南就到鳳駅，同一条线不绕路。</p></blockquote>
 
-<ul>
-<li><strong>07:30</strong> 酒店退房，大件行李寄放酒店前台或京都站宅急便柜台寄至大阪 Miyako City Hommachi（¥1,200–2,000/件），随身包直接出发</li>
-<li><strong>08:00</strong> 京都駅 → <strong>JR嵯峨野線 (山陰本線) 直達</strong>，嵯峨嵐山駅 (Saga-Arashiyama Station / 嵯峨嵐山駅)（约16分 ¥240，比阪急更快更简单，不用转乘！）</li>
-<li><strong>08:20</strong> 🎋 竹林之道（早晨人超少！光线最美！）</li>
-<li><strong>08:50</strong> 野宮神社</li>
-<li><strong>09:20</strong> 天龙寺庭园</li>
-<li><strong>10:30</strong> 步行至 トロッコ嵯峨駅 (Saga-Arashiyama Romantic Train Station / トロッコ嵯峨駅)</li>
-<li><strong>11:00</strong> 🚃 嵯峨野小火车 トロッコ嵯峨駅 → トロッコ亀岡駅 (Kameoka / 亀岡)，约25分，穿越保津川峡谷！</li>
-<li><strong>11:30</strong> 🐴 马车 (Horse Carriage / 馬車) 亀岡站外乘搭 → 保津川游船乘船处，约20分</li>
-<li><strong>12:00</strong> 🛶 保津川游船出发！传统木船顺流而下约2小时，沿途峡谷急流，孩子坐着完全不累！</li>
-<li><strong>14:00</strong> 游船抵达嵐山！渡月桥附近午餐，豆腐料理 (Tofu Cuisine / 豆腐料理) / 抹茶甜品 ¥1,500–2,500</li>
-<li><strong>15:30</strong> 步行回 嵯峨嵐山駅 → <strong>JR嵯峨野線直達 → 京都駅</strong>（约16分 ¥240）</li>
-<li><strong>15:50</strong> 抵达京都站，如寄放行李需取回，稍作休整</li>
-<li><strong>16:20</strong> 京都駅 → <strong>大阪駅/新大阪駅</strong>，JR新快速 (JR Shinkaisoku / 新快速)（约55分 ¥570/人）</li>
-<li><strong>17:15</strong> 抵达大阪 → 地铁御堂筋线 (Midosuji Line / 御堂筋線) → <strong>本町駅 (Hommachi Station / 本町駅)</strong>（约15分 ¥280）</li>
-<li><strong>17:45</strong> Miyako City Osaka Hommachi check-in！大阪第二段开始！</li>
-<li><strong>19:30</strong> 道顿堀晚餐 · 章鱼烧 + 串炸 (Kushikatsu / 串カツ) ¥1,500–2,500 · 欢迎回大阪！</li>
-</ul>
+<div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>11:00</td><td>步行5分钟至JR住吉駅 → JR阪和線 (JR Hanwa Line / 阪和線) 快速 → 鳳駅 (Tori Station / 鳳駅) → 步行约5分，求财灵验神社，透明御守寓意「看见未来」（约40分钟）</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Sumiyoshi+Taisha%2C+Osaka&destination=Otori+Taisha+Shrine%2C+Osaka&travelmode=transit" target="_blank">📍</a></td><td>约15分 ¥230，免费参拜</td><td><a href="https://www.instagram.com/p/DV0ZSqLCWps/" target="_blank">IG参考</a></td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🐟 黑门市场 (Kuromon Ichiba Market / 黒門市場)</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>12:30</td><td>鳳駅 → JR阪和線 → 天王寺駅 → 地铁御堂筋線 → 難波駅，步行至黑门市场，海鲜盖饭・牡蛎・神户牛串炸午餐</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Otori+Taisha+Shrine%2C+Osaka&destination=Kuromon+Ichiba+Market%2C+Osaka&travelmode=transit" target="_blank">📍</a></td><td>约30分 ¥350，餐¥1,500–3,000</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🏮 晚餐：Isaribi 力丸 炉端焼 (いさりび)</summary><div class="poi-body"><blockquote class=""><p>📍 地址：大阪市北区芝田1-5-12 備後屋ビルB1F（梅田站步行约5–8分）· 建议开门前后早到walk-in排队</p></blockquote>
 
-<blockquote class="warn">⚠️ <strong>嵯峨野小火车必须提前网上预约！</strong> <a href="https://sagano-kanko.co.jp" target="_blank">sagano-kanko.co.jp</a> — 9月旺季极快售完！</blockquote>
-<blockquote class="warn">⚠️ <strong>保津川游船也建议提前网上预约！</strong> <a href="https://www.hozugawakudari.jp" target="_blank">hozugawakudari.jp</a> — 9月旺季人多，可网上预订指定日期班次！</blockquote></div></details>
-<div class="city-group">大阪第二段 (Osaka · Sep 16–21 (Wed–Mon) · Day 9–13)</div>
-<p><strong>酒店：Miyako City Osaka Hommachi (都シティ大阪本町)</strong></p>
-<p>📍 大阪市中央区 (Chuo-ku / 中央区)</p>
-<p>最近站：本町駅 (Hommachi Station / 本町駅) 地铁中央线 / 御堂筋线，步行约3分钟</p>
-<details class="day"><summary>Day 9 · Sep 17 (Thu) — 🐬 Noah Dolphin Dome 看海豚 + Abeno Harukas 展望台 + ⛩️ 大鳥大社</summary><div class="day-body"><div class="table-wrap"><table><thead><tr><th>景点</th><th>费用</th><th>亲子适合度</th><th>参考链接</th></tr></thead><tbody><tr><td>🐬 Noah Dolphin Dome (ノア ドルフィン ドーム)</td><td>日场：成人¥1,210 / 儿童¥770 · 6岁以下免费</td><td>⭐⭐⭐ 海豚表演！可近距离喂海豚¥1,100！孩子必看！</td><td><a href="https://www.dolphindome.jp/english-page/" target="_blank">官网</a> · <a href="https://www.xiaohongshu.com/explore/68881ab8000000001c035a05" target="_blank">小红书参考</a></td></tr>
-<tr><td>新世界 (Shinsekai / 新世界) 串炸</td><td>午餐¥1,000–1,500</td><td>⭐⭐⭐ 大阪庶民美食！</td><td>—</td></tr>
-<tr><td>Abeno Harukas 300 展望台 (Abeno Harukas Observatory / あべのハルカス300)</td><td>¥1,500</td><td>⭐⭐⭐ 关西最高楼60楼！俯瞰大阪全景</td><td>—</td></tr>
-<tr><td>⛩️ 大鳥大社 (Otori Taisha Shrine / 大鳥大社)</td><td>免费参拜</td><td>⭐⭐⭐ 求财灵验神社，透明御守寓意「看见未来」</td><td><a href="https://www.instagram.com/p/DV0ZSqLCWps/" target="_blank">IG参考：kesiting_ 大阪必排3大景點</a></td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>18:00</td><td>地铁御堂筋线 (Midosuji Line) 難波駅 → 梅田駅 (Umeda Station / 梅田駅)，无需换乘</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Kuromon+Ichiba+Market%2C+Osaka&destination=Umeda+Station%2C+Osaka&travelmode=transit" target="_blank">📍</a></td><td>直达约10分 ¥240</td><td>—</td></tr>
+<tr><td>18:30</td><td>晚餐：原隻烧鱿鱼/扇贝/大虾/多春鱼/刺身拼盘，串烧每份均一价¥385</td><td>—</td><td>人均约¥2,500–3,000</td><td><a href="https://www.instagram.com/reels/DapivtktrwI/" target="_blank">IG参考</a></td></tr>
+<tr><td>20:30</td><td>地铁御堂筋线梅田駅 → 本町駅返回酒店，无需换乘</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Umeda+Station%2C+Osaka&destination=Hommachi+Station%2C+Osaka&travelmode=transit" target="_blank">📍</a></td><td>直达约10分</td><td>—</td></tr></tbody></table></div></div></details>
+</div></details>
+<details class="day"><summary>Day 11 · Sep 19 (Sat) — 大阪城公园 + 🦁 难波八阪神社 + 心斋桥 + 道顿堀（大阪市区漫步）</summary><div class="day-body"><details class="poi"><summary>📍 🏯 大阪城公园 (Osaka Castle Park / 大阪城公園)</summary><div class="poi-body"><blockquote class="tip"><p>🎡 亲子贴士：建议从森ノ宮駅 (Morinomiya Station) B3出口进入，这侧人潮少、路线舒服，先经过儿童游乐场和大片草地再走向天守阁。公园路面大多平坦，stroller友善，但部分区域有上坡。不必搭园内小火车，带孩子散步慢逛反而更轻松！</p></blockquote>
 
-<p><strong>行程建议（顺路加入大鳥大社，与海遊館/新世界/Harukas同在大阪南侧，不绕路）：</strong></p>
+<div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>09:30</td><td>酒店（本町）→ 地铁中央线 (Chuo Line / 中央線) → 森ノ宮駅 (Morinomiya Station / 森ノ宮駅)，无需换乘</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=Osaka+Castle+Park%2C+Osaka&travelmode=transit" target="_blank">📍</a></td><td>直达约10分 ¥240</td><td>—</td></tr>
+<tr><td>10:00</td><td>大阪城公园 · 先让孩子玩儿童游乐场 (Children's Playground / 遊具エリア)，再慢慢散步向天守阁 (Tenshu / 天守閣)，历史+大草地</td><td>—</td><td>公园免费 · 天守阁¥600</td><td><a href="https://www.instagram.com/reel/DWTpQMEE8lR/?igsh=MzE2dGI5bXBjZ3Q1" target="_blank">大阪城省力攻略</a></td></tr>
+<tr><td>12:00</td><td>公园内野餐 or 日式定食 (Teishoku / 定食)</td><td>—</td><td>¥1,000–1,500</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🐟 黑门市场 (Kuromon Ichiba Market / 黒門市場)</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>13:30</td><td>地铁中央线 → 谷町四丁目駅 (Tanimachi 4-chome) 转乘谷町线 (Tanimachi Line) → 谷町九丁目駅 (Tanimachi 9-chome)，步行5分，边走边吃午后小食</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Osaka+Castle+Park%2C+Osaka&destination=Kuromon+Ichiba+Market%2C+Osaka&travelmode=transit" target="_blank">📍</a></td><td>小食¥200–800</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🦁 难波八阪神社 (Namba Yasaka Shrine / 難波八阪神社)</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>14:30</td><td>步行10分（0.8km），巨型狮子头神殿 (Giant Lion Head / 舞台)！孩子超震撼！</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Kuromon+Ichiba+Market%2C+Osaka&destination=Namba+Yasaka+Shrine%2C+Osaka&travelmode=walking" target="_blank">📍</a></td><td>免费</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🛍 心斋桥筋 (Shinsaibashi-suji / 心斎橋筋)</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>15:30</td><td>步行/地铁 → 心斋桥筋 · 唐吉诃德 (Don Quijote / ドン・キホーテ) 药妆购物</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Namba+Yasaka+Shrine%2C+Osaka&destination=Shinsaibashi%2C+Osaka&travelmode=walking" target="_blank">📍</a></td><td>—</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🎏 道顿堀 (Dotonbori / 道頓堀)</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>17:30</td><td>格力高牌 (Glico Man / グリコサイン) 必拍！章鱼烧 (Takoyaki / たこ焼き)</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Shinsaibashi%2C+Osaka&destination=Dotonbori%2C+Osaka&travelmode=walking" target="_blank">📍</a></td><td>—</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🥩 晚餐：焼肉南大門 (Yakiniku Osaka Nandaimon / 焼肉 南大門)</summary><div class="poi-body"><blockquote class=""><p>📍 地址：大阪市中央区東心斎橋1-8-15 · 📞 06-6252-2989</p><p>⚠️ 营业时间：Mon/Thu/Fri 17:00–23:30 · Sat 16:00–23:30 · Sun 16:00–23:00 · 周三公休！今天周六正常营业。</p></blockquote>
 
-<ul>
-<li><strong>09:00</strong> 酒店（本町）→ 地铁御堂筋线 (Midosuji Line) → <strong>难波駅</strong> 转乘 → 南海本线 (Nankai Main Line / 南海本線) 直达 → <strong>堺駅 (Sakai Station / 堺駅)</strong>（全程只需1次换乘，约20分 ¥670）→ 出站步行10分 → 🐬 Noah Dolphin Dome</li>
-<li><strong>10:00</strong> 🐬 <strong>Noah Dolphin Dome</strong>（日场 成人¥1,210 / 儿童¥770，营业 10:00–20:00）· 可加购喂海豚体验 ¥1,100！</li>
-<li><strong>12:30</strong> 原路返回：南海本线 → 难波駅（约20分）→ <strong>新世界 (Shinsekai)</strong> 串炸午餐</li>
-<li><strong>14:00</strong> <strong>Abeno Harukas 300 展望台</strong>（新世界步行3分，¥1,500）</li>
-<li><strong>15:30</strong> 天王寺駅 → JR阪和線 (JR Hanwa Line / 阪和線) 快速 → <strong>鳳駅 (Tori Station / 鳳駅)</strong>（约20分 ¥230）→ 步行约5分 → <strong>⛩️ 大鳥大社</strong>（求财参拜 + 透明御守，约40分钟，免费参拜）</li>
-<li><strong>16:30</strong> 鳳駅 → JR阪和線 → 天王寺駅（约20分）→ 地铁御堂筋线 → 難波・道頓堀方向</li>
-<li><strong>19:00</strong> 道顿堀晚餐，螃蟹道乐 (Kani Doraku / かに道楽) ¥3,000–6,000 or 一兰拉面 (Ichiran Ramen / 一蘭ラーメン)</li>
-</ul>
+<div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>18:30</td><td>步行回本町区域，和牛！4.5⭐，最方便的一晚</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Dotonbori%2C+Osaka&destination=Yakiniku+Nandaimon%2C+Osaka&travelmode=walking" target="_blank">📍</a></td><td>¥3,000–5,000/人</td><td><a href="https://www.instagram.com/reel/DXEp-mrSl8J/?igsh=MWhicnB6bTNla3ZveA==" target="_blank">烧肉参考影片</a></td></tr></tbody></table></div></div></details>
+</div></details>
+<details class="day"><summary>Day 12 · Sep 20 (Sun) — 🙏 勝尾寺 达摩祈福 + 大阪最后漫步 + 最终大采购</summary><div class="day-body"><blockquote class=""><p>🎆 可选（可去可不去）：第5回 水都くらわんか花火大会，淀川河川公園 枚方会場・高槻会場（预定），Sep 20 (Sun) 15:00–20:00，烟火+无人机表演 19:10 开始。⚠️ 与当天"返回酒店整理行李 + 最后晚餐"计划时间冲突，且会场离本町有一段车程，若要去需重新调整17:30后的行程。</p></blockquote>
+<details class="poi"><summary>📍 🙏 勝尾寺 (Katsuo-ji Temple / 勝尾寺)</summary><div class="poi-body"><blockquote class=""><p>⏰ 来回车程约需2.5–3小时（含参拝），一早出发才不影响下午采购和晚上收行李。周末バス班次较少，建议出发前用阪急バス官网/Google Maps确认时刻表。</p></blockquote>
 
-<blockquote class="tip">💡 Noah Dolphin Dome 交通：南海电铁堺駅出站后徒步约10分钟即达，中途只需在难波转乘1次，不用打车，路线简单！</blockquote>
-<blockquote class="tip">💡 心斋桥筋/美国村购物已挪到 Day 10、11、12，Day 9 改走大鳥大社，行程不重复也不绕路。</blockquote></div></details>
-<details class="day"><summary>Day 10 · Sep 18 (Fri) — 住吉大社 + 难波八阪神社 + 黑门市场</summary><div class="day-body"><div class="table-wrap"><table><thead><tr><th>景点</th><th>费用</th><th>亲子适合度</th><th>参考链接</th></tr></thead><tbody><tr><td>住吉大社 (Sumiyoshi Taisha Shrine / 住吉大社)</td><td>免费</td><td>⭐⭐⭐ 朱红太鼓橋 (Taiko-bashi / 太鼓橋) 拱桥，孩子爱走！日本三大住吉社</td><td><a href="https://www.facebook.com/reel/1631787884660144" target="_blank">大阪庙宇参考</a></td></tr>
-<tr><td>难波八阪神社 (Namba Yasaka Shrine / 難波八阪神社)</td><td>免费</td><td>⭐⭐⭐ 巨型狮子头神殿 (Giant Lion Head / 舞台)！孩子超震撼！</td><td>—</td></tr>
-<tr><td>黑门市场 (Kuromon Ichiba Market / 黒門市場)</td><td>午餐¥1,500–3,000</td><td>⭐⭐⭐ 海鲜盖饭・牡蛎・神户牛串炸</td><td>—</td></tr>
-<tr><td>🏮 Isaribi 力丸 炉端焼 (いさりび)</td><td>串烧每份均一价¥385，人均约¥2,500–3,000</td><td>⭐⭐⭐ IG爆红爐端燒居酒屋，气氛好性价比高，原隻烧鱿鱼/扇贝/大虾/多春鱼/刺身拼盘</td><td><a href="https://www.instagram.com/reels/DapivtktrwI/" target="_blank">IG参考</a></td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>07:00</td><td>酒店（本町）→ 地铁御堂筋线／北大阪急行 (Midosuji Line / Kita-Osaka Kyuko Line) 直達 → 箕面萱野駅 (Minoh-Kayano Station / 箕面萱野駅)</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=Minoh-Kayano+Station%2C+Osaka&travelmode=transit" target="_blank">📍</a></td><td>约45分 ¥400左右</td><td>—</td></tr>
+<tr><td>07:50</td><td>8番乗り場搭 阪急巴士 勝尾寺行き</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Minoh-Kayano+Station%2C+Osaka&destination=Katsuo-ji+Temple%2C+Osaka&travelmode=transit" target="_blank">📍</a></td><td>约20–25分 ¥300–400</td><td>—</td></tr>
+<tr><td>08:15</td><td>抵达勝尾寺（周日8:00开门），满山不倒翁达摩，找个角落放上自己的小达摩许愿，约1.5小时</td><td>—</td><td>拝観料 大人¥500／儿童¥400</td><td><a href="https://www.instagram.com/p/DV0ZSqLCWps/" target="_blank">IG参考</a></td></tr>
+<tr><td>09:45</td><td>巴士返回 箕面萱野駅</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Katsuo-ji+Temple%2C+Osaka&destination=Minoh-Kayano+Station%2C+Osaka&travelmode=transit" target="_blank">📍</a></td><td>约25分</td><td>—</td></tr>
+<tr><td>10:15</td><td>地铁御堂筋线／北大阪急行 → 本町</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Minoh-Kayano+Station%2C+Osaka&destination=Hommachi+Station%2C+Osaka&travelmode=transit" target="_blank">📍</a></td><td>约45分</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🍙 Onigiri Gorichan 難波店（おにぎりごりちゃん）</summary><div class="poi-body"><blockquote class=""><p>📍 地址：大阪府大阪市中央区南船場3-5-28 富士大樓 南船場1F · 营业时间 08:00–21:00 · 只收现金</p></blockquote>
 
-<p><strong>行程建议：</strong></p>
+<div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>11:00</td><td>IG爆红人气饭团，吃到剩1/3可加免费高汤做茶泡饭，当早午餐/点心</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Hommachi+Station%2C+Osaka&destination=Onigiri+Gorichan+Namba%2C+Osaka&travelmode=walking" target="_blank">📍</a></td><td>—</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🛍 心斋桥筋 + 美国村</summary><div class="poi-body"><blockquote class="tip"><p>💡 黑门市场这次不排了（Day 10 已经去过一次，避免重复），午餐直接在心斋桥/美国村一带找店吃。</p></blockquote>
 
-<ul>
-<li><strong>09:30</strong> 酒店 → 地铁 → 难波駅 → 南海高野线 (Nankai Koya Line / 南海高野線) → <strong>住吉大社駅 (Sumiyoshi-taisha Station / 住吉大社駅)</strong>（约15分 ¥520）</li>
-<li><strong>10:00</strong> 住吉大社（太鼓桥！免费！）</li>
-<li><strong>11:30</strong> 返回难波 → 步行10分（0.8km）→ <strong>难波八阪神社</strong>（巨型狮子头！免费！）</li>
-<li><strong>12:30</strong> 步行8分（0.7km）→ 黑门市场午餐</li>
-<li><strong>14:30</strong> 心斋桥筋购物！唐吉诃德大采购！</li>
-<li><strong>16:30</strong> 道顿堀傍晚散步，格力高牌再拍留念！</li>
-<li><strong>18:00</strong> 地铁御堂筋线 (Midosuji Line) 心斋桥駅 → <strong>梅田駅 (Umeda Station / 梅田駅)</strong>（直达约10分 ¥240，无需换乘）</li>
-<li><strong>18:30</strong> 🏮 晚餐：<strong>Isaribi 力丸 炉端焼 (いさりび)</strong> 📍大阪市北区芝田1-5-12 備後屋ビルB1F（梅田站步行约5–8分）· IG爆红爐端燒居酒屋！原隻烧鱿鱼⭐️/烧扇贝⭐️/烧大虾⭐️/烧多春鱼⭐️/炸鸡皮⭐️/刺身拼盘⭐️，串烧每份均一价¥385，人均约¥2,500–3,000 · 建议开门前后早到walk-in排队，人气位置很快满 · <a href="https://www.instagram.com/reels/DapivtktrwI/" target="_blank">IG参考</a></li>
-<li><strong>20:30</strong> 地铁御堂筋线梅田駅 → <strong>本町駅</strong>返回酒店（直达约10分，无需换乘）</li>
-</ul></div></details>
-<details class="day"><summary>Day 11 · Sep 19 (Sat) — 大阪城公园 + 黑门市场 + 心斋桥 + 道顿堀（大阪市区漫步）</summary><div class="day-body"><div class="table-wrap"><table><thead><tr><th>景点</th><th>费用</th><th>亲子适合度</th><th>参考链接</th></tr></thead><tbody><tr><td>大阪城公园 (Osaka Castle Park / 大阪城公園) + 天守阁 (Tenshu / 天守閣)</td><td>公园免费 · 天守阁¥600</td><td>⭐⭐⭐ 历史+大草地+儿童游乐场</td><td><a href="https://www.instagram.com/reel/DWTpQMEE8lR/?igsh=MzE2dGI5bXBjZ3Q1" target="_blank">大阪城省力攻略</a> · <a href="https://www.instagram.com/reels/DUh7htiE6lH/" target="_blank">亲子入园指南</a></td></tr>
-<tr><td>黑门市场 (Kuromon Ichiba Market / 黒門市場)</td><td>免费入场，小食¥200–800</td><td>⭐⭐⭐ 边走边吃</td><td>—</td></tr>
-<tr><td>心斋桥筋 (Shinsaibashi-suji / 心斎橋筋)</td><td>免费</td><td>⭐⭐ 购物药妆</td><td>—</td></tr>
-<tr><td>道顿堀 (Dotonbori / 道頓堀)</td><td>免费</td><td>⭐⭐⭐ 格力高牌 (Glico Man / グリコサイン) 必拍！</td><td>—</td></tr>
-<tr><td>🥩 焼肉南大門 (Yakiniku Osaka Nandaimon / 焼肉 南大門)</td><td>约¥3,000–5,000/人</td><td>⭐⭐⭐ 和牛！4.5⭐</td><td><a href="https://www.instagram.com/reel/DXEp-mrSl8J/?igsh=MWhicnB6bTNla3ZveA==" target="_blank">烧肉参考影片</a> · <a href="https://www.instagram.com/reel/DW6Hq5Dk3PM/?igsh=MWtkcTZpc2ZtNThlOQ==" target="_blank">参考2</a></td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>12:00</td><td>步行/地铁前往心斋桥筋，找家店吃午餐</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Onigiri+Gorichan+Namba%2C+Osaka&destination=Shinsaibashi%2C+Osaka&travelmode=walking" target="_blank">📍</a></td><td>¥1,500–3,000</td><td>—</td></tr>
+<tr><td>13:00</td><td>最终大采购！唐吉诃德零食・药妆・伴手礼 (Omiyage / お土産)</td><td>—</td><td>—</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🎏 道顿堀 (Dotonbori / 道頓堀)</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>16:00</td><td>最后傍晚散步，格力高牌最后合照！</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Shinsaibashi%2C+Osaka&destination=Dotonbori%2C+Osaka&travelmode=walking" target="_blank">📍</a></td><td>—</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🧳 收行李 / 最后晚餐</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>17:30</td><td>返回酒店整理行李（明天退房飞KIX）</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Dotonbori%2C+Osaka&destination=Miyako+City+Osaka+Hommachi%2C+Osaka&travelmode=walking" target="_blank">📍</a></td><td>—</td><td>—</td></tr>
+<tr><td>19:00</td><td>最后晚餐，大阪烧 + 章鱼烧</td><td>—</td><td>¥1,500–2,500</td><td>—</td></tr></tbody></table></div></div></details>
+</div></details>
+<details class="day"><summary>Day 13 · Sep 21 (Mon) — 最后早晨 → ✈ KIX 20:55 起飞！</summary><div class="day-body"><details class="poi"><summary>📍 🛍 心斋桥・道顿堀 最后漫步</summary><div class="poi-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>09:00</td><td>Miyako City Osaka Hommachi 退房，行李寄存前台</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>09:30</td><td>心斋桥 / 道顿堀 最后早晨漫步，人少最安静！格力高牌无人时拍摄！</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=Dotonbori%2C+Osaka&travelmode=walking" target="_blank">📍</a></td><td>—</td><td>—</td></tr>
+<tr><td>10:30</td><td>心斋桥筋最后扫货：药妆・抹茶点心 (Matcha Sweets / 抹茶スイーツ)・固力果棒 (Pocky / ポッキー)！</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>12:00</td><td>最后大阪饭！难波附近章鱼烧 + 大阪烧</td><td>—</td><td>¥1,000–1,500</td><td>—</td></tr></tbody></table></div></div></details>
+<details class="poi"><summary>📍 🧳 前往机场</summary><div class="poi-body"><blockquote class=""><p>⭐ 退ICOCA卡！JR绿色窗口 (Midori no Madoguchi / みどりの窓口) · ¥500押金 + 余额全退！务必退！</p><p>💡 建议起飞前3小时到KIX（即16:55前），机场T1免税店多，留1小时购物！</p></blockquote>
 
-<p><strong>行程建议（本町酒店出发，比原本更顺路）：</strong></p>
-
-<ul>
-<li><strong>09:30</strong> 酒店（本町）→ 地铁中央线 (Chuo Line / 中央線) → <strong>森ノ宮駅 (Morinomiya Station / 森ノ宮駅)</strong>（直达约10分 ¥240，无需换乘！）</li>
-<li><strong>10:00</strong> 大阪城公园 · 先让孩子玩<strong>儿童游乐场 (Children's Playground / 遊具エリア)</strong>，再慢慢散步向天守阁（¥600）</li>
-<li><strong>12:00</strong> 公园内野餐 or 日式定食 (Teishoku / 定食) ¥1,000–1,500</li>
-<li><strong>13:30</strong> 地铁中央线 → <strong>谷町四丁目駅 (Tanimachi 4-chome)</strong> 转乘谷町线 (Tanimachi Line) → <strong>谷町九丁目駅 (Tanimachi 9-chome)</strong>，步行5分 → 黑门市场午后小食</li>
-<li><strong>15:00</strong> 步行/地铁 → 心斋桥筋 · 唐吉诃德 (Don Quijote / ドン・キホーテ) 药妆</li>
-<li><strong>17:30</strong> 道顿堀 · 格力高牌必拍！章鱼烧 (Takoyaki / たこ焼き)</li>
-<li><strong>18:30</strong> 🥩 晚餐：焼肉南大門 📍 大阪市中央区東心斎橋1-8-15（步行回本町区域，最方便的一晚！）</li>
-</ul>
-
-<blockquote class="tip">🎡 <strong>大阪城公园亲子贴士：</strong> 建议从<strong>森ノ宮駅 (Morinomiya Station)</strong> B3出口进入，这侧人潮少、路线舒服，先经过儿童游乐场和大片草地再走向天守阁。公园路面大多平坦，stroller友善，但部分区域有上坡。不必搭园内小火车，带孩子散步慢逛反而更轻松，景色也更多！</blockquote>
-
-<blockquote class="warn">⚠️ 南大門营业时间：Mon/Thu/Fri 17:00–23:30 · Sat 16:00–23:30 · Sun 16:00–23:00 · <strong>周三公休！今天周六正常营业。</strong></blockquote>
-<blockquote class="">📞 电话：06-6252-2989</blockquote></div></details>
-<details class="day"><summary>Day 12 · Sep 20 (Sun) — 🙏 勝尾寺 达摩祈福 + 大阪最后漫步 + 最终大采购</summary><div class="day-body"><div class="table-wrap"><table><thead><tr><th>景点</th><th>费用</th><th>亲子适合度</th><th>参考链接</th></tr></thead><tbody><tr><td>🙏 勝尾寺 (Katsuo-ji Temple / 勝尾寺)</td><td>参拝料 大人¥500 / 儿童¥400</td><td>⭐⭐⭐ 满山满谷不倒翁达摩，可自己藏一个小达摩许愿，超好拍</td><td><a href="https://www.instagram.com/p/DV0ZSqLCWps/" target="_blank">IG参考：kesiting_ 大阪必排3大景點</a></td></tr></tbody></table></div>
-
-<p><strong>行程建议（一早先去勝尾寺，回程再接原定黑门市场+采购）：</strong></p>
-
-<ul>
-<li><strong>07:00</strong> 酒店（本町）→ 地铁御堂筋线／北大阪急行 (Midosuji Line / Kita-Osaka Kyuko Line) 直達 → <strong>箕面萱野駅 (Minoh-Kayano Station / 箕面萱野駅)</strong>（约45分 ¥400左右）</li>
-<li><strong>07:50</strong> 8番乗り場搭 <strong>阪急巴士 勝尾寺行き</strong>（约20–25分 ¥300–400）</li>
-<li><strong>08:15</strong> 抵达 <strong>🙏 勝尾寺</strong>（周日8:00开门，拝観料 大人¥500／儿童¥400），满山不倒翁达摩，找个角落放上自己的小达摩许愿，约1.5小时</li>
-<li><strong>09:45</strong> 巴士返回 箕面萱野駅（约25分）</li>
-<li><strong>10:15</strong> 地铁御堂筋线／北大阪急行 → <strong>本町</strong>（约45分）</li>
-<li><strong>11:00</strong> 🍙 <strong>Onigiri Gorichan 難波店（おにぎりごりちゃん）</strong>，IG爆红人气饭团 Google评分4.9⭐，吃到剩1/3可加免费高汤做茶泡饭，当早午餐/点心（营业08:00–21:00，<strong>只收现金</strong>）</li>
-<li><strong>12:00</strong> 步行/地铁 → <strong>黑门市场</strong> 午餐，海鲜盖饭 (Kaisendon / 海鮮丼) ¥1,500–3,000</li>
-<li><strong>14:00</strong> 心斋桥筋 + 美国村最终大采购！唐吉诃德零食・药妆・伴手礼 (Omiyage / お土産) 打包！</li>
-<li><strong>16:00</strong> 道顿堀最后傍晚散步，格力高牌最后合照！</li>
-<li><strong>17:30</strong> 返回酒店整理行李（明天退房飞KIX）</li>
-<li><strong>19:00</strong> 最后晚餐，大阪烧 + 章鱼烧 ¥1,500–2,500</li>
-</ul>
-
-<blockquote class="">⏰ 勝尾寺来回车程约需2.5–3小时（含参拝），一早出发才不影响下午采购和晚上收行李。周末バス班次较少，建议出发前用阪急バス官网/Google Maps确认时刻表。</blockquote>
-
-<blockquote class="">📍 <strong>Onigiri Gorichan 難波店 地址：</strong> 大阪府大阪市中央区南船場3-5-28 富士大樓 南船場1F</blockquote>
-<blockquote class="">营业时间 08:00–21:00 · 只收现金 · <a href="https://www.instagram.com/p/DbLbDdjJCbZ/" target="_blank">IG参考</a></blockquote>
-
-<blockquote class="">🎆 <strong>可选（可去可不去）：第5回 水都くらわんか花火大会</strong></blockquote>
-<blockquote class="">📍 淀川河川公園 枚方会場・高槻会場（预定）· 📅 <strong>Sep 20 (Sun)</strong> 15:00–20:00，烟火+无人机表演 19:10 开始 · 打上数4,877发</blockquote>
-<blockquote class="warn">⚠️ 与当天"返回酒店整理行李 + 最后晚餐"计划时间冲突，且会场离本町有一段车程，若要去需重新调整17:30后的行程（收拾行李可提前到下午做，或隔天早上出发前再赶）</blockquote>
-<blockquote class="">官网：<a href="https://suito-kurawanka.jp/" target="_blank">suito-kurawanka.jp</a> · <a href="https://www.instagram.com/p/DWkrwpPD4tp/" target="_blank">IG参考</a></blockquote></div></details>
-<details class="day"><summary>Day 13 · Sep 21 (Mon) — 最后早晨 → ✈ KIX 20:55 起飞！</summary><div class="day-body"><div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>费用</th></tr></thead><tbody><tr><td>09:00</td><td>Miyako City Osaka Hommachi 退房，行李寄存前台</td><td>—</td></tr>
-<tr><td>09:30</td><td>心斋桥 / 道顿堀 最后早晨漫步，人少最安静！格力高牌无人时拍摄！</td><td>—</td></tr>
-<tr><td>10:30</td><td>心斋桥筋最后扫货：药妆・抹茶点心 (Matcha Sweets / 抹茶スイーツ)・固力果棒 (Pocky / ポッキー)！</td><td>—</td></tr>
-<tr><td>12:00</td><td>最后大阪饭！难波附近章鱼烧 + 大阪烧</td><td>¥1,000–1,500</td></tr>
-<tr><td>14:00</td><td>取行李 + 补购伴手礼</td><td>—</td></tr>
-<tr><td>16:30</td><td>步行 → 难波駅 (Namba Station / 難波駅) → 南海电铁 Rapi:t (Nankai Rapi:t / ラピート) → KIX</td><td>¥1,450 · 约38分</td></tr>
-<tr><td>18:00</td><td>抵达 KIX，值机 (Check-in)・托运・安检・免税店 (Duty Free / 免税店) 购物</td><td>—</td></tr>
-<tr><td>建议</td><td>⭐ <strong>退ICOCA卡！</strong> JR绿色窗口 (Midori no Madoguchi / みどりの窓口) · ¥500押金 + 余额全退！务必退！</td><td>—</td></tr>
-<tr><td>20:55</td><td>✈ 起飞！→ JB Senai Airport (JHB) · 次日 08:10 抵达 🎉</td><td>—</td></tr></tbody></table></div>
-
-<blockquote class="tip">💡 建议起飞前3小时到KIX（即16:55前），机场T1免税店多，留1小时购物！</blockquote></div></details>
-<details class="day optional"><summary>🗺 可选景点 & 延伸行程（点击展开）</summary><div class="day-body"><blockquote class="">以下景点不在主行程内，供参考和日后规划用。行程确定后再决定是否加入。</blockquote>
+<div class="table-wrap"><table><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>14:00</td><td>返回酒店取行李 + 补购伴手礼</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Shinsaibashi%2C+Osaka&destination=Miyako+City+Osaka+Hommachi%2C+Osaka&travelmode=walking" target="_blank">📍</a></td><td>—</td><td>—</td></tr>
+<tr><td>16:30</td><td>步行 → 难波駅 (Namba Station / 難波駅) → 南海电铁 Rapi:t (Nankai Rapi:t / ラピート) → KIX</td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=Kansai+International+Airport%2C+Osaka&travelmode=transit" target="_blank">📍</a></td><td>¥1,450 · 约38分</td><td>—</td></tr>
+<tr><td>18:00</td><td>抵达 KIX，值机 (Check-in)・托运・安检・免税店 (Duty Free / 免税店) 购物</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>20:55</td><td>✈ 起飞！→ JB Senai Airport (JHB) · 次日 08:10 抵达 🎉</td><td>—</td><td>—</td><td>—</td></tr></tbody></table></div></div></details>
+</div></details>
+<details class="day optional"><summary>🗺 可选景点 & 延伸行程（点击展开）</summary><div class="day-body"><blockquote class=""><p>以下景点不在主行程内，供参考和日后规划用。行程确定后再决定是否加入。</p></blockquote>
 
 <hr>
 
 <h3>京都周边延伸（从京都出发的一日游）</h3>
 
-<div class="table-wrap"><table><thead><tr><th>景点</th><th>特色</th><th>交通方式</th><th>所需时间</th><th>参考链接</th></tr></thead><tbody><tr><td>天橋立 (Amanohashidate / 天橋立)</td><td>日本三景之一，松树林沙洲横跨海湾，缆车绝景，可骑脚车 & 搭船慢慢探索</td><td>京都站 (Kyoto Station / 京都駅) 搭 JR特急约2小时 → 天橋立駅 (Amanohashidate Station / 天橋立駅)，步行到缆车</td><td>全天</td><td><a href="https://www.instagram.com/p/DX85i_PTZZu/" target="_blank">天橋立参考</a></td></tr>
+<div class="table-wrap"><table><thead><tr><th>景点</th><th>特色</th><th>交通方式</th><th>所需时间</th><th>参考链接</th></tr></thead><tbody><tr><td>嵐山竹林 + 嵯峨野小火车 + 保津川游船 (Arashiyama Bamboo Grove + Sagano Railway + Hozugawa Boat)</td><td>竹林之道+野宮神社+天龙寺+嵯峨野トロッコ小火车穿越保津峡+保津川游船，体验丰富但一天塞太满，对6岁孩子偏累（多次转乘+长时间坐船），这次先不排进正式行程</td><td>京都駅→JR嵯峨野線→嵯峨嵐山駅约16分¥240；小火车¥880/440另需网上预约；保津川游船¥4,100/3,100另需网上预约</td><td>全天</td><td><a href="https://www.instagram.com/reels/DXLxzw_ji8a/" target="_blank">嵐山隐藏路线</a> · <a href="https://sagano-kanko.co.jp" target="_blank">小火车预约</a> · <a href="https://www.hozugawakudari.jp" target="_blank">游船预约</a></td></tr>
+<tr><td>天橋立 (Amanohashidate / 天橋立)</td><td>日本三景之一，松树林沙洲横跨海湾，缆车绝景，可骑脚车 & 搭船慢慢探索</td><td>京都站 (Kyoto Station / 京都駅) 搭 JR特急约2小时 → 天橋立駅 (Amanohashidate Station / 天橋立駅)，步行到缆车</td><td>全天</td><td><a href="https://www.instagram.com/p/DX85i_PTZZu/" target="_blank">天橋立参考</a></td></tr>
 <tr><td>伊根舟屋 (Ine Fishing Village / 伊根の舟屋)</td><td>京都海边宁静渔村，传统舟屋沿海排列，风景超疗愈，人潮少</td><td>自驾从京都约2小时最方便；也可搭 JR + 巴士前往</td><td>半天～全天</td><td><a href="https://www.instagram.com/reels/DYbZovKs-kB/" target="_blank">伊根参考</a></td></tr>
 <tr><td>西舞鹤 吉原入江 (Nishimaizuru Yoshiwara Cove / 西舞鶴 吉原入江)</td><td>京都北部隐藏版水岸渔村，传统民宅与渔船，气氛宁静，像远离城市的另一个世界</td><td>京都站搭 JR 到西舞鶴駅 (Nishi-Maizuru Station / 西舞鶴駅)，转巴士或步行前往吉原地区</td><td>半天</td><td>—</td></tr></tbody></table></div>
 
-<blockquote class="tip">💡 <strong>天橋立 + 伊根舟屋组合一日游：</strong> 两者相距约40分钟车程，自驾最方便，可以安排在京都的其中一天出发。</blockquote>
+<blockquote class="tip"><p>💡 <strong>天橋立 + 伊根舟屋组合一日游：</strong> 两者相距约40分钟车程，自驾最方便，可以安排在京都的其中一天出发。</p></blockquote>
 
 <hr>
 
@@ -514,7 +386,7 @@ details.day.optional summary { color: var(--upgrade); }
 
 <div class="table-wrap"><table><thead><tr><th>景点</th><th>特色</th><th>交通方式</th><th>所需时间</th><th>参考链接</th></tr></thead><tbody><tr><td>淡路岛二次元之森 (Nijigen no Mori / ニジゲンノモリ)</td><td>进击的巨人 + 火影忍者 + 蜡笔小新 + 勇者斗恶龙主题园区，超刺激飞索体验！</td><td>大阪自驾约1.5小时；或搭高速巴士前往淡路岛（官网有交通指引）</td><td>半天～全天</td><td><a href="https://www.instagram.com/reels/DYPQlmxMwYG/" target="_blank">二次元之森参考</a></td></tr></tbody></table></div>
 
-<blockquote class="tip">💡 勝尾寺、大鳥大社已排入 Day 12 / Day 9 正式行程（见下方对应日期），参考来源：<a href="https://www.instagram.com/p/DV0ZSqLCWps/" target="_blank">IG kesiting_「日本大阪必排3大景點」</a></blockquote>
+<blockquote class="tip"><p>💡 勝尾寺、大鳥大社已排入 Day 12 / Day 10 正式行程（见下方对应日期），参考来源：<a href="https://www.instagram.com/p/DV0ZSqLCWps/" target="_blank">IG kesiting_「日本大阪必排3大景點」</a></p></blockquote>
 
 <hr>
 
@@ -534,43 +406,24 @@ details.day.optional summary { color: var(--upgrade); }
 <tr><td>Aoniyoshi 特急指定席 (Limited Express Reserved Seat)</td><td>¥700–1,000</td></tr>
 <tr><td>每人合计</td><td>约¥2,000–2,500 ≈ RM60–80</td></tr></tbody></table></div>
 
-<blockquote class="warn">⚠️ 非常热门！建议提前1个月抢票。订票方式：<a href="https://www.kintetsu.co.jp" target="_blank">近铁官网</a> / Klook / KKday / 日本近铁车站柜台</blockquote>
-<blockquote class="">参考：<a href="https://www.instagram.com/reels/DYjwfVRJHXW/" target="_blank">Aoniyoshi参考影片</a></blockquote></div></details>
+<blockquote class="warn"><p>⚠️ 非常热门！建议提前1个月抢票。订票方式：<a href="https://www.kintetsu.co.jp" target="_blank">近铁官网</a> / Klook / KKday / 日本近铁车站柜台</p><p>参考：<a href="https://www.instagram.com/reels/DYjwfVRJHXW/" target="_blank">Aoniyoshi参考影片</a></p></blockquote></div></details>
 </div>
-<div class="tab-panel" id="panel-2"><p class="tab-intro">按城市列出住宿到各景点的步行 / 交通距离参考；地图会画出酒店 → 前两大重点景点的实际路线，点击 🔗 可在 Google 地图查看其他景点的路线。</p>
-<h3>🇲🇾 新山 · Day 0（SEM9 Senai Hotel）</h3>
-<div class="map-embed"><iframe src="https://www.google.com/maps?saddr=SEM9+Senai+Hotel%2C+Johor+Bahru%2C+Malaysia&daddr=%E5%A3%AB%E4%B9%83%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA%2C+Johor+Bahru%2C+Malaysia&dirflg=w&output=embed" loading="lazy" allowfullscreen></iframe></div>
-<p class="map-route-caption">📍 路线：新山 · Day 0（SEM9 Senai Hotel）酒店 → Senai International Airport (士乃国际机场)</p>
-<div class="table-wrap"><table><thead><tr><th>目的地</th><th>距酒店距离</th><th>交通</th></tr></thead><tbody><tr><td>Senai International Airport (士乃国际机场)</td><td><a class="dist-link" href="https://www.google.com/maps/dir/?api=1&origin=SEM9+Senai+Hotel%2C+Johor+Bahru%2C+Malaysia&destination=%E5%A3%AB%E4%B9%83%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA%2C+Johor+Bahru%2C+Malaysia&travelmode=walking" target="_blank" rel="noopener">— 🔗</a></td><td>酒店步行/接驳车可达</td></tr></tbody></table></div><h3>🏯 大阪 · Day 1–3（Hotel Universal Port Vita）</h3>
-<div class="map-embed"><iframe src="https://www.google.com/maps?saddr=Hotel+Universal+Port+Vita%2C+Osaka&daddr=USJ%E5%85%A5%E5%8F%A3%2C+Osaka+to:%E6%B5%B7%E9%81%8A%E9%A4%A8%2C+Osaka&dirflg=w&output=embed" loading="lazy" allowfullscreen></iframe></div>
-<p class="map-route-caption">📍 路线：大阪 · Day 1–3（Hotel Universal Port Vita）酒店 → USJ 入口 (USJ Entrance / USJ入口) → ★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館)</p>
-<div class="table-wrap"><table><thead><tr><th>目的地</th><th>距酒店距离</th><th>交通</th></tr></thead><tbody><tr><td>USJ 入口 (USJ Entrance / USJ入口)</td><td><a class="dist-link" href="https://www.google.com/maps/dir/?api=1&origin=Hotel+Universal+Port+Vita%2C+Osaka&destination=USJ%E5%85%A5%E5%8F%A3%2C+Osaka&travelmode=walking" target="_blank" rel="noopener">0.4km 🔗</a></td><td>步行约5分</td></tr>
-<tr><td>★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館)</td><td><a class="dist-link" href="https://www.google.com/maps/dir/?api=1&origin=Hotel+Universal+Port+Vita%2C+Osaka&destination=%E6%B5%B7%E9%81%8A%E9%A4%A8%2C+Osaka&travelmode=walking" target="_blank" rel="noopener">约0.5km（隔海） 🔗</a></td><td>步行10分至ユニバーサルシティポート → キャプテンライン渡轮约10分</td></tr>
-<tr><td>天保山大摩天轮 (Tempozan Ferris Wheel / 天保山大観覧車)</td><td><a class="dist-link" href="https://www.google.com/maps/dir/?api=1&origin=Hotel+Universal+Port+Vita%2C+Osaka&destination=%E5%A4%A9%E4%BF%9D%E5%B1%B1%E5%A4%A7%E8%A6%B3%E8%A6%A7%E8%BB%8A%2C+Osaka&travelmode=walking" target="_blank" rel="noopener">同上 🔗</a></td><td>渡轮抵达海遊館后步行5分</td></tr></tbody></table></div><h3>🌿 名古屋 · Day 4–6</h3>
-<div class="map-embed"><iframe src="https://www.google.com/maps?saddr=Nishitetsu+Hotel+Croom+Nagoya%2C+Nagoya&daddr=%E3%82%B8%E3%83%96%E3%83%AA%E3%83%91%E3%83%BC%E3%82%AF%2C+Nagoya+to:%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%9F%8E%2C+Nagoya&dirflg=w&output=embed" loading="lazy" allowfullscreen></iframe></div>
-<p class="map-route-caption">📍 路线：名古屋 · Day 4–6酒店 → ★ 吉卜力公园 (Ghibli Park / ジブリパーク) → 名古屋城 (Nagoya Castle / 名古屋城)</p>
-<div class="table-wrap"><table><thead><tr><th>目的地</th><th>距离</th><th>交通</th></tr></thead><tbody><tr><td>★ 吉卜力公园 (Ghibli Park / ジブリパーク)</td><td><a class="dist-link" href="https://www.google.com/maps/dir/?api=1&origin=Nishitetsu+Hotel+Croom+Nagoya%2C+Nagoya&destination=%E3%82%B8%E3%83%96%E3%83%AA%E3%83%91%E3%83%BC%E3%82%AF%2C+Nagoya&travelmode=walking" target="_blank" rel="noopener">15km 🔗</a></td><td>步行3分→久屋大通駅→地铁东山线25分→藤が丘→Linimo 13分 ≈¥580</td></tr>
-<tr><td>名古屋城 (Nagoya Castle / 名古屋城)</td><td><a class="dist-link" href="https://www.google.com/maps/dir/?api=1&origin=Nishitetsu+Hotel+Croom+Nagoya%2C+Nagoya&destination=%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%9F%8E%2C+Nagoya&travelmode=transit" target="_blank" rel="noopener">2.5km 🔗</a></td><td>地铁名城线约10分 ¥210</td></tr>
-<tr><td>大须商业街 (Osu Shopping Street / 大須商店街)</td><td><a class="dist-link" href="https://www.google.com/maps/dir/?api=1&origin=Nishitetsu+Hotel+Croom+Nagoya%2C+Nagoya&destination=%E5%A4%A7%E9%A0%88%E5%95%86%E5%BA%97%E8%A1%97%2C+Nagoya&travelmode=walking" target="_blank" rel="noopener">1.5km 🔗</a></td><td>步行约20分 or 地铁1站 ¥210</td></tr>
-<tr><td>名古屋站 (Nagoya Station / 名古屋駅) 新干线</td><td><a class="dist-link" href="https://www.google.com/maps/dir/?api=1&origin=Nishitetsu+Hotel+Croom+Nagoya%2C+Nagoya&destination=%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%2C+Nagoya&travelmode=transit" target="_blank" rel="noopener">2km 🔗</a></td><td>地铁约8分 ¥210</td></tr>
-<tr><td>热田神宫 (Atsuta Jingu Shrine / 熱田神宮)</td><td><a class="dist-link" href="https://www.google.com/maps/dir/?api=1&origin=Nishitetsu+Hotel+Croom+Nagoya%2C+Nagoya&destination=%E7%86%B1%E7%94%B0%E7%A5%9E%E5%AE%AE%2C+Nagoya&travelmode=transit" target="_blank" rel="noopener">4km 🔗</a></td><td>地铁约15分 ¥240</td></tr></tbody></table></div><h3>⛩️ 京都 · Day 6夜–8（Rinn Kyoto Station）</h3>
-<div class="map-embed"><iframe src="https://www.google.com/maps?saddr=Rinn+Kyoto+Station%2C+Kyoto&daddr=%E6%B8%85%E6%B0%B4%E5%AF%BA%2C+Kyoto+to:%E4%BC%8F%E8%A6%8B%E7%A8%B2%E8%8D%B7%E5%A4%A7%E7%A4%BE%2C+Kyoto&dirflg=r&output=embed" loading="lazy" allowfullscreen></iframe></div>
-<p class="map-route-caption">📍 路线：京都 · Day 6夜–8（Rinn Kyoto Station）酒店 → 清水寺 (Kiyomizudera / 清水寺) → 伏见稻荷大社 (Fushimi Inari Taisha / 伏見稲荷大社)</p>
-<div class="table-wrap"><table><thead><tr><th>目的地</th><th>距酒店距离</th><th>交通</th></tr></thead><tbody><tr><td>清水寺 (Kiyomizudera / 清水寺)</td><td><a class="dist-link" href="https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=%E6%B8%85%E6%B0%B4%E5%AF%BA%2C+Kyoto&travelmode=transit" target="_blank" rel="noopener">4km 🔗</a></td><td>市巴士100/206号 约20分 ¥230</td></tr>
-<tr><td>伏见稻荷大社 (Fushimi Inari Taisha / 伏見稲荷大社)</td><td><a class="dist-link" href="https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=%E4%BC%8F%E8%A6%8B%E7%A8%B2%E8%8D%B7%E5%A4%A7%E7%A4%BE%2C+Kyoto&travelmode=transit" target="_blank" rel="noopener">2km 🔗</a></td><td>JR奈良線 直達2站 约5分 ¥150（超近！）</td></tr>
-<tr><td>锦市场 (Nishiki Market / 錦市場)</td><td><a class="dist-link" href="https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=%E9%8C%A6%E5%B8%82%E5%A0%B4%2C+Kyoto&travelmode=walking" target="_blank" rel="noopener">3km 🔗</a></td><td>地下鉄烏丸線 京都→四条 约5分 ¥220 + 步行5分</td></tr>
-<tr><td>💰 御金神社 (Mikane Jinja / 御金神社)</td><td><a class="dist-link" href="https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=%E5%BE%A1%E9%87%91%E7%A5%9E%E7%A4%BE%2C+Kyoto&travelmode=walking" target="_blank" rel="noopener">2.5km 🔗</a></td><td>地下鉄烏丸線→烏丸御池駅 约8分 ¥260 + 步行8分</td></tr>
-<tr><td>🖤 檀王法林寺 (Dan-no-Hori-ji / 壇王法林寺)</td><td><a class="dist-link" href="https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=%E5%A3%87%E7%8E%8B%E6%B3%95%E6%9E%97%E5%AF%BA%2C+Kyoto&travelmode=walking" target="_blank" rel="noopener">4km 🔗</a></td><td>地下鉄+步行 或 巴士 约25分</td></tr>
-<tr><td>二条城 (Nijo Castle / 二条城)</td><td><a class="dist-link" href="https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=%E4%BA%8C%E6%9D%A1%E5%9F%8E%2C+Kyoto&travelmode=transit" target="_blank" rel="noopener">3.5km 🔗</a></td><td>地下鉄烏丸線→烏丸御池→東西線→二条城前駅 约15分 ¥260</td></tr>
-<tr><td>嵐山 (Arashiyama / 嵐山)</td><td><a class="dist-link" href="https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=%E5%B5%90%E5%B1%B1%2C+Kyoto&travelmode=transit" target="_blank" rel="noopener">10km 🔗</a></td><td>JR嵯峨野線 直達嵯峨嵐山駅 约16分 ¥240（比阪急更快，不用转乘！）</td></tr>
-<tr><td>大阪 / 新大阪</td><td><a class="dist-link" href="https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=%E5%A4%A7%E9%98%AA+%2F+%E6%96%B0%E5%A4%A7%E9%98%AA%2C+Kyoto&travelmode=transit" target="_blank" rel="noopener">0km 🔗</a></td><td>就在同一个京都站，JR新快速直達</td></tr></tbody></table></div><h3>🏯 大阪 · Day 9–13（Miyako City Hommachi）</h3>
-<div class="map-embed"><iframe src="https://www.google.com/maps?saddr=Miyako+City+Osaka+Hommachi%2C+Osaka&daddr=%E6%B5%B7%E9%81%8A%E9%A4%A8%2C+Osaka+to:%E5%BF%83%E6%96%8E%E6%A9%8B%2C+Osaka&dirflg=r&output=embed" loading="lazy" allowfullscreen></iframe></div>
-<p class="map-route-caption">📍 路线：大阪 · Day 9–13（Miyako City Hommachi）酒店 → ★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館) → 心斋桥 (Shinsaibashi / 心斎橋) / 道顿堀 (Dotonbori / 道頓堀)</p>
-<div class="table-wrap"><table><thead><tr><th>目的地</th><th>距离</th><th>交通</th></tr></thead><tbody><tr><td>★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館)</td><td><a class="dist-link" href="https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=%E6%B5%B7%E9%81%8A%E9%A4%A8%2C+Osaka&travelmode=transit" target="_blank" rel="noopener">4km 🔗</a></td><td>地铁中央线约15分 ¥280</td></tr>
-<tr><td>心斋桥 (Shinsaibashi / 心斎橋) / 道顿堀 (Dotonbori / 道頓堀)</td><td><a class="dist-link" href="https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=%E5%BF%83%E6%96%8E%E6%A9%8B%2C+Osaka&travelmode=walking" target="_blank" rel="noopener">1.5km 🔗</a></td><td>步行约18分 or 地铁1站</td></tr>
-<tr><td>天王寺 (Tennoji / 天王寺)</td><td><a class="dist-link" href="https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=%E5%A4%A9%E7%8E%8B%E5%AF%BA%2C+Osaka&travelmode=transit" target="_blank" rel="noopener">3km 🔗</a></td><td>地铁御堂筋线约8分 ¥230</td></tr>
-<tr><td>难波駅 (Namba Station / 難波駅) → KIX</td><td><a class="dist-link" href="https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=%E9%9B%A3%E6%B3%A2%E9%A7%85%2C+Osaka&travelmode=walking" target="_blank" rel="noopener">1.5km 🔗</a></td><td>步行18分 or 地铁1站 → 南海 Rapi:t 38分</td></tr></tbody></table></div></div>
-<div class="tab-panel" id="panel-3"><div class="hotel-card" style="border-left:3px solid var(--gold);">
+<div class="tab-panel" id="panel-2"><pre><code>
+新山 (Johor Bahru) Sep 8–9 (Tue–Wed) · Day 0（出发前一晚）  →  大阪 (Osaka) Sep 9–11 (Wed–Fri) · Day 1–3  →  名古屋 (Nagoya) Sep 12–14 (Sat–Mon) · Day 4–5  →  京都 (Kyoto) Sep 14–16 (Mon–Wed) · Day 6–7  →  大阪 (Osaka) Sep 16–21 (Wed–Mon) · Day 8–13
+</code></pre>
+
+<div class="table-wrap"><table><thead><tr><th>城市</th><th>日程</th><th>晚数</th><th>酒店</th><th>抵达交通</th></tr></thead><tbody><tr><td>🇲🇾 新山 (Johor Bahru / Johor Bahru)</td><td>Sep 8–9 (Tue–Wed) · Day 0</td><td>1晚</td><td>SEM9 Senai Hotel</td><td>出发前一晚过夜，方便隔天早班机</td></tr>
+<tr><td>🏯 大阪 (Osaka / 大阪)</td><td>Sep 9–11 (Wed–Fri) · Day 1–3</td><td>3晚</td><td>Hotel Universal Port Vita</td><td>✈ 抵达 KIX</td></tr>
+<tr><td>🌿 名古屋 (Nagoya / 名古屋)</td><td>Sep 12–14 (Sat–Mon) · Day 4–5</td><td>2晚</td><td>Nishitetsu Hotel Croom Nagoya</td><td>新干线 Nozomi 约50分 ¥6,680/人（经新大阪转乘）</td></tr>
+<tr><td>⛩️ 京都 (Kyoto / 京都)</td><td>Sep 14–16 (Mon–Wed) · Day 6–7</td><td>2晚</td><td>Rinn Kyoto Station</td><td>新干线 Nozomi 约35分 ¥5,610/人</td></tr>
+<tr><td>🏯 大阪 (Osaka / 大阪) 回程</td><td>Sep 16–21 (Wed–Mon) · Day 8–13</td><td>5晚</td><td>Miyako City Osaka Hommachi</td><td>JR新快速 约55分 ¥570</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>景点</th><th>城市</th><th>特色</th><th>费用</th><th>日程</th></tr></thead><tbody><tr><td>★ USJ (Universal Studios Japan / ユニバーサル・スタジオ・ジャパン)</td><td>大阪</td><td>任天堂世界 + 哈利波特 + 小黄人 + 侏罗纪世界</td><td>成人¥10,400 / 儿童¥6,900</td><td>Day 3</td></tr>
+<tr><td>🖤 檀王法林寺 (Dan-no-Hori-ji Temple / 壇王法林寺) 黑猫招财猫</td><td>京都</td><td>日本唯一黑色招财猫，僧侣开光，免费</td><td>免费</td><td>Day 7</td></tr>
+<tr><td>💰 御金神社 (Mikane Jinja / 御金神社) 金箔鸟居</td><td>京都</td><td>日本唯一金箔鸟居，祈财运，福财布</td><td>免费参拜</td><td>Day 7</td></tr>
+<tr><td>★ 吉卜力公园 (Ghibli Park / ジブリパーク)</td><td>名古屋</td><td>✅ <strong>已购票</strong>（大さんぽ券 O-Sanpo Day Pass Standard・土日祝）：吉卜力大倉庫 + もののけの里 + 魔女の谷（户外）3个区域，不含青春の丘 & どんどこ森</td><td>成人¥3,800 / 儿童¥1,900（票根登记：Lead participant CHIN）</td><td>Day 5（★ 已避开周二定休！大倉庫入场时段 10:00）</td></tr>
+<tr><td>★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館)</td><td>大阪</td><td>鲸鲨展缸，关西最震撼水族馆，亲子必去</td><td>成人¥2,700 / 儿童¥1,400</td><td>Day 2</td></tr></tbody></table></div>
+</div>
+<div class="tab-panel" id="panel-3"><div class="hotel-card" style="border-left:3px solid var(--accent);">
 <h3>🎫 订票凭证 / Booking Vouchers</h3>
 <p class="hotel-note">所有酒店入住凭证、门票 PDF 存在私人 Google Drive 文件夹（不公开在此页面，避免订单号/PIN码外泄）：<br><a href="https://drive.google.com/drive/folders/15b3HNyrht43G0Fm6--sdJV9BPMlwAU99?usp=drive_link" target="_blank" rel="noopener">📂 打开 Google Drive 凭证文件夹</a></p>
 <p class="hotel-note" style="font-size:0.8rem;color:#999;">⚠️ 此页面会公开在 GitHub Pages，请确认该 Drive 文件夹的分享权限设置为仅限你自己或指定帐号可开启。</p>
@@ -591,8 +444,8 @@ details.day.optional summary { color: var(--upgrade); }
 </div>
 <div class="hotel-card">
 <h3>Nishitetsu Hotel Croom Nagoya</h3>
-<div class="hotel-meta">⚠️ 需改订 Sep 12–14 · 2晚 · 名古屋市中区 久屋大通 (Hisaya-odori / 久屋大通)</div>
-<p class="hotel-note">地铁东山线直达藤が丘，换Linimo去吉卜力公园 · 原订Sep14–16，需联系酒店改期</p>
+<div class="hotel-meta">✅ 已确认 Sep 12–14 · 2晚 · 名古屋市中区 久屋大通 (Hisaya-odori / 久屋大通)</div>
+<p class="hotel-note">地铁东山线直达藤が丘，换Linimo去吉卜力公园</p>
 <p class="hotel-sub">附近景点参考：</p><div class="table-wrap"><table><thead><tr><th>目的地</th><th>距离</th><th>交通</th></tr></thead><tbody><tr><td>★ 吉卜力公园 (Ghibli Park / ジブリパーク)</td><td>15km</td><td>步行3分→久屋大通駅→地铁东山线25分→藤が丘→Linimo 13分 ≈¥580</td></tr>
 <tr><td>名古屋城 (Nagoya Castle / 名古屋城)</td><td>2.5km</td><td>地铁名城线约10分 ¥210</td></tr>
 <tr><td>大须商业街 (Osu Shopping Street / 大須商店街)</td><td>1.5km</td><td>步行约20分 or 地铁1站 ¥210</td></tr>
@@ -622,53 +475,41 @@ details.day.optional summary { color: var(--upgrade); }
 <tr><td>难波駅 (Namba Station / 難波駅) → KIX</td><td>1.5km</td><td>步行18分 or 地铁1站 → 南海 Rapi:t 38分</td></tr></tbody></table></div>
 </div>
 </div>
-<div class="tab-panel" id="panel-4"><h3>主要景点票价（每人 Per Person）</h3>
+<div class="tab-panel" id="panel-4"><h3>🏨 酒店</h3>
 
-<div class="table-wrap"><table><thead><tr><th>景点</th><th>成人</th><th>儿童</th></tr></thead><tbody><tr><td>★ USJ 1日门票 (Universal Studios Japan)</td><td>¥10,400 ≈ RM310</td><td>¥6,900 ≈ RM205</td></tr>
-<tr><td>USJ Express Pass 4</td><td>¥7,800–14,000</td><td>—</td></tr>
-<tr><td>清水寺 (Kiyomizudera Temple / 清水寺)</td><td>¥500 ≈ RM13</td><td>—</td></tr>
-<tr><td>二条城 (Nijo Castle / 二条城)</td><td>¥1,300 ≈ RM32</td><td>—</td></tr>
-<tr><td>嵯峨野小火车 (Sagano Scenic Railway / 嵯峨野トロッコ鉄道)</td><td>¥880 ≈ RM22</td><td>¥440 ≈ RM11</td></tr>
-<tr><td>天龙寺 (Tenryu-ji / 天龍寺) 庭园</td><td>¥500 ≈ RM13</td><td>—</td></tr>
-<tr><td>★ 吉卜力公园 O-Sanpo Day Pass Standard 土日祝（已购）(Ghibli Park / ジブリパーク)</td><td>¥3,800 ≈ RM95</td><td>¥1,900 ≈ RM48</td></tr>
-<tr><td>└ 魔女の谷建筑三合一同日票（可选加购）</td><td>¥1,800 ≈ RM45／人</td><td>同左</td></tr>
-<tr><td>名古屋城 (Nagoya Castle / 名古屋城)</td><td>¥500 ≈ RM13</td><td>—</td></tr>
-<tr><td>★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館)</td><td>¥2,700 ≈ RM67</td><td>¥1,400 ≈ RM35</td></tr>
-<tr><td>Abeno Harukas 300 展望台</td><td>¥1,500 ≈ RM37</td><td>—</td></tr>
-<tr><td>天保山大摩天轮 (Tempozan Ferris Wheel / 天保山大観覧車)</td><td>¥1,000 ≈ RM25</td><td>—</td></tr>
-<tr><td>🐬 Noah Dolphin Dome (ノア ドルフィン ドーム)</td><td>日场：成人¥1,210 / 儿童¥770 ≈ RM30/RM19</td><td>—</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>项目</th><th>状态</th><th>备注</th></tr></thead><tbody><tr><td>SEM9 Senai Hotel（新山）</td><td>✅ 已订</td><td>Agoda Booking ID: 2031572647</td></tr>
+<tr><td>Hotel Universal Port Vita（大阪 Day 1–3）</td><td>✅ 已订</td><td>—</td></tr>
+<tr><td>Nishitetsu Hotel Croom Nagoya（名古屋）</td><td>✅ 已确认 Sep 12–14</td><td>—</td></tr>
+<tr><td>Rinn Kyoto Station（京都）</td><td>✅ 已确认 Sep 14–16</td><td>—</td></tr>
+<tr><td>Miyako City Osaka Hommachi（大阪 Day 8–13）</td><td>✅ 已订</td><td>—</td></tr></tbody></table></div>
 
-<h3>主要交通费（每人 Per Person）</h3>
+<h3>🚄 交通</h3>
 
-<div class="table-wrap"><table><thead><tr><th>路线</th><th>交通方式</th><th>时间</th><th>费用</th></tr></thead><tbody><tr><td>KIX → 难波 (Namba / 難波)</td><td>南海电铁 Rapi:t (Nankai Rapi:t / ラピート)</td><td>约38分</td><td>¥1,450 ≈ RM36</td></tr>
-<tr><td>大阪 (Osaka/新大阪) → 名古屋 (Nagoya)</td><td>新干线 Nozomi (Shinkansen Nozomi / のぞみ)</td><td>约50分（不含市内转乘）</td><td>¥6,680 ≈ RM166/人</td></tr>
-<tr><td>名古屋 (Nagoya) → 京都 (Kyoto)</td><td>新干线 Nozomi</td><td>约35分</td><td>¥5,610 ≈ RM140/人</td></tr>
-<tr><td>京都 (Kyoto) → 大阪 (Osaka)</td><td>JR新快速 (JR Shinkaisoku / 新快速)</td><td>约55分</td><td>¥570 ≈ RM14</td></tr>
-<tr><td>市内地铁 (Subway / 地下鉄) 单程</td><td>—</td><td>—</td><td>¥210–290 ≈ RM5–7</td></tr>
-<tr><td>名古屋：久屋大通 → 吉卜力公园</td><td>地铁东山线 + リニモ Linimo</td><td>约40分</td><td>¥580</td></tr>
-<tr><td>难波 → KIX</td><td>南海电铁 Rapi:t</td><td>约38分</td><td>¥1,450 ≈ RM36</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>项目</th><th>状态</th><th>备注</th></tr></thead><tbody><tr><td>KUL→JHB 机票 AirAsia AK6032</td><td>✅ 已订</td><td>Booking no. TERWUG</td></tr>
+<tr><td>Day 1 KIX→酒店接驳车（Trip.com）</td><td>⚠️ 待办：补充资料</td><td>需要上车地点/时间、车程、车资，详见 Day 1 行程表</td></tr>
+<tr><td>嵯峨野小火车 / 保津川游船</td><td>🕒 已移出正式行程</td><td>改列入「可选景点」，如临时想加回来才需要提前1–2个月预约</td></tr>
+<tr><td>ICOCA交通卡</td><td>🕒 无需提前预订</td><td>抵达当天/Day 2/Day 4 现场买都行，JR西日本服务台</td></tr></tbody></table></div>
 
-<h3>3人总费用估算（不含机票住宿）</h3>
+<h3>🎫 门票 / 景点</h3>
 
-<div class="table-wrap"><table><thead><tr><th>项目</th><th>估算</th></tr></thead><tbody><tr><td>景点门票（3人合计，含已购吉卜力Standard票）</td><td>约¥98,000</td></tr>
-<tr><td>新干线（大阪→名古屋 + 名古屋→京都）×3人</td><td>约¥37,000</td></tr>
-<tr><td>KIX往返南海电铁 × 3人</td><td>约¥8,700</td></tr>
-<tr><td>市内交通 ICOCA（3人 · 13天）</td><td>约¥18,000</td></tr>
-<tr><td>餐饮（3人 · 13天 · 约¥5,500/天）</td><td>约¥71,500</td></tr>
-<tr><td>购物伴手礼 (Omiyage / お土産)</td><td>约¥25,000</td></tr>
-<tr><td><strong>合计（不含机票住宿）</strong></td><td><strong>约¥258,200 ≈ RM9,400</strong></td></tr></tbody></table></div></div>
-<div class="tab-panel" id="panel-5"><div class="table-wrap"><table><thead><tr><th>项目</th><th>预订时间</th><th>链接</th></tr></thead><tbody><tr><td>⚠️ USJ门票 + Express Pass</td><td>越早越好</td><td><a href="https://www.usjticketing.com/" target="_blank">usjticketing.com</a></td></tr>
-<tr><td>✅ 吉卜力公园门票（O-Sanpo Day Pass Standard 土日祝，Lead: CHIN，13 Sep 2026 10:00）</td><td><strong>已购买</strong></td><td><a href="https://ghibli-park.jp/ticket/" target="_blank">吉卜力公园官方</a></td></tr>
-<tr><td>⚠️ 魔女の谷建筑同日票（荻野邸+魔女の家+哈尔城堡，¥1,800/人）</td><td>当天开园后现场购买，数量有限</td><td>园内魔女の谷售票处</td></tr>
-<tr><td>⚠️ 嵯峨野小火车预约</td><td>提前1–2个月，9月旺季很快售完</td><td><a href="https://sagano-kanko.co.jp" target="_blank">sagano-kanko.co.jp</a></td></tr>
-<tr><td>⚠️ 保津川游船预约</td><td>提前1–2个月，9月旺季人多</td><td><a href="https://www.hozugawakudari.jp" target="_blank">hozugawakudari.jp</a></td></tr>
-<tr><td>⚠️ 名古屋酒店改期</td><td>尽快联系确认</td><td>Nishitetsu Hotel Croom Nagoya 原订Sep14–16，需改为 Sep12–14</td></tr>
-<tr><td>⚠️ 京都酒店预订</td><td>尽快确认预订</td><td>Rinn Kyoto Station，Sep 14–16 · 2晚</td></tr>
-<tr><td>ICOCA交通卡</td><td>抵达KIX当天购买</td><td>JR西日本服务台</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>项目</th><th>状态</th><th>备注</th></tr></thead><tbody><tr><td>★ 海游馆水族馆门票（Osaka Aquarium Kaiyukan）</td><td>⚠️ 待办：建议提前网上购票</td><td>官网/Klook提前买可省现场排队，也可到场当日确认有无当期特展</td></tr>
+<tr><td>USJ门票 + Express Pass</td><td>⚠️ 待办：越早越好</td><td><a href="https://www.usjticketing.com/" target="_blank">usjticketing.com</a></td></tr>
+<tr><td>USJ 超级任天堂世界 Area Timed Entry Ticket</td><td>⚠️ 待办：当天才能领</td><td>无法提前预订（免费名额当天用App领），行前3天务必查一次<a href="https://www.usj.co.jp/web/en/us/enjoy/numbered-ticket/timed-entry-ticket" target="_blank">新规则</a></td></tr>
+<tr><td>吉卜力公园门票（O-Sanpo Day Pass Standard 土日祝）</td><td>✅ 已购买</td><td>Lead: CHIN，13 Sep 2026 10:00，<a href="https://ghibli-park.jp/ticket/" target="_blank">官方购票页</a></td></tr>
+<tr><td>魔女の谷建筑三合一同日票（¥1,800/人）</td><td>🕒 无需提前预订</td><td>当天开园后现场购买，数量有限售完即止</td></tr></tbody></table></div>
+
+<h3>🍽 餐厅</h3>
+
+<div class="table-wrap"><table><thead><tr><th>项目</th><th>状态</th><th>备注</th></tr></thead><tbody><tr><td>炭火串焼つじや 四条御幸町店（Day 7 京都晚餐）</td><td>⚠️ 待办：建议线上订位</td><td><a href="https://tabelog.com/en/kyoto/A2601/A260201/26020272/" target="_blank">Tabelog订位</a>，不需电话</td></tr>
+<tr><td>Isaribi 力丸 炉端焼（Day 10 大阪晚餐）</td><td>🕒 无需预订</td><td>Walk-in排队，建议开门前后早到</td></tr></tbody></table></div>
+
+<h3>🎆 其他（可选，待决定）</h3>
+
+<div class="table-wrap"><table><thead><tr><th>项目</th><th>状态</th><th>备注</th></tr></thead><tbody><tr><td>第5回 水都くらわんか花火大会（Day 12）</td><td>⚠️ 待决定是否去</td><td>Sep 20 15:00–20:00，若去需重新调整当天17:30后的行程</td></tr></tbody></table></div>
 
 <hr>
 
-<p class="meta"><em>最后更新：2026-07-10 · 整份行程年份更正为 2026 年（原文档误标 2025，日期与星期对照实际为 2026 年）。吉卜力公园门票已确认购买：O-Sanpo Day Pass Standard 土日祝（Lead participant: CHIN，13 Sep 2026 10:00 = 大倉庫入场时段），Day 5 行程已按 Standard 票种（不含青春の丘 / どんどこ森，魔女の谷仅户外）重新规划。名古屋与京都行程顺序已对调（大阪→名古屋→京都→大阪），吉卜力公园落在 Day 5 (Sep 13 周日)，避开原定 Day 7 (Sep 15 周二) 的定休日。两间酒店的入住日期需连带改期，改期确认前请视为草案行程。</em></p></div>
+<p class="meta"><em>最后更新：2026-08-06 · 吉卜力公园门票已确认购买：O-Sanpo Day Pass Standard 土日祝（Lead participant: CHIN，13 Sep 2026 10:00 = 大倉庫入场时段），Day 5 行程已按 Standard 票种（不含青春の丘 / どんどこ森，魔女の谷仅户外）重新规划。名古屋与京都行程顺序已对调（大阪→名古屋→京都→大阪），吉卜力公园落在 Day 5 (Sep 13 周日)，避开原定 Day 7 (Sep 15 周二) 的定休日。Nishitetsu Hotel Croom Nagoya（Sep 12–14）与 Rinn Kyoto Station（Sep 14–16）两间酒店均已确认。</em></p></div>
 </div>
 </body>
 </html>
