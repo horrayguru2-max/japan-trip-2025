@@ -19,17 +19,48 @@ function inlineConvert(text) {
   return text;
 }
 
+// The per-POI schedule table (时间|行程|地图|交通/费用|参考链接) used throughout the
+// itinerary is too narrow per-column on phones. Rather than authoring a separate
+// mobile version by hand (two copies to keep in sync), we detect this exact header
+// shape here and have the *same* markdown row render a mobile-only summary line
+// (map/cost/reference) inside the 行程 cell. CSS then hides columns 3–5 on narrow
+// screens and reveals that summary line instead — single source of truth in the .md.
+const POI_SCHEDULE_HEADER = ['时间', '行程', '地图', '交通 / 费用', '参考链接'];
+
 function convertTable(lines) {
   const rows = lines.filter(l => l.trim().startsWith('|'));
   if (rows.length < 2) return lines.map(l => `<p>${inlineConvert(l)}</p>`).join('\n');
 
-  const header = rows[0].split('|').slice(1, -1).map(c => `<th>${inlineConvert(c.trim())}</th>`).join('');
+  const rawHeader = rows[0].split('|').slice(1, -1).map(c => c.trim());
+  const isPoiSchedule = rawHeader.length === POI_SCHEDULE_HEADER.length &&
+    rawHeader.every((c, i) => c === POI_SCHEDULE_HEADER[i]);
+
+  const header = rawHeader.map(c => `<th>${inlineConvert(c)}</th>`).join('');
   const body = rows.slice(2).map(row => {
-    const cells = row.split('|').slice(1, -1).map(c => `<td>${inlineConvert(c.trim())}</td>`).join('');
+    const raw = row.split('|').slice(1, -1).map(c => c.trim());
+    let cells = raw.map(c => `<td>${inlineConvert(c)}</td>`).join('');
+    if (isPoiSchedule) {
+      const [, , map, cost, ref] = raw;
+      const parts = [];
+      if (map && map !== '—') parts.push(inlineConvert(map));
+      if (cost && cost !== '—') parts.push(inlineConvert(cost));
+      if (ref && ref !== '—') parts.push(inlineConvert(ref));
+      if (parts.length) {
+        // Injected into the 2nd <td> (行程) so it stacks under that text on mobile
+        // without duplicating content anywhere else in the markdown source.
+        const tdMatches = [...cells.matchAll(/<td>[\s\S]*?<\/td>/g)];
+        const poiCell = tdMatches[1];
+        if (poiCell) {
+          const withMeta = poiCell[0].replace(/<\/td>$/, `<div class="mobile-meta">${parts.join(' · ')}</div></td>`);
+          cells = cells.slice(0, poiCell.index) + withMeta + cells.slice(poiCell.index + poiCell[0].length);
+        }
+      }
+    }
     return `<tr>${cells}</tr>`;
   }).join('\n');
 
-  return `<div class="table-wrap"><table><thead><tr>${header}</tr></thead><tbody>${body}</tbody></table></div>`;
+  const tableClass = isPoiSchedule ? ' class="poi-schedule"' : '';
+  return `<div class="table-wrap"><table${tableClass}><thead><tr>${header}</tr></thead><tbody>${body}</tbody></table></div>`;
 }
 
 // Parses a markdown table into raw (un-converted) header/row cell arrays
@@ -494,12 +525,26 @@ details.ref-drop summary::-webkit-details-marker { display: none; }
 details.ref-drop .ref-drop-body { padding: 0 0.7rem 0.7rem; }
 details.ref-drop .ref-drop-body table { font-size: 0.82rem; }
 
+/* Mobile summary line inside the 行程 cell — hidden by default (desktop shows the
+   real 地图/交通费用/参考链接 columns instead); switched on below 600px. */
+.mobile-meta { display: none; margin-top: 0.3rem; font-size: 0.78rem; color: var(--ink2); }
+.mobile-meta a { font-weight: 600; }
+
 @media (max-width: 600px) {
   h1 { font-size: 1.3rem; }
   h2 { font-size: 1.05rem; }
   body { font-size: 14px; padding: 1rem 0.75rem 3rem; }
   .tab-label { font-size: 0.78rem; padding: 0.5rem 0.3rem; }
   blockquote { max-width: 90%; margin-left: 0.6rem; }
+
+  /* Collapse the 5-col POI schedule table to 时间|行程 on phones — 地图/交通费用/
+     参考链接 move into the mobile-meta line generated inside the 行程 cell instead
+     of squeezing into unreadably narrow columns. */
+  table.poi-schedule th:nth-child(3), table.poi-schedule td:nth-child(3),
+  table.poi-schedule th:nth-child(4), table.poi-schedule td:nth-child(4),
+  table.poi-schedule th:nth-child(5), table.poi-schedule td:nth-child(5) { display: none; }
+  table.poi-schedule th:nth-child(1), table.poi-schedule td:nth-child(1) { width: 3.2rem; white-space: nowrap; }
+  table.poi-schedule .mobile-meta { display: block; }
 }
 `;
 
