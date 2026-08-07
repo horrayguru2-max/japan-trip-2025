@@ -667,6 +667,7 @@
 | 天橋立 (Amanohashidate / 天橋立) | 日本三景之一，松树林沙洲横跨海湾，缆车绝景，可骑脚车 & 搭船慢慢探索 | 京都站 (Kyoto Station / 京都駅) 搭 JR特急约2小时 → 天橋立駅 (Amanohashidate Station / 天橋立駅)，步行到缆车 | 全天 | [天橋立参考](https://www.instagram.com/p/DX85i_PTZZu/) |
 | 伊根舟屋 (Ine Fishing Village / 伊根の舟屋) | 京都海边宁静渔村，传统舟屋沿海排列，风景超疗愈，人潮少；⚠️ 没有自驾的话公共交通单程要2.5–3小时，比嵐山累很多，建议有租车才考虑 | 自驾从京都约2小时最方便；也可搭 JR + 巴士前往，但转乘多耗时长 | 半天～全天 | [伊根参考](https://www.instagram.com/reels/DYbZovKs-kB/) |
 | 西舞鹤 吉原入江 (Nishimaizuru Yoshiwara Cove / 西舞鶴 吉原入江) | 京都北部隐藏版水岸渔村，传统民宅与渔船，气氛宁静，像远离城市的另一个世界 | 京都站搭 JR 到西舞鶴駅 (Nishi-Maizuru Station / 西舞鶴駅)，转巴士或步行前往吉原地区 | 半天 | — |
+| 丹後くろまつ号 (Tango Kuromatsu / 丹後くろまつ号) | 天橋立→西舞鶴景观餐车列车，全预约制，车上供应套餐料理，沿途海景美如《千与千寻》漂浮在海上；⚠️ ¥15,000/人（3人约¥45,000起），预约在出发日前3个月当天10点开放，9月的日期现在（8月）可能已过首波开放期，需上官网确认剩位 | 天橋立駅13:05发→西舞鶴駅14:50着，单程约1小时45分（此时刻表为2025年10月–2026年3月季度班次，9月实际班次未确认，需另查） | 全天（含往返京都站交通，等同天橋立一日游） | [官网预约](https://travel.willer.co.jp/train/tantetsu/booking/akamatsu-route1-1/) · [参考影片](https://www.instagram.com/reel/C_GAhcvtBos/?igsh=MXI5ZHMzZXNieGtnag==) |
 
 > 💡 **天橋立 + 伊根舟屋组合一日游：** 两者相距约40分钟车程，自驾最方便，可以安排在京都的其中一天出发。
 
@@ -684,24 +685,9 @@
 
 ### 特别交通体验
 
-#### 🚃 Aoniyoshi 近铁观光列车 (Kintetsu Aoniyoshi / 近鉄 あをによし)
-
-车厢走奈良时代风格，座位宽敞，设有小包厢与咖啡车厢，超有日本复古贵族感。不是最快路线，但是体验感满满。
-
-**运行路线：** 京都 (Kyoto / 京都) ↔ 近鉄奈良 (Kintetsu Nara / 近鉄奈良) ↔ 大阪难波 (Osaka Namba / 大阪難波)
-
-**推荐玩法（顺路版）：**
-1. 京都 搭 Aoniyoshi → 奈良 (Nara / 奈良) 游半天（鹿公园 + 东大寺）
-2. 奈良 搭近铁 → 大阪难波
-
-| 费用项目 | 大约价格 |
-|---------|---------|
-| 基本车资 (Base Fare)，京都→大阪难波 | ¥1,200–1,500 |
-| Aoniyoshi 特急指定席 (Limited Express Reserved Seat) | ¥700–1,000 |
-| 每人合计 | 约¥2,000–2,500 ≈ RM60–80 |
-
-> ⚠️ 非常热门！建议提前1个月抢票。订票方式：[近铁官网](https://www.kintetsu.co.jp) / Klook / KKday / 日本近铁车站柜台  
-> 参考：[Aoniyoshi参考影片](https://www.instagram.com/reels/DYjwfVRJHXW/)
+| 景点 | 特色 | 交通方式 | 所需时间 | 参考链接 |
+|------|------|---------|---------|---------|
+| Aoniyoshi 近铁观光列车 (Kintetsu Aoniyoshi / 近鉄あをによし) | 车厢走奈良时代风格，座位宽敞，设有小包厢与咖啡车厢，超有日本复古贵族感，不是最快路线但体验感满满；⚠️ 非常热门，建议提前1个月抢票，订票方式：近铁官网 / Klook / KKday / 日本近铁车站柜台 | 运行路线：京都 (Kyoto / 京都) ↔ 近鉄奈良 (Kintetsu Nara / 近鉄奈良) ↔ 大阪难波 (Osaka Namba / 大阪難波)；顺路玩法：京都搭Aoniyoshi→奈良游半天（鹿公园+东大寺）→奈良搭近铁→大阪难波；每人合计约¥2,000–2,500（基本车资¥1,200–1,500 + 特急指定席¥700–1,000） | 半天（含奈良游玩） | [Aoniyoshi参考影片](https://www.instagram.com/reels/DYjwfVRJHXW/) |
 
 ---
 
@@ -782,6 +768,7 @@
 | USJ 超级任天堂世界 Area Timed Entry Ticket | ⚠️ 待办：当天才能领 | 无法提前预订（免费名额当天用App领），行前3天务必查一次[新规则](https://www.usj.co.jp/web/en/us/enjoy/numbered-ticket/timed-entry-ticket) |
 | 吉卜力公园门票（O-Sanpo Day Pass Standard 土日祝）| ✅ 已购买 | Lead: CHIN，13 Sep 2026 10:00，[官方购票页](https://ghibli-park.jp/ticket/) |
 | 魔女の谷建筑三合一同日票（¥1,800/人）| 🕒 无需提前预订 | 当天开园后现场购买，数量有限售完即止 |
+| Noah Dolphin Dome 浅瀬で遊ぼう 浅水区互动（Day 9）| ⚠️ 待办：建议网上预约 | 网上预约享95折，也可现场报名；大人¥7,700/小孩¥6,600，5岁以上+身高110cm以上，[官网](https://www.dolphindome.jp/english-page/) |
 
 ### 🍽 餐厅
 
@@ -795,7 +782,8 @@
 | 项目 | 状态 | 备注 |
 |------|------|------|
 | 第5回 水都くらわんか花火大会（Day 12）| ⚠️ 待决定是否去 | Sep 20 15:00–20:00，若去需重新调整当天17:30后的行程 |
+| 丹後くろまつ号（可选景点，未排入正式行程）| ⚠️ 待决定是否去 + 预约窗口可能已过 | ¥15,000/人全预约制，预约在出发日前3个月当天10点开放，需上官网确认9月是否还有位，[官网](https://travel.willer.co.jp/train/tantetsu/booking/akamatsu-route1-1/) |
 
 ---
 
-*最后更新：2026-08-06 · 吉卜力公园门票已确认购买：O-Sanpo Day Pass Standard 土日祝（Lead participant: CHIN，13 Sep 2026 10:00 = 大倉庫入场时段），Day 5 行程已按 Standard 票种（不含青春の丘 / どんどこ森，魔女の谷仅户外）重新规划。名古屋与京都行程顺序已对调（大阪→名古屋→京都→大阪），吉卜力公园落在 Day 5 (Sep 13 周日)，避开原定 Day 7 (Sep 15 周二) 的定休日。Nishitetsu Hotel Croom Nagoya（Sep 12–14）与 Rinn Kyoto Station（Sep 14–16）两间酒店均已确认。*
+*最后更新：2026-08-07 · Day 6 清水寺加了第二条参考影片+租和服备注；可选景点新增丹後くろまつ号（天橋立→西舞鶴景观餐车列车）；清单新增 Noah Dolphin Dome 浅水区互动预约、丹後くろまつ号预约窗口提醒。吉卜力公园门票已确认购买：O-Sanpo Day Pass Standard 土日祝（Lead participant: CHIN，13 Sep 2026 10:00 = 大倉庫入场时段）。Nishitetsu Hotel Croom Nagoya（Sep 12–14）与 Rinn Kyoto Station（Sep 14–16）两间酒店均已确认。*
