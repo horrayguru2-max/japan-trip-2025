@@ -330,8 +330,8 @@
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| 09:55 | 京都站中央口/烏丸口 → 清水道 (Kiyomizumichi / 清水道) 巴士站，市巴士100/206号 | [📍](https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=Kiyomizudera%2C+Kyoto&travelmode=transit) | 约20分 ¥230 | [清水寺影片](https://www.instagram.com/reels/DSZz8BNRlri/) |
-| 10:25 | 清水寺 · 清水舞台 (Kiyomizu Stage / 清水の舞台) · 音羽の滝 (Otowa Waterfall / 音羽の滝) 三流水许愿 | — | ¥500 | — |
+| 09:55 | 京都站中央口/烏丸口 → 清水道 (Kiyomizumichi / 清水道) 巴士站，市巴士100/206号 | [📍](https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=Kiyomizudera%2C+Kyoto&travelmode=transit) | 约20分 ¥230 | [清水寺影片](https://www.instagram.com/reels/DSZz8BNRlri/) · [清水寺影片02](https://www.instagram.com/reels/DZE6RMrxqLx/) |
+| 10:25 | 清水寺 · 清水舞台 (Kiyomizu Stage / 清水の舞台) · 音羽の滝 (Otowa Waterfall / 音羽の滝) 三流水许愿<div class="row-note">想给儿子租日式古装拍照，租借店还在找，找到后补店名/地址</div> | — | ¥500 | — |
 | 11:25 | 三年坂 (Sanneizaka / 産寧坂) + 二年坂 (Nineizaka / 二寧坂) 石板坡道漫步，纪念品 | — | — | — |
 | 12:40 | 祗園一带午餐，京都定食 (Kyoto Teishoku / 京都定食) | — | ¥1,200–2,000 | — |
 
