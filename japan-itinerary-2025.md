@@ -533,11 +533,11 @@
 
 ---
 
-### Day 11 · Sep 19 (Sat) — 大阪城公园 + 🦁 难波八阪神社 + 心斋桥 + 道顿堀（大阪市区漫步）
+### Day 11 · Sep 19 (Sat) — 大阪城公园 + 🦁 难波八阪神社 + 🎨 南港艺术市集 + 道顿堀（大阪市区漫步）
 
 #### 🏯 大阪城公园 (Osaka Castle Park / 大阪城公園)
 
-> 🎡 亲子贴士：建议从森ノ宮駅 (Morinomiya Station) B3出口进入，这侧人潮少、路线舒服，先经过儿童游乐场和大片草地再走向天守阁。公园路面大多平坦，stroller友善，但部分区域有上坡。不必搭园内小火车，带孩子散步慢逛反而更轻松！
+> 🎡 亲子贴士：建议从森ノ宮駅 (Morinomiya Station) 3-B出口进入，这侧人潮少、路线舒服，各站步行到城堡入口约15分钟，先经过儿童游乐场和大片草地再走向天守阁。公园很大，我们决定搭园内小火车 (Osaka Castle Park Train / 大阪城パークトレイン) 代步——营业09:30–16:30，每30分钟一班，中途下车不能再上车；单程¥400/人（老人小孩¥200），一日券¥1,000（老人小孩¥600），持大阪周遊券可打折至¥800/¥400。参考：[参考1](https://www.instagram.com/reel/DbN3zTshyea/?igsh=MXh2czdldmZhb2w3dA==) · [参考2](https://www.instagram.com/reel/DX_zn1lgfmS/?igsh=MTNxazN3YTdtdGsyMg==) · [参考3](https://www.instagram.com/reel/DTcZaA1gbxx/?igsh=cmlyajA4dGJjMzM5)
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
@@ -557,17 +557,21 @@
 |------|------|------|-----------|---------|
 | 14:30 | 步行10分（0.8km），巨型狮子头神殿 (Giant Lion Head / 舞台)！孩子超震撼！ | [📍](https://www.google.com/maps/dir/?api=1&origin=Kuromon+Ichiba+Market%2C+Osaka&destination=Namba+Yasaka+Shrine%2C+Osaka&travelmode=walking) | 免费 | — |
 
-#### 🛍 心斋桥筋 (Shinsaibashi-suji / 心斎橋筋)
+#### 🎨 大阪艺术&手作市集 VOL.52 (南港 ATC展馆)
+
+> 💡 市集日期 9/19–9/22 10:00–17:00（最终日至16:00），关西顶级室内艺术手作活动，全国创作者集结，原创手作展销、手作体验工坊、甜品美食摊位；Day 12 已经排了心斋桥/美国村购物，这段换成市集不重复。地址：大阪南港 ATC展馆 + 第二特设会场。参考：[种草R](http://xhslink.com/m/97HIgD0cEkU)
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| 15:30 | 步行/地铁 → 心斋桥筋 · 唐吉诃德 (Don Quijote / ドン・キホーテ) 药妆购物 | [📍](https://www.google.com/maps/dir/?api=1&origin=Namba+Yasaka+Shrine%2C+Osaka&destination=Shinsaibashi%2C+Osaka&travelmode=walking) | — | — |
+| 15:00 | 地铁四つ橋線 難波駅 → 住之江公園駅，转乘ニュートラム (New Tram / ニュートラム南港ポートタウン線) → トレードセンター前駅 (Trade Center-mae Station) | [📍](https://www.google.com/maps/dir/?api=1&origin=Namba+Yasaka+Shrine%2C+Osaka&destination=ATC+Osaka%2C+Osaka&travelmode=transit) | 约30分 ¥350左右 | — |
+| 15:30 | 逛艺术&手作市集，原创手作展销、体验工坊、甜品美食摊位（约1.5小时） | — | 入场费视官网公告 | [种草R](http://xhslink.com/m/97HIgD0cEkU) |
 
 #### 🎏 道顿堀 (Dotonbori / 道頓堀)
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| 17:30 | 格力高牌 (Glico Man / グリコサイン) 必拍！章鱼烧 (Takoyaki / たこ焼き) | [📍](https://www.google.com/maps/dir/?api=1&origin=Shinsaibashi%2C+Osaka&destination=Dotonbori%2C+Osaka&travelmode=walking) | — | — |
+| 17:00 | 市集打烊，ニュートラム+地铁四つ橋線返回难波方向 | [📍](https://www.google.com/maps/dir/?api=1&origin=ATC+Osaka%2C+Osaka&destination=Dotonbori%2C+Osaka&travelmode=transit) | 约30分 ¥350左右 | — |
+| 17:30 | 格力高牌 (Glico Man / グリコサイン) 必拍！章鱼烧 (Takoyaki / たこ焼き) | — | — | — |
 
 #### 🥩 晚餐：焼肉南大門 (Yakiniku Osaka Nandaimon / 焼肉 南大門)
 
