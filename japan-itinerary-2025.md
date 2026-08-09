@@ -37,11 +37,11 @@
 
 | 景点 | 城市 | 特色 | 费用 | 日程 |
 |------|------|------|------|------|
-| ★ USJ (Universal Studios Japan / ユニバーサル・スタジオ・ジャパン) | 大阪 | 任天堂世界 + 哈利波特 + 小黄人 + 侏罗纪世界 | 成人¥10,400 / 儿童¥6,900 | Day 3 |
+| ★ USJ (Universal Studios Japan / ユニバーサル・スタジオ・ジャパン) | 大阪 | 任天堂世界 + 哈利波特 + 小黄人 + 侏罗纪世界 | 成人¥9,900 / 儿童¥6,200 | Day 2 |
 | 🖤 檀王法林寺 (Dan-no-Hori-ji Temple / 壇王法林寺) 黑猫招财猫 | 京都 | 日本唯一黑色招财猫，僧侣开光，免费 | 免费 | Day 8 |
 | 💰 御金神社 (Mikane Jinja / 御金神社) 金箔鸟居 | 京都 | 日本唯一金箔鸟居，祈财运，福财布 | 免费参拜 | Day 8 |
 | ★ 吉卜力公园 (Ghibli Park / ジブリパーク) | 名古屋 | ✅ **已购票**（大さんぽ券 O-Sanpo Day Pass Standard・土日祝）：吉卜力大倉庫 + もののけの里 + 魔女の谷（户外）3个区域，不含青春の丘 & どんどこ森 | 成人¥3,800 / 儿童¥1,900（票根登记：Lead participant CHIN） | Day 5（★ 已避开周二定休！大倉庫入场时段 10:00） |
-| ★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館) | 大阪 | 鲸鲨展缸，关西最震撼水族馆，亲子必去 | 成人¥2,700 / 儿童¥1,400 | Day 2 |
+| ★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館) | 大阪 | 鲸鲨展缸，关西最震撼水族馆，亲子必去 | 成人¥2,700 / 儿童¥1,400 | Day 3 |
 
 ---
 
@@ -95,7 +95,51 @@
 
 ---
 
-### Day 2 · Sep 10 (Thu) — ★ 海游馆水族馆 + 天保山摩天轮（渡轮顺路直达！）
+### Day 2 · Sep 10 (Thu) — ★ USJ Universal Studios Japan
+
+顺序：侏罗纪优先 → 抢13:00超级任天堂世界 → 哈利波特 → Minion Park
+
+> ✅ 门票已购买：成人 1 Day Studio Pass ¥9,900 / 儿童（4–11岁）¥6,200，Trip.com 订购，入场日 2026-09-10，无 Express Pass
+
+📌 参考：[USJ购票官网](https://www.usjticketing.com/) · [USJ关西攻略（小红书）](http://xhslink.com/o/5CUVPmdeiqJ)
+
+#### 🦖 侏罗纪世界 (Jurassic World: The Ride / ジュラシック・ワールド)
+
+> ⚠️ 侏罗纪游行备注：目前查到的是 Jurassic World Journey 互动打卡活动（非游行/巡游，Raptor Alert・Dino Encounter 等），2026年档期资料有新旧冲突（一说到8月31日、一说延到9月30日），9月是否还在营业需临行前用 [USJ官网 Show and Attraction Schedule](https://www.usj.co.jp/web/en/us/attractions/show-and-attraction-schedule) 确认。目前没查到「侏罗纪主题」的固定巡游表演——每天的定时巡游是25周年纪念游行（皮卡丘+Mario+Hello Kitty等角色），跟侏罗纪无关，具体时间每天公布在同一个官网页面，建议入园当天现场/App查当日时刻表。
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 08:45 | 酒店出发，步行0.4km（5分钟）直达USJ入口 (USJ Entrance / USJ入口)，合作酒店可提前15分钟入园 | [📍](https://www.google.com/maps/dir/?api=1&origin=Hotel+Universal+Port+Vita%2C+Osaka&destination=USJ+Entrance%2C+Osaka&travelmode=walking) | — | — |
+| 09:00 | 开园！第一个冲侏罗纪世界水上冒险（25.9米高空俯冲新版本，趁人少排队短，9月热天正好，会湿身建议带备用衣服） | — | — | — |
+
+#### 🎮 超级任天堂世界 (Super Nintendo World / スーパー・ニンテンドー・ワールド)
+
+> ⚠️ 超级任天堂世界入场新规（2026年1月5日起生效）：单日票不含 Express Pass，进超级任天堂世界必须靠官方 App 领取免费的 Area Timed Entry Ticket（数量有限，越早领越好；开园后第一小时内有时可自由进入，但不保证）。领不到免费名额时，备案是入口现场加购¥2,000（数量有限）或行前提早购买付费 Advance Booking。行前3天务必查一次 [USJ官网 Timed Entry 说明](https://www.usj.co.jp/web/en/us/enjoy/numbered-ticket/timed-entry-ticket) 确认最新规则是否有变。
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 09:15 | 打开官方App领取超级任天堂世界 Area Timed Entry Ticket，锁定约13:00时段（越早领越好，可能几十分钟内额满） | — | — | [Timed Entry说明](https://www.usj.co.jp/web/en/us/enjoy/numbered-ticket/timed-entry-ticket) |
+| 13:00 | 从酒店返回USJ，凭 Timed Entry Ticket 进超级任天堂世界，Mario赛车 (Mario Kart: Koopa's Challenge) | [📍](https://www.google.com/maps/dir/?api=1&origin=Hotel+Universal+Port+Vita%2C+Osaka&destination=Super+Nintendo+World%2C+Osaka&travelmode=walking) | — | — |
+
+#### ⚡ 哈利波特魔法世界 (Wizarding World of Harry Potter / ウィザーディング・ワールド)
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 10:00 | 霍格华兹城堡 (Hogwarts Castle) + 黄油啤酒 (Butterbeer / バタービール)，必喝！ | — | — | — |
+| 12:00 | 园内午餐 | — | ¥1,500–2,500 | — |
+| 12:30 | 步行5分钟回酒店稍作休息——住USJ旁最大福利 | [📍](https://www.google.com/maps/dir/?api=1&origin=USJ%2C+Osaka&destination=Hotel+Universal+Port+Vita%2C+Osaka&travelmode=walking) | — | — |
+
+#### 🐥 Minion Park (小黄人乐园 / ミニオン・パーク)
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 15:00 | 小黄人系列设施，6岁超爱，身高限制少 | — | — | — |
+| 16:30 | 纪念品店扫货 / 自由活动，留意当日巡游表演时刻表 | — | — | — |
+| 19:30 | 步行5分钟回酒店，早睡！明天去海游馆水族馆 + 天保山摩天轮 | [📍](https://www.google.com/maps/dir/?api=1&origin=USJ%2C+Osaka&destination=Hotel+Universal+Port+Vita%2C+Osaka&travelmode=walking) | — | — |
+
+---
+
+### Day 3 · Sep 11 (Fri) — ★ 海游馆水族馆 + 天保山摩天轮（渡轮顺路直达！）
 
 渡轮顺路，不用回市区再跑一趟：
 
@@ -136,58 +180,10 @@
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
 | 15:30 | 从摩天轮出发，搭乘渡轮返回 ユニバーサルシティポート (Universal City Port) | [📍](https://www.google.com/maps/dir/?api=1&origin=Tempozan+Ferris+Wheel%2C+Osaka&destination=Universal+City+Port%2C+Osaka&travelmode=transit) | — | — |
-| 16:00 | 下船后步行约10分钟回酒店午休/自由活动，为明天USJ储备体力 | [📍](https://www.google.com/maps/dir/?api=1&origin=Universal+City+Port%2C+Osaka&destination=Hotel+Universal+Port+Vita%2C+Osaka&travelmode=walking) | — | — |
-| 18:30 | 酒店附近晚餐，早点休息 | — | — | — |
+| 16:00 | 下船后步行约10分钟回酒店午休/自由活动 | [📍](https://www.google.com/maps/dir/?api=1&origin=Universal+City+Port%2C+Osaka&destination=Hotel+Universal+Port+Vita%2C+Osaka&travelmode=walking) | — | — |
+| 18:30 | 酒店附近晚餐，早点休息，明天出发名古屋 | — | — | — |
 
 其他参考：[Kid-Friendly Osaka](https://www.instagram.com/reel/DWgc3bNiVVv/?igsh=aHdmaGZueTJobXJw) · [大阪能量地图（小红书）](http://xhslink.com/o/5huhjaE1Kec)
-
----
-
-### Day 3 · Sep 11 (Fri) — ★ USJ Universal Studios Japan
-
-顺序：侏罗纪优先 → 抢13:00超级任天堂世界 → 哈利波特 → Minion Park
-
-| 票种 | 费用 |
-|------|------|
-| 成人1日票 | ¥10,400 ≈ RM310 |
-| 儿童票（4–11岁）| ¥6,900 ≈ RM205 |
-| Express Pass 4（强烈推荐！省排队，含Nintendo World保证入场）| ¥7,800–14,000 |
-
-📌 参考：[USJ购票官网](https://www.usjticketing.com/) · [USJ关西攻略（小红书）](http://xhslink.com/o/5CUVPmdeiqJ)
-
-#### 🦖 侏罗纪世界 (Jurassic World: The Ride / ジュラシック・ワールド)
-
-> ⚠️ 侏罗纪游行备注：目前查到的是 Jurassic World Journey 互动打卡活动（非游行/巡游，Raptor Alert・Dino Encounter 等），2026年档期资料有新旧冲突（一说到8月31日、一说延到9月30日），9月是否还在营业需临行前用 [USJ官网 Show and Attraction Schedule](https://www.usj.co.jp/web/en/us/attractions/show-and-attraction-schedule) 确认。目前没查到「侏罗纪主题」的固定巡游表演——每天的定时巡游是25周年纪念游行（皮卡丘+Mario+Hello Kitty等角色），跟侏罗纪无关，具体时间每天公布在同一个官网页面，建议入园当天现场/App查当日时刻表。
-
-| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
-|------|------|------|-----------|---------|
-| 08:45 | 酒店出发，步行0.4km（5分钟）直达USJ入口 (USJ Entrance / USJ入口)，合作酒店可提前15分钟入园 | [📍](https://www.google.com/maps/dir/?api=1&origin=Hotel+Universal+Port+Vita%2C+Osaka&destination=USJ+Entrance%2C+Osaka&travelmode=walking) | — | — |
-| 09:00 | 开园！第一个冲侏罗纪世界水上冒险（25.9米高空俯冲新版本，趁人少排队短，9月热天正好，会湿身建议带备用衣服） | — | — | — |
-
-#### 🎮 超级任天堂世界 (Super Nintendo World / スーパー・ニンテンドー・ワールド)
-
-> ⚠️ 超级任天堂世界入场新规（2026年1月5日起生效）：单日票不含 Express Pass，进超级任天堂世界必须靠官方 App 领取免费的 Area Timed Entry Ticket（数量有限，越早领越好；开园后第一小时内有时可自由进入，但不保证）。领不到免费名额时，备案是入口现场加购¥2,000（数量有限）或行前提早购买付费 Advance Booking。行前3天务必查一次 [USJ官网 Timed Entry 说明](https://www.usj.co.jp/web/en/us/enjoy/numbered-ticket/timed-entry-ticket) 确认最新规则是否有变。
-
-| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
-|------|------|------|-----------|---------|
-| 09:15 | 打开官方App领取超级任天堂世界 Area Timed Entry Ticket，锁定约13:00时段（越早领越好，可能几十分钟内额满） | — | — | [Timed Entry说明](https://www.usj.co.jp/web/en/us/enjoy/numbered-ticket/timed-entry-ticket) |
-| 13:00 | 从酒店返回USJ，凭 Timed Entry Ticket 进超级任天堂世界，Mario赛车 (Mario Kart: Koopa's Challenge) | [📍](https://www.google.com/maps/dir/?api=1&origin=Hotel+Universal+Port+Vita%2C+Osaka&destination=Super+Nintendo+World%2C+Osaka&travelmode=walking) | — | — |
-
-#### ⚡ 哈利波特魔法世界 (Wizarding World of Harry Potter / ウィザーディング・ワールド)
-
-| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
-|------|------|------|-----------|---------|
-| 10:00 | 霍格华兹城堡 (Hogwarts Castle) + 黄油啤酒 (Butterbeer / バタービール)，必喝！ | — | — | — |
-| 12:00 | 园内午餐 | — | ¥1,500–2,500 | — |
-| 12:30 | 步行5分钟回酒店稍作休息——住USJ旁最大福利 | [📍](https://www.google.com/maps/dir/?api=1&origin=USJ%2C+Osaka&destination=Hotel+Universal+Port+Vita%2C+Osaka&travelmode=walking) | — | — |
-
-#### 🐥 Minion Park (小黄人乐园 / ミニオン・パーク)
-
-| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
-|------|------|------|-----------|---------|
-| 15:00 | 小黄人系列设施，6岁超爱，身高限制少 | — | — | — |
-| 16:30 | 纪念品店扫货 / 自由活动，留意当日巡游表演时刻表 | — | — | — |
-| 19:30 | 步行5分钟回酒店，早睡！明天出发名古屋 | [📍](https://www.google.com/maps/dir/?api=1&origin=USJ%2C+Osaka&destination=Hotel+Universal+Port+Vita%2C+Osaka&travelmode=walking) | — | — |
 
 ---
 
@@ -331,7 +327,7 @@
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
 | 09:55 | 京都站中央口/烏丸口 → 清水道 (Kiyomizumichi / 清水道) 巴士站，市巴士100/206号 | [📍](https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=Kiyomizudera%2C+Kyoto&travelmode=transit) | 约20分 ¥230 | [清水寺影片](https://www.instagram.com/reels/DSZz8BNRlri/) · [清水寺影片02](https://www.instagram.com/reels/DZE6RMrxqLx/) |
-| 10:25 | 清水寺 · 清水舞台 (Kiyomizu Stage / 清水の舞台) · 音羽の滝 (Otowa Waterfall / 音羽の滝) 三流水许愿<div class="row-note">想给儿子租日式古装拍照，租借店还在找，找到后补店名/地址</div> | — | ¥500 | — |
+| 10:25 | 清水寺 · 清水舞台 (Kiyomizu Stage / 清水の舞台) · 音羽の滝 (Otowa Waterfall / 音羽の滝) 三流水许愿<div class="row-note">想给儿子租日服拍照，租借店还在找，找到后补店名/地址</div> | — | ¥500 | — |
 | 11:25 | 三年坂 (Sanneizaka / 産寧坂) + 二年坂 (Nineizaka / 二寧坂) 石板坡道漫步，纪念品 | — | — | — |
 | 12:40 | 祗園一带午餐，京都定食 (Kyoto Teishoku / 京都定食) | — | ¥1,200–2,000 | — |
 
@@ -701,8 +697,7 @@
 
 | 景点 | 成人 | 儿童 |
 |------|------|------|
-| ★ USJ 1日门票 (Universal Studios Japan) | ¥10,400 ≈ RM310 | ¥6,900 ≈ RM205 |
-| USJ Express Pass 4 | ¥7,800–14,000 | — |
+| ★ USJ 1日门票（已购，无Express Pass）(Universal Studios Japan) | ¥9,900 ≈ RM295 | ¥6,200 ≈ RM185 |
 | 清水寺 (Kiyomizudera Temple / 清水寺) | ¥500 ≈ RM13 | — |
 | 二条城 (Nijo Castle / 二条城) | ¥1,300 ≈ RM32 | — |
 | 嵯峨野小火车 (Sagano Scenic Railway / 嵯峨野トロッコ鉄道) | ¥880 ≈ RM22 | ¥440 ≈ RM11 |
@@ -763,12 +758,18 @@
 | 保津川游船预约 | ⚠️ 待办：需预约 | 提前1–2个月，9月旺季人多，[hozugawakudari.jp](https://www.hozugawakudari.jp) |
 | ICOCA交通卡 | 🕒 无需提前预订 | 抵达当天/Day 2/Day 4 现场买都行，JR西日本服务台 |
 
+### 🛡 保险
+
+| 项目 | 状态 | 备注 |
+|------|------|------|
+| 旅游保险（全家3人）| ✅ 已购买 | Generali「Trip.com Travel PA - Overseas Standard」· Policy No. 26221E00CM · 保障期 09/09/2026–21/09/2026 · 24小时紧急热线 (603) 7628 3658 |
+
 ### 🎫 门票 / 景点
 
 | 项目 | 状态 | 备注 |
 |------|------|------|
 | ★ 海游馆水族馆门票（Osaka Aquarium Kaiyukan）| ⚠️ 待办：建议提前网上购票 | 官网/Klook提前买可省现场排队，也可到场当日确认有无当期特展 |
-| USJ门票 + Express Pass | ⚠️ 待办：越早越好 | [usjticketing.com](https://www.usjticketing.com/) |
+| USJ门票（成人+儿童，无 Express Pass）| ✅ 已购买 | Trip.com 订购，2026-09-10 入场，成人¥9,900 / 儿童¥6,200 |
 | USJ 超级任天堂世界 Area Timed Entry Ticket | ⚠️ 待办：当天才能领 | 无法提前预订（免费名额当天用App领），行前3天务必查一次[新规则](https://www.usj.co.jp/web/en/us/enjoy/numbered-ticket/timed-entry-ticket) |
 | 吉卜力公园门票（O-Sanpo Day Pass Standard 土日祝）| ✅ 已购买 | Lead: CHIN，13 Sep 2026 10:00，[官方购票页](https://ghibli-park.jp/ticket/) |
 | 魔女の谷建筑三合一同日票（¥1,800/人）| 🕒 无需提前预订 | 当天开园后现场购买，数量有限售完即止 |
@@ -790,4 +791,5 @@
 
 ---
 
-*最后更新：2026-08-07 · Day 6 清水寺加了第二条参考影片+租和服备注；可选景点新增丹後くろまつ号（天橋立→西舞鶴景观餐车列车）；清单新增 Noah Dolphin Dome 浅水区互动预约、丹後くろまつ号预约窗口提醒。吉卜力公园门票已确认购买：O-Sanpo Day Pass Standard 土日祝（Lead participant: CHIN，13 Sep 2026 10:00 = 大倉庫入场时段）。Nishitetsu Hotel Croom Nagoya（Sep 12–14）与 Rinn Kyoto Station（Sep 14–16）两间酒店均已确认。*
+*最后更新：2026-08-09 · USJ门票已确认购买（成人¥9,900/儿童¥6,200，无Express Pass，2026-09-10入场）：Day 2 与 Day 3 行程互换，USJ 改到 Day 2（Sep 10 周四），海游馆水族馆+天保山摩天轮改到 Day 3（Sep 11 周五）；清单新增旅游保险（Generali，已购买，全家3人）；Day 7 清水寺"日式古装"改为"日服"备注。*
+*2026-08-07 · Day 6 清水寺加了第二条参考影片+租和服备注；可选景点新增丹後くろまつ号（天橋立→西舞鶴景观餐车列车）；清单新增 Noah Dolphin Dome 浅水区互动预约、丹後くろまつ号预约窗口提醒。吉卜力公园门票已确认购买：O-Sanpo Day Pass Standard 土日祝（Lead participant: CHIN，13 Sep 2026 10:00 = 大倉庫入场时段）。Nishitetsu Hotel Croom Nagoya（Sep 12–14）与 Rinn Kyoto Station（Sep 14–16）两间酒店均已确认。*
