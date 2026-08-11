@@ -482,14 +482,13 @@
 |------|------|------|-----------|---------|
 | 14:00 | 新世界步行3分即达，关西最高楼60楼！俯瞰大阪全景 | [📍](https://www.google.com/maps/dir/?api=1&origin=Shinsekai%2C+Osaka&destination=Abeno+Harukas%2C+Osaka&travelmode=walking) | ¥1,500 | — |
 
-#### 🦀 晚餐 + 🚤 とんぼりリバークルーズ（道顿堀）
+#### 🦀 晚餐（道顿堀）
 
-> 📍 とんぼりリバークルーズ乘船处：太左衛門橋船着场（ドン・キホーテ道頓堀店1楼报到）· 营业11:00–21:00，每半小时一班（每小时00分/30分）· 约20分钟航程
+> 💡 坐船体验（心斎橋泡泡歌曲船）已移到 Day 10 星期五——那艘船的歌曲+泡泡秀导游 Makoto 只有星期五在班，详见 Day 10。
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| 16:00 | 天王寺駅 → 地铁御堂筋线 → 難波・道頓堀方向 | [📍](https://www.google.com/maps/dir/?api=1&origin=Abeno+Harukas%2C+Osaka&destination=Dotonbori%2C+Osaka&travelmode=transit) | 约20分 | — |
-| 17:00 | 🚤 とんぼりリバークルーズ，坐船游道顿堀川约20分钟，格力高牌从水上看不同角度，孩子会很兴奋 | — | 大人¥2,000 / 小学生¥500 / 学龄前儿童1名免费 | — |
+| 17:00 | 天王寺駅 → 地铁御堂筋线 → 難波・道頓堀方向，抵达后自由漫步/购物 | [📍](https://www.google.com/maps/dir/?api=1&origin=Abeno+Harukas%2C+Osaka&destination=Dotonbori%2C+Osaka&travelmode=transit) | 约20分 | — |
 | 19:00 | 道顿堀晚餐，螃蟹道乐 (Kani Doraku / かに道楽) or 一兰拉面 (Ichiran Ramen / 一蘭ラーメン) | — | ¥3,000–6,000 | — |
 
 ---
@@ -517,13 +516,25 @@
 |------|------|------|-----------|---------|
 | 12:30 | 鳳駅 → JR阪和線 → 天王寺駅 → 地铁御堂筋線 → 難波駅，步行至黑门市场，海鲜盖饭・牡蛎・神户牛串炸午餐 | [📍](https://www.google.com/maps/dir/?api=1&origin=Otori+Taisha+Shrine%2C+Osaka&destination=Kuromon+Ichiba+Market%2C+Osaka&travelmode=transit) | 约30分 ¥350，餐¥1,500–3,000 | — |
 
+#### 🛶 心斎橋泡泡歌曲船 (Shinsaibashi Bubble & Song Boat / 心斎橋泡泡歌曲船)
+
+> 📍 售票处：道頓堀ドン・キホーテ（摩天輪下）1楼，[Google Maps](https://maps.app.goo.gl/mCXG3uuwUYo2m3a67?g_)
+> ⚠️ 只有星期五 Makoto 在班，要指定坐他那班才有歌曲+泡泡秀（其他导游没有这个环节）——之前第一天去时售票员说 Makoto 没上班，白跑一趟
+> 现场买红色ticket比较保险，别在Klook订（那边有两家观光船，容易订错家）
+> 排队时可再向工作人员确认「这艘是Makoto的场次吗」，建议拿泡泡秀影片给对方看
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 14:00 | 黑门市场步行至道頓堀ドン・キホーテ（摩天輪下）1楼，买红色ticket，询问售票员Makoto的场次时间 | [📍](https://www.google.com/maps/dir/?api=1&origin=Kuromon+Ichiba+Market%2C+Osaka&destination=Dotonbori%2C+Osaka&travelmode=walking) | 约12分 | — |
+| 14:15 | 排队时再向工作人员确认是Makoto的场次，约15分钟后轮到，坐船约20分钟，歌曲+泡泡秀 | — | 约¥2,000起/人 | [IG参考1](https://www.instagram.com/reels/DY9RqJVh5JS/)、[IG参考2](https://www.instagram.com/reels/DZcJuXJzQYB/) |
+
 #### 🏮 晚餐：Isaribi 力丸 炉端焼 (いさりび)
 
 > 📍 地址：大阪市北区芝田1-5-12 備後屋ビルB1F（梅田站步行约5–8分）· 建议开门前后早到walk-in排队
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| 18:00 | 地铁御堂筋线 (Midosuji Line) 難波駅 → 梅田駅 (Umeda Station / 梅田駅)，无需换乘 | [📍](https://www.google.com/maps/dir/?api=1&origin=Kuromon+Ichiba+Market%2C+Osaka&destination=Umeda+Station%2C+Osaka&travelmode=transit) | 直达约10分 ¥240 | — |
+| 18:00 | 坐船后在心斎桥/道顿堀一带自由逛街，地铁御堂筋线 (Midosuji Line) 難波駅 → 梅田駅 (Umeda Station / 梅田駅)，无需换乘 | [📍](https://www.google.com/maps/dir/?api=1&origin=Dotonbori%2C+Osaka&destination=Umeda+Station%2C+Osaka&travelmode=transit) | 直达约10分 ¥240 | — |
 | 18:30 | 晚餐：原隻烧鱿鱼/扇贝/大虾/多春鱼/刺身拼盘，串烧每份均一价¥385 | — | 人均约¥2,500–3,000 | [IG参考](https://www.instagram.com/reels/DapivtktrwI/) |
 | 20:30 | 地铁御堂筋线梅田駅 → 本町駅返回酒店，无需换乘 | [📍](https://www.google.com/maps/dir/?api=1&origin=Umeda+Station%2C+Osaka&destination=Hommachi+Station%2C+Osaka&travelmode=transit) | 直达约10分 | — |
 
