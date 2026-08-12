@@ -101,7 +101,7 @@
 
 > ✅ 门票已购买：成人 1 Day Studio Pass ¥9,900 / 儿童（4–11岁）¥6,200，Trip.com 订购，入场日 2026-09-10，无 Express Pass
 
-📌 参考：[USJ购票官网](https://www.usjticketing.com/) · [USJ关西攻略（小红书）](http://xhslink.com/o/5CUVPmdeiqJ)
+📌 参考：[USJ购票官网](https://www.usjticketing.com/) · [USJ关西攻略（小红书）](http://xhslink.com/o/5CUVPmdeiqJ) · [IG参考](https://www.instagram.com/p/DbhWJ3LxWFE/)
 
 #### 🦖 侏罗纪世界 (Jurassic World: The Ride / ジュラシック・ワールド)
 
@@ -689,6 +689,7 @@
 | 景点 | 特色 | 交通方式 | 所需时间 | 参考链接 |
 |------|------|---------|---------|---------|
 | 淡路岛二次元之森 (Nijigen no Mori / ニジゲンノモリ) | 进击的巨人 + 火影忍者 + 蜡笔小新 + 勇者斗恶龙主题园区，超刺激飞索体验！ | 大阪自驾约1.5小时；或搭高速巴士前往淡路岛（官网有交通指引） | 半天～全天 | [二次元之森参考](https://www.instagram.com/reels/DYPQlmxMwYG/) |
+| 綱敷天神社御旅社 哥斯拉御守 (Godzilla Omamori @ Tsunashiki Tenjin Shrine Branch / 綱敷天神社御旅社) | 纪念1993年哥斯拉电影首次现身梅田的限定御守，¥1,000/个，哥斯拉款每人限购1个，也有奥特曼/三丽鸥角色款；⚠️ 只在周六日 13:00–17:00 販售，8月已有网友反馈缺货过，要不要排进去还没定 | 大阪市北区茶屋町，近梅田站 (Umeda Station) | 约15–20分钟（含排队可能更久） | [IG参考](https://www.instagram.com/p/DW9EOhakczg/) |
 
 > 💡 勝尾寺、大鳥大社已排入 Day 12 / Day 10 正式行程（见下方对应日期），参考来源：[IG kesiting_「日本大阪必排3大景點」](https://www.instagram.com/p/DV0ZSqLCWps/)
 
