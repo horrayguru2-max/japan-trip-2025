@@ -89,14 +89,22 @@ td strong { color: var(--ink); }
 #tab-2:checked ~ .tab-bar label[for="tab-2"],
 #tab-3:checked ~ .tab-bar label[for="tab-3"],
 #tab-4:checked ~ .tab-bar label[for="tab-4"],
-#tab-5:checked ~ .tab-bar label[for="tab-5"],
-#tab-6:checked ~ .tab-bar label[for="tab-6"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+#tab-5:checked ~ .tab-bar label[for="tab-5"] { background: var(--ink); color: #fff; border-color: var(--ink); }
 #tab-1:checked ~ #panel-1,
 #tab-2:checked ~ #panel-2,
 #tab-3:checked ~ #panel-3,
 #tab-4:checked ~ #panel-4,
-#tab-5:checked ~ #panel-5,
-#tab-6:checked ~ #panel-6 { display: block; }
+#tab-5:checked ~ #panel-5 { display: block; }
+
+/* Sub-tabs (nested inside 行程总览 panel: 逐日行程 / 总览) — same radio technique, own group */
+.subtabs-input { position: absolute; opacity: 0; pointer-events: none; }
+.subtab-bar { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.8rem; }
+.subtab-label { flex: 1 1 auto; text-align: center; padding: 0.45rem 0.4rem; border-radius: 16px; background: var(--card); border: 1px solid var(--bdr); font-size: 0.8rem; font-weight: 600; color: var(--ink2); cursor: pointer; white-space: nowrap; user-select: none; transition: background .15s, color .15s, border-color .15s; }
+.subtab-panel { display: none; }
+#subtab-1:checked ~ .subtab-bar label[for="subtab-1"],
+#subtab-2:checked ~ .subtab-bar label[for="subtab-2"] { background: var(--accent); color: #fff; border-color: var(--accent); }
+#subtab-1:checked ~ #subpanel-1,
+#subtab-2:checked ~ #subpanel-2 { display: block; }
 
 /* City group label */
 .city-group { font-size: 1rem; font-weight: 700; color: var(--card); background: var(--ink); padding: 0.5rem 0.9rem; border-radius: 8px; margin: 1.4rem 0 0.6rem; }
@@ -156,6 +164,7 @@ details.ref-drop .ref-drop-body table { font-size: 0.82rem; }
   h2 { font-size: 1.05rem; }
   body { font-size: 14px; padding: 1rem 0.75rem 3rem; }
   .tab-label { font-size: 0.78rem; padding: 0.5rem 0.3rem; }
+  .subtab-label { font-size: 0.75rem; padding: 0.4rem 0.3rem; }
   blockquote { max-width: 90%; margin-left: 0.6rem; }
 
   /* Collapse the 5-col POI schedule table to 时间|行程 on phones — 地图/交通费用/
@@ -181,18 +190,23 @@ details.ref-drop .ref-drop-body table { font-size: 0.82rem; }
 <input type="radio" name="tabs" id="tab-3" class="tabs-input">
 <input type="radio" name="tabs" id="tab-4" class="tabs-input">
 <input type="radio" name="tabs" id="tab-5" class="tabs-input">
-<input type="radio" name="tabs" id="tab-6" class="tabs-input">
 
 <div class="tab-bar">
-  <label class="tab-label" for="tab-1">📅 逐日行程</label>
+  <label class="tab-label" for="tab-1">📊 行程总览</label>
   <label class="tab-label" for="tab-2">🚗 自驾版行程</label>
   <label class="tab-label" for="tab-3">🗺 Google Map</label>
-  <label class="tab-label" for="tab-4">📊 行程总览</label>
-  <label class="tab-label" for="tab-5">🏨 住宿 & 🎫 凭证</label>
-  <label class="tab-label" for="tab-6">✅ 清单</label>
+  <label class="tab-label" for="tab-4">🏨 住宿 & 🎫 凭证</label>
+  <label class="tab-label" for="tab-5">✅ 清单</label>
 </div>
 
-<div class="tab-panel" id="panel-1"><div class="city-group">新山 (Johor Bahru / Johor Bahru) — Sep 8–9 (Tue–Wed) · Day 0 · 1晚</div>
+<div class="tab-panel" id="panel-1">
+<input type="radio" name="subtabs" id="subtab-1" class="subtabs-input" checked>
+<input type="radio" name="subtabs" id="subtab-2" class="subtabs-input">
+<div class="subtab-bar">
+  <label class="subtab-label" for="subtab-1">📅 逐日行程</label>
+  <label class="subtab-label" for="subtab-2">📊 总览</label>
+</div>
+<div class="subtab-panel" id="subpanel-1"><div class="city-group">新山 (Johor Bahru / Johor Bahru) — Sep 8–9 (Tue–Wed) · Day 0 · 1晚</div>
 <div class="hotel-intro"><p class="hotel-name">🏨 <strong>酒店：SEM9 Senai – Formerly Known as Perth Hotel</strong></p><details class="hotel-addr"><summary>📍 地址 / 联系方式 ▾</summary><div class="hotel-addr-body"><p>📍 21, Jalan Terminal 1, Senai Centerpoint, Senai / Airport, Johor Bahru, Malaysia, 81400</p><p>📞 +60197710117 · Agoda Booking ID: 2031572647</p></div></details></div>
 
 <details class="day"><summary>Day 0 · Sep 8 (Tue) — ✅ 吉隆坡飞新山（已订票），SEM9 Senai 过夜</summary><div class="day-body"><blockquote class=""><p>✅ <strong>KUL→JHB 机票已订：AirAsia AK6032</strong>（Booking no. TERWUG，订票日期 09 Apr 2026）</p><p>乘客：Yun Ching Chin (adult) · Soo Peng Tan (adult) · Hong Yu Chin (child)，each 7kg 手提行李</p></blockquote>
@@ -416,6 +430,50 @@ details.ref-drop .ref-drop-body table { font-size: 0.82rem; }
 <tr><td>20:55</td><td>✈ 起飞！→ JB Senai Airport (JHB) · 次日 08:10 抵达 🎉</td><td>—</td><td>—</td><td>—</td></tr></tbody></table></div></div></details>
 </div></details>
 </div>
+<div class="subtab-panel" id="subpanel-2"><pre><code>
+新山 (Johor Bahru) Sep 8–9 (Tue–Wed) · Day 0（出发前一晚）  →  大阪 (Osaka) Sep 9–11 (Wed–Fri) · Day 1–3  →  名古屋 (Nagoya) Sep 12–14 (Sat–Mon) · Day 4–5  →  京都 (Kyoto) Sep 14–16 (Mon–Wed) · Day 6–7  →  大阪 (Osaka) Sep 16–21 (Wed–Mon) · Day 8–13
+</code></pre>
+
+<div class="table-wrap"><table><thead><tr><th>城市</th><th>日程</th><th>晚数</th><th>酒店</th><th>抵达交通</th></tr></thead><tbody><tr><td>🇲🇾 新山 (Johor Bahru / Johor Bahru)</td><td>Sep 8–9 (Tue–Wed) · Day 0</td><td>1晚</td><td>SEM9 Senai Hotel</td><td>出发前一晚过夜，方便隔天早班机</td></tr>
+<tr><td>🏯 大阪 (Osaka / 大阪)</td><td>Sep 9–11 (Wed–Fri) · Day 1–3</td><td>3晚</td><td>Hotel Universal Port Vita</td><td>✈ 抵达 KIX</td></tr>
+<tr><td>🌿 名古屋 (Nagoya / 名古屋)</td><td>Sep 12–14 (Sat–Mon) · Day 4–5</td><td>2晚</td><td>Nishitetsu Hotel Croom Nagoya</td><td>新干线 Nozomi 约50分 ¥6,680/人（经新大阪转乘）</td></tr>
+<tr><td>⛩️ 京都 (Kyoto / 京都)</td><td>Sep 14–16 (Mon–Wed) · Day 6–7</td><td>2晚</td><td>Rinn Kyoto Station</td><td>新干线 Nozomi 约35分 ¥5,610/人</td></tr>
+<tr><td>🏯 大阪 (Osaka / 大阪) 回程</td><td>Sep 16–21 (Wed–Mon) · Day 8–13</td><td>5晚</td><td>Miyako City Osaka Hommachi</td><td>JR新快速 约55分 ¥570</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>景点</th><th>城市</th><th>特色</th><th>费用</th><th>日程</th></tr></thead><tbody><tr><td>★ USJ (Universal Studios Japan / ユニバーサル・スタジオ・ジャパン)</td><td>大阪</td><td>任天堂世界 + 哈利波特 + 小黄人 + 侏罗纪世界</td><td>成人¥9,900 / 儿童¥6,200</td><td>Day 2</td></tr>
+<tr><td>🖤 檀王法林寺 (Dan-no-Hori-ji Temple / 壇王法林寺) 黑猫招财猫</td><td>京都</td><td>日本唯一黑色招财猫，僧侣开光，免费</td><td>免费</td><td>Day 8</td></tr>
+<tr><td>💰 御金神社 (Mikane Jinja / 御金神社) 金箔鸟居</td><td>京都</td><td>日本唯一金箔鸟居，祈财运，福财布</td><td>免费参拜</td><td>Day 8</td></tr>
+<tr><td>★ 吉卜力公园 (Ghibli Park / ジブリパーク)</td><td>名古屋</td><td>✅ <strong>已购票</strong>（大さんぽ券 O-Sanpo Day Pass Standard・土日祝）：吉卜力大倉庫 + もののけの里 + 魔女の谷（户外）3个区域，不含青春の丘 & どんどこ森</td><td>成人¥3,800 / 儿童¥1,900（票根登记：Lead participant CHIN）</td><td>Day 5（★ 已避开周二定休！大倉庫入场时段 10:00）</td></tr>
+<tr><td>★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館)</td><td>大阪</td><td>鲸鲨展缸，关西最震撼水族馆，亲子必去</td><td>成人¥2,700 / 儿童¥1,400</td><td>Day 3</td></tr></tbody></table></div>
+<details class="day optional"><summary>🗺 可选景点 & 延伸行程（点击展开）</summary><div class="day-body"><blockquote class=""><p>以下景点不在主行程内，供参考和日后规划用。行程确定后再决定是否加入。</p></blockquote>
+
+<hr>
+
+<h3>京都周边延伸（从京都出发的一日游）</h3>
+
+<div class="table-wrap"><table><thead><tr><th>景点</th><th>特色</th><th>交通方式</th><th>所需时间</th><th>参考链接</th></tr></thead><tbody><tr><td>二条城 (Nijo Castle / 二条城)</td><td>德川家康将军御所，走廊会发出鶯鳴声 (Nightingale Floor / 鶯張り)，孩子好奇，Day 7 排不进去先移出来</td><td>地下鉄烏丸線→烏丸御池→東西線→二条城前駅 约15分 ¥260</td><td>约1.5–2小时</td><td>—</td></tr>
+<tr><td>天橋立 (Amanohashidate / 天橋立)</td><td>日本三景之一，松树林沙洲横跨海湾，缆车绝景，可骑脚车 & 搭船慢慢探索</td><td>京都站 (Kyoto Station / 京都駅) 搭 JR特急约2小时 → 天橋立駅 (Amanohashidate Station / 天橋立駅)，步行到缆车</td><td>全天</td><td><a href="https://www.instagram.com/p/DX85i_PTZZu/" target="_blank">天橋立参考</a></td></tr>
+<tr><td>伊根舟屋 (Ine Fishing Village / 伊根の舟屋)</td><td>京都海边宁静渔村，传统舟屋沿海排列，风景超疗愈，人潮少；⚠️ 没有自驾的话公共交通单程要2.5–3小时，比嵐山累很多，建议有租车才考虑</td><td>自驾从京都约2小时最方便；也可搭 JR + 巴士前往，但转乘多耗时长</td><td>半天～全天</td><td><a href="https://www.instagram.com/reels/DYbZovKs-kB/" target="_blank">伊根参考</a></td></tr>
+<tr><td>西舞鹤 吉原入江 (Nishimaizuru Yoshiwara Cove / 西舞鶴 吉原入江)</td><td>京都北部隐藏版水岸渔村，传统民宅与渔船，气氛宁静，像远离城市的另一个世界</td><td>京都站搭 JR 到西舞鶴駅 (Nishi-Maizuru Station / 西舞鶴駅)，转巴士或步行前往吉原地区</td><td>半天</td><td>—</td></tr>
+<tr><td>丹後くろまつ号 (Tango Kuromatsu / 丹後くろまつ号)</td><td>天橋立→西舞鶴景观餐车列车，全预约制，车上供应套餐料理，沿途海景美如《千与千寻》漂浮在海上；⚠️ ¥15,000/人（3人约¥45,000起），预约在出发日前3个月当天10点开放，9月的日期现在（8月）可能已过首波开放期，需上官网确认剩位</td><td>天橋立駅13:05发→西舞鶴駅14:50着，单程约1小时45分（此时刻表为2025年10月–2026年3月季度班次，9月实际班次未确认，需另查）</td><td>全天（含往返京都站交通，等同天橋立一日游）</td><td><a href="https://travel.willer.co.jp/train/tantetsu/booking/akamatsu-route1-1/" target="_blank">官网预约</a> · <a href="https://www.instagram.com/reel/C_GAhcvtBos/?igsh=MXI5ZHMzZXNieGtnag==" target="_blank">参考影片</a></td></tr></tbody></table></div>
+
+<blockquote class="tip"><p>💡 <strong>天橋立 + 伊根舟屋组合一日游：</strong> 两者相距约40分钟车程，自驾最方便，可以安排在京都的其中一天出发。</p></blockquote>
+
+<hr>
+
+<h3>大阪周边延伸</h3>
+
+<div class="table-wrap"><table><thead><tr><th>景点</th><th>特色</th><th>交通方式</th><th>所需时间</th><th>参考链接</th></tr></thead><tbody><tr><td>淡路岛二次元之森 (Nijigen no Mori / ニジゲンノモリ)</td><td>进击的巨人 + 火影忍者 + 蜡笔小新 + 勇者斗恶龙主题园区，超刺激飞索体验！</td><td>大阪自驾约1.5小时；或搭高速巴士前往淡路岛（官网有交通指引）</td><td>半天～全天</td><td><a href="https://www.instagram.com/reels/DYPQlmxMwYG/" target="_blank">二次元之森参考</a></td></tr>
+<tr><td>綱敷天神社御旅社 哥斯拉御守 (Godzilla Omamori @ Tsunashiki Tenjin Shrine Branch / 綱敷天神社御旅社)</td><td>纪念1993年哥斯拉电影首次现身梅田的限定御守，¥1,000/个，哥斯拉款每人限购1个，也有奥特曼/三丽鸥角色款；⚠️ 只在周六日 13:00–17:00 販售，8月已有网友反馈缺货过，要不要排进去还没定</td><td>大阪市北区茶屋町，近梅田站 (Umeda Station)</td><td>约15–20分钟（含排队可能更久）</td><td><a href="https://www.instagram.com/p/DW9EOhakczg/" target="_blank">IG参考</a></td></tr></tbody></table></div>
+
+<blockquote class="tip"><p>💡 勝尾寺、大鳥大社已排入 Day 12 / Day 10 正式行程（见下方对应日期），参考来源：<a href="https://www.instagram.com/p/DV0ZSqLCWps/" target="_blank">IG kesiting_「日本大阪必排3大景點」</a></p></blockquote>
+
+<hr>
+
+<h3>特别交通体验</h3>
+
+<div class="table-wrap"><table><thead><tr><th>景点</th><th>特色</th><th>交通方式</th><th>所需时间</th><th>参考链接</th></tr></thead><tbody><tr><td>Aoniyoshi 近铁观光列车 (Kintetsu Aoniyoshi / 近鉄あをによし)</td><td>车厢走奈良时代风格，座位宽敞，设有小包厢与咖啡车厢，超有日本复古贵族感，不是最快路线但体验感满满；⚠️ 非常热门，建议提前1个月抢票，订票方式：近铁官网 / Klook / KKday / 日本近铁车站柜台</td><td>运行路线：京都 (Kyoto / 京都) ↔ 近鉄奈良 (Kintetsu Nara / 近鉄奈良) ↔ 大阪难波 (Osaka Namba / 大阪難波)；顺路玩法：京都搭Aoniyoshi→奈良游半天（鹿公园+东大寺）→奈良搭近铁→大阪难波；每人合计约¥2,000–2,500（基本车资¥1,200–1,500 + 特急指定席¥700–1,000）</td><td>半天（含奈良游玩）</td><td><a href="https://www.instagram.com/reels/DYjwfVRJHXW/" target="_blank">Aoniyoshi参考影片</a></td></tr></tbody></table></div></div></details>
+</div>
+</div>
 <div class="tab-panel" id="panel-2"><blockquote class="tip"><p>💡 这个 tab 是「📅 逐日行程」里 12–17 日（火车+步行版，原版保留不动）的自驾改版——Sep 12 取车、Sep 17 还车，这几天改开车，内容基本沿用原版景点，只是交通方式换成自驾，路上/沿途多排了新景点。开车路段的时间还没法预估，先不标具体时间，你们照实际路况现场调整。</p><p>🚗 取车地点：557-0001, Japan（Google Map 只标了邮编，实际门市名称/地址请跟租车行核对）</p><p>🚗 还车地点：Sep 17 当天还车，具体门市待你跟租车行确认（可能跟取车同一家，也可能选大阪市区分店）</p></blockquote>
 <details class="day"><summary>Sep 12 (Sat) — 大阪 → 名古屋 自驾（路上去奈良看鹿）</summary><div class="day-body"><details class="poi"><summary>📍 🚙 大阪退房 → 取车</summary><div class="poi-body"><div class="table-wrap"><table class="poi-schedule"><thead><tr><th>时间</th><th>行程</th><th>地图</th><th>交通 / 费用</th><th>参考链接</th></tr></thead><tbody><tr><td>—</td><td>Hotel Universal Port Vita 退房，前往取车点<div class="mobile-meta"><a href="https://www.google.com/maps/dir/?api=1&origin=Hotel+Universal+Port+Vita%2C+Osaka&destination=557-0001%2C+Japan&travelmode=driving" target="_blank">📍</a></div></td><td><a href="https://www.google.com/maps/dir/?api=1&origin=Hotel+Universal+Port+Vita%2C+Osaka&destination=557-0001%2C+Japan&travelmode=driving" target="_blank">📍</a></td><td>—</td><td>—</td></tr>
 <tr><td>—</td><td>抵达取车点（557-0001），办手续取车，正式开始自驾</td><td>—</td><td>—</td><td>—</td></tr></tbody></table></div></div></details>
@@ -522,50 +580,7 @@ details.ref-drop .ref-drop-body table { font-size: 0.82rem; }
 <p><a href="https://www.google.com/maps/dir/Rinn+Kyoto+Station/Kiyomizu-dera/Dann%C5%8D+H%C5%8Drin-ji+Temple/Heian-jing%C5%AB+Shrine/Sanzen-in+Temple/Kifune+Shrine/Kinkaku-ji/data=!4m46!4m45!1m5!1m4!1s0x600109ae7c75def3:0x4465e5d0996ddd9b!8m2!3d34.9874572!4d135.7539881!1m5!1m4!1s0x600108d385dcfb07:0x62af658650c434ba!8m2!3d34.9946662!4d135.784661!1m5!1m4!1s0x600108ec8bc426e5:0xeefa720f60268dbe!8m2!3d35.0098761!4d135.77318499999998!1m5!1m4!1s0x600108e5187cc88d:0x75bed992d897454f!8m2!3d35.0159823!4d135.7824263!1m5!1m4!1s0x6001a0d6590baa13:0x532a08b9f00f2f34!8m2!3d35.119726!4d135.83440579999998!1m5!1m4!1s0x6001a608f30a9109:0x1d021ae4b564548b!8m2!3d35.122090899999996!4d135.7629101!1m5!1m4!1s0x6001a820c0eb46bd:0xee4272b1c22645f!8m2!3d35.03937!4d135.7292431!2m1!11b1!3e0?utm_source=mstt_0&g_ep=CAESBzI2LjMzLjIYACCRQSqpASw5NDI2NzcyNyw5NDI5MjE5NSw5NDI5OTUzMiwxMDA3OTY0OTgsMTAwNzk3NzYxLDEwMDgyNjQ3NSwxMDA3OTY1MzUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwODE1NjM1LDEwMDgyMDIzNywxMDA4MjI0OTRCAk1Z&skid=d462de50-c170-432b-aa08-e235788798c9&g_st=am" target="_blank">🔗 打开 Google Map 路线</a></p>
 
 <p>途经：Rinn Kyoto Station → 清水寺 → 檀王法林寺（黑猫招财猫）→ 平安神宮 → 三千院 → 貴船神社 → 金阁寺</p></div>
-<div class="tab-panel" id="panel-4"><pre><code>
-新山 (Johor Bahru) Sep 8–9 (Tue–Wed) · Day 0（出发前一晚）  →  大阪 (Osaka) Sep 9–11 (Wed–Fri) · Day 1–3  →  名古屋 (Nagoya) Sep 12–14 (Sat–Mon) · Day 4–5  →  京都 (Kyoto) Sep 14–16 (Mon–Wed) · Day 6–7  →  大阪 (Osaka) Sep 16–21 (Wed–Mon) · Day 8–13
-</code></pre>
-
-<div class="table-wrap"><table><thead><tr><th>城市</th><th>日程</th><th>晚数</th><th>酒店</th><th>抵达交通</th></tr></thead><tbody><tr><td>🇲🇾 新山 (Johor Bahru / Johor Bahru)</td><td>Sep 8–9 (Tue–Wed) · Day 0</td><td>1晚</td><td>SEM9 Senai Hotel</td><td>出发前一晚过夜，方便隔天早班机</td></tr>
-<tr><td>🏯 大阪 (Osaka / 大阪)</td><td>Sep 9–11 (Wed–Fri) · Day 1–3</td><td>3晚</td><td>Hotel Universal Port Vita</td><td>✈ 抵达 KIX</td></tr>
-<tr><td>🌿 名古屋 (Nagoya / 名古屋)</td><td>Sep 12–14 (Sat–Mon) · Day 4–5</td><td>2晚</td><td>Nishitetsu Hotel Croom Nagoya</td><td>新干线 Nozomi 约50分 ¥6,680/人（经新大阪转乘）</td></tr>
-<tr><td>⛩️ 京都 (Kyoto / 京都)</td><td>Sep 14–16 (Mon–Wed) · Day 6–7</td><td>2晚</td><td>Rinn Kyoto Station</td><td>新干线 Nozomi 约35分 ¥5,610/人</td></tr>
-<tr><td>🏯 大阪 (Osaka / 大阪) 回程</td><td>Sep 16–21 (Wed–Mon) · Day 8–13</td><td>5晚</td><td>Miyako City Osaka Hommachi</td><td>JR新快速 约55分 ¥570</td></tr></tbody></table></div>
-<div class="table-wrap"><table><thead><tr><th>景点</th><th>城市</th><th>特色</th><th>费用</th><th>日程</th></tr></thead><tbody><tr><td>★ USJ (Universal Studios Japan / ユニバーサル・スタジオ・ジャパン)</td><td>大阪</td><td>任天堂世界 + 哈利波特 + 小黄人 + 侏罗纪世界</td><td>成人¥9,900 / 儿童¥6,200</td><td>Day 2</td></tr>
-<tr><td>🖤 檀王法林寺 (Dan-no-Hori-ji Temple / 壇王法林寺) 黑猫招财猫</td><td>京都</td><td>日本唯一黑色招财猫，僧侣开光，免费</td><td>免费</td><td>Day 8</td></tr>
-<tr><td>💰 御金神社 (Mikane Jinja / 御金神社) 金箔鸟居</td><td>京都</td><td>日本唯一金箔鸟居，祈财运，福财布</td><td>免费参拜</td><td>Day 8</td></tr>
-<tr><td>★ 吉卜力公园 (Ghibli Park / ジブリパーク)</td><td>名古屋</td><td>✅ <strong>已购票</strong>（大さんぽ券 O-Sanpo Day Pass Standard・土日祝）：吉卜力大倉庫 + もののけの里 + 魔女の谷（户外）3个区域，不含青春の丘 & どんどこ森</td><td>成人¥3,800 / 儿童¥1,900（票根登记：Lead participant CHIN）</td><td>Day 5（★ 已避开周二定休！大倉庫入场时段 10:00）</td></tr>
-<tr><td>★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館)</td><td>大阪</td><td>鲸鲨展缸，关西最震撼水族馆，亲子必去</td><td>成人¥2,700 / 儿童¥1,400</td><td>Day 3</td></tr></tbody></table></div>
-<details class="day optional"><summary>🗺 可选景点 & 延伸行程（点击展开）</summary><div class="day-body"><blockquote class=""><p>以下景点不在主行程内，供参考和日后规划用。行程确定后再决定是否加入。</p></blockquote>
-
-<hr>
-
-<h3>京都周边延伸（从京都出发的一日游）</h3>
-
-<div class="table-wrap"><table><thead><tr><th>景点</th><th>特色</th><th>交通方式</th><th>所需时间</th><th>参考链接</th></tr></thead><tbody><tr><td>二条城 (Nijo Castle / 二条城)</td><td>德川家康将军御所，走廊会发出鶯鳴声 (Nightingale Floor / 鶯張り)，孩子好奇，Day 7 排不进去先移出来</td><td>地下鉄烏丸線→烏丸御池→東西線→二条城前駅 约15分 ¥260</td><td>约1.5–2小时</td><td>—</td></tr>
-<tr><td>天橋立 (Amanohashidate / 天橋立)</td><td>日本三景之一，松树林沙洲横跨海湾，缆车绝景，可骑脚车 & 搭船慢慢探索</td><td>京都站 (Kyoto Station / 京都駅) 搭 JR特急约2小时 → 天橋立駅 (Amanohashidate Station / 天橋立駅)，步行到缆车</td><td>全天</td><td><a href="https://www.instagram.com/p/DX85i_PTZZu/" target="_blank">天橋立参考</a></td></tr>
-<tr><td>伊根舟屋 (Ine Fishing Village / 伊根の舟屋)</td><td>京都海边宁静渔村，传统舟屋沿海排列，风景超疗愈，人潮少；⚠️ 没有自驾的话公共交通单程要2.5–3小时，比嵐山累很多，建议有租车才考虑</td><td>自驾从京都约2小时最方便；也可搭 JR + 巴士前往，但转乘多耗时长</td><td>半天～全天</td><td><a href="https://www.instagram.com/reels/DYbZovKs-kB/" target="_blank">伊根参考</a></td></tr>
-<tr><td>西舞鹤 吉原入江 (Nishimaizuru Yoshiwara Cove / 西舞鶴 吉原入江)</td><td>京都北部隐藏版水岸渔村，传统民宅与渔船，气氛宁静，像远离城市的另一个世界</td><td>京都站搭 JR 到西舞鶴駅 (Nishi-Maizuru Station / 西舞鶴駅)，转巴士或步行前往吉原地区</td><td>半天</td><td>—</td></tr>
-<tr><td>丹後くろまつ号 (Tango Kuromatsu / 丹後くろまつ号)</td><td>天橋立→西舞鶴景观餐车列车，全预约制，车上供应套餐料理，沿途海景美如《千与千寻》漂浮在海上；⚠️ ¥15,000/人（3人约¥45,000起），预约在出发日前3个月当天10点开放，9月的日期现在（8月）可能已过首波开放期，需上官网确认剩位</td><td>天橋立駅13:05发→西舞鶴駅14:50着，单程约1小时45分（此时刻表为2025年10月–2026年3月季度班次，9月实际班次未确认，需另查）</td><td>全天（含往返京都站交通，等同天橋立一日游）</td><td><a href="https://travel.willer.co.jp/train/tantetsu/booking/akamatsu-route1-1/" target="_blank">官网预约</a> · <a href="https://www.instagram.com/reel/C_GAhcvtBos/?igsh=MXI5ZHMzZXNieGtnag==" target="_blank">参考影片</a></td></tr></tbody></table></div>
-
-<blockquote class="tip"><p>💡 <strong>天橋立 + 伊根舟屋组合一日游：</strong> 两者相距约40分钟车程，自驾最方便，可以安排在京都的其中一天出发。</p></blockquote>
-
-<hr>
-
-<h3>大阪周边延伸</h3>
-
-<div class="table-wrap"><table><thead><tr><th>景点</th><th>特色</th><th>交通方式</th><th>所需时间</th><th>参考链接</th></tr></thead><tbody><tr><td>淡路岛二次元之森 (Nijigen no Mori / ニジゲンノモリ)</td><td>进击的巨人 + 火影忍者 + 蜡笔小新 + 勇者斗恶龙主题园区，超刺激飞索体验！</td><td>大阪自驾约1.5小时；或搭高速巴士前往淡路岛（官网有交通指引）</td><td>半天～全天</td><td><a href="https://www.instagram.com/reels/DYPQlmxMwYG/" target="_blank">二次元之森参考</a></td></tr>
-<tr><td>綱敷天神社御旅社 哥斯拉御守 (Godzilla Omamori @ Tsunashiki Tenjin Shrine Branch / 綱敷天神社御旅社)</td><td>纪念1993年哥斯拉电影首次现身梅田的限定御守，¥1,000/个，哥斯拉款每人限购1个，也有奥特曼/三丽鸥角色款；⚠️ 只在周六日 13:00–17:00 販售，8月已有网友反馈缺货过，要不要排进去还没定</td><td>大阪市北区茶屋町，近梅田站 (Umeda Station)</td><td>约15–20分钟（含排队可能更久）</td><td><a href="https://www.instagram.com/p/DW9EOhakczg/" target="_blank">IG参考</a></td></tr></tbody></table></div>
-
-<blockquote class="tip"><p>💡 勝尾寺、大鳥大社已排入 Day 12 / Day 10 正式行程（见下方对应日期），参考来源：<a href="https://www.instagram.com/p/DV0ZSqLCWps/" target="_blank">IG kesiting_「日本大阪必排3大景點」</a></p></blockquote>
-
-<hr>
-
-<h3>特别交通体验</h3>
-
-<div class="table-wrap"><table><thead><tr><th>景点</th><th>特色</th><th>交通方式</th><th>所需时间</th><th>参考链接</th></tr></thead><tbody><tr><td>Aoniyoshi 近铁观光列车 (Kintetsu Aoniyoshi / 近鉄あをによし)</td><td>车厢走奈良时代风格，座位宽敞，设有小包厢与咖啡车厢，超有日本复古贵族感，不是最快路线但体验感满满；⚠️ 非常热门，建议提前1个月抢票，订票方式：近铁官网 / Klook / KKday / 日本近铁车站柜台</td><td>运行路线：京都 (Kyoto / 京都) ↔ 近鉄奈良 (Kintetsu Nara / 近鉄奈良) ↔ 大阪难波 (Osaka Namba / 大阪難波)；顺路玩法：京都搭Aoniyoshi→奈良游半天（鹿公园+东大寺）→奈良搭近铁→大阪难波；每人合计约¥2,000–2,500（基本车资¥1,200–1,500 + 特急指定席¥700–1,000）</td><td>半天（含奈良游玩）</td><td><a href="https://www.instagram.com/reels/DYjwfVRJHXW/" target="_blank">Aoniyoshi参考影片</a></td></tr></tbody></table></div></div></details>
-</div>
-<div class="tab-panel" id="panel-5"><div class="hotel-card" style="border-left:3px solid var(--accent);">
+<div class="tab-panel" id="panel-4"><div class="hotel-card" style="border-left:3px solid var(--accent);">
 <h3>🎫 订票凭证 / Booking Vouchers</h3>
 <p class="hotel-note">所有酒店入住凭证、门票 PDF 存在私人 Google Drive 文件夹（不公开在此页面，避免订单号/PIN码外泄）：<br><a href="https://drive.google.com/drive/folders/15b3HNyrht43G0Fm6--sdJV9BPMlwAU99?usp=drive_link" target="_blank" rel="noopener">📂 打开 Google Drive 凭证文件夹</a></p>
 <p class="hotel-note" style="font-size:0.8rem;color:#999;">⚠️ 此页面会公开在 GitHub Pages，请确认该 Drive 文件夹的分享权限设置为仅限你自己或指定帐号可开启。</p>
@@ -617,7 +632,7 @@ details.ref-drop .ref-drop-body table { font-size: 0.82rem; }
 <tr><td>难波駅 (Namba Station / 難波駅) → KIX</td><td>1.5km</td><td>步行18分 or 地铁1站 → 南海 Rapi:t 38分</td></tr></tbody></table></div>
 </div>
 </div>
-<div class="tab-panel" id="panel-6"><h3>🏨 酒店</h3>
+<div class="tab-panel" id="panel-5"><h3>🏨 酒店</h3>
 
 <div class="table-wrap"><table><thead><tr><th>项目</th><th>状态</th><th>备注</th></tr></thead><tbody><tr><td>SEM9 Senai Hotel（新山）</td><td>✅ 已订</td><td>Agoda Booking ID: 2031572647</td></tr>
 <tr><td>Hotel Universal Port Vita（大阪 Day 1–3）</td><td>✅ 已订</td><td>—</td></tr>

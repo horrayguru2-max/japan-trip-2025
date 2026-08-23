@@ -499,14 +499,22 @@ td strong { color: var(--ink); }
 #tab-2:checked ~ .tab-bar label[for="tab-2"],
 #tab-3:checked ~ .tab-bar label[for="tab-3"],
 #tab-4:checked ~ .tab-bar label[for="tab-4"],
-#tab-5:checked ~ .tab-bar label[for="tab-5"],
-#tab-6:checked ~ .tab-bar label[for="tab-6"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+#tab-5:checked ~ .tab-bar label[for="tab-5"] { background: var(--ink); color: #fff; border-color: var(--ink); }
 #tab-1:checked ~ #panel-1,
 #tab-2:checked ~ #panel-2,
 #tab-3:checked ~ #panel-3,
 #tab-4:checked ~ #panel-4,
-#tab-5:checked ~ #panel-5,
-#tab-6:checked ~ #panel-6 { display: block; }
+#tab-5:checked ~ #panel-5 { display: block; }
+
+/* Sub-tabs (nested inside 行程总览 panel: 逐日行程 / 总览) — same radio technique, own group */
+.subtabs-input { position: absolute; opacity: 0; pointer-events: none; }
+.subtab-bar { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.8rem; }
+.subtab-label { flex: 1 1 auto; text-align: center; padding: 0.45rem 0.4rem; border-radius: 16px; background: var(--card); border: 1px solid var(--bdr); font-size: 0.8rem; font-weight: 600; color: var(--ink2); cursor: pointer; white-space: nowrap; user-select: none; transition: background .15s, color .15s, border-color .15s; }
+.subtab-panel { display: none; }
+#subtab-1:checked ~ .subtab-bar label[for="subtab-1"],
+#subtab-2:checked ~ .subtab-bar label[for="subtab-2"] { background: var(--accent); color: #fff; border-color: var(--accent); }
+#subtab-1:checked ~ #subpanel-1,
+#subtab-2:checked ~ #subpanel-2 { display: block; }
 
 /* City group label */
 .city-group { font-size: 1rem; font-weight: 700; color: var(--card); background: var(--ink); padding: 0.5rem 0.9rem; border-radius: 8px; margin: 1.4rem 0 0.6rem; }
@@ -566,6 +574,7 @@ details.ref-drop .ref-drop-body table { font-size: 0.82rem; }
   h2 { font-size: 1.05rem; }
   body { font-size: 14px; padding: 1rem 0.75rem 3rem; }
   .tab-label { font-size: 0.78rem; padding: 0.5rem 0.3rem; }
+  .subtab-label { font-size: 0.75rem; padding: 0.4rem 0.3rem; }
   blockquote { max-width: 90%; margin-left: 0.6rem; }
 
   /* Collapse the 5-col POI schedule table to 时间|行程 on phones — 地图/交通费用/
@@ -596,23 +605,29 @@ const output = `<!DOCTYPE html>
 <input type="radio" name="tabs" id="tab-3" class="tabs-input">
 <input type="radio" name="tabs" id="tab-4" class="tabs-input">
 <input type="radio" name="tabs" id="tab-5" class="tabs-input">
-<input type="radio" name="tabs" id="tab-6" class="tabs-input">
 
 <div class="tab-bar">
-  <label class="tab-label" for="tab-1">📅 逐日行程</label>
+  <label class="tab-label" for="tab-1">📊 行程总览</label>
   <label class="tab-label" for="tab-2">🚗 自驾版行程</label>
   <label class="tab-label" for="tab-3">🗺 Google Map</label>
-  <label class="tab-label" for="tab-4">📊 行程总览</label>
-  <label class="tab-label" for="tab-5">🏨 住宿 & 🎫 凭证</label>
-  <label class="tab-label" for="tab-6">✅ 清单</label>
+  <label class="tab-label" for="tab-4">🏨 住宿 & 🎫 凭证</label>
+  <label class="tab-label" for="tab-5">✅ 清单</label>
 </div>
 
-<div class="tab-panel" id="panel-1">${itineraryHtml}</div>
+<div class="tab-panel" id="panel-1">
+<input type="radio" name="subtabs" id="subtab-1" class="subtabs-input" checked>
+<input type="radio" name="subtabs" id="subtab-2" class="subtabs-input">
+<div class="subtab-bar">
+  <label class="subtab-label" for="subtab-1">📅 逐日行程</label>
+  <label class="subtab-label" for="subtab-2">📊 总览</label>
+</div>
+<div class="subtab-panel" id="subpanel-1">${itineraryHtml}</div>
+<div class="subtab-panel" id="subpanel-2">${overviewHtml}</div>
+</div>
 <div class="tab-panel" id="panel-2">${driveItineraryHtml}</div>
 <div class="tab-panel" id="panel-3">${googleMapHtml}</div>
-<div class="tab-panel" id="panel-4">${overviewHtml}</div>
-<div class="tab-panel" id="panel-5">${hotelsHtml}</div>
-<div class="tab-panel" id="panel-6">${checklistHtml}</div>
+<div class="tab-panel" id="panel-4">${hotelsHtml}</div>
+<div class="tab-panel" id="panel-5">${checklistHtml}</div>
 </div>
 </body>
 </html>`;
