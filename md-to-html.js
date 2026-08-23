@@ -292,6 +292,9 @@ let cityDaySections = []; // { cityTitle, introTable, days: [{title, bodyLines}]
 let optionalExtLines = null; // 🗺 可选景点 & 延伸行程
 let costLines = null;     // 💴 费用参考
 let checklistLines = null; // ✅ 行前重要 Checklist
+let driveIntroHtml = '';  // 🚗 自驾版行程 intro notes (before first ### day)
+let driveDayItems = [];   // 🚗 自驾版行程 days: [{title, bodyLines}]
+let googleMapLines = null; // 🗺 Google Map tab content
 
 for (const block of h2Blocks) {
   const isCity = /Day\s*\d/.test(block.title);
@@ -299,6 +302,18 @@ for (const block of h2Blocks) {
     overviewHtml += convert(trimBlock(block.contentLines).join('\n')) + '\n';
   } else if (block.title === '住宿一览') {
     hotelsTableRaw = parseTableRaw(block.contentLines);
+  } else if (block.title.startsWith('🚗 自驾版行程')) {
+    const h3Idxs = findHeadingIdxs(block.contentLines, 3);
+    const introLines = h3Idxs.length ? block.contentLines.slice(0, h3Idxs[0]) : block.contentLines;
+    driveIntroHtml = convert(trimBlock(introLines).join('\n'));
+    driveDayItems = h3Idxs.map((start, i) => {
+      const end = i + 1 < h3Idxs.length ? h3Idxs[i + 1] : block.contentLines.length;
+      const title = block.contentLines[start].replace(/^###\s+/, '').trim();
+      const bodyLines = trimBlock(block.contentLines.slice(start + 1, end));
+      return { title, bodyLines };
+    });
+  } else if (block.title === '🗺 Google Map') {
+    googleMapLines = trimBlock(block.contentLines);
   } else if (isCity) {
     const h3Idxs = findHeadingIdxs(block.contentLines, 3);
     const introLines = h3Idxs.length ? block.contentLines.slice(0, h3Idxs[0]) : block.contentLines;
@@ -355,6 +370,18 @@ cityDaySections.forEach(city => {
 if (optionalExtLines) {
   overviewHtml += `<details class="day optional"><summary>🗺 可选景点 & 延伸行程（点击展开）</summary><div class="day-body">${convert(optionalExtLines.join('\n'))}</div></details>\n`;
 }
+
+// ---------- Build 🚗 自驾版行程 tab ----------
+
+let driveItineraryHtml = '';
+if (driveIntroHtml) driveItineraryHtml += driveIntroHtml + '\n';
+driveDayItems.forEach(day => {
+  driveItineraryHtml += `<details class="day"><summary>${inlineConvert(day.title)}</summary><div class="day-body">${renderDayBody(day.bodyLines)}</div></details>\n`;
+});
+
+// ---------- Build 🗺 Google Map tab ----------
+
+const googleMapHtml = googleMapLines ? convert(googleMapLines.join('\n')) : '';
 
 // ---------- Build 🏨 住宿 tab ----------
 
@@ -471,11 +498,15 @@ td strong { color: var(--ink); }
 #tab-1:checked ~ .tab-bar label[for="tab-1"],
 #tab-2:checked ~ .tab-bar label[for="tab-2"],
 #tab-3:checked ~ .tab-bar label[for="tab-3"],
-#tab-4:checked ~ .tab-bar label[for="tab-4"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+#tab-4:checked ~ .tab-bar label[for="tab-4"],
+#tab-5:checked ~ .tab-bar label[for="tab-5"],
+#tab-6:checked ~ .tab-bar label[for="tab-6"] { background: var(--ink); color: #fff; border-color: var(--ink); }
 #tab-1:checked ~ #panel-1,
 #tab-2:checked ~ #panel-2,
 #tab-3:checked ~ #panel-3,
-#tab-4:checked ~ #panel-4 { display: block; }
+#tab-4:checked ~ #panel-4,
+#tab-5:checked ~ #panel-5,
+#tab-6:checked ~ #panel-6 { display: block; }
 
 /* City group label */
 .city-group { font-size: 1rem; font-weight: 700; color: var(--card); background: var(--ink); padding: 0.5rem 0.9rem; border-radius: 8px; margin: 1.4rem 0 0.6rem; }
@@ -564,18 +595,24 @@ const output = `<!DOCTYPE html>
 <input type="radio" name="tabs" id="tab-2" class="tabs-input">
 <input type="radio" name="tabs" id="tab-3" class="tabs-input">
 <input type="radio" name="tabs" id="tab-4" class="tabs-input">
+<input type="radio" name="tabs" id="tab-5" class="tabs-input">
+<input type="radio" name="tabs" id="tab-6" class="tabs-input">
 
 <div class="tab-bar">
   <label class="tab-label" for="tab-1">📅 逐日行程</label>
-  <label class="tab-label" for="tab-2">📊 行程总览</label>
-  <label class="tab-label" for="tab-3">🏨 住宿 & 🎫 凭证</label>
-  <label class="tab-label" for="tab-4">✅ 清单</label>
+  <label class="tab-label" for="tab-2">🚗 自驾版行程</label>
+  <label class="tab-label" for="tab-3">🗺 Google Map</label>
+  <label class="tab-label" for="tab-4">📊 行程总览</label>
+  <label class="tab-label" for="tab-5">🏨 住宿 & 🎫 凭证</label>
+  <label class="tab-label" for="tab-6">✅ 清单</label>
 </div>
 
 <div class="tab-panel" id="panel-1">${itineraryHtml}</div>
-<div class="tab-panel" id="panel-2">${overviewHtml}</div>
-<div class="tab-panel" id="panel-3">${hotelsHtml}</div>
-<div class="tab-panel" id="panel-4">${checklistHtml}</div>
+<div class="tab-panel" id="panel-2">${driveItineraryHtml}</div>
+<div class="tab-panel" id="panel-3">${googleMapHtml}</div>
+<div class="tab-panel" id="panel-4">${overviewHtml}</div>
+<div class="tab-panel" id="panel-5">${hotelsHtml}</div>
+<div class="tab-panel" id="panel-6">${checklistHtml}</div>
 </div>
 </body>
 </html>`;

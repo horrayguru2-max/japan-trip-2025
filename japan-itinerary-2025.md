@@ -45,6 +45,24 @@
 
 ---
 
+## 🗺 Google Map
+
+> 💡 这两条是你自己在 Google Map 上排的自驾路线，点开就是实时地图——之后如果你在地图上加/减/挪站点，记得跟我说一声，行程要同步改。
+
+### 🚗 Osaka → Nagoya（Sep 12 自驾路线）
+
+[🔗 打开 Google Map 路线](https://maps.app.goo.gl/dKfLwtYMLLtLrpur8?g_st=am)
+
+途经：Hotel Universal Port Vita → 557-0001, Japan（取车点，只有邮编，实际门市名称/地址需跟租车行核对）→ 東大寺 Tōdai-ji（奈良看鹿）→ Port Of Nagoya Public Aquarium → The Royal Park Hotel Iconic Nagoya
+
+### ⛩️ Kyoto（Sep 14 名古屋→京都路上新增景点）
+
+[🔗 打开 Google Map 路线](https://www.google.com/maps/dir/Rinn+Kyoto+Station/Kiyomizu-dera/Dann%C5%8D+H%C5%8Drin-ji+Temple/Heian-jing%C5%AB+Shrine/Sanzen-in+Temple/Kifune+Shrine/Kinkaku-ji/data=!4m46!4m45!1m5!1m4!1s0x600109ae7c75def3:0x4465e5d0996ddd9b!8m2!3d34.9874572!4d135.7539881!1m5!1m4!1s0x600108d385dcfb07:0x62af658650c434ba!8m2!3d34.9946662!4d135.784661!1m5!1m4!1s0x600108ec8bc426e5:0xeefa720f60268dbe!8m2!3d35.0098761!4d135.77318499999998!1m5!1m4!1s0x600108e5187cc88d:0x75bed992d897454f!8m2!3d35.0159823!4d135.7824263!1m5!1m4!1s0x6001a0d6590baa13:0x532a08b9f00f2f34!8m2!3d35.119726!4d135.83440579999998!1m5!1m4!1s0x6001a608f30a9109:0x1d021ae4b564548b!8m2!3d35.122090899999996!4d135.7629101!1m5!1m4!1s0x6001a820c0eb46bd:0xee4272b1c22645f!8m2!3d35.03937!4d135.7292431!2m1!11b1!3e0?utm_source=mstt_0&g_ep=CAESBzI2LjMzLjIYACCRQSqpASw5NDI2NzcyNyw5NDI5MjE5NSw5NDI5OTUzMiwxMDA3OTY0OTgsMTAwNzk3NzYxLDEwMDgyNjQ3NSwxMDA3OTY1MzUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwODE1NjM1LDEwMDgyMDIzNywxMDA4MjI0OTRCAk1Z&skid=d462de50-c170-432b-aa08-e235788798c9&g_st=am)
+
+途经：Rinn Kyoto Station → 清水寺 → 檀王法林寺（黑猫招财猫）→ 平安神宮 → 三千院 → 貴船神社 → 金阁寺
+
+---
+
 ## 新山 (Johor Bahru / Johor Bahru) — Sep 8–9 (Tue–Wed) · Day 0 · 1晚
 
 **酒店：SEM9 Senai – Formerly Known as Perth Hotel**
@@ -661,6 +679,286 @@
 | 16:30 | 步行 → 难波駅 (Namba Station / 難波駅) → 南海电铁 Rapi:t (Nankai Rapi:t / ラピート) → KIX | [📍](https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=Kansai+International+Airport%2C+Osaka&travelmode=transit) | ¥1,450 · 约38分 | — |
 | 18:00 | 抵达 KIX，值机 (Check-in)・托运・安检・免税店 (Duty Free / 免税店) 购物 | — | — | — |
 | 20:55 | ✈ 起飞！→ JB Senai Airport (JHB) · 次日 08:10 抵达 🎉 | — | — | — |
+
+---
+
+## 🚗 自驾版行程（Sep 12–17 · 大阪→名古屋→京都自驾段）
+
+> 💡 这个 tab 是「📅 逐日行程」里 12–17 日（火车+步行版，原版保留不动）的自驾改版——Sep 12 取车、Sep 17 还车，这几天改开车，内容基本沿用原版景点，只是交通方式换成自驾，路上/沿途多排了新景点。开车路段的时间还没法预估，先不标具体时间，你们照实际路况现场调整。
+> 🚗 取车地点：557-0001, Japan（Google Map 只标了邮编，实际门市名称/地址请跟租车行核对）
+> 🚗 还车地点：Sep 17 当天还车，具体门市待你跟租车行确认（可能跟取车同一家，也可能选大阪市区分店）
+
+### Sep 12 (Sat) — 大阪 → 名古屋 自驾（路上去奈良看鹿）
+
+#### 🚙 大阪退房 → 取车
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | Hotel Universal Port Vita 退房，前往取车点 | [📍](https://www.google.com/maps/dir/?api=1&origin=Hotel+Universal+Port+Vita%2C+Osaka&destination=557-0001%2C+Japan&travelmode=driving) | — | — |
+| — | 抵达取车点（557-0001），办手续取车，正式开始自驾 | — | — | — |
+
+#### 🦌 東大寺 (Tōdai-ji / 東大寺) 奈良看鹿
+
+> 💡 顺路景点——大佛殿 + 奈良公园鹿群，孩子会很兴奋，记得买鹿仙贝喂鹿（¥200/包）。
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 取车点开车前往東大寺 (Tōdai-ji / 東大寺)，奈良公园看鹿 + 大佛殿参观 | [📍](https://www.google.com/maps/dir/?api=1&origin=557-0001%2C+Japan&destination=Todaiji+Temple%2C+Nara&travelmode=driving) | 大佛殿 大人¥600 | — |
+
+#### 🐬 Port Of Nagoya Public Aquarium (名古屋港水族館)
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 東大寺开车前往名古屋，Port Of Nagoya Public Aquarium（1-3 Minatomachi, Minato Ward, Nagoya, Aichi 455-0033） | [📍](https://www.google.com/maps/dir/?api=1&origin=Todaiji+Temple%2C+Nara&destination=Port+Of+Nagoya+Public+Aquarium%2C+Nagoya&travelmode=driving) | — | — |
+| — | 参观水族馆（贝鲸・海豚・南极企鹅馆），预留2.5–3小时 | — | 门票价格待查 | — |
+
+#### 🏨 Check-in The Royal Park Hotel Iconic Nagoya
+
+> 📍 〒460-0008 名古屋市中区栄4-1-1 中日大厦24F · 直结栄駅 · 📞 052-269-1118
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 水族馆开车前往酒店 check-in | [📍](https://www.google.com/maps/dir/?api=1&origin=Port+Of+Nagoya+Public+Aquarium%2C+Nagoya&destination=The+Royal+Park+Hotel+Iconic+Nagoya%2C+Nagoya&travelmode=driving) | — | — |
+
+---
+
+### Sep 13 (Sun) — ★ 吉卜力公园 (Ghibli Park) 全日游 ✅ 门票已购
+
+> ✅ 门票已购买：O-Sanpo Day Pass Standard（大さんぽ券スタンダード）· 土日祝票 · Lead participant: CHIN · Date: 13 Sep 2026 10:00（= 吉卜力大倉庫指定入场时段）
+> ⚠️ 酒店从 Nishitetsu Hotel Croom Nagoya 换成 The Royal Park Hotel Iconic Nagoya（栄駅）后，去吉卜力公园的地铁路线要重新确认（原本是久屋大通駅→東山線→藤が丘→Linimo），栄駅出发的路线待查，也可以直接开车去停园区停车场。
+
+#### 🚃 前往吉卜力公园
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 从 The Royal Park Hotel Iconic Nagoya 出发前往吉卜力公园（地铁路线待确认，或直接自驾） | [📍](https://www.google.com/maps/dir/?api=1&origin=The+Royal+Park+Hotel+Iconic+Nagoya%2C+Nagoya&destination=Ghibli+Park%2C+Nagoya&travelmode=driving) | — | — |
+| 09:00 | 抵达吉卜力公园，开园入场 | — | — | — |
+
+#### 🏰 魔女の谷 (Valley of Witches / 魔女の谷)
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 09:05 | ★ 第一件事：前往魔女の谷建筑售票处排队/领号码券，购买荻野邸+魔女の家+哈尔移动城堡三合一同日票（数量有限，售完即止！） | — | ¥1,800/人 | [排队实拍（小红书）](http://xhslink.com/o/8M7eMFU8aC7) |
+| 09:30 | 魔女の谷户外拍照：哈尔移动城堡 (Howl's Moving Castle / ハウルの動く城) 巨型模型、荻野邸/魔女の家外观，必拍全家福！ | — | — | — |
+| 13:30 | （依号码券叫号时间）返回魔女の谷，凭同日票进入荻野邸 + 魔女の家 + 哈尔移动城堡室内 | — | — | — |
+
+#### 📦 吉卜力大倉庫 (Ghibli's Grand Warehouse / ジブリの大倉庫)
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 10:00 | ★ 吉卜力大倉庫入场（票根指定时段，须11:00前入场），千与千寻场景 + 魔女宅急便工作室 + 迷你剧场 | — | — | — |
+
+#### ⛰ もののけの里 (Mononoke Village / もののけの里)
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 11:30 | 山间聚落造景，たたら场 + 五平饼小吃 | — | — | — |
+| 12:30 | 园内午餐 | — | ¥1,500–2,500 | — |
+
+#### 🎁 返回酒店 / 晚餐
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 15:30 | 纪念品店扫货（大倉庫内 or 魔女の谷礼品店） | — | — | — |
+| 16:00 | 返回酒店（路线待确认） | [📍](https://www.google.com/maps/dir/?api=1&origin=Ghibli+Park%2C+Nagoya&destination=The+Royal+Park+Hotel+Iconic+Nagoya%2C+Nagoya&travelmode=driving) | — | — |
+| 19:00 | 晚餐：ひつまぶし 鳗鱼饭 or 世界の山ちゃん 手羽先 | — | ¥2,000–5,000 | — |
+
+---
+
+### Sep 14 (Mon) — 名古屋 → 京都 自驾（名古屋城+大须 + 京都新增景点全部塞入）
+
+> ⚠️ 这天景点非常多（名古屋城+大须 + 开车约2.5小时到京都 + 6个京都景点），一天肯定紧，你说全部先排进来、到时候临场取舍，下面是建议顺序，供你们现场删减。
+
+#### 🏯 名古屋城 (Nagoya Castle / 名古屋城)
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 酒店开车前往名古屋城，金鯱 + 本丸御殿精美屏风画 | [📍](https://www.google.com/maps/dir/?api=1&origin=The+Royal+Park+Hotel+Iconic+Nagoya%2C+Nagoya&destination=Nagoya+Castle%2C+Nagoya&travelmode=driving) | ¥500 | — |
+
+#### 🛍 大须商业街 (Osu Shopping Street / 大須商店街)
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 名古屋城开车/步行前往大须観音 + 大须商业街漫步扭蛋 | [📍](https://www.google.com/maps/dir/?api=1&origin=Nagoya+Castle%2C+Nagoya&destination=Osu+Kannon+Temple%2C+Nagoya&travelmode=driving) | 扭蛋¥200–500 | — |
+
+#### 🚗 名古屋 → 京都
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 大须开车出发前往京都，全程约2.5小时（含休息站） | [📍](https://www.google.com/maps/dir/?api=1&origin=Osu+Kannon+Temple%2C+Nagoya&destination=Kiyomizudera%2C+Kyoto&travelmode=driving) | 高速过路费待查 | — |
+
+#### ⛩️ 清水寺 (Kiyomizudera Temple / 清水寺)
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 清水寺 · 清水舞台 · 音羽の滝三流水许愿 | — | ¥500 | [清水寺影片](https://www.instagram.com/reels/DSZz8BNRlri/) |
+
+#### 🦊 伏见稻荷大社 (Fushimi Inari Taisha / 伏見稲荷大社)
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 开车前往伏见稻荷，千本鳥居只走前段20分钟即可 | [📍](https://www.google.com/maps/dir/?api=1&origin=Kiyomizudera%2C+Kyoto&destination=Fushimi+Inari+Taisha%2C+Kyoto&travelmode=driving) | 免费参拜 | — |
+
+#### 🖤 檀王法林寺 · 黑猫招财猫 (Dan-no-Hori-ji Temple / 壇王法林寺)
+
+> 📍 地址：京都府京都市左京区川端通三条上る法林寺門前町36 · 开放时间 10:00–16:00，日本唯一黑色招财猫，每只经僧侣开光
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 开车前往檀王法林寺，参观黑猫招财猫 | [📍](https://www.google.com/maps/dir/?api=1&origin=Fushimi+Inari+Taisha%2C+Kyoto&destination=Dan-no-Hori-ji+Temple%2C+Kyoto&travelmode=driving) | 免费 | [黑猫招财猫参考](https://www.facebook.com/reel/1426570785269256) |
+
+#### 💰 御金神社 (Mikane Jinja / 御金神社)
+
+> 📍 地址：〒604-0042 京都府京都市中京区押西洞院町614 · 开放时间 10:00–16:00
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 开车前往御金神社：洗钱・买福財布・求银杏御神签 | [📍](https://www.google.com/maps/dir/?api=1&origin=Dan-no-Hori-ji+Temple%2C+Kyoto&destination=Mikane+Jinja%2C+Kyoto&travelmode=driving) | 免费参拜 | — |
+
+#### ⛩️ 平安神宮 (Heian-jingū Shrine / 平安神宮)
+
+> 💡 拝観时间 8:30–18:00（3/15–9/30 期间，Sep 14 适用）。本殿参拝免费；神苑（庭园）另外收费，具体金额建议现场确认。朱红色大鸟居 + 応天門很好拍照。（查证日期 2026-08-23）
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 开车前往平安神宮，参拜 + 拍照（神苑视时间决定要不要进） | [📍](https://www.google.com/maps/dir/?api=1&origin=Mikane+Jinja%2C+Kyoto&destination=Heian+Jingu+Shrine%2C+Kyoto&travelmode=driving) | 本殿免费 | — |
+
+#### 🌲 三千院 (Sanzen-in Temple / 三千院)
+
+> 💡 大原地区，离市区较远，开车单程约40–50分钟。拝観时间 9:00–17:00（Sep 14 适用 3–10月时段），拝観料 一般¥700 / 中高生¥400。苔庭+往生極楽院很有名。（查证日期 2026-08-23）
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 开车前往三千院（大原），参观苔庭 | [📍](https://www.google.com/maps/dir/?api=1&origin=Heian+Jingu+Shrine%2C+Kyoto&destination=Sanzen-in+Temple%2C+Kyoto&travelmode=driving) | ¥700 | — |
+
+#### 💧 貴船神社 (Kifune Shrine / 貴船神社)
+
+> 💡 跟三千院同在北边山区，车程约20分钟。参拝时间 6:00–20:00（5/1–11/30期间，Sep 14 适用），免费参拜。水占卜御神签是特色。（查证日期 2026-08-23）
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 开车前往貴船神社，水占卜御神签体验 | [📍](https://www.google.com/maps/dir/?api=1&origin=Sanzen-in+Temple%2C+Kyoto&destination=Kifune+Shrine%2C+Kyoto&travelmode=driving) | 免费 | — |
+
+#### 🌟 金閣寺 (Kinkaku-ji / 金閣寺)
+
+> 💡 从貴船神社开车过去要绕回市区北边，车程约40分钟。开门时间 9:00–17:00，拝観料 大人¥500 / 小中学生¥300。（查证日期 2026-08-23）
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 开车前往金閣寺，金箔舍利殿拍照 | [📍](https://www.google.com/maps/dir/?api=1&origin=Kifune+Shrine%2C+Kyoto&destination=Kinkaku-ji%2C+Kyoto&travelmode=driving) | ¥500 | — |
+
+#### 🏨 返回酒店
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 开车返回 Rinn Kyoto Station，check-in | [📍](https://www.google.com/maps/dir/?api=1&origin=Kinkaku-ji%2C+Kyoto&destination=Rinn+Kyoto+Station%2C+Kyoto&travelmode=driving) | — | — |
+
+---
+
+### Sep 15 (Tue) — 嵐山竹林 + 嵯峨野小火车 + 保津川游船（自驾环状路线）
+
+> 🚗 自驾逻辑：车停トロッコ嵯峨駅旁的收费停车场（与JR嵯峨嵐山駅相邻，¥1,000/天，全年24小时开放），照原计划竹林→野宮神社→天龍寺→坐小火车(嵯峨→亀岡，25分)→接驳巴士(15分)到保津川下り乘船处→坐船约2小时抵达嵐山渡月桥，走回停车场取车，正好是个环状路线。（查证日期 2026-08-23，来源见下方参考链接）
+
+#### 🎋 竹林之道・野宮神社・天龙寺
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 酒店开车前往トロッコ嵯峨駅旁停车场（¥1,000/天），停好车步行前往竹林之道，早晨人少光线最美 | [📍](https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=Arashiyama+Bamboo+Grove%2C+Kyoto&travelmode=driving) | 免费 | [嵐山隐藏路线](https://www.instagram.com/reels/DXLxzw_ji8a/) |
+| — | 野宮神社，小红鸟居 | — | 免费 | — |
+| — | 天龙寺庭园，世界遗产禅庭 | — | ¥500 | — |
+
+#### 🚃 嵯峨野小火车 (Sagano Scenic Railway / 嵯峨野トロッコ鉄道)
+
+> ⚠️ 必须提前网上预约！[sagano-kanko.co.jp](https://sagano-kanko.co.jp) — 9月旺季极快售完！
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 步行至トロッコ嵯峨駅（就在停车场旁） | — | — | — |
+| — | トロッコ嵯峨駅 → トロッコ亀岡駅，约25分，穿越保津川峡谷 | — | 大人¥880 / 儿童¥440 | [岚山全天体验](https://www.instagram.com/reels/DXs5gfxidkD/) |
+
+#### 🛶 保津川马车・游船
+
+> ⚠️ 游船也建议提前网上预约！[hozugawakudari.jp](https://www.hozugawakudari.jp) — 9月旺季人多
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 接驳巴士到乘船处，约15分 | — | — | — |
+| — | 保津川游船出发，传统木船顺流而下约2小时 | — | 大人约¥4,100 / 儿童约¥3,100 | [游船参考1](https://www.instagram.com/reels/DVBqeyjk_Z4/) |
+| — | 游船抵达嵐山！渡月桥附近午餐，走回トロッコ嵯峨駅停车场取车 | — | ¥1,500–2,500 | — |
+
+#### 🥬 锦市场 + 🍶 晚餐：炭火串焼つじや 四条御幸町店
+
+> 📍 つじや地址：京都府京都市下京区四条御幸町下ル大寿町400 · 建议用 [Tabelog](https://tabelog.com/en/kyoto/A2601/A260201/26020272/) 线上即时订位 · 营业 17:00–24:00（LO 23:00）
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 开车前往锦市场附近，逛逛试吃 | [📍](https://www.google.com/maps/dir/?api=1&origin=Togetsukyo+Bridge%2C+Kyoto&destination=Nishiki+Market%2C+Kyoto&travelmode=driving) | 小食¥200–500 | — |
+| — | 步行至四条河原町，つじや排队晚餐 | — | 人均约¥4,800 | [Tabelog订位](https://tabelog.com/en/kyoto/A2601/A260201/26020272/) |
+| — | 晚餐后开车返回酒店 | [📍](https://www.google.com/maps/dir/?api=1&origin=Shijo+Kawaramachi%2C+Kyoto&destination=Rinn+Kyoto+Station%2C+Kyoto&travelmode=driving) | — | — |
+
+---
+
+### Sep 16 (Wed) — 🌊 海の京都：伊根舟屋 + 丹後あおまつ号观光列车
+
+> ⚠️ 这天内容全新，很多细节还没查证，先给个框架，出发前务必再核实一次官网/当天班次。
+
+#### ⛵ 伊根舟屋 (Ine Fishing Village / 伊根の舟屋)
+
+> 💡 自驾从京都约2小时，海边宁静渔村，传统舟屋沿海排列，风景疗愈。
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 酒店开车出发前往伊根（约2小时） | [📍](https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=Ine%2C+Kyoto&travelmode=driving) | 高速过路费待查 | [伊根参考](https://www.instagram.com/reels/DYbZovKs-kB/) |
+| — | 看舟屋群，海边漫步/拍照，午餐海鲜丼 | — | 餐费待查 | — |
+
+#### 🚃 丹後あおまつ号 (Tango Aomatsu-go / 丹後あおまつ号)
+
+> ⚠️ 查证结果（2026-08-23）：路线为西舞鶴駅↔天橋立駅↔網野駅/豊岡駅方向（宮豊線），**不需要预约，普通车票即可上车**，车上贩售咖啡/啤酒/甜点等。目前查到的参考时刻（非2026年9月正式班表，出发前务必上 [官网](https://travel.willer.co.jp/train/tantetsu/aomatsu/) 或车站再核实）：321D 西舞鶴8:42发→網野方向 / 326D 網野11:34发→西舞鶴 / 233D 西舞鶴14:37发→豊岡方向。天橋立站的实际发车时刻没查到，只知道天橋立在西舞鶴和網野中间。没查到あおまつ号有停靠伊根附近站——伊根本身不在铁道线上，是靠自驾/巴士去的，跟这班车是两段独立行程。
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 伊根开车前往天橋立駅／西舞鶴駅（选一个上车，具体上车站视当天班次再定） | [📍](https://www.google.com/maps/dir/?api=1&origin=Ine%2C+Kyoto&destination=Amanohashidate+Station%2C+Kyoto&travelmode=driving) | — | [官网](https://travel.willer.co.jp/train/tantetsu/aomatsu/) |
+| — | 搭乘丹後あおまつ号体验一段（免预约，普通车票），车上喝咖啡吃甜点 | — | 普通车资 | — |
+
+#### 🏨 返回酒店
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 开车返回 Rinn Kyoto Station | [📍](https://www.google.com/maps/dir/?api=1&origin=Amanohashidate+Station%2C+Kyoto&destination=Rinn+Kyoto+Station%2C+Kyoto&travelmode=driving) | — | — |
+
+---
+
+### Sep 17 (Thu) — 还车 + 🐬 Noah Dolphin Dome 看海豚 + Abeno Harukas 展望台
+
+#### 🚗 还车
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 酒店退房，开车前往还车点还车（地点待跟租车行确认） | — | — | — |
+| — | 还车后转搭公共交通，前往 Noah Dolphin Dome | — | — | — |
+
+#### 🐬 Noah Dolphin Dome (ノア ドルフィン ドーム)
+
+> 💡 营业时间 10:00–20:00（最后入馆19:30）。已选定 10:30 喂食体验 + 12:00 浅水区互动。
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 10:00 | 抵达入馆 | — | 成人¥1,210 / 儿童¥770 | [官网](https://www.dolphindome.jp/english-page/) |
+| 10:30 | 🐬 餌やり体験 喂食体验（15分钟），现场排队 | — | ¥1,100/人 | — |
+| 12:00 | 🌊 浅瀬で遊ぼう 浅水区互动（15分钟） | — | 大人¥7,700 / 小孩¥6,600 | — |
+
+#### 🍢 新世界 + 🏙 Abeno Harukas 300 展望台
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 12:30 | 前往新世界串炸午餐 | [📍](https://www.google.com/maps/dir/?api=1&origin=Noah+Dolphin+Dome%2C+Osaka&destination=Shinsekai%2C+Osaka&travelmode=transit) | ¥1,000–1,500 | — |
+| 14:00 | Abeno Harukas 300 展望台，俯瞰大阪全景 | [📍](https://www.google.com/maps/dir/?api=1&origin=Shinsekai%2C+Osaka&destination=Abeno+Harukas%2C+Osaka&travelmode=walking) | ¥1,500 | — |
+
+#### 🦀 晚餐（道顿堀）
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 19:00 | 道顿堀晚餐 | [📍](https://www.google.com/maps/dir/?api=1&origin=Abeno+Harukas%2C+Osaka&destination=Dotonbori%2C+Osaka&travelmode=transit) | ¥3,000–6,000 | — |
 
 ---
 
