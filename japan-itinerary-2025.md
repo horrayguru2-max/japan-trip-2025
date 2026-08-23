@@ -27,9 +27,10 @@
 |------|---------|------|------|
 | SEM9 Senai Hotel | Sep 8–9 · 1晚 | 新山 士乃机场旁 (Senai / Senai Airport) | 出发前一晚过夜，方便隔天早班机（Agoda Booking ID: 2031572647）|
 | Hotel Universal Port Vita | Sep 9–12 · 3晚 | 大阪 USJ旁 樱岛 (Sakurajima / 桜島) | USJ合作酒店，步行5分到入口，提前入园约15分钟 |
-| Nishitetsu Hotel Croom Nagoya | ✅ 已确认 Sep 12–14 · 2晚 | 名古屋市中区 久屋大通 (Hisaya-odori / 久屋大通) | 地铁东山线直达藤が丘，换Linimo去吉卜力公园 |
+| Nishitetsu Hotel Croom Nagoya | ✅ 已确认 Sep 12–14 · 2晚 | 名古屋市中区 久屋大通 (Hisaya-odori / 久屋大通) | 地铁东山线直达藤が丘，换Linimo去吉卜力公园（🚗自驾版行程改订 The Royal Park Hotel Iconic Nagoya，见下一行）|
 | Rinn Kyoto Station | Sep 14–16 · 2晚 | 京都市下京区北不動堂町522 (Kitafudodocho, Shimogyo Ward) | 京都站步行约10分钟（约500m）· 四星 · 31间客房 |
-| Miyako City Osaka Hommachi | Wed Sep 16 – Mon Sep 21 · 5晚 | 大阪 本町 (Hommachi / 本町) | 心斋桥步行15分，KIX南海线方便 |
+| Miyako City Osaka Hommachi | ✅ 已确认 Sep 16–21 · 5晚 | 大阪市中央区北久宝寺町1-8-7 (1-chōme-8-7 Kitakyūhōjimachi, Chuo Ward) 541-0057 | 心斋桥步行15分，KIX南海线方便（Klook Booking ref: HMU179459）|
+| 🚗 The Royal Park Hotel Iconic Nagoya | ✅ 已确认 Sep 12–14 · 2晚 | 名古屋市中区栄4-1-1 (4-1-1 Sakae, Naka Ward) 460-0008 | 自驾版行程改订，直结栄駅，Superior Twin 2单人床不含餐（Booking No.: 1658114097934909）|
 
 ---
 
@@ -46,9 +47,6 @@
 ---
 
 ## 🗺 Google Map
-
-> 💡 下面两张是实时嵌入的地图，能直接看到路线和每一站的位置，不用点出去。你自己在 Google Map 上排的原始路线也保留了「🔗 打开 Google Map 路线」链接，方便你之后继续在地图上加/减/挪站点——改了记得跟我说一声，行程要同步改。
-> ⚠️ 嵌入的地图是我用地点顺序重新生成的路线（Google 的「List/收藏清单」类型链接没办法直接嵌入网页），跟你原本给的地图站点一致，只是呈现方式不同。
 
 ### 🚗 Osaka → Nagoya（Sep 12 自驾路线）
 
@@ -689,10 +687,6 @@
 
 ## 🚗 自驾版行程（Sep 8–21 · 全程复制原行程，Sep 12–17 段改自驾）
 
-> 💡 这个 tab 是整段「📅 逐日行程」的完整复制版——Sep 8–11、Sep 18–21 跟原版一模一样（还是火车/步行，没有车），只有 Sep 12–17 这段（取车→还车）改成自驾版：内容基本沿用原版景点，只是交通方式换成自驾，路上/沿途多排了新景点。开车路段的时间还没法预估，先不标具体时间，你们照实际路况现场调整。
-> 🚗 取车地点：557-0001, Japan（Google Map 只标了邮编，实际门市名称/地址请跟租车行核对）
-> 🚗 还车地点：Sep 17 当天还车，具体门市待你跟租车行确认（可能跟取车同一家，也可能选大阪市区分店）
-
 ### Sep 8 (Tue) — ✅ 吉隆坡飞新山（已订票），SEM9 Senai 过夜
 
 > ✅ **KUL→JHB 机票已订：AirAsia AK6032**（Booking no. TERWUG，订票日期 09 Apr 2026）  
@@ -826,11 +820,12 @@
 
 #### 🏨 Check-in The Royal Park Hotel Iconic Nagoya
 
+> ✅ **已确认预订**：Booking No. 1658114097934909 · Superior Twin [concept By Present]，2单人床，不含餐 · Check-in 15:00后 / Check-out Sep 14 11:00前
 > 📍 〒460-0008 名古屋市中区栄4-1-1 中日大厦24F · 直结栄駅 · 📞 052-269-1118
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| — | 水族馆开车前往酒店 check-in | [📍](https://www.google.com/maps/dir/?api=1&origin=Port+Of+Nagoya+Public+Aquarium%2C+Nagoya&destination=The+Royal+Park+Hotel+Iconic+Nagoya%2C+Nagoya&travelmode=driving) | — | — |
+| 15:00后 | 水族馆开车前往酒店 check-in | [📍](https://www.google.com/maps/dir/?api=1&origin=Port+Of+Nagoya+Public+Aquarium%2C+Nagoya&destination=The+Royal+Park+Hotel+Iconic+Nagoya%2C+Nagoya&travelmode=driving) | — | — |
 
 ---
 
