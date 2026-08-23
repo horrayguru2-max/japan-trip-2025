@@ -1007,7 +1007,7 @@
 
 ### Sep 16 (Wed) — 🌊 海の京都：伊根舟屋 + 丹後あおまつ号观光列车
 
-> ⚠️ 这天内容全新，很多细节还没查证，先给个框架，出发前务必再核实一次官网/当天班次。
+> ⚠️ 伊根舟屋部分细节还没查证；丹後あおまつ号的时刻表已核实（见下方），出发前仍建议再上官网确认当天班次有没有变动。
 
 #### ⛵ 伊根舟屋 (Ine Fishing Village / 伊根の舟屋)
 
@@ -1020,18 +1020,23 @@
 
 #### 🚃 丹後あおまつ号 (Tango Aomatsu-go / 丹後あおまつ号)
 
-> ⚠️ 查证结果（2026-08-23）：路线为西舞鶴駅↔天橋立駅↔網野駅/豊岡駅方向（宮豊線），**不需要预约，普通车票即可上车**，车上贩售咖啡/啤酒/甜点等。目前查到的参考时刻（非2026年9月正式班表，出发前务必上 [官网](https://travel.willer.co.jp/train/tantetsu/aomatsu/) 或车站再核实）：321D 西舞鶴8:42发→網野方向 / 326D 網野11:34发→西舞鶴 / 233D 西舞鶴14:37发→豊岡方向。天橋立站的实际发车时刻没查到，只知道天橋立在西舞鶴和網野中间。没查到あおまつ号有停靠伊根附近站——伊根本身不在铁道线上，是靠自驾/巴士去的，跟这班车是两段独立行程。
+> ✅ 查证结果（2026-08-24，来源：[willer-travel官网英文版](https://willer-travel.com/en/train/tantetsu/aomatsu.html)）：**不需要预约，普通车票即可上车**。西舞鶴駅 (Nishi-Maizuru Station) 出发只有两班：**8:42** 或 **14:37**，坐到 **丹後由良駅 (Tango-Yura Station)** 下车，中途会经过 **由良川橋梁 (Yuragawa Railway Bridge)**——就是《千与千寻》电车过海那段的取景原型，很值得专程搭一趟。
+> 🚃 时刻表：321D 西舞鶴8:42发 → 由良川橋梁 → 丹後由良9:02到/9:07续发（去網野）；233D 西舞鶴14:37发 → 丹後由良14:57到/14:58续发（去豊岡）。到站在丹後由良下车即可，不用坐到底站。
+> 🔙 **回程不用特地等这班观光列车**——丹後由良駅任何一班能直达西舞鶴的普通列车都可以搭，回程时刻现场看站内时刻表即可。
+> 📍 [西舞鶴駅↔丹後由良駅 参考路线](https://maps.app.goo.gl/5fRxwmhVobuGzLzc9)
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| — | 伊根开车前往天橋立駅／西舞鶴駅（选一个上车，具体上车站视当天班次再定） | [📍](https://www.google.com/maps/dir/?api=1&origin=Ine%2C+Kyoto&destination=Amanohashidate+Station%2C+Kyoto&travelmode=driving) | — | [官网](https://travel.willer.co.jp/train/tantetsu/aomatsu/) |
-| — | 搭乘丹後あおまつ号体验一段（免预约，普通车票），车上喝咖啡吃甜点 | — | 普通车资 | — |
+| — | 伊根开车前往西舞鶴駅 (Nishi-Maizuru Station)，停车 | [📍](https://www.google.com/maps/dir/?api=1&origin=Ine%2C+Kyoto&destination=Nishi-Maizuru+Station%2C+Kyoto&travelmode=driving) | — | [官网](https://willer-travel.com/en/train/tantetsu/aomatsu.html) |
+| 08:42 或 14:37 | 搭乘丹後あおまつ号出发（依当天行程节奏选一班），车上喝咖啡吃甜点，途经由良川橋梁 | — | 普通车资 | — |
+| 09:02 / 14:57 | 抵达丹後由良駅 (Tango-Yura Station) 下车，附近散步/拍照 | — | — | — |
+| — | 搭任一班返回西舞鶴駅的普通列车（不限定车次） | — | 普通车资 | — |
 
 #### 🏨 返回酒店
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| — | 开车返回 Rinn Kyoto Station | [📍](https://www.google.com/maps/dir/?api=1&origin=Amanohashidate+Station%2C+Kyoto&destination=Rinn+Kyoto+Station%2C+Kyoto&travelmode=driving) | — | — |
+| — | 西舞鶴駅取车，开车返回 Rinn Kyoto Station | [📍](https://www.google.com/maps/dir/?api=1&origin=Nishi-Maizuru+Station%2C+Kyoto&destination=Rinn+Kyoto+Station%2C+Kyoto&travelmode=driving) | — | — |
 
 ---
 
