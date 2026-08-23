@@ -47,19 +47,24 @@
 
 ## 🗺 Google Map
 
-> 💡 这两条是你自己在 Google Map 上排的自驾路线，点开就是实时地图——之后如果你在地图上加/减/挪站点，记得跟我说一声，行程要同步改。
+> 💡 下面两张是实时嵌入的地图，能直接看到路线和每一站的位置，不用点出去。你自己在 Google Map 上排的原始路线也保留了「🔗 打开 Google Map 路线」链接，方便你之后继续在地图上加/减/挪站点——改了记得跟我说一声，行程要同步改。
+> ⚠️ 嵌入的地图是我用地点顺序重新生成的路线（Google 的「List/收藏清单」类型链接没办法直接嵌入网页），跟你原本给的地图站点一致，只是呈现方式不同。
 
 ### 🚗 Osaka → Nagoya（Sep 12 自驾路线）
 
-[🔗 打开 Google Map 路线](https://maps.app.goo.gl/dKfLwtYMLLtLrpur8?g_st=am)
+<div class="map-embed"><iframe src="https://maps.google.com/maps?saddr=Hotel+Universal+Port+Vita%2C+Osaka&daddr=557-0001%2C+Japan+to:Todaiji+Temple%2C+Nara+to:Port+Of+Nagoya+Public+Aquarium%2C+Nagoya+to:The+Royal+Park+Hotel+Iconic+Nagoya%2C+Nagoya&output=embed" loading="lazy"></iframe></div>
 
 途经：Hotel Universal Port Vita → 557-0001, Japan（取车点，只有邮编，实际门市名称/地址需跟租车行核对）→ 東大寺 Tōdai-ji（奈良看鹿）→ Port Of Nagoya Public Aquarium → The Royal Park Hotel Iconic Nagoya
 
+[🔗 打开 Google Map 路线](https://maps.app.goo.gl/dKfLwtYMLLtLrpur8?g_st=am)
+
 ### ⛩️ Kyoto（Sep 14 名古屋→京都路上新增景点）
 
-[🔗 打开 Google Map 路线](https://www.google.com/maps/dir/Rinn+Kyoto+Station/Kiyomizu-dera/Dann%C5%8D+H%C5%8Drin-ji+Temple/Heian-jing%C5%AB+Shrine/Sanzen-in+Temple/Kifune+Shrine/Kinkaku-ji/data=!4m46!4m45!1m5!1m4!1s0x600109ae7c75def3:0x4465e5d0996ddd9b!8m2!3d34.9874572!4d135.7539881!1m5!1m4!1s0x600108d385dcfb07:0x62af658650c434ba!8m2!3d34.9946662!4d135.784661!1m5!1m4!1s0x600108ec8bc426e5:0xeefa720f60268dbe!8m2!3d35.0098761!4d135.77318499999998!1m5!1m4!1s0x600108e5187cc88d:0x75bed992d897454f!8m2!3d35.0159823!4d135.7824263!1m5!1m4!1s0x6001a0d6590baa13:0x532a08b9f00f2f34!8m2!3d35.119726!4d135.83440579999998!1m5!1m4!1s0x6001a608f30a9109:0x1d021ae4b564548b!8m2!3d35.122090899999996!4d135.7629101!1m5!1m4!1s0x6001a820c0eb46bd:0xee4272b1c22645f!8m2!3d35.03937!4d135.7292431!2m1!11b1!3e0?utm_source=mstt_0&g_ep=CAESBzI2LjMzLjIYACCRQSqpASw5NDI2NzcyNyw5NDI5MjE5NSw5NDI5OTUzMiwxMDA3OTY0OTgsMTAwNzk3NzYxLDEwMDgyNjQ3NSwxMDA3OTY1MzUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwODE1NjM1LDEwMDgyMDIzNywxMDA4MjI0OTRCAk1Z&skid=d462de50-c170-432b-aa08-e235788798c9&g_st=am)
+<div class="map-embed"><iframe src="https://maps.google.com/maps?saddr=Rinn+Kyoto+Station%2C+Kyoto&daddr=Kiyomizudera%2C+Kyoto+to:Dan-no-Hori-ji+Temple%2C+Kyoto+to:Heian+Jingu+Shrine%2C+Kyoto+to:Sanzen-in+Temple%2C+Kyoto+to:Kifune+Shrine%2C+Kyoto+to:Kinkaku-ji%2C+Kyoto&output=embed" loading="lazy"></iframe></div>
 
 途经：Rinn Kyoto Station → 清水寺 → 檀王法林寺（黑猫招财猫）→ 平安神宮 → 三千院 → 貴船神社 → 金阁寺
+
+[🔗 打开 Google Map 路线](https://maps.app.goo.gl/p3YgrXx9vjF1xfzk9?g_st=am)
 
 ---
 
@@ -682,11 +687,115 @@
 
 ---
 
-## 🚗 自驾版行程（Sep 12–17 · 大阪→名古屋→京都自驾段）
+## 🚗 自驾版行程（Sep 8–21 · 全程复制原行程，Sep 12–17 段改自驾）
 
-> 💡 这个 tab 是「📅 逐日行程」里 12–17 日（火车+步行版，原版保留不动）的自驾改版——Sep 12 取车、Sep 17 还车，这几天改开车，内容基本沿用原版景点，只是交通方式换成自驾，路上/沿途多排了新景点。开车路段的时间还没法预估，先不标具体时间，你们照实际路况现场调整。
+> 💡 这个 tab 是整段「📅 逐日行程」的完整复制版——Sep 8–11、Sep 18–21 跟原版一模一样（还是火车/步行，没有车），只有 Sep 12–17 这段（取车→还车）改成自驾版：内容基本沿用原版景点，只是交通方式换成自驾，路上/沿途多排了新景点。开车路段的时间还没法预估，先不标具体时间，你们照实际路况现场调整。
 > 🚗 取车地点：557-0001, Japan（Google Map 只标了邮编，实际门市名称/地址请跟租车行核对）
 > 🚗 还车地点：Sep 17 当天还车，具体门市待你跟租车行确认（可能跟取车同一家，也可能选大阪市区分店）
+
+### Sep 8 (Tue) — ✅ 吉隆坡飞新山（已订票），SEM9 Senai 过夜
+
+> ✅ **KUL→JHB 机票已订：AirAsia AK6032**（Booking no. TERWUG，订票日期 09 Apr 2026）  
+> 乘客：Yun Ching Chin (adult) · Soo Peng Tan (adult) · Hong Yu Chin (child)，each 7kg 手提行李
+
+| 时间 | 行程 | 交通 / 费用 |
+|------|------|-----------|
+| 18:30 | Kuala Lumpur International Airport Terminal 2 (KLIA2) 起飞 · AirAsia AK6032 | Economy Promo |
+| 19:25 | 抵达 Senai International Airport (士乃国际机场 / JHB)，非直飞55分钟 | — |
+| 晚上 | Check-in SEM9 Senai Hotel，休息一晚 | — |
+| Sep 9 早上 | 退房，前往机场准备出发 | — |
+
+---
+
+### Sep 9 (Wed) — ✈ 抵达大阪 (Osaka / 大阪)
+
+| 时间 | 行程 | 交通 / 费用 |
+|------|------|-----------|
+| 19:30 | 抵达 KIX 关西国际机场 (Kansai International Airport / 関西国際空港) | — |
+| 19:45 | ⚠️ 【待补充】搭乘 Trip.com 预订的接驳车直达酒店（不用转车）——需要补上：上车地点/时间、车程、车资 | 待确认 |
+| — | 抵达 Hotel Universal Port Vita，check-in，便利店 (Conbini / コンビニ) 晚餐，早睡！ | — |
+
+> 💡 Day 1 只需安全到达酒店，坐接驳车不用买ICOCA。ICOCA交通卡可以晚一点再买，全程地铁JR通用，离开时退卡可取回¥500押金 + 剩余余额。
+
+---
+
+### Sep 10 (Thu) — ★ USJ Universal Studios Japan
+
+顺序：侏罗纪优先 → 抢13:00超级任天堂世界 → 哈利波特 → Minion Park
+
+> ✅ 门票已购买：成人 1 Day Studio Pass ¥9,900 / 儿童（4–11岁）¥6,200，Trip.com 订购，入场日 2026-09-10，无 Express Pass
+
+📌 参考：[USJ购票官网](https://www.usjticketing.com/) · [USJ关西攻略（小红书）](http://xhslink.com/o/5CUVPmdeiqJ) · [IG参考](https://www.instagram.com/p/DbhWJ3LxWFE/)
+
+#### 🦖 侏罗纪世界 (Jurassic World: The Ride / ジュラシック・ワールド)
+
+> ⚠️ 侏罗纪游行备注：目前查到的是 Jurassic World Journey 互动打卡活动（非游行/巡游），2026年档期资料有新旧冲突，9月是否还在营业需临行前用 [USJ官网 Show and Attraction Schedule](https://www.usj.co.jp/web/en/us/attractions/show-and-attraction-schedule) 确认。
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 08:45 | 酒店出发，步行0.4km（5分钟）直达USJ入口 (USJ Entrance / USJ入口)，合作酒店可提前15分钟入园 | [📍](https://www.google.com/maps/dir/?api=1&origin=Hotel+Universal+Port+Vita%2C+Osaka&destination=USJ+Entrance%2C+Osaka&travelmode=walking) | — | — |
+| 09:00 | 开园！第一个冲侏罗纪世界水上冒险 | — | — | — |
+
+#### 🎮 超级任天堂世界 (Super Nintendo World / スーパー・ニンテンドー・ワールド)
+
+> ⚠️ 超级任天堂世界入场新规（2026年1月5日起生效）：单日票不含 Express Pass，进超级任天堂世界必须靠官方 App 领取免费的 Area Timed Entry Ticket，行前3天务必查一次 [USJ官网 Timed Entry 说明](https://www.usj.co.jp/web/en/us/enjoy/numbered-ticket/timed-entry-ticket)。
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 09:15 | 打开官方App领取超级任天堂世界 Area Timed Entry Ticket，锁定约13:00时段 | — | — | [Timed Entry说明](https://www.usj.co.jp/web/en/us/enjoy/numbered-ticket/timed-entry-ticket) |
+| 13:00 | 从酒店返回USJ，凭 Timed Entry Ticket 进超级任天堂世界，Mario赛车 | [📍](https://www.google.com/maps/dir/?api=1&origin=Hotel+Universal+Port+Vita%2C+Osaka&destination=Super+Nintendo+World%2C+Osaka&travelmode=walking) | — | — |
+
+#### ⚡ 哈利波特魔法世界 (Wizarding World of Harry Potter / ウィザーディング・ワールド)
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 10:00 | 霍格华兹城堡 + 黄油啤酒，必喝！ | — | — | — |
+| 12:00 | 园内午餐 | — | ¥1,500–2,500 | — |
+| 12:30 | 步行5分钟回酒店稍作休息 | [📍](https://www.google.com/maps/dir/?api=1&origin=USJ%2C+Osaka&destination=Hotel+Universal+Port+Vita%2C+Osaka&travelmode=walking) | — | — |
+
+#### 🐥 Minion Park (小黄人乐园 / ミニオン・パーク)
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 15:00 | 小黄人系列设施 | — | — | — |
+| 16:30 | 纪念品店扫货 / 自由活动 | — | — | — |
+| 19:30 | 步行5分钟回酒店，早睡！ | [📍](https://www.google.com/maps/dir/?api=1&origin=USJ%2C+Osaka&destination=Hotel+Universal+Port+Vita%2C+Osaka&travelmode=walking) | — | — |
+
+---
+
+### Sep 11 (Fri) — ★ 海游馆水族馆 + 天保山摩天轮（渡轮顺路直达！）
+
+#### ⛴ キャプテンライン渡轮 (Captain Line Ferry / キャプテンライン)
+
+> 💡 班次：上午每30分钟一班（09:45–17:15），下午每60分钟一班，遇天候不佳可能停航
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 09:30 | 酒店步行约10分钟出发 → ユニバーサルシティポート | [📍](https://www.google.com/maps/dir/?api=1&origin=Hotel+Universal+Port+Vita%2C+Osaka&destination=Universal+City+Port%2C+Osaka&travelmode=walking) | — | — |
+| 09:45 | 搭乘 キャプテンライン渡轮，约10分钟抵达海遊館西はとば | [📍](https://www.google.com/maps/dir/?api=1&origin=Universal+City+Port%2C+Osaka&destination=Kaiyukan+West+Pier%2C+Osaka&travelmode=transit) | 单程 大人¥900 / 小学生¥500 / 幼儿¥400 | [官网](https://www.mmjp.or.jp/Capt-Line/) |
+
+#### ★ 海游馆水族馆 (Osaka Aquarium Kaiyukan / 海遊館)
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 10:00 | 下船后步行1分钟即达海遊館入口，参观企鹅・水母・鲸鲨！约3小时 | — | 成人¥2,700 / 儿童¥1,400 | [参考](https://www.instagram.com/reel/DVOUzHME0Dz/?igsh=anlnYzR2NTZ1NTVq) |
+
+#### 天保山ハーバービレッジ (Tempozan Harbor Village) · 午餐 + 天保山大摩天轮
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 13:00 | 步行约5分钟到天保山ハーバービレッジ，海景餐厅午餐 | [📍](https://www.google.com/maps/dir/?api=1&origin=Osaka+Aquarium+Kaiyukan%2C+Osaka&destination=Tempozan+Harbor+Village%2C+Osaka&travelmode=walking) | ¥1,000–2,000 | — |
+| 14:30 | 步行约2分钟到摩天轮，高空看大阪港 | [📍](https://www.google.com/maps/dir/?api=1&origin=Tempozan+Harbor+Village%2C+Osaka&destination=Tempozan+Ferris+Wheel%2C+Osaka&travelmode=walking) | ¥1,000 | — |
+
+#### 返回酒店 / 晚餐
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 15:30 | 搭乘渡轮返回 ユニバーサルシティポート | [📍](https://www.google.com/maps/dir/?api=1&origin=Tempozan+Ferris+Wheel%2C+Osaka&destination=Universal+City+Port%2C+Osaka&travelmode=transit) | — | — |
+| 16:00 | 下船后步行约10分钟回酒店午休/自由活动 | [📍](https://www.google.com/maps/dir/?api=1&origin=Universal+City+Port%2C+Osaka&destination=Hotel+Universal+Port+Vita%2C+Osaka&travelmode=walking) | — | — |
+| 18:30 | 酒店附近晚餐，早点休息，明天出发名古屋 | — | — | — |
+
+---
 
 ### Sep 12 (Sat) — 大阪 → 名古屋 自驾（路上去奈良看鹿）
 
@@ -707,10 +816,13 @@
 
 #### 🐬 Port Of Nagoya Public Aquarium (名古屋港水族館)
 
+> 💡 主要目标：看最后一场 **4pm 河豚（ふぐ）表演**，时间抓紧一点，别错过。
+
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| — | 東大寺开车前往名古屋，Port Of Nagoya Public Aquarium（1-3 Minatomachi, Minato Ward, Nagoya, Aichi 455-0033） | [📍](https://www.google.com/maps/dir/?api=1&origin=Todaiji+Temple%2C+Nara&destination=Port+Of+Nagoya+Public+Aquarium%2C+Nagoya&travelmode=driving) | — | — |
+| — | 東大寺开车前往名古屋，Port Of Nagoya Public Aquarium（1-3 Minatomachi, Minato Ward, Nagoya, Aichi 455-0033） | [📍](https://www.google.com/maps/dir/?api=1&origin=Todaiji+Temple%2C+Nara&destination=Port+Of+Nagoya+Public+Aquarium%2C+Nagoya&travelmode=driving) | — | [官网](https://nagoyaaqua.jp/simplified-chinese/) |
 | — | 参观水族馆（贝鲸・海豚・南极企鹅馆），预留2.5–3小时 | — | 门票价格待查 | — |
+| 16:00 | ★ 河豚表演（当天最后一场） | — | — | — |
 
 #### 🏨 Check-in The Royal Park Hotel Iconic Nagoya
 
@@ -959,6 +1071,155 @@
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
 | 19:00 | 道顿堀晚餐 | [📍](https://www.google.com/maps/dir/?api=1&origin=Abeno+Harukas%2C+Osaka&destination=Dotonbori%2C+Osaka&travelmode=transit) | ¥3,000–6,000 | — |
+
+---
+
+### Sep 18 (Fri) — 住吉大社 + ⛩️ 大鳥大社 + 黑门市场
+
+#### ⛩️ 住吉大社 (Sumiyoshi Taisha Shrine / 住吉大社)
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 09:30 | 酒店 → 地铁 → 难波駅 → 南海高野线 → 住吉大社駅 | [📍](https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=Sumiyoshi+Taisha%2C+Osaka&travelmode=transit) | 约15分 ¥520 | — |
+| 10:00 | 住吉大社，朱红太鼓橋，日本三大住吉社 | — | 免费 | [大阪庙宇参考](https://www.facebook.com/reel/1631787884660144) |
+
+#### ⛩️ 大鳥大社 (Otori Taisha Shrine / 大鳥大社)
+
+> 💡 跟住吉大社顺路：住吉大社步行5分钟到JR住吉駅，搭JR阪和線继续往南就到鳳駅，同一条线不绕路。
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 11:00 | 步行5分钟至JR住吉駅 → JR阪和線快速 → 鳳駅 → 步行约5分，求财灵验神社 | [📍](https://www.google.com/maps/dir/?api=1&origin=Sumiyoshi+Taisha%2C+Osaka&destination=Otori+Taisha+Shrine%2C+Osaka&travelmode=transit) | 约15分 ¥230，免费参拜 | [IG参考](https://www.instagram.com/p/DV0ZSqLCWps/) |
+
+#### 🐟 黑门市场 (Kuromon Ichiba Market / 黒門市場)
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 12:30 | 鳳駅 → JR阪和線 → 天王寺駅 → 地铁御堂筋線 → 難波駅，步行至黑门市场，午餐 | [📍](https://www.google.com/maps/dir/?api=1&origin=Otori+Taisha+Shrine%2C+Osaka&destination=Kuromon+Ichiba+Market%2C+Osaka&travelmode=transit) | 约30分 ¥350，餐¥1,500–3,000 | — |
+
+#### 🛶 心斎橋泡泡歌曲船 (Shinsaibashi Bubble & Song Boat)
+
+> 📍 售票处：道頓堀ドン・キホーテ（摩天輪下）1楼，[Google Maps](https://maps.app.goo.gl/mCXG3uuwUYo2m3a67?g_)
+> ⚠️ 只有星期五 Makoto 在班，要指定坐他那班才有歌曲+泡泡秀
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 14:00 | 黑门市场步行至道頓堀ドン・キホーテ，买红色ticket | [📍](https://www.google.com/maps/dir/?api=1&origin=Kuromon+Ichiba+Market%2C+Osaka&destination=Dotonbori%2C+Osaka&travelmode=walking) | 约12分 | — |
+| 14:15 | 排队确认是Makoto的场次，坐船约20分钟，歌曲+泡泡秀 | — | 约¥2,000起/人 | [IG参考1](https://www.instagram.com/reels/DY9RqJVh5JS/)、[IG参考2](https://www.instagram.com/reels/DZcJuXJzQYB/) |
+
+#### 🏮 晚餐：Isaribi 力丸 炉端焼 (いさりび)
+
+> 📍 地址：大阪市北区芝田1-5-12 備後屋ビルB1F · 建议开门前后早到walk-in排队
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 18:00 | 地铁御堂筋线 難波駅 → 梅田駅 | [📍](https://www.google.com/maps/dir/?api=1&origin=Dotonbori%2C+Osaka&destination=Umeda+Station%2C+Osaka&travelmode=transit) | 直达约10分 ¥240 | — |
+| 18:30 | 晚餐 | — | 人均约¥2,500–3,000 | [IG参考](https://www.instagram.com/reels/DapivtktrwI/) |
+| 20:30 | 地铁御堂筋线梅田駅 → 本町駅返回酒店 | [📍](https://www.google.com/maps/dir/?api=1&origin=Umeda+Station%2C+Osaka&destination=Hommachi+Station%2C+Osaka&travelmode=transit) | 直达约10分 | — |
+
+---
+
+### Sep 19 (Sat) — 大阪城公园 + 🦁 难波八阪神社 + 🎨 南港艺术市集 + 道顿堀（大阪市区漫步）
+
+#### 🏯 大阪城公园 (Osaka Castle Park / 大阪城公園)
+
+> 🎡 亲子贴士：建议从森ノ宮駅3-B出口进入，搭园内小火车代步——单程¥400/人，一日券¥1,000。
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 09:30 | 酒店（本町）→ 地铁中央线 → 森ノ宮駅 | [📍](https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=Osaka+Castle+Park%2C+Osaka&travelmode=transit) | 直达约10分 ¥240 | — |
+| 10:00 | 大阪城公园 · 儿童游乐场 + 天守阁 | — | 公园免费 · 天守阁¥600 | [大阪城省力攻略](https://www.instagram.com/reel/DWTpQMEE8lR/?igsh=MzE2dGI5bXBjZ3Q1) |
+| 12:00 | 公园内野餐 or 日式定食 | — | ¥1,000–1,500 | — |
+
+#### 🐟 黑门市场 (Kuromon Ichiba Market / 黒門市場)
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 13:30 | 地铁中央线 → 谷町四丁目駅转乘谷町线 → 谷町九丁目駅，步行5分 | [📍](https://www.google.com/maps/dir/?api=1&origin=Osaka+Castle+Park%2C+Osaka&destination=Kuromon+Ichiba+Market%2C+Osaka&travelmode=transit) | 小食¥200–800 | — |
+
+#### 🦁 难波八阪神社 (Namba Yasaka Shrine / 難波八阪神社)
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 14:30 | 步行10分，巨型狮子头神殿 | [📍](https://www.google.com/maps/dir/?api=1&origin=Kuromon+Ichiba+Market%2C+Osaka&destination=Namba+Yasaka+Shrine%2C+Osaka&travelmode=walking) | 免费 | — |
+
+#### 🎨 大阪艺术&手作市集 VOL.52 (南港 ATC展馆)
+
+> 💡 市集日期 9/19–9/22 10:00–17:00（最终日至16:00）
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 15:00 | 地铁四つ橋線 難波駅 → 住之江公園駅，转乘ニュートラム → トレードセンター前駅 | [📍](https://www.google.com/maps/dir/?api=1&origin=Namba+Yasaka+Shrine%2C+Osaka&destination=ATC+Osaka%2C+Osaka&travelmode=transit) | 约30分 ¥350左右 | — |
+| 15:30 | 逛艺术&手作市集（约1.5小时） | — | 入场费视官网公告 | [种草R](http://xhslink.com/m/97HIgD0cEkU) |
+
+#### 🎏 道顿堀 (Dotonbori / 道頓堀) + 🥩 晚餐：焼肉南大門
+
+> 📍 焼肉南大門地址：大阪市中央区東心斎橋1-8-15 · 📞 06-6252-2989
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 17:00 | 市集打烊，返回难波方向 | [📍](https://www.google.com/maps/dir/?api=1&origin=ATC+Osaka%2C+Osaka&destination=Dotonbori%2C+Osaka&travelmode=transit) | 约30分 ¥350左右 | — |
+| 17:30 | 格力高牌必拍！章鱼烧 | — | — | — |
+| 18:30 | 步行回本町区域，和牛晚餐 | [📍](https://www.google.com/maps/dir/?api=1&origin=Dotonbori%2C+Osaka&destination=Yakiniku+Nandaimon%2C+Osaka&travelmode=walking) | ¥3,000–5,000/人 | [烧肉参考影片](https://www.instagram.com/reel/DXEp-mrSl8J/?igsh=MWhicnB6bTNla3ZveA==) |
+
+---
+
+### Sep 20 (Sun) — 🙏 勝尾寺 达摩祈福 + 大阪最后漫步 + 最终大采购
+
+#### 🙏 勝尾寺 (Katsuo-ji Temple / 勝尾寺)
+
+> ⏰ 来回车程约需2.5–3小时（含参拝）
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 07:00 | 酒店（本町）→ 地铁御堂筋线／北大阪急行 → 箕面萱野駅 | [📍](https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=Minoh-Kayano+Station%2C+Osaka&travelmode=transit) | 约45分 ¥400左右 | — |
+| 07:50 | 8番乗り場搭 阪急巴士 勝尾寺行き | [📍](https://www.google.com/maps/dir/?api=1&origin=Minoh-Kayano+Station%2C+Osaka&destination=Katsuo-ji+Temple%2C+Osaka&travelmode=transit) | 约20–25分 ¥300–400 | — |
+| 08:15 | 抵达勝尾寺，满山不倒翁达摩，约1.5小时 | — | 拝観料 大人¥500／儿童¥400 | [IG参考](https://www.instagram.com/p/DV0ZSqLCWps/) |
+| 09:45 | 巴士返回 箕面萱野駅 | [📍](https://www.google.com/maps/dir/?api=1&origin=Katsuo-ji+Temple%2C+Osaka&destination=Minoh-Kayano+Station%2C+Osaka&travelmode=transit) | 约25分 | — |
+| 10:15 | 地铁御堂筋线／北大阪急行 → 本町 | [📍](https://www.google.com/maps/dir/?api=1&origin=Minoh-Kayano+Station%2C+Osaka&destination=Hommachi+Station%2C+Osaka&travelmode=transit) | 约45分 | — |
+
+#### 🍙 Onigiri Gorichan 難波店 + 🛍 心斋桥筋 + 美国村
+
+> 📍 Onigiri Gorichan地址：大阪府大阪市中央区南船場3-5-28 富士大樓 南船場1F · 只收现金
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 11:00 | IG爆红人气饭团，当早午餐/点心 | [📍](https://www.google.com/maps/dir/?api=1&origin=Hommachi+Station%2C+Osaka&destination=Onigiri+Gorichan+Namba%2C+Osaka&travelmode=walking) | — | — |
+| 12:00 | 步行/地铁前往心斋桥筋，找家店吃午餐 | [📍](https://www.google.com/maps/dir/?api=1&origin=Onigiri+Gorichan+Namba%2C+Osaka&destination=Shinsaibashi%2C+Osaka&travelmode=walking) | ¥1,500–3,000 | — |
+| 13:00 | 最终大采购！唐吉诃德零食・药妆・伴手礼 | — | — | — |
+
+#### 🎏 道顿堀 + 🧳 收行李 / 最后晚餐
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 16:00 | 最后傍晚散步，格力高牌最后合照！ | [📍](https://www.google.com/maps/dir/?api=1&origin=Shinsaibashi%2C+Osaka&destination=Dotonbori%2C+Osaka&travelmode=walking) | — | — |
+| 17:30 | 返回酒店整理行李（明天退房飞KIX） | [📍](https://www.google.com/maps/dir/?api=1&origin=Dotonbori%2C+Osaka&destination=Miyako+City+Osaka+Hommachi%2C+Osaka&travelmode=walking) | — | — |
+| 19:00 | 最后晚餐，大阪烧 + 章鱼烧 | — | ¥1,500–2,500 | — |
+
+---
+
+### Sep 21 (Mon) — 最后早晨 → ✈ KIX 20:55 起飞！
+
+#### 🛍 心斋桥・道顿堀 最后漫步
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 09:00 | Miyako City Osaka Hommachi 退房，行李寄存前台 | — | — | — |
+| 09:30 | 心斋桥 / 道顿堀 最后早晨漫步 | [📍](https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=Dotonbori%2C+Osaka&travelmode=walking) | — | — |
+| 10:30 | 心斋桥筋最后扫货 | — | — | — |
+| 12:00 | 最后大阪饭！ | — | ¥1,000–1,500 | — |
+
+#### 🧳 前往机场
+
+> ⭐ 退ICOCA卡！务必退！
+> 💡 建议起飞前3小时到KIX（即16:55前）
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 14:00 | 返回酒店取行李 + 补购伴手礼 | [📍](https://www.google.com/maps/dir/?api=1&origin=Shinsaibashi%2C+Osaka&destination=Miyako+City+Osaka+Hommachi%2C+Osaka&travelmode=walking) | — | — |
+| 16:30 | 步行 → 难波駅 → 南海电铁 Rapi:t → KIX | [📍](https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=Kansai+International+Airport%2C+Osaka&travelmode=transit) | ¥1,450 · 约38分 | — |
+| 18:00 | 抵达 KIX，值机・托运・安检・免税店购物 | — | — | — |
+| 20:55 | ✈ 起飞！→ JB Senai Airport (JHB) · 次日 08:10 抵达 🎉 | — | — | — |
 
 ---
 

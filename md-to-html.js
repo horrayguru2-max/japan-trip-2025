@@ -495,6 +495,7 @@ td strong { color: var(--ink); }
 .tab-bar { display: flex; flex-wrap: wrap; gap: 0.5rem; position: sticky; top: 0; background: var(--bg); z-index: 10; padding: 0.7rem 0; margin-bottom: 0.4rem; border-bottom: 1px solid var(--bdr); }
 .tab-label { flex: 1 1 auto; text-align: center; padding: 0.55rem 0.4rem; border-radius: 20px; background: var(--card); border: 1px solid var(--bdr); font-size: 0.83rem; font-weight: 600; color: var(--ink2); cursor: pointer; white-space: nowrap; user-select: none; transition: background .15s, color .15s, border-color .15s; }
 .tab-panel { display: none; }
+.tab-label.muted { background: transparent; border-color: transparent; color: #b7bcc1; font-weight: 500; font-size: 0.76rem; flex: 0 1 auto; }
 #tab-1:checked ~ .tab-bar label[for="tab-1"],
 #tab-2:checked ~ .tab-bar label[for="tab-2"],
 #tab-3:checked ~ .tab-bar label[for="tab-3"],
@@ -607,14 +608,18 @@ const output = `<!DOCTYPE html>
 <input type="radio" name="tabs" id="tab-5" class="tabs-input">
 
 <div class="tab-bar">
-  <label class="tab-label" for="tab-1">📊 行程总览</label>
-  <label class="tab-label" for="tab-2">🚗 自驾版行程</label>
-  <label class="tab-label" for="tab-3">🗺 Google Map</label>
-  <label class="tab-label" for="tab-4">🏨 住宿 & 🎫 凭证</label>
-  <label class="tab-label" for="tab-5">✅ 清单</label>
+  <label class="tab-label" for="tab-1">🚗 自驾版行程</label>
+  <label class="tab-label" for="tab-2">🗺 自驾游Google Map(Nagoya和Kyoto)</label>
+  <label class="tab-label" for="tab-3">🏨 住宿 & 🎫 凭证</label>
+  <label class="tab-label" for="tab-4">✅ 清单</label>
+  <label class="tab-label muted" for="tab-5">行程总览（原版参考）</label>
 </div>
 
-<div class="tab-panel" id="panel-1">
+<div class="tab-panel" id="panel-1">${driveItineraryHtml}</div>
+<div class="tab-panel" id="panel-2">${googleMapHtml}</div>
+<div class="tab-panel" id="panel-3">${hotelsHtml}</div>
+<div class="tab-panel" id="panel-4">${checklistHtml}</div>
+<div class="tab-panel" id="panel-5">
 <input type="radio" name="subtabs" id="subtab-1" class="subtabs-input" checked>
 <input type="radio" name="subtabs" id="subtab-2" class="subtabs-input">
 <div class="subtab-bar">
@@ -624,10 +629,6 @@ const output = `<!DOCTYPE html>
 <div class="subtab-panel" id="subpanel-1">${itineraryHtml}</div>
 <div class="subtab-panel" id="subpanel-2">${overviewHtml}</div>
 </div>
-<div class="tab-panel" id="panel-2">${driveItineraryHtml}</div>
-<div class="tab-panel" id="panel-3">${googleMapHtml}</div>
-<div class="tab-panel" id="panel-4">${hotelsHtml}</div>
-<div class="tab-panel" id="panel-5">${checklistHtml}</div>
 </div>
 </body>
 </html>`;
