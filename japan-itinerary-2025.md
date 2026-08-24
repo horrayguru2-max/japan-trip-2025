@@ -50,19 +50,19 @@
 
 ### 🚗 Osaka → Nagoya（Sep 12 自驾路线）
 
-<div class="map-embed"><iframe src="https://maps.google.com/maps?saddr=Hotel+Universal+Port+Vita%2C+Osaka&daddr=557-0001%2C+Japan+to:Todaiji+Temple%2C+Nara+to:Port+Of+Nagoya+Public+Aquarium%2C+Nagoya+to:The+Royal+Park+Hotel+Iconic+Nagoya%2C+Nagoya&output=embed" loading="lazy"></iframe></div>
+<div class="map-embed"><iframe src="https://maps.google.com/maps?saddr=Hotel+Universal+Port+Vita%2C+Osaka&daddr=557-0001%2C+Japan+to:Ikoma+Sanjo+Amusement+Park%2C+Ikoma+to:Todaiji+Temple%2C+Nara+to:Kiyosu+Castle%2C+Kiyosu+to:The+Royal+Park+Hotel+Iconic+Nagoya%2C+Nagoya&output=embed" loading="lazy"></iframe></div>
 
-途经：Hotel Universal Port Vita → 557-0001, Japan（取车点，只有邮编，实际门市名称/地址需跟租车行核对）→ 東大寺 Tōdai-ji（奈良看鹿）→ Port Of Nagoya Public Aquarium → The Royal Park Hotel Iconic Nagoya
+途经：Hotel Universal Port Vita → 557-0001, Japan（取车点，只有邮编，实际门市名称/地址需跟租车行核对）→ Ikoma Sanjo Amusement Park（生駒山上遊園地）→ 東大寺 Tōdai-ji（奈良看鹿）→ 清洲城 Kiyosu Castle → The Royal Park Hotel Iconic Nagoya
 
-[🔗 打开 Google Map 路线](https://maps.app.goo.gl/dKfLwtYMLLtLrpur8?g_st=am)
+[🔗 打开 Google Map 路线](https://www.google.com/maps/dir/Hotel+Universal+Port+Vita,+Osaka/557-0001,+Japan/Ikoma+Sanjo+Amusement+Park,+Ikoma/Todaiji+Temple,+Nara/Kiyosu+Castle,+Kiyosu/The+Royal+Park+Hotel+Iconic+Nagoya,+Nagoya)
 
 ### 🌹 Nagoya → Kyoto（Sep 14 名古屋→京都路上新增景点）
 
-<div class="map-embed"><iframe src="https://maps.google.com/maps?saddr=The+Royal+Park+Hotel+Iconic+Nagoya%2C+Nagoya&daddr=Nagoya+Castle%2C+Nagoya+to:Osu+Kannon+Temple%2C+Nagoya+to:Rosa+%26+Berry+Tawada%2C+Maibara+to:Fujigasakiryu+Shrine%2C+Omihachiman+to:Rinn+Kyoto+Station%2C+Kyoto&output=embed" loading="lazy"></iframe></div>
+<div class="map-embed"><iframe src="https://maps.google.com/maps?saddr=The+Royal+Park+Hotel+Iconic+Nagoya%2C+Nagoya&daddr=Nagoya+Castle%2C+Nagoya+to:Osu+Kannon+Temple%2C+Nagoya+to:Rosa+%26+Berry+Tawada%2C+Maibara+to:Rinn+Kyoto+Station%2C+Kyoto&output=embed" loading="lazy"></iframe></div>
 
-途经：The Royal Park Hotel Iconic Nagoya → 名古屋城 → 大须商业街 → ローザンベリー多和田 (ROSA & BERRY Tawada) → 藤ヶ崎龍神社 (Fujigasakiryu Shrine) → Rinn Kyoto Station
+途经：The Royal Park Hotel Iconic Nagoya → 名古屋城 → 大须商业街 → ローザンベリー多和田 (ROSA & BERRY Tawada) → Rinn Kyoto Station
 
-[🔗 打开 Google Map 路线](https://maps.app.goo.gl/hRE3ZF7XsGFV99Sy7)
+⚠️ 藤ヶ崎龍神社已移出这条路线（搬去可选景点），下面这个是原本含藤ヶ崎龍神社的旧路线，仅供参考：[🔗 打开旧版 Google Map 路线](https://maps.app.goo.gl/hRE3ZF7XsGFV99Sy7)
 
 ### ⛩️ Kyoto（Sep 15 京都自驾巡礼）
 
@@ -799,7 +799,7 @@
 
 ---
 
-### Sep 12 (Sat) — 大阪 → 名古屋 自驾（路上去奈良看鹿）
+### Sep 12 (Sat) — 大阪 → 名古屋 自驾（生驹山上游乐园 + 奈良看鹿 + 清洲城）
 
 #### 🚙 大阪退房 → 取车
 
@@ -808,23 +808,31 @@
 | — | Hotel Universal Port Vita 退房，前往取车点 | [📍](https://www.google.com/maps/dir/?api=1&origin=Hotel+Universal+Port+Vita%2C+Osaka&destination=557-0001%2C+Japan&travelmode=driving) | — | — |
 | — | 抵达取车点（557-0001），办手续取车，正式开始自驾 | — | — | — |
 
+#### 🎢 生駒山上遊園地 (Ikoma Sanjo Amusement Park / 生駒山上遊園地)
+
+> 💡 生駒山山顶亲子游乐园，位于奈良/大阪交界，入园免费，游乐设施单项付费。营业时间约10:00–17:00（暑期延长，9月实际时段建议现场/官网确认）。标高642米可眺望大阪平原。（查证日期 2026-08-24，来源：[官网](https://www.ikomasanjou.com/)）
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 取车点开车前往 Ikoma Sanjo Amusement Park（2312-1 Nabatacho, Ikoma, Nara 630-0231） | [📍](https://www.google.com/maps/dir/?api=1&origin=557-0001%2C+Japan&destination=Ikoma+Sanjo+Amusement+Park%2C+Ikoma&travelmode=driving) | 入园免费 | [官网](https://www.ikomasanjou.com/) |
+| — | 园内游玩，眺望大阪/奈良平原景色，游乐设施费用待查 | — | 单项付费，待查 | — |
+
 #### 🦌 東大寺 (Tōdai-ji / 東大寺) 奈良看鹿
 
 > 💡 顺路景点——大佛殿 + 奈良公园鹿群，孩子会很兴奋，记得买鹿仙贝喂鹿（¥200/包）。
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| — | 取车点开车前往東大寺 (Tōdai-ji / 東大寺)，奈良公园看鹿 + 大佛殿参观 | [📍](https://www.google.com/maps/dir/?api=1&origin=557-0001%2C+Japan&destination=Todaiji+Temple%2C+Nara&travelmode=driving) | 大佛殿 大人¥600 | — |
+| — | Ikoma Sanjo Amusement Park开车前往東大寺 (Tōdai-ji / 東大寺)，奈良公园看鹿 + 大佛殿参观 | [📍](https://www.google.com/maps/dir/?api=1&origin=Ikoma+Sanjo+Amusement+Park%2C+Ikoma&destination=Todaiji+Temple%2C+Nara&travelmode=driving) | 大佛殿 大人¥600 | — |
 
-#### 🐬 Port Of Nagoya Public Aquarium (名古屋港水族館)
+#### 🏯 清洲城 (Kiyosu Castle / 清洲城)
 
-> 💡 主要目标：看最后一场 **4pm 河豚（ふぐ）表演**，时间抓紧一点，别错过。
+> 💡 〒452-0932 愛知県清須市朝日城屋敷1-1，织田信长的居城，天守阁外观宛如《千与千寻》汤婆婆的油屋，很适合拍照。营业时间 9:00–16:30，周一休（Sep 12是周六，正常营业）。（查证日期 2026-08-24，来源：[清须市官网](https://www.city.kiyosu.aichi.jp/shisetsu_annai/kanko_shisetsu_sonota/kiyosujo.html)）
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| — | 東大寺开车前往名古屋，Port Of Nagoya Public Aquarium（1-3 Minatomachi, Minato Ward, Nagoya, Aichi 455-0033） | [📍](https://www.google.com/maps/dir/?api=1&origin=Todaiji+Temple%2C+Nara&destination=Port+Of+Nagoya+Public+Aquarium%2C+Nagoya&travelmode=driving) | — | [官网](https://nagoyaaqua.jp/simplified-chinese/) |
-| — | 参观水族馆（贝鲸・海豚・南极企鹅馆），预留2.5–3小时 | — | 门票价格待查 | — |
-| 16:00 | ★ 河豚表演（当天最后一场） | — | — | — |
+| — | 東大寺开车前往清洲城 | [📍](https://www.google.com/maps/dir/?api=1&origin=Todaiji+Temple%2C+Nara&destination=Kiyosu+Castle%2C+Kiyosu&travelmode=driving) | 门票待查 | [参考影片1](https://www.instagram.com/reels/DFRhf-azlQB/) · [参考影片2](https://www.instagram.com/reels/DQ9EXz1D6BV/) |
+| — | 天守阁外观拍照，宛如汤婆婆的油屋 | — | — | — |
 
 #### 🏨 Check-in The Royal Park Hotel Iconic Nagoya
 
@@ -833,7 +841,7 @@
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| 15:00后 | 水族馆开车前往酒店 check-in | [📍](https://www.google.com/maps/dir/?api=1&origin=Port+Of+Nagoya+Public+Aquarium%2C+Nagoya&destination=The+Royal+Park+Hotel+Iconic+Nagoya%2C+Nagoya&travelmode=driving) | — | — |
+| 15:00后 | 清洲城开车前往酒店 check-in | [📍](https://www.google.com/maps/dir/?api=1&origin=Kiyosu+Castle%2C+Kiyosu&destination=The+Royal+Park+Hotel+Iconic+Nagoya%2C+Nagoya&travelmode=driving) | — | — |
 
 ---
 
@@ -880,7 +888,7 @@
 
 ---
 
-### Sep 14 (Mon) — 名古屋城+大须 → 京都 自驾（ローザンベリー多和田 + 藤ヶ崎龍神社）
+### Sep 14 (Mon) — 名古屋城+大须 → 京都 自驾（ローザンベリー多和田）
 
 #### 🏯 名古屋城 (Nagoya Castle / 名古屋城)
 
@@ -903,20 +911,11 @@
 | — | 大须开车出发前往 ローザンベリー多和田 | [📍](https://www.google.com/maps/dir/?api=1&origin=Osu+Kannon+Temple%2C+Nagoya&destination=Rosa+%26+Berry+Tawada%2C+Maibara&travelmode=driving) | 车程待查，高速过路费待查 | [官网](https://www.rb-tawada.com/) |
 | — | 英式玫瑰园漫步 + Shaun the Sheep 农场 + 园内午餐 | — | 大人¥1,500 / 儿童¥900 | — |
 
-#### ⛩️ 藤ヶ崎龍神社 (Fujigasakiryu Shrine)
-
-> 💡 近江八幡市牧町，琵琶湖畔隐藏能量景点，供奉龙神，注连绳岩石 + 琵琶湖全景，参观约20–30分钟。
-
-| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
-|------|------|------|-----------|---------|
-| — | ローザンベリー多和田开车前往藤ヶ崎龍神社 | [📍](https://www.google.com/maps/dir/?api=1&origin=Rosa+%26+Berry+Tawada%2C+Maibara&destination=Fujigasakiryu+Shrine%2C+Omihachiman&travelmode=driving) | 车程待查 | — |
-| — | 琵琶湖畔参拜拍照 | — | 免费参拜 | — |
-
 #### 🏨 返回酒店
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| — | 藤ヶ崎龍神社开车前往京都，check-in Rinn Kyoto Station | [📍](https://www.google.com/maps/dir/?api=1&origin=Fujigasakiryu+Shrine%2C+Omihachiman&destination=Rinn+Kyoto+Station%2C+Kyoto&travelmode=driving) | 车程待查 | — |
+| — | ローザンベリー多和田开车前往京都，check-in Rinn Kyoto Station | [📍](https://www.google.com/maps/dir/?api=1&origin=Rosa+%26+Berry+Tawada%2C+Maibara&destination=Rinn+Kyoto+Station%2C+Kyoto&travelmode=driving) | 车程待查 | — |
 
 ---
 
@@ -1227,12 +1226,22 @@
 | 景点 | 特色 | 交通方式 | 所需时间 | 参考链接 |
 |------|------|---------|---------|---------|
 | 二条城 (Nijo Castle / 二条城) | 德川家康将军御所，走廊会发出鶯鳴声 (Nightingale Floor / 鶯張り)，孩子好奇，Day 7 排不进去先移出来 | 地下鉄烏丸線→烏丸御池→東西線→二条城前駅 约15分 ¥260 | 约1.5–2小时 | — |
+| 嵐山竹林 + 嵯峨野小火车 + 保津川游船 (Arashiyama Bamboo Grove + Sagano Scenic Railway + Hozugawa River Boat Ride / 嵐山竹林の道・嵯峨野トロッコ・保津川下り) | 竹林之道・野宮神社・天龍寺 → 嵯峨野小火车穿越保津川峡谷（25分）→ 保津川游船顺流而下（约2小时）抵达嵐山渡月桥；自驾可停车在トロッコ嵯峨駅旁停车场（¥1,000/天）走环状路线；小火车/游船都建议提前网上预约，9月旺季秒杀 | 自驾最方便，或搭 JR 到嵯峨嵐山駅 | 半天～全天 | [嵐山隐藏路线](https://www.instagram.com/reels/DXLxzw_ji8a/) · [小火车官网](https://sagano-kanko.co.jp) · [游船官网](https://www.hozugawakudari.jp) |
 | 天橋立 (Amanohashidate / 天橋立) | 日本三景之一，松树林沙洲横跨海湾，缆车绝景，可骑脚车 & 搭船慢慢探索 | 京都站 (Kyoto Station / 京都駅) 搭 JR特急约2小时 → 天橋立駅 (Amanohashidate Station / 天橋立駅)，步行到缆车 | 全天 | [天橋立参考](https://www.instagram.com/p/DX85i_PTZZu/) |
 | 伊根舟屋 (Ine Fishing Village / 伊根の舟屋) | 京都海边宁静渔村，传统舟屋沿海排列，风景超疗愈，人潮少；⚠️ 没有自驾的话公共交通单程要2.5–3小时，比嵐山累很多，建议有租车才考虑 | 自驾从京都约2小时最方便；也可搭 JR + 巴士前往，但转乘多耗时长 | 半天～全天 | [伊根参考](https://www.instagram.com/reels/DYbZovKs-kB/) |
 | 西舞鹤 吉原入江 (Nishimaizuru Yoshiwara Cove / 西舞鶴 吉原入江) | 京都北部隐藏版水岸渔村，传统民宅与渔船，气氛宁静，像远离城市的另一个世界 | 京都站搭 JR 到西舞鶴駅 (Nishi-Maizuru Station / 西舞鶴駅)，转巴士或步行前往吉原地区 | 半天 | — |
 | 丹後くろまつ号 (Tango Kuromatsu / 丹後くろまつ号) | 天橋立→西舞鶴景观餐车列车，全预约制，车上供应套餐料理，沿途海景美如《千与千寻》漂浮在海上；⚠️ ¥15,000/人（3人约¥45,000起），预约在出发日前3个月当天10点开放，9月的日期现在（8月）可能已过首波开放期，需上官网确认剩位 | 天橋立駅13:05发→西舞鶴駅14:50着，单程约1小时45分（此时刻表为2025年10月–2026年3月季度班次，9月实际班次未确认，需另查） | 全天（含往返京都站交通，等同天橋立一日游） | [官网预约](https://travel.willer.co.jp/train/tantetsu/booking/akamatsu-route1-1/) · [参考影片](https://www.instagram.com/reel/C_GAhcvtBos/?igsh=MXI5ZHMzZXNieGtnag==) |
 
 > 💡 **天橋立 + 伊根舟屋组合一日游：** 两者相距约40分钟车程，自驾最方便，可以安排在京都的其中一天出发。
+
+---
+
+### 名古屋 & 路上延伸
+
+| 景点 | 特色 | 交通方式 | 所需时间 | 参考链接 |
+|------|------|---------|---------|---------|
+| 名古屋港水族館 (Port Of Nagoya Public Aquarium / 名古屋港水族館) | 贝鲸・海豚・南极企鹅馆，下午4点有河豚 (ふぐ) 表演；原本排进 Sep 12 自驾路上，改成生驹山上遊園地后先移出来 | 自驾从名古屋市区约20分钟；或搭地铁名港線到名古屋港駅 | 约2.5–3小时 | [官网](https://nagoyaaqua.jp/simplified-chinese/) |
+| 藤ヶ崎龍神社 (Fujigasakiryu Shrine) | 近江八幡市牧町，琵琶湖畔隐藏能量景点，供奉龙神，注连绳岩石 + 琵琶湖全景；原本排进 Sep 14 名古屋→京都路上，先移出来 | 自驾从名古屋→京都路上顺路，约在近江八幡一带 | 约20–30分钟 | — |
 
 ---
 
