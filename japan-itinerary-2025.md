@@ -56,7 +56,15 @@
 
 [🔗 打开 Google Map 路线](https://maps.app.goo.gl/dKfLwtYMLLtLrpur8?g_st=am)
 
-### ⛩️ Kyoto（Sep 14 名古屋→京都路上新增景点）
+### 🌹 Nagoya → Kyoto（Sep 14 名古屋→京都路上新增景点）
+
+<div class="map-embed"><iframe src="https://maps.google.com/maps?saddr=The+Royal+Park+Hotel+Iconic+Nagoya%2C+Nagoya&daddr=Nagoya+Castle%2C+Nagoya+to:Osu+Kannon+Temple%2C+Nagoya+to:Rosa+%26+Berry+Tawada%2C+Maibara+to:Fujigasakiryu+Shrine%2C+Omihachiman+to:Rinn+Kyoto+Station%2C+Kyoto&output=embed" loading="lazy"></iframe></div>
+
+途经：The Royal Park Hotel Iconic Nagoya → 名古屋城 → 大须商业街 → ローザンベリー多和田 (ROSA & BERRY Tawada) → 藤ヶ崎龍神社 (Fujigasakiryu Shrine) → Rinn Kyoto Station
+
+[🔗 打开 Google Map 路线](https://maps.app.goo.gl/hRE3ZF7XsGFV99Sy7)
+
+### ⛩️ Kyoto（Sep 15 京都自驾巡礼）
 
 <div class="map-embed"><iframe src="https://maps.google.com/maps?saddr=Rinn+Kyoto+Station%2C+Kyoto&daddr=Kiyomizudera%2C+Kyoto+to:Dan-no-Hori-ji+Temple%2C+Kyoto+to:Heian+Jingu+Shrine%2C+Kyoto+to:Sanzen-in+Temple%2C+Kyoto+to:Kifune+Shrine%2C+Kyoto+to:Kinkaku-ji%2C+Kyoto&output=embed" loading="lazy"></iframe></div>
 
@@ -872,9 +880,7 @@
 
 ---
 
-### Sep 14 (Mon) — 名古屋 → 京都 自驾（名古屋城+大须 + 京都新增景点全部塞入）
-
-> ⚠️ 这天景点非常多（名古屋城+大须 + 开车约2.5小时到京都 + 6个京都景点），一天肯定紧，你说全部先排进来、到时候临场取舍，下面是建议顺序，供你们现场删减。
+### Sep 14 (Mon) — 名古屋城+大须 → 京都 自驾（ローザンベリー多和田 + 藤ヶ崎龍神社）
 
 #### 🏯 名古屋城 (Nagoya Castle / 名古屋城)
 
@@ -888,16 +894,41 @@
 |------|------|------|-----------|---------|
 | — | 名古屋城开车/步行前往大须観音 + 大须商业街漫步扭蛋 | [📍](https://www.google.com/maps/dir/?api=1&origin=Nagoya+Castle%2C+Nagoya&destination=Osu+Kannon+Temple%2C+Nagoya&travelmode=driving) | 扭蛋¥200–500 | — |
 
-#### 🚗 名古屋 → 京都
+#### 🌹 ローザンベリー多和田 (ROSA & BERRY Tawada)
+
+> 💡 米原市，英式玫瑰园 + Shaun the Sheep 主题农场，占地13,000平米，园内有餐厅/咖啡厅/绵羊牧场。入园费 大人¥1,500 / 儿童（4岁以上）¥900。每周二休园，Sep 14是周一正常营业。（查证日期 2026-08-24，来源：[官网](https://www.rb-tawada.com/)）
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| — | 大须开车出发前往京都，全程约2.5小时（含休息站） | [📍](https://www.google.com/maps/dir/?api=1&origin=Osu+Kannon+Temple%2C+Nagoya&destination=Kiyomizudera%2C+Kyoto&travelmode=driving) | 高速过路费待查 | — |
+| — | 大须开车出发前往 ローザンベリー多和田 | [📍](https://www.google.com/maps/dir/?api=1&origin=Osu+Kannon+Temple%2C+Nagoya&destination=Rosa+%26+Berry+Tawada%2C+Maibara&travelmode=driving) | 车程待查，高速过路费待查 | [官网](https://www.rb-tawada.com/) |
+| — | 英式玫瑰园漫步 + Shaun the Sheep 农场 + 园内午餐 | — | 大人¥1,500 / 儿童¥900 | — |
+
+#### ⛩️ 藤ヶ崎龍神社 (Fujigasakiryu Shrine)
+
+> 💡 近江八幡市牧町，琵琶湖畔隐藏能量景点，供奉龙神，注连绳岩石 + 琵琶湖全景，参观约20–30分钟。
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | ローザンベリー多和田开车前往藤ヶ崎龍神社 | [📍](https://www.google.com/maps/dir/?api=1&origin=Rosa+%26+Berry+Tawada%2C+Maibara&destination=Fujigasakiryu+Shrine%2C+Omihachiman&travelmode=driving) | 车程待查 | — |
+| — | 琵琶湖畔参拜拍照 | — | 免费参拜 | — |
+
+#### 🏨 返回酒店
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | 藤ヶ崎龍神社开车前往京都，check-in Rinn Kyoto Station | [📍](https://www.google.com/maps/dir/?api=1&origin=Fujigasakiryu+Shrine%2C+Omihachiman&destination=Rinn+Kyoto+Station%2C+Kyoto&travelmode=driving) | 车程待查 | — |
+
+---
+
+### Sep 15 (Tue) — 清水寺 + 伏见稻荷 + 京都自驾巡礼 + 锦市场晚餐
+
+> ⚠️ 这天景点很多（8个京都景点 + 锦市场晚餐），一天肯定紧，下面是建议顺序，供你们现场删减取舍。
 
 #### ⛩️ 清水寺 (Kiyomizudera Temple / 清水寺)
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
+| — | 酒店开车前往清水寺 | [📍](https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=Kiyomizudera%2C+Kyoto&travelmode=driving) | — | — |
 | — | 清水寺 · 清水舞台 · 音羽の滝三流水许愿 | — | ¥500 | [清水寺影片](https://www.instagram.com/reels/DSZz8BNRlri/) |
 
 #### 🦊 伏见稻荷大社 (Fushimi Inari Taisha / 伏見稲荷大社)
@@ -954,52 +985,13 @@
 |------|------|------|-----------|---------|
 | — | 开车前往金閣寺，金箔舍利殿拍照 | [📍](https://www.google.com/maps/dir/?api=1&origin=Kifune+Shrine%2C+Kyoto&destination=Kinkaku-ji%2C+Kyoto&travelmode=driving) | ¥500 | — |
 
-#### 🏨 返回酒店
-
-| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
-|------|------|------|-----------|---------|
-| — | 开车返回 Rinn Kyoto Station，check-in | [📍](https://www.google.com/maps/dir/?api=1&origin=Kinkaku-ji%2C+Kyoto&destination=Rinn+Kyoto+Station%2C+Kyoto&travelmode=driving) | — | — |
-
----
-
-### Sep 15 (Tue) — 嵐山竹林 + 嵯峨野小火车 + 保津川游船（自驾环状路线）
-
-> 🚗 自驾逻辑：车停トロッコ嵯峨駅旁的收费停车场（与JR嵯峨嵐山駅相邻，¥1,000/天，全年24小时开放），照原计划竹林→野宮神社→天龍寺→坐小火车(嵯峨→亀岡，25分)→接驳巴士(15分)到保津川下り乘船处→坐船约2小时抵达嵐山渡月桥，走回停车场取车，正好是个环状路线。（查证日期 2026-08-23，来源见下方参考链接）
-
-#### 🎋 竹林之道・野宮神社・天龙寺
-
-| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
-|------|------|------|-----------|---------|
-| — | 酒店开车前往トロッコ嵯峨駅旁停车场（¥1,000/天），停好车步行前往竹林之道，早晨人少光线最美 | [📍](https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=Arashiyama+Bamboo+Grove%2C+Kyoto&travelmode=driving) | 免费 | [嵐山隐藏路线](https://www.instagram.com/reels/DXLxzw_ji8a/) |
-| — | 野宮神社，小红鸟居 | — | 免费 | — |
-| — | 天龙寺庭园，世界遗产禅庭 | — | ¥500 | — |
-
-#### 🚃 嵯峨野小火车 (Sagano Scenic Railway / 嵯峨野トロッコ鉄道)
-
-> ⚠️ 必须提前网上预约！[sagano-kanko.co.jp](https://sagano-kanko.co.jp) — 9月旺季极快售完！
-
-| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
-|------|------|------|-----------|---------|
-| — | 步行至トロッコ嵯峨駅（就在停车场旁） | — | — | — |
-| — | トロッコ嵯峨駅 → トロッコ亀岡駅，约25分，穿越保津川峡谷 | — | 大人¥880 / 儿童¥440 | [岚山全天体验](https://www.instagram.com/reels/DXs5gfxidkD/) |
-
-#### 🛶 保津川马车・游船
-
-> ⚠️ 游船也建议提前网上预约！[hozugawakudari.jp](https://www.hozugawakudari.jp) — 9月旺季人多
-
-| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
-|------|------|------|-----------|---------|
-| — | 接驳巴士到乘船处，约15分 | — | — | — |
-| — | 保津川游船出发，传统木船顺流而下约2小时 | — | 大人约¥4,100 / 儿童约¥3,100 | [游船参考1](https://www.instagram.com/reels/DVBqeyjk_Z4/) |
-| — | 游船抵达嵐山！渡月桥附近午餐，走回トロッコ嵯峨駅停车场取车 | — | ¥1,500–2,500 | — |
-
 #### 🥬 锦市场 + 🍶 晚餐：炭火串焼つじや 四条御幸町店
 
 > 📍 つじや地址：京都府京都市下京区四条御幸町下ル大寿町400 · 建议用 [Tabelog](https://tabelog.com/en/kyoto/A2601/A260201/26020272/) 线上即时订位 · 营业 17:00–24:00（LO 23:00）
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| — | 开车前往锦市场附近，逛逛试吃 | [📍](https://www.google.com/maps/dir/?api=1&origin=Togetsukyo+Bridge%2C+Kyoto&destination=Nishiki+Market%2C+Kyoto&travelmode=driving) | 小食¥200–500 | — |
+| — | 金閣寺开车前往锦市场附近，逛逛试吃 | [📍](https://www.google.com/maps/dir/?api=1&origin=Kinkaku-ji%2C+Kyoto&destination=Nishiki+Market%2C+Kyoto&travelmode=driving) | 小食¥200–500 | — |
 | — | 步行至四条河原町，つじや排队晚餐 | — | 人均约¥4,800 | [Tabelog订位](https://tabelog.com/en/kyoto/A2601/A260201/26020272/) |
 | — | 晚餐后开车返回酒店 | [📍](https://www.google.com/maps/dir/?api=1&origin=Shijo+Kawaramachi%2C+Kyoto&destination=Rinn+Kyoto+Station%2C+Kyoto&travelmode=driving) | — | — |
 
@@ -1040,14 +1032,7 @@
 
 ---
 
-### Sep 17 (Thu) — 还车 + 🐬 Noah Dolphin Dome 看海豚 + Abeno Harukas 展望台
-
-#### 🚗 还车
-
-| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
-|------|------|------|-----------|---------|
-| — | 酒店退房，开车前往还车点还车（地点待跟租车行确认） | — | — | — |
-| — | 还车后转搭公共交通，前往 Noah Dolphin Dome | — | — | — |
+### Sep 17 (Thu) — 🐬 Noah Dolphin Dome 看海豚 + 还车 + Abeno Harukas 展望台
 
 #### 🐬 Noah Dolphin Dome (ノア ドルフィン ドーム)
 
@@ -1055,15 +1040,23 @@
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
+| — | 酒店退房，开车前往 Noah Dolphin Dome（还留着车，直接开车去，先不还车） | [📍](https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=Noah+Dolphin+Dome%2C+Osaka&travelmode=driving) | 车程待查 | — |
 | 10:00 | 抵达入馆 | — | 成人¥1,210 / 儿童¥770 | [官网](https://www.dolphindome.jp/english-page/) |
 | 10:30 | 🐬 餌やり体験 喂食体验（15分钟），现场排队 | — | ¥1,100/人 | — |
 | 12:00 | 🌊 浅瀬で遊ぼう 浅水区互动（15分钟） | — | 大人¥7,700 / 小孩¥6,600 | — |
+
+#### 🚗 还车
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | Dolphin Dome 行程结束后，开车前往还车点还车（地点待跟租车行确认） | [📍](https://www.google.com/maps/dir/?api=1&origin=Noah+Dolphin+Dome%2C+Osaka&destination=557-0001%2C+Japan&travelmode=driving) | — | — |
+| — | 还车后转搭公共交通，前往新世界 | [📍](https://www.google.com/maps/dir/?api=1&origin=557-0001%2C+Japan&destination=Shinsekai%2C+Osaka&travelmode=transit) | — | — |
 
 #### 🍢 新世界 + 🏙 Abeno Harukas 300 展望台
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| 12:30 | 前往新世界串炸午餐 | [📍](https://www.google.com/maps/dir/?api=1&origin=Noah+Dolphin+Dome%2C+Osaka&destination=Shinsekai%2C+Osaka&travelmode=transit) | ¥1,000–1,500 | — |
+| 12:30 | 新世界串炸午餐 | — | ¥1,000–1,500 | — |
 | 14:00 | Abeno Harukas 300 展望台，俯瞰大阪全景 | [📍](https://www.google.com/maps/dir/?api=1&origin=Shinsekai%2C+Osaka&destination=Abeno+Harukas%2C+Osaka&travelmode=walking) | ¥1,500 | — |
 
 #### 🦀 晚餐（道顿堀）
