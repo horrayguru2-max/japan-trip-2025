@@ -343,10 +343,11 @@ for (const block of h2Blocks) {
 // Travel days between legs (Sep 12/14/16) get a gradient blending the two legs they
 // connect instead of a flat color. Boundaries are hardcoded to this specific 13-day
 // route rather than derived from the "## 城市" headings, since the JB day (Sep 8) and
-// the first Osaka leg intentionally share one color as a single visual block.
-const SEGMENT_COLORS = ['#8ea3b5', '#8fa88c', '#b98c95', '#c2a878'];
-const SEGMENT_SOLID_RANGES = [[8, 11, 0], [13, 13, 1], [15, 15, 2], [17, 21, 3]];
-const SEGMENT_GRADIENTS = { 12: [0, 1], 14: [1, 2], 16: [2, 3] };
+// the first Osaka leg intentionally share one color as a single visual block. Osaka②
+// (Sep 17–21) reuses the same color as Osaka① (Sep 8–11) — same city, not a new one.
+const SEGMENT_COLORS = ['#8ea3b5', '#8fa88c', '#b98c95'];
+const SEGMENT_SOLID_RANGES = [[8, 11, 0], [13, 13, 1], [15, 15, 2], [17, 21, 0]];
+const SEGMENT_GRADIENTS = { 12: [0, 1], 14: [1, 2], 16: [2, 0] };
 
 function daySegmentBar(title) {
   const m = title.match(/Sep\s*(\d{1,2})/);
