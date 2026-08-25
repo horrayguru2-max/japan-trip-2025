@@ -154,7 +154,7 @@
 | 时间 | 行程 | 交通 / 费用 |
 |------|------|-----------|
 | 19:30 | 抵达 KIX 关西国际机场 (Kansai International Airport / 関西国際空港) | — |
-| 19:45 | ⚠️ 【待补充】搭乘 Trip.com 预订的接驳车直达酒店（不用转车）——需要补上：上车地点/时间、车程、车资 | 待确认 |
+| 19:45 | ✅ 搭乘 ShareRide Pickup 接驳车直达酒店（已付款，不用转车） | 已付款 |
 | — | 抵达 Hotel Universal Port Vita，check-in，便利店 (Conbini / コンビニ) 晚餐，早睡！ | — |
 
 > 💡 Day 1 只需安全到达酒店，坐接驳车不用买ICOCA。ICOCA交通卡可以晚一点再买（Day 2 出门或 Day 4 去名古屋前都行），全程地铁JR通用，离开时退卡可取回¥500押金 + 剩余余额。
@@ -710,7 +710,7 @@
 | 时间 | 行程 | 交通 / 费用 |
 |------|------|-----------|
 | 19:30 | 抵达 KIX 关西国际机场 (Kansai International Airport / 関西国際空港) | — |
-| 19:45 | ⚠️ 【待补充】搭乘 Trip.com 预订的接驳车直达酒店（不用转车）——需要补上：上车地点/时间、车程、车资 | 待确认 |
+| 19:45 | ✅ 搭乘 ShareRide Pickup 接驳车直达酒店（已付款，不用转车） | 已付款 |
 | — | 抵达 Hotel Universal Port Vita，check-in，便利店 (Conbini / コンビニ) 晚餐，早睡！ | — |
 
 > 💡 Day 1 只需安全到达酒店，坐接驳车不用买ICOCA。ICOCA交通卡可以晚一点再买，全程地铁JR通用，离开时退卡可取回¥500押金 + 剩余余额。
@@ -1322,7 +1322,7 @@
 |------|------|------|
 | KUL→JHB 机票 AirAsia AK6032 | ✅ 已订 | Booking no. TERWUG |
 | 租车（自驾版 Sep 12–17 段）| ⚠️ 待办：还没订 | 行程里的取车点/还车点目前都只有邮编「557-0001」占位，还没有实际租车行名称/地址，需要先订车再补上 |
-| Day 1 KIX→酒店接驳车（Trip.com）| ⚠️ 待办：补充资料 | 需要上车地点/时间、车程、车资，详见 Day 1 行程表 |
+| Day 1 KIX→酒店接驳车（ShareRide Pickup）| ✅ 已付款 | 直达 Hotel Universal Port Vita，不用转车 |
 | 嵯峨野小火车预约 | ⚠️ 待办：需预约 | 提前1–2个月，9月旺季很快售完，[sagano-kanko.co.jp](https://sagano-kanko.co.jp) |
 | 保津川游船预约 | ⚠️ 待办：需预约 | 提前1–2个月，9月旺季人多，[hozugawakudari.jp](https://www.hozugawakudari.jp) |
 | ICOCA交通卡 | 🕒 无需提前预订 | 抵达当天/Day 2/Day 4 现场买都行，JR西日本服务台 |
