@@ -312,7 +312,7 @@ for (const block of h2Blocks) {
       const bodyLines = trimBlock(block.contentLines.slice(start + 1, end));
       return { title, bodyLines };
     });
-  } else if (block.title === '🗺 Google Map') {
+  } else if (block.title.includes('路线地图') || block.title.includes('Google Map')) {
     googleMapLines = trimBlock(block.contentLines);
   } else if (isCity) {
     const h3Idxs = findHeadingIdxs(block.contentLines, 3);
@@ -336,6 +336,27 @@ for (const block of h2Blocks) {
   } else if (block.title.includes('Checklist')) {
     checklistLines = trimBlock(block.contentLines);
   }
+}
+
+// City-segment accent colors for day headings (逐日行程 + 自驾版行程), so the trip's
+// four legs (JB+Osaka①/Nagoya/Kyoto/Osaka②) are visually distinguishable at a glance.
+// Travel days between legs (Sep 12/14/16) get a gradient blending the two legs they
+// connect instead of a flat color. Boundaries are hardcoded to this specific 13-day
+// route rather than derived from the "## 城市" headings, since the JB day (Sep 8) and
+// the first Osaka leg intentionally share one color as a single visual block.
+const SEGMENT_COLORS = ['#8ea3b5', '#8fa88c', '#b98c95', '#c2a878'];
+const SEGMENT_SOLID_RANGES = [[8, 11, 0], [13, 13, 1], [15, 15, 2], [17, 21, 3]];
+const SEGMENT_GRADIENTS = { 12: [0, 1], 14: [1, 2], 16: [2, 3] };
+
+function daySegmentBar(title) {
+  const m = title.match(/Sep\s*(\d{1,2})/);
+  if (!m) return '';
+  const day = parseInt(m[1], 10);
+  const solid = SEGMENT_SOLID_RANGES.find(([start, end]) => day >= start && day <= end);
+  if (solid) return SEGMENT_COLORS[solid[2]];
+  const grad = SEGMENT_GRADIENTS[day];
+  if (grad) return `linear-gradient(180deg, ${SEGMENT_COLORS[grad[0]]}, ${SEGMENT_COLORS[grad[1]]})`;
+  return '';
 }
 
 // Splits a day's body on "#### 📍 ..." headings into per-attraction collapsibles
@@ -364,7 +385,9 @@ cityDaySections.forEach(city => {
   itineraryHtml += `<div class="city-group">${inlineConvert(city.cityTitle)}</div>\n`;
   if (city.introNotesHtml) itineraryHtml += city.introNotesHtml + '\n';
   city.days.forEach(day => {
-    itineraryHtml += `<details class="day"><summary>${inlineConvert(day.title)}</summary><div class="day-body">${renderDayBody(day.bodyLines)}</div></details>\n`;
+    const bar = daySegmentBar(day.title);
+    const style = bar ? ` style="--accent-bar:${bar};"` : '';
+    itineraryHtml += `<details class="day"${style}><summary>${inlineConvert(day.title)}</summary><div class="day-body">${renderDayBody(day.bodyLines)}</div></details>\n`;
   });
 });
 if (optionalExtLines) {
@@ -376,7 +399,9 @@ if (optionalExtLines) {
 let driveItineraryHtml = '';
 if (driveIntroHtml) driveItineraryHtml += driveIntroHtml + '\n';
 driveDayItems.forEach(day => {
-  driveItineraryHtml += `<details class="day"><summary>${inlineConvert(day.title)}</summary><div class="day-body">${renderDayBody(day.bodyLines)}</div></details>\n`;
+  const bar = daySegmentBar(day.title);
+  const style = bar ? ` style="--accent-bar:${bar};"` : '';
+  driveItineraryHtml += `<details class="day"${style}><summary>${inlineConvert(day.title)}</summary><div class="day-body">${renderDayBody(day.bodyLines)}</div></details>\n`;
 });
 
 // ---------- Build 🗺 Google Map tab ----------
@@ -521,7 +546,8 @@ td strong { color: var(--ink); }
 .city-group { font-size: 1rem; font-weight: 700; color: var(--card); background: var(--ink); padding: 0.5rem 0.9rem; border-radius: 8px; margin: 1.4rem 0 0.6rem; }
 
 /* Day accordion */
-details.day { background: var(--card); border: 1px solid var(--bdr); border-radius: 10px; margin: 0.6rem 0; overflow: hidden; }
+details.day { position: relative; background: var(--card); border: 1px solid var(--bdr); border-radius: 10px; margin: 0.6rem 0; overflow: hidden; }
+details.day::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 8px; background: var(--accent-bar, transparent); }
 details.day summary { padding: 0.8rem 1rem; cursor: pointer; font-weight: 600; font-size: 0.92rem; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; }
 details.day summary::-webkit-details-marker { display: none; }
 details.day summary::after { content: '▾'; color: var(--accent); flex-shrink: 0; transition: transform .2s; }
@@ -609,7 +635,7 @@ const output = `<!DOCTYPE html>
 
 <div class="tab-bar">
   <label class="tab-label" for="tab-1">🚗 自驾版行程</label>
-  <label class="tab-label" for="tab-2">🗺 自驾游Google Map(Nagoya和Kyoto)</label>
+  <label class="tab-label" for="tab-2">🗺 路线地图</label>
   <label class="tab-label" for="tab-3">🏨 住宿 & 🎫 凭证</label>
   <label class="tab-label" for="tab-4">✅ 清单</label>
   <label class="tab-label muted" for="tab-5">行程总览（原版参考）</label>
