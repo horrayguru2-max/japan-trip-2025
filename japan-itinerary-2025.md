@@ -92,11 +92,11 @@
 
 [🔗 打开 Google Map 路线](https://maps.app.goo.gl/tHWcS19gv2iDPaV1A)
 
-### 🐬 Noah Dolphin Dome + Abeno Harukas（Sep 17）
+### 🐬 Noah Dolphin Dome + 🙏 勝尾寺 + Abeno Harukas（Sep 17）
 
-<div class="map-embed"><iframe src="https://maps.google.com/maps?saddr=Rinn+Kyoto+Station%2C+Kyoto&daddr=Noah+Dolphin+Dome%2C+Osaka+to:557-0001%2C+Japan+to:Shinsekai%2C+Osaka+to:Abeno+Harukas%2C+Osaka+to:Dotonbori%2C+Osaka&output=embed" loading="lazy"></iframe></div>
+<div class="map-embed"><iframe src="https://maps.google.com/maps?saddr=Rinn+Kyoto+Station%2C+Kyoto&daddr=Noah+Dolphin+Dome%2C+Osaka+to:Katsuo-ji+Temple%2C+Osaka+to:557-0001%2C+Japan+to:Shinsekai%2C+Osaka+to:Abeno+Harukas%2C+Osaka+to:Dotonbori%2C+Osaka&output=embed" loading="lazy"></iframe></div>
 
-途经：Rinn Kyoto Station（还留着租的车）→ Noah Dolphin Dome → 557-0001, Japan（还车点，需跟租车行核对实际地址）→ 新世界 → Abeno Harukas → 道頓堀
+途经：Rinn Kyoto Station（还留着租的车）→ Noah Dolphin Dome → 勝尾寺 → 557-0001, Japan（还车点，需跟租车行核对实际地址）→ 新世界 → Abeno Harukas → 道頓堀
 
 [🔗 打开 Google Map 路线](https://www.google.com/maps/dir/Rinn+Kyoto+Station,+Kyoto/Noah+Dolphin+Dome,+Osaka/557-0001,+Japan/Shinsekai,+Osaka/Abeno+Harukas,+Osaka/Dotonbori,+Osaka)
 
@@ -1041,7 +1041,7 @@
 
 ---
 
-### Sep 17 (Thu) — 🐬 Noah Dolphin Dome 看海豚 + 还车 + Abeno Harukas 展望台
+### Sep 17 (Thu) — 🐬 Noah Dolphin Dome 看海豚 + 🙏 勝尾寺 + 还车 + Abeno Harukas 展望台
 
 #### 🐬 Noah Dolphin Dome (ノア ドルフィン ドーム)
 
@@ -1054,11 +1054,20 @@
 | 10:30 | 🐬 餌やり体験 喂食体验（15分钟），现场排队 | — | ¥1,100/人 | — |
 | 12:00 | 🌊 浅瀬で遊ぼう 浅水区互动（15分钟） | — | 大人¥7,700 / 小孩¥6,600 | — |
 
+#### 🙏 勝尾寺 (Katsuo-ji Temple / 勝尾寺)
+
+> ⏰ 参拝约1.5小时。⚠️ 勝尾寺在箕面（大阪北边），Noah Dolphin Dome在堺（大阪南边），两地隔着大阪市区，开车这段车程会比较长（待查），记得抓好时间，别耽误到下午还车。
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| — | Dolphin Dome行程结束后，开车前往勝尾寺（车程待查） | [📍](https://www.google.com/maps/dir/?api=1&origin=Noah+Dolphin+Dome%2C+Osaka&destination=Katsuo-ji+Temple%2C+Osaka&travelmode=driving) | — | — |
+| — | 抵达勝尾寺，满山不倒翁达摩，找个角落放上自己的小达摩许愿，约1.5小时 | — | 拝観料 大人¥500／儿童¥400 | [IG参考](https://www.instagram.com/p/DV0ZSqLCWps/) |
+
 #### 🚗 还车
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| — | Dolphin Dome 行程结束后，开车前往还车点还车（地点待跟租车行确认） | [📍](https://www.google.com/maps/dir/?api=1&origin=Noah+Dolphin+Dome%2C+Osaka&destination=557-0001%2C+Japan&travelmode=driving) | — | — |
+| — | 勝尾寺开车前往还车点还车（地点待跟租车行确认） | [📍](https://www.google.com/maps/dir/?api=1&origin=Katsuo-ji+Temple%2C+Osaka&destination=557-0001%2C+Japan&travelmode=driving) | — | — |
 | — | 还车后转搭公共交通，前往新世界 | [📍](https://www.google.com/maps/dir/?api=1&origin=557-0001%2C+Japan&destination=Shinsekai%2C+Osaka&travelmode=transit) | — | — |
 
 #### 🍢 新世界 + 🏙 Abeno Harukas 300 展望台
@@ -1233,7 +1242,6 @@
 | 住吉大社 (Sumiyoshi Taisha Shrine / 住吉大社) | 朱红太鼓橋 (Taiko-bashi) 拱桥，孩子爱走，日本三大住吉社之一；Sep 18–20 重新排过后先移出正式行程 | 南海高野线住吉大社駅，约15分 ¥520 | 约1小时 | [大阪庙宇参考](https://www.facebook.com/reel/1631787884660144) · [参考](https://www.rednote.com/discovery/item/6820962d0000000023011d23?xsec_token=ABcWWh8seGKYd8AuWw-jCnsSawL4lfudy62R-I3dcl86E=&xsec_source=pc_search&source=web_search_result_notes) |
 | 大鳥大社 (Otori Taisha Shrine / 大鳥大社) | 求财灵验神社，透明御守寓意「看见未来」，原本跟住吉大社顺路排一起 | JR阪和線鳳駅，约15分 ¥230 | 约40分钟 | [IG参考](https://www.instagram.com/p/DV0ZSqLCWps/) |
 | 晚餐：Isaribi 力丸 炉端焼 (いさりび) | 原隻烧鱿鱼/扇贝/大虾/多春鱼/刺身拼盘，串烧每份均一价¥385 | 大阪市北区芝田1-5-12，梅田站步行约5–8分 | 约1.5小时 | [IG参考](https://www.instagram.com/reels/DapivtktrwI/) |
-| 勝尾寺 (Katsuo-ji Temple / 勝尾寺) | 满山不倒翁达摩，找个角落放上自己的小达摩许愿 | 箕面萱野駅转阪急巴士，来回约2.5–3小时 | 半天 | [IG参考](https://www.instagram.com/p/DV0ZSqLCWps/) |
 | 大阪艺术&手作市集 VOL.52 (南港 ATC展馆) | 市集日期 9/19–9/22 10:00–17:00，关西顶级室内艺术手作活动，原创手作展销、体验工坊、甜品美食摊位 | 地铁四つ橋線→住之江公園駅转ニュートラム→トレードセンター前駅 | 约1.5–2小时 | [种草R](http://xhslink.com/m/97HIgD0cEkU) |
 | 淡路岛二次元之森 (Nijigen no Mori / ニジゲンノモリ) | 进击的巨人 + 火影忍者 + 蜡笔小新 + 勇者斗恶龙主题园区，超刺激飞索体验！ | 大阪自驾约1.5小时；或搭高速巴士前往淡路岛（官网有交通指引） | 半天～全天 | [二次元之森参考](https://www.instagram.com/reels/DYPQlmxMwYG/) |
 | 綱敷天神社御旅社 哥斯拉御守 (Godzilla Omamori @ Tsunashiki Tenjin Shrine Branch / 綱敷天神社御旅社) | 纪念1993年哥斯拉电影首次现身梅田的限定御守，¥1,000/个，哥斯拉款每人限购1个，也有奥特曼/三丽鸥角色款；⚠️ 只在周六日 13:00–17:00 販售，8月已有网友反馈缺货过，要不要排进去还没定 | 大阪市北区茶屋町，近梅田站 (Umeda Station) | 约15–20分钟（含排队可能更久） | [IG参考](https://www.instagram.com/p/DW9EOhakczg/) |
