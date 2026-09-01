@@ -60,9 +60,9 @@
 
 <div class="map-embed"><iframe src="https://maps.google.com/maps?saddr=Hotel+Universal+Port+Vita%2C+Osaka&daddr=Ikoma+Sanjo+Amusement+Park%2C+Ikoma+to:Todaiji+Temple%2C+Nara+to:Kiyosu+Castle%2C+Kiyosu+to:The+Royal+Park+Hotel+Iconic+Nagoya%2C+Nagoya&output=embed" loading="lazy"></iframe></div>
 
-途经：Hotel Universal Port Vita → 557-0001, Japan（取车点，只有邮编，实际门市名称/地址需跟租车行核对）→ Ikoma Sanjo Amusement Park（生駒山上遊園地）→ 東大寺 Tōdai-ji（奈良看鹿）→ 清洲城 Kiyosu Castle → The Royal Park Hotel Iconic Nagoya → 世界の山ちゃん (Sekai no Yamachan) 晚餐
+途经：Hotel Universal Port Vita（09:30 门口取车，Easy Car 送车上门）→ Ikoma Sanjo Amusement Park（生駒山上遊園地）→ 東大寺 Tōdai-ji（奈良看鹿）→ 清洲城 Kiyosu Castle → The Royal Park Hotel Iconic Nagoya → 世界の山ちゃん (Sekai no Yamachan) 晚餐
 
-[🔗 打开 Google Map 路线](https://www.google.com/maps/dir/Hotel+Universal+Port+Vita,+Osaka/557-0001,+Japan/Ikoma+Sanjo+Amusement+Park,+Ikoma/Todaiji+Temple,+Nara/Kiyosu+Castle,+Kiyosu/The+Royal+Park+Hotel+Iconic+Nagoya,+Nagoya/Sekai+no+Yamachan,+Nagoya)
+[🔗 打开 Google Map 路线](https://www.google.com/maps/dir/Hotel+Universal+Port+Vita,+Osaka/Ikoma+Sanjo+Amusement+Park,+Ikoma/Todaiji+Temple,+Nara/Kiyosu+Castle,+Kiyosu/The+Royal+Park+Hotel+Iconic+Nagoya,+Nagoya/Sekai+no+Yamachan,+Nagoya)
 
 ### 🌹 Nagoya → Kyoto（Sep 14 名古屋→京都路上新增景点）
 
@@ -94,11 +94,11 @@
 
 ### 🐬 Noah Dolphin Dome + 🙏 勝尾寺 + Abeno Harukas（Sep 17）
 
-<div class="map-embed"><iframe src="https://maps.google.com/maps?saddr=Rinn+Kyoto+Station%2C+Kyoto&daddr=Noah+Dolphin+Dome%2C+Osaka+to:Katsuo-ji+Temple%2C+Osaka+to:557-0001%2C+Japan+to:Shinsekai%2C+Osaka+to:Abeno+Harukas%2C+Osaka+to:Dotonbori%2C+Osaka&output=embed" loading="lazy"></iframe></div>
+<div class="map-embed"><iframe src="https://maps.google.com/maps?saddr=Rinn+Kyoto+Station%2C+Kyoto&daddr=Noah+Dolphin+Dome%2C+Osaka+to:Katsuo-ji+Temple%2C+Osaka+to:Miyako+City+Osaka+Hommachi%2C+Osaka+to:Shinsekai%2C+Osaka+to:Abeno+Harukas%2C+Osaka+to:Dotonbori%2C+Osaka&output=embed" loading="lazy"></iframe></div>
 
-途经：Rinn Kyoto Station（还留着租的车）→ Noah Dolphin Dome → 勝尾寺 → 557-0001, Japan（还车点，需跟租车行核对实际地址）→ 新世界 → Abeno Harukas → 道頓堀
+途经：Rinn Kyoto Station（还留着租的车，带行李退房）→ Noah Dolphin Dome → 勝尾寺 → Miyako City Osaka Hommachi（17:00 前门口还车 + check-in）→ 新世界 → Abeno Harukas → 道頓堀
 
-[🔗 打开 Google Map 路线](https://www.google.com/maps/dir/Rinn+Kyoto+Station,+Kyoto/Noah+Dolphin+Dome,+Osaka/557-0001,+Japan/Shinsekai,+Osaka/Abeno+Harukas,+Osaka/Dotonbori,+Osaka)
+[🔗 打开 Google Map 路线](https://www.google.com/maps/dir/Rinn+Kyoto+Station,+Kyoto/Noah+Dolphin+Dome,+Osaka/Katsuo-ji+Temple,+Osaka/Miyako+City+Osaka+Hommachi,+Osaka/Shinsekai,+Osaka/Abeno+Harukas,+Osaka/Dotonbori,+Osaka)
 
 ### 🏯 大阪城公园 + 难波八阪神社 + 心斋桥一带（Sep 18–20）
 
@@ -691,6 +691,18 @@
 
 ## 🚗 自驾版行程（Sep 8–21 · 全程复制原行程，Sep 12–17 段改自驾）
 
+> 🚗 **租车已确认 · Easy Car（经 Trip.com）· 自驾版 Sep 12–17 段**
+> - **预约号：** 1658114656320034 · **取车凭证号：** C1658114656320034 · 主驾驶：YUN CHING CHIN
+> - **车型：** Suzuki Hustler 或同级 · 自排 · 4人座 · 汽油（满油取车、满油还车）
+> - **取车：** 9/12（六）09:30 · Hotel Universal Port Vita — Easy Car 送车上门到指定碰面点
+> - **还车：** 9/17（四）17:00 · Miyako City Osaka Hommachi — Easy Car 到指定碰面点收车（就是最后5晚的酒店）
+> - **已线上付清：** MYR 1,163.76（含送车/收车费、保险、GPS、手机架、4名副驾、里程不限）
+> - **取车现场付（约 ¥6,000，付店家）：** ETC 卡 ¥600/日 + 儿童增高座椅 ¥400/日
+> - **取车必带：** 正本护照 + 正本驾照 + 国际驾照 IDP（**1949 日内瓦公约版**，A6 纸本，非 1968 维也纳版）+ 主驾驶本人的实体国际信用卡（有芯片、卡号浮凸）；此门店不收押金
+> - **门店联络：** LINE / WhatsApp / KakaoTalk：+81 070-1776-5055 · WeChat：712130595
+> - **紧急联络：** +81-70-1776-5055 / +81-70-3340-5041 · 警察 110
+> - **免费取消期限：** 9/7（日）09:30 前（之后取消要收 20%–100% 费用）
+
 ### Sep 8 (Tue) — ✅ 吉隆坡飞新山（已订票），SEM9 Senai 过夜
 
 > ✅ **KUL→JHB 机票已订：AirAsia AK6032**（Booking no. TERWUG，订票日期 09 Apr 2026）  
@@ -806,10 +818,12 @@
 
 #### 🚙 大阪退房 → 取车
 
+> 🚗 Easy Car 送车上门：09:30 在 Hotel Universal Port Vita 门口碰面取车，不用自己去店里。取车必带正本护照 + 正本驾照 + 国际驾照 IDP（1949 日内瓦公约版）+ 主驾驶本人实体国际信用卡。现场付 ETC 卡 + 儿童增高座椅约 ¥6,000。完整凭证见上方「自驾版行程」开头。
+
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| — | Hotel Universal Port Vita 退房，搭电车前往取车点（不是开车去，取车前还没车） | [📍](https://www.google.com/maps/dir/?api=1&origin=Hotel+Universal+Port+Vita%2C+Osaka&destination=557-0001%2C+Japan&travelmode=transit) | 待查 | — |
-| — | 抵达取车点（557-0001，只有邮编，实际门市名称/地址需跟租车行核对），办手续取车，正式开始自驾 | — | — | — |
+| 08:30 | Hotel Universal Port Vita 退房，行李整理好在大堂等 | — | — | — |
+| 09:30 | 门口跟 Easy Car 人员碰面，验车 + 办手续取车（拍照存证：车身四周、油表、里程），正式开始自驾 | — | 现场付约 ¥6,000（ETC 卡 + 增高座椅） | — |
 
 #### 🎢 生駒山上遊園地 (Ikoma Sanjo Amusement Park / 生駒山上遊園地)
 
@@ -817,7 +831,7 @@
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| — | 取车点开车前往 Ikoma Sanjo Amusement Park（2312-1 Nabatacho, Ikoma, Nara 630-0231） | [📍](https://www.google.com/maps/dir/?api=1&origin=557-0001%2C+Japan&destination=Ikoma+Sanjo+Amusement+Park%2C+Ikoma&travelmode=driving) | 入园免费 | [官网](https://www.ikomasanjou.com/) · [参考](https://www.rednote.com/discovery/item/6a65a9c30000000002003c01?xsec_token=ABNFSxSY16LuiUM-I3bDH_fRbSQSRduh6uNfbKdvXZPkk=&xsec_source=pc_search&source=web_explore_feed) |
+| 10:00 | 从 Hotel Universal Port Vita 开车前往 Ikoma Sanjo Amusement Park（2312-1 Nabatacho, Ikoma, Nara 630-0231） | [📍](https://www.google.com/maps/dir/?api=1&origin=Hotel+Universal+Port+Vita%2C+Osaka&destination=Ikoma+Sanjo+Amusement+Park%2C+Ikoma&travelmode=driving) | 入园免费 | [官网](https://www.ikomasanjou.com/) · [参考](https://www.rednote.com/discovery/item/6a65a9c30000000002003c01?xsec_token=ABNFSxSY16LuiUM-I3bDH_fRbSQSRduh6uNfbKdvXZPkk=&xsec_source=pc_search&source=web_explore_feed) |
 | — | 园内游玩，眺望大阪/奈良平原景色，游乐设施费用待查 | — | 单项付费，待查 | — |
 
 #### 🦌 東大寺 (Tōdai-ji / 東大寺) 奈良看鹿
@@ -1056,19 +1070,23 @@
 
 #### 🙏 勝尾寺 (Katsuo-ji Temple / 勝尾寺)
 
-> ⏰ 参拝约1.5小时。⚠️ 勝尾寺在箕面（大阪北边），Noah Dolphin Dome在堺（大阪南边），两地隔着大阪市区，开车这段车程会比较长（待查），记得抓好时间，别耽误到下午还车。
+> ⏰ 参拝约1.5小时。⚠️ 勝尾寺在箕面（大阪北边），Noah Dolphin Dome在堺（大阪南边），两地隔着大阪市区，开车这段车程会比较长（待查），记得抓好时间，别耽误到 17:00 在本町 Miyako City Osaka Hommachi 还车。
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
 | — | Dolphin Dome行程结束后，开车前往勝尾寺（车程待查） | [📍](https://www.google.com/maps/dir/?api=1&origin=Noah+Dolphin+Dome%2C+Osaka&destination=Katsuo-ji+Temple%2C+Osaka&travelmode=driving) | — | — |
 | — | 抵达勝尾寺，满山不倒翁达摩，找个角落放上自己的小达摩许愿，约1.5小时 | — | 拝観料 大人¥500／儿童¥400 | [IG参考](https://www.instagram.com/p/DV0ZSqLCWps/) |
 
-#### 🚗 还车
+#### 🚗 还车（Miyako City Osaka Hommachi · 17:00）
+
+> ⚠️ 还车硬性时间 **17:00**，地点就在最后 5 晚的酒店 Miyako City Osaka Hommachi 门口（Easy Car 人员来收车）。勝尾寺在箕面（大阪北），开到本町约 40–60 分钟，16:00 前要离开勝尾寺。还车顺便把行李搬进酒店 check-in。还车前拍照存证（车身、油表、里程），油箱先加满、收据留着（满油还车）。
+> ⚠️ **这天时间表要重排：** 新世界 + Abeno Harukas 只能挪到还车后的傍晚（搭地铁去天王寺，Abeno Harukas 展望台开到 22:00），或往前挤在上午——目前的 12:30 午餐 / 14:00 Abeno 跟 17:00 还车对不上。跟我说要怎么调。
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| — | 勝尾寺开车前往还车点还车（地点待跟租车行确认） | [📍](https://www.google.com/maps/dir/?api=1&origin=Katsuo-ji+Temple%2C+Osaka&destination=557-0001%2C+Japan&travelmode=driving) | — | — |
-| — | 还车后转搭公共交通，前往新世界 | [📍](https://www.google.com/maps/dir/?api=1&origin=557-0001%2C+Japan&destination=Shinsekai%2C+Osaka&travelmode=transit) | — | — |
+| 16:00 | 勝尾寺开车前往 Miyako City Osaka Hommachi（约 40–60 分钟） | [📍](https://www.google.com/maps/dir/?api=1&origin=Katsuo-ji+Temple%2C+Osaka&destination=Miyako+City+Osaka+Hommachi%2C+Osaka&travelmode=driving) | — | — |
+| 17:00 | 酒店门口跟 Easy Car 人员碰面还车，行李搬进酒店 check-in | — | 满油还车 | — |
+| — | 之后转搭地铁前往新世界 / Abeno Harukas（见下方，时间需重排） | [📍](https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=Shinsekai%2C+Osaka&travelmode=transit) | — | — |
 
 #### 🍢 新世界 + 🏙 Abeno Harukas 300 展望台
 
@@ -1321,7 +1339,7 @@
 | 项目 | 状态 | 备注 |
 |------|------|------|
 | KUL→JHB 机票 AirAsia AK6032 | ✅ 已订 | Booking no. TERWUG |
-| 租车（自驾版 Sep 12–17 段）| ⚠️ 待办：还没订 | 行程里的取车点/还车点目前都只有邮编「557-0001」占位，还没有实际租车行名称/地址，需要先订车再补上 |
+| 租车（自驾版 Sep 12–17 段）· Easy Car / Trip.com | ✅ 已订 | 预约号 1658114656320034 · Suzuki Hustler 或同级（自排/4座/汽油）· 取车 9/12 09:30 Hotel Universal Port Vita 送车上门 · 还车 9/17 17:00 Miyako City Osaka Hommachi · 已付 MYR 1,163.76 + 现场约 ¥6,000（ETC 卡 + 增高座椅）· 必带 IDP 国际驾照（1949 日内瓦版）+ 正本驾照 + 护照 + 主驾驶信用卡 · 免费取消至 9/7 09:30 |
 | Day 1 KIX→酒店接驳车（ShareRide Pickup）| ✅ 已付款 | 直达 Hotel Universal Port Vita，不用转车 |
 | 嵯峨野小火车预约 | ⚠️ 待办：需预约 | 提前1–2个月，9月旺季很快售完，[sagano-kanko.co.jp](https://sagano-kanko.co.jp) |
 | 保津川游船预约 | ⚠️ 待办：需预约 | 提前1–2个月，9月旺季人多，[hozugawakudari.jp](https://www.hozugawakudari.jp) |
@@ -1360,6 +1378,7 @@
 
 ---
 
+*最后更新：2026-09-01 · 自驾版租车已确认（Easy Car / Trip.com，预约号 1658114656320034）：取车点由「557-0001」占位改为 Hotel Universal Port Vita 送车上门（9/12 09:30），还车点改为 Miyako City Osaka Hommachi（9/17 17:00，就在最后段酒店门口）；「自驾版行程」开头新增租车凭证区块（车型、费用、取车必带证件、门店/紧急联络、取消政策）；Sep 12 取车段与 Sep 17 还车段重写、路线地图与 Google Map 链接同步更新；行前 Checklist 交通表「租车」由待办改为已订；Sep 17 标注 17:00 还车硬性时间、当天新世界+Abeno Harukas 时间表待重排。*
 *最后更新：2026-08-25 · Day 3（Sep 11）改成海游馆水族馆后搭车进城逛心斎橋/道頓堀，天保山大摩天轮移到可选景点（大阪周边延伸）；路线地图新增 Sep 11 水族馆→心斎橋路线，Google Map 区块标题改为「路线地图」；Abeno Harukas 300 展望台补充楼层导览（含柯南联名活动 2026-07-24～11-29）与门票价格更新为成人¥2,000；自驾版 Sep 12 新增世界の山ちゃん (Sekai no Yamachan) 手羽先晚餐，大须商业街新增 Super Kids Land Osu；清水寺、檀王法林寺标注必去；多个景点补充参考链接（生駒山、東大寺、名古屋城、ROSA & BERRY Tawada、京都多个神社寺庙、道顿堀、住吉大社、大阪城公园、黑门市场、难波八阪神社、Onigiri Gorichan、美国村等）；可选景点新增海女、招财猫小镇（两条参考链接内容打不开，地点待确认）。*
 *最后更新：2026-08-09 · USJ门票已确认购买（成人¥9,900/儿童¥6,200，无Express Pass，2026-09-10入场）：Day 2 与 Day 3 行程互换，USJ 改到 Day 2（Sep 10 周四），海游馆水族馆+天保山摩天轮改到 Day 3（Sep 11 周五）；清单新增旅游保险（Generali，已购买，全家3人）；Day 7 清水寺"日式古装"改为"日服"备注。*
 *2026-08-07 · Day 6 清水寺加了第二条参考影片+租和服备注；可选景点新增丹後くろまつ号（天橋立→西舞鶴景观餐车列车）；清单新增 Noah Dolphin Dome 浅水区互动预约、丹後くろまつ号预约窗口提醒。吉卜力公园门票已确认购买：O-Sanpo Day Pass Standard 土日祝（Lead participant: CHIN，13 Sep 2026 10:00 = 大倉庫入场时段）。Nishitetsu Hotel Croom Nagoya（Sep 12–14）与 Rinn Kyoto Station（Sep 14–16）两间酒店均已确认。*
