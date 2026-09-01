@@ -295,6 +295,7 @@ let checklistLines = null; // ✅ 行前重要 Checklist
 let driveIntroHtml = '';  // 🚗 自驾版行程 intro notes (before first ### day)
 let driveDayItems = [];   // 🚗 自驾版行程 days: [{title, bodyLines}]
 let googleMapLines = null; // 🗺 Google Map tab content
+let voucherExtraLines = null; // 🎫 凭证 · 租车 — extra card(s) for the 住宿 & 凭证 tab
 
 for (const block of h2Blocks) {
   const isCity = /Day\s*\d/.test(block.title);
@@ -314,6 +315,8 @@ for (const block of h2Blocks) {
     });
   } else if (block.title.includes('路线地图') || block.title.includes('Google Map')) {
     googleMapLines = trimBlock(block.contentLines);
+  } else if (block.title.includes('凭证')) {
+    voucherExtraLines = trimBlock(block.contentLines);
   } else if (isCity) {
     const h3Idxs = findHeadingIdxs(block.contentLines, 3);
     const introLines = h3Idxs.length ? block.contentLines.slice(0, h3Idxs[0]) : block.contentLines;
@@ -418,6 +421,9 @@ let hotelsHtml = `<div class="hotel-card" style="border-left:3px solid var(--acc
 <p class="hotel-note">所有酒店入住凭证、门票 PDF 存在私人 Google Drive 文件夹（不公开在此页面，避免订单号/PIN码外泄）：<br><a href="${VOUCHERS_DRIVE_URL}" target="_blank" rel="noopener">📂 打开 Google Drive 凭证文件夹</a></p>
 <p class="hotel-note" style="font-size:0.8rem;color:#999;">⚠️ 此页面会公开在 GitHub Pages，请确认该 Drive 文件夹的分享权限设置为仅限你自己或指定帐号可开启。</p>
 </div>\n`;
+if (voucherExtraLines) {
+  hotelsHtml += `<div class="hotel-card">${convert(voucherExtraLines.join('\n'))}</div>\n`;
+}
 if (hotelsTableRaw) {
   hotelsTableRaw.rows.forEach((row, idx) => {
     const [name, dates, location, note] = row;
