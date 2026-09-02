@@ -93,13 +93,13 @@
 
 ### ⛩️ Kyoto（Sep 15 京都自驾巡礼）
 
-<div class="map-embed"><iframe src="https://maps.google.com/maps?saddr=Rinn+Kyoto+Station%2C+Kyoto&daddr=Kiyomizudera%2C+Kyoto+to:Fushimi+Inari+Taisha%2C+Kyoto+to:Dan-no-Hori-ji+Temple%2C+Kyoto+to:Mikane+Jinja%2C+Kyoto+to:Heian+Jingu+Shrine%2C+Kyoto+to:Sanzen-in+Temple%2C+Kyoto+to:Kifune+Shrine%2C+Kyoto+to:Kinkaku-ji%2C+Kyoto&output=embed" loading="lazy"></iframe></div>
+<div class="map-embed"><iframe src="https://maps.google.com/maps?saddr=Rinn+Kyoto+Station%2C+Kyoto&daddr=Kiyomizudera%2C+Kyoto+to:Dan-no-Hori-ji+Temple%2C+Kyoto+to:Heian+Jingu+Shrine%2C+Kyoto+to:Sanzen-in+Temple%2C+Kyoto+to:Kifune+Shrine%2C+Kyoto+to:Kinkaku-ji%2C+Kyoto&output=embed" loading="lazy"></iframe></div>
 
-途经：Rinn Kyoto Station → 清水寺 → 伏见稻荷大社 → 檀王法林寺（黑猫招财猫）→ 御金神社 → 平安神宮 → 三千院 → 貴船神社 → 金阁寺 → 炭火串焼つじや（京都府京都市下京区四条御幸町下ル大寿町400）晚餐
+途经：Rinn Kyoto Station → 清水寺 → 檀王法林寺（黑猫招财猫）→ 平安神宮 → 三千院 → 貴船神社 → 金阁寺 → 炭火串焼つじや（京都府京都市下京区四条御幸町下ル大寿町400）晚餐
 
-[🔗 打开 Google Map 路线（新，含伏见稻荷+御金神社）](https://www.google.com/maps/dir/Rinn+Kyoto+Station,+Kyoto/Kiyomizudera,+Kyoto/Fushimi+Inari+Taisha,+Kyoto/Dan-no-Hori-ji+Temple,+Kyoto/Mikane+Jinja,+Kyoto/Heian+Jingu+Shrine,+Kyoto/Sanzen-in+Temple,+Kyoto/Kifune+Shrine,+Kyoto/Kinkaku-ji,+Kyoto/%E4%BA%AC%E9%83%BD%E5%BA%9C%E4%BA%AC%E9%83%BD%E5%B8%82%E4%B8%8B%E4%BA%AC%E5%8C%BA%E5%9B%9B%E6%9D%A1%E5%BE%A1%E5%B9%B8%E7%94%BA%E4%B8%8B%E3%83%AB%E5%A4%A7%E5%AF%BF%E7%94%BA400)
+[🔗 打开 Google Map 路线](https://maps.app.goo.gl/H4xE1jq5QUshrA8m9)
 
-原本的短链接 [🔗 打开原版路线](https://maps.app.goo.gl/p3YgrXx9vjF1xfzk9?g_st=am) 没含伏见稻荷跟御金神社，上面新链接是补进去后重新生成的。
+> 💡 已换成你给的新路线短链（Rinn → 清水寺 → 檀王法林寺 → 平安神宮 → 三千院 → 貴船神社 → 金阁寺 → つじや）。**伏见稻荷大社、御金神社**这次不排进 Sep 15，已移到「🗺 可选景点 & 延伸行程 · 京都周边延伸」。
 
 ### 🌊 Ine & Tango（Sep 16 海の京都：丹後あおまつ号 + 伊根舟屋）
 
@@ -111,17 +111,17 @@
 
 ### 🐬 Noah Dolphin Dome + 🙏 勝尾寺 + Abeno Harukas（Sep 17）
 
-<div class="map-embed"><iframe src="https://maps.google.com/maps?saddr=Rinn+Kyoto+Station%2C+Kyoto&daddr=Noah+Dolphin+Dome%2C+Osaka+to:Katsuo-ji+Temple%2C+Osaka+to:Miyako+City+Osaka+Hommachi%2C+Osaka+to:Shinsekai%2C+Osaka+to:Abeno+Harukas%2C+Osaka+to:Dotonbori%2C+Osaka&output=embed" loading="lazy"></iframe></div>
+<div class="map-embed"><iframe src="https://maps.google.com/maps?saddr=Miyako+City+Osaka+Hommachi%2C+Osaka&daddr=Noah+Dolphin+Dome%2C+Osaka+to:Katsuo-ji+Temple%2C+Osaka+to:Miyako+City+Osaka+Hommachi%2C+Osaka+to:Shinsekai%2C+Osaka+to:Abeno+Harukas%2C+Osaka+to:Dotonbori%2C+Osaka&output=embed" loading="lazy"></iframe></div>
 
-途经：Rinn Kyoto Station（还留着租的车，带行李退房）→ Noah Dolphin Dome → 勝尾寺 → Miyako City Osaka Hommachi（17:00 前门口还车 + check-in）→ 新世界 → Abeno Harukas → 道頓堀
+途经：Miyako City Osaka Hommachi（还留着租的车，Sep 16 已 check-in）→ Noah Dolphin Dome → 勝尾寺 → Miyako City Osaka Hommachi（17:00 门口还车）→ 新世界 → Abeno Harukas → 道頓堀
 
-[🔗 打开 Google Map 路线](https://www.google.com/maps/dir/Rinn+Kyoto+Station,+Kyoto/Noah+Dolphin+Dome,+Osaka/Katsuo-ji+Temple,+Osaka/Miyako+City+Osaka+Hommachi,+Osaka/Shinsekai,+Osaka/Abeno+Harukas,+Osaka/Dotonbori,+Osaka)
+[🔗 打开 Google Map 路线](https://www.google.com/maps/dir/Miyako+City+Osaka+Hommachi,+Osaka/Noah+Dolphin+Dome,+Osaka/Katsuo-ji+Temple,+Osaka/Miyako+City+Osaka+Hommachi,+Osaka/Shinsekai,+Osaka/Abeno+Harukas,+Osaka/Dotonbori,+Osaka)
 
-### 🏯 大阪城公园 + 难波八阪神社 + 心斋桥一带（Sep 18–20）
+### 🏯 大阪城公园 + 难波八阪神社 + 心斋桥一带（Sep 18–19）
 
 <div class="map-embed"><iframe src="https://maps.google.com/maps?saddr=Miyako+City+Osaka+Hommachi%2C+Osaka&daddr=Osaka+Castle+Park%2C+Osaka+to:Namba+Yasaka+Shrine%2C+Osaka+to:Amerikamura%2C+Osaka+to:Shinsaibashi%2C+Osaka+to:Onigiri+Gorichan+Namba%2C+Osaka+to:Kuromon+Ichiba+Market%2C+Osaka+to:Dotonbori%2C+Osaka&output=embed" loading="lazy"></iframe></div>
 
-途经：Miyako City Osaka Hommachi → 大阪城公园 (Sep 18) → 难波八阪神社 → 美国村 → 心斋桥筋 → Onigiri Gorichan → 黑门市场 → 道頓堀（Sep 19 + Sep 20 重游）
+途经：Miyako City Osaka Hommachi → 大阪城公园 (Sep 18) → 难波八阪神社 → 美国村 → 心斋桥筋 → Onigiri Gorichan → 黑门市场 → 道頓堀（Sep 19）
 
 [🔗 打开你收藏的地点列表](https://maps.app.goo.gl/5sqKEZLZRmiD9E1E9)
 
@@ -656,28 +656,30 @@
 
 ---
 
-### Day 12 · Sep 20 (Sun) — 难波八阪神社 + 美国村 + 心斋桥筋一带重游 + 收行李
+### Day 12 · Sep 20 (Sun) — 🛍 梅田 Umeda 一带逛街 + 收行李
 
-> 💡 跟 Day 11 排的是同一组景点（难波八阪神社/美国村/心斋桥筋/黑门市场一带），当天精神/时间怎么分配，到现场再看看要重游哪些、要不要走完全部——最后都要留时间回酒店收行李、吃最后一餐。
+> 💡 最后一整天，轻松逛。梅田站一带（阪急/大丸/茶屋町/地下街/Grand Front）跟着孩子的节奏走，顺便补买伴手礼。
 
-#### 🦁 难波八阪神社 + 🛍 美国村 + 🛍 心斋桥筋 + 🐟 黑门市场（重游，弹性安排）
-
-| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
-|------|------|------|-----------|---------|
-| 09:30 | 酒店（本町）→ 难波八阪神社 / 美国村 / 心斋桥筋 / 黑门市场，看昨天没逛够的部分，或补买伴手礼 (Omiyage / お土産)、唐吉诃德零食・药妆 | [📍](https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=Shinsaibashi%2C+Osaka&travelmode=transit) | ¥1,500–3,000（餐+采购） | — |
-
-#### 🎏 道顿堀 (Dotonbori / 道頓堀)
+#### 🛍 梅田 Umeda 一带
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| 16:00 | 最后傍晚散步，格力高牌最后合照！ | [📍](https://www.google.com/maps/dir/?api=1&origin=Shinsaibashi%2C+Osaka&destination=Dotonbori%2C+Osaka&travelmode=walking) | — | — |
+| 10:00 | 酒店（本町）→ 地铁御堂筋线 → 梅田駅 (Umeda Station / 梅田駅)，梅田一带自由逛街 + 购物（阪急百货 / 大丸 / 茶屋町 / Grand Front / 地下街），午餐随处解决 | [📍](https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=Umeda+Station%2C+Osaka&travelmode=transit) | 约8分 ¥240 | — |
 
-#### 🧳 收行李 / 最后晚餐
+#### 🍜 晚餐：香川 (Kagawa / 香川) 讃岐うどん · 北新地
+
+> 📍 大阪市北区曽根崎新地1-5-25 曽根崎新地ビル 1F（JR東西線 北新地駅步行2分）· 讃岐手打 udon / 咖喱 udon · 人均 ¥1,000–1,999
+> ⚠️ **周日・假日公休**（Tabelog 查证 2026-08）——Sep 20 是星期日，行前务必再确认，去不了就在梅田/北新地另找一家。平日 18:00–翌03:00 / 周六 18:00–翌02:00。
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| 17:30 | 返回酒店整理行李（明天退房飞KIX） | [📍](https://www.google.com/maps/dir/?api=1&origin=Dotonbori%2C+Osaka&destination=Miyako+City+Osaka+Hommachi%2C+Osaka&travelmode=walking) | — | — |
-| 19:00 | 最后晚餐，大阪烧 + 章鱼烧 | — | ¥1,500–2,500 | — |
+| 18:00 | 梅田步行至北新地，香川 讃岐うどん 晚餐 | [📍](https://www.google.com/maps/dir/?api=1&origin=Umeda+Station%2C+Osaka&destination=Kitashinchi+Station%2C+Osaka&travelmode=walking) | ¥1,000–1,999 | [IG参考](https://www.instagram.com/reel/DZwkteoAckD/?igsi=MW02dm9pa2g3d3Y4ZQ==) · [Tabelog](https://tabelog.com/en/osaka/A2701/A270101/27000166/) |
+
+#### 🧳 收行李 / 返回酒店
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 20:00 | 晚餐后返回酒店整理行李（明天退房飞KIX） | [📍](https://www.google.com/maps/dir/?api=1&origin=Kitashinchi+Station%2C+Osaka&destination=Miyako+City+Osaka+Hommachi%2C+Osaka&travelmode=transit) | — | — |
 
 ---
 
@@ -950,9 +952,9 @@
 
 ---
 
-### Sep 15 (Tue) — 清水寺 + 伏见稻荷 + 京都自驾巡礼 + 锦市场晚餐
+### Sep 15 (Tue) — 清水寺 + 京都自驾巡礼 + 锦市场晚餐
 
-> ⚠️ 这天景点很多（8个京都景点 + 锦市场晚餐），一天肯定紧，下面是建议顺序，供你们现场删减取舍。
+> ⚠️ 这天景点仍多（6个京都景点 + 锦市场晚餐），一天肯定紧，下面按你给的新路线短链顺序排（Rinn → 清水寺 → 檀王法林寺 → 平安神宮 → 三千院 → 貴船神社 → 金阁寺 → つじや），供现场删减取舍。伏见稻荷大社、御金神社已移到「🗺 可选景点 & 延伸行程」。
 
 #### ⛩️ ★ 清水寺 (Kiyomizudera Temple / 清水寺) 必去
 
@@ -961,39 +963,25 @@
 | — | 酒店开车前往清水寺 | [📍](https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=Kiyomizudera%2C+Kyoto&travelmode=driving) | — | — |
 | — | 清水寺 · 清水舞台 · 音羽の滝三流水许愿 | — | ¥500 | [清水寺影片](https://www.instagram.com/reels/DSZz8BNRlri/) |
 
-#### 🦊 伏见稻荷大社 (Fushimi Inari Taisha / 伏見稲荷大社)
-
-| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
-|------|------|------|-----------|---------|
-| — | 开车前往伏见稻荷，千本鳥居只走前段20分钟即可 | [📍](https://www.google.com/maps/dir/?api=1&origin=Kiyomizudera%2C+Kyoto&destination=Fushimi+Inari+Taisha%2C+Kyoto&travelmode=driving) | 免费参拜 | [参考](https://www.rednote.com/discovery/item/6916ef700000000004020668?xsec_token=AB6o9ebiCsradpx2vfmnrJUfRli4zbptfDmF1XH5BJbYg=&xsec_source=pc_search&source=web_search_result_notes) |
-
 #### 🖤 ★ 檀王法林寺 · 黑猫招财猫 (Dan-no-Hori-ji Temple / 壇王法林寺) 必去
 
 > 📍 地址：京都府京都市左京区川端通三条上る法林寺門前町36 · 开放时间 10:00–16:00，日本唯一黑色招财猫，每只经僧侣开光
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| — | 开车前往檀王法林寺，参观黑猫招财猫 | [📍](https://www.google.com/maps/dir/?api=1&origin=Fushimi+Inari+Taisha%2C+Kyoto&destination=Dan-no-Hori-ji+Temple%2C+Kyoto&travelmode=driving) | 免费 | [黑猫招财猫参考](https://www.facebook.com/reel/1426570785269256) |
-
-#### 💰 御金神社 (Mikane Jinja / 御金神社)
-
-> 📍 地址：〒604-0042 京都府京都市中京区押西洞院町614 · 开放时间 10:00–16:00
-
-| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
-|------|------|------|-----------|---------|
-| — | 开车前往御金神社：洗钱・买福財布・求银杏御神签 | [📍](https://www.google.com/maps/dir/?api=1&origin=Dan-no-Hori-ji+Temple%2C+Kyoto&destination=Mikane+Jinja%2C+Kyoto&travelmode=driving) | 免费参拜 | [参考](https://www.rednote.com/discovery/item/66c9671a000000001d039152?xsec_token=AB9rVoc23o1zKeagd-reT8b_C1HmZ5D4WdiKOmcVWxz3M=&xsec_source=pc_search&source=web_search_result_notes) |
+| — | 清水寺开车前往檀王法林寺，参观黑猫招财猫 | [📍](https://www.google.com/maps/dir/?api=1&origin=Kiyomizudera%2C+Kyoto&destination=Dan-no-Hori-ji+Temple%2C+Kyoto&travelmode=driving) | 免费 | [黑猫招财猫参考](https://www.facebook.com/reel/1426570785269256) |
 
 #### ⛩️ 平安神宮 (Heian-jingū Shrine / 平安神宮)
 
-> 💡 拝観时间 8:30–18:00（3/15–9/30 期间，Sep 14 适用）。本殿参拝免费；神苑（庭园）另外收费，具体金额建议现场确认。朱红色大鸟居 + 応天門很好拍照。（查证日期 2026-08-23）
+> 💡 拝観时间 8:30–18:00（3/15–9/30 期间，Sep 15 适用）。本殿参拝免费；神苑（庭园）另外收费，具体金额建议现场确认。朱红色大鸟居 + 応天門很好拍照。（查证日期 2026-08-23）
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| — | 开车前往平安神宮，参拜 + 拍照（神苑视时间决定要不要进） | [📍](https://www.google.com/maps/dir/?api=1&origin=Mikane+Jinja%2C+Kyoto&destination=Heian+Jingu+Shrine%2C+Kyoto&travelmode=driving) | 本殿免费 | [参考](https://www.rednote.com/discovery/item/6a1156cc00000000070105ef?xsec_token=AB7HU81KGiQhBXN2lHky_EqzW5RnKaa7UHps3_mHYwcRw=&xsec_source=pc_search&source=web_search_result_notes) |
+| — | 檀王法林寺开车前往平安神宮，参拜 + 拍照（神苑视时间决定要不要进） | [📍](https://www.google.com/maps/dir/?api=1&origin=Dan-no-Hori-ji+Temple%2C+Kyoto&destination=Heian+Jingu+Shrine%2C+Kyoto&travelmode=driving) | 本殿免费 | [参考](https://www.rednote.com/discovery/item/6a1156cc00000000070105ef?xsec_token=AB7HU81KGiQhBXN2lHky_EqzW5RnKaa7UHps3_mHYwcRw=&xsec_source=pc_search&source=web_search_result_notes) |
 
 #### 🌲 三千院 (Sanzen-in Temple / 三千院)
 
-> 💡 大原地区，离市区较远，开车单程约40–50分钟。拝観时间 9:00–17:00（Sep 14 适用 3–10月时段），拝観料 一般¥700 / 中高生¥400。苔庭+往生極楽院很有名。（查证日期 2026-08-23）
+> 💡 大原地区，离市区较远，开车单程约40–50分钟。拝観时间 9:00–17:00（Sep 15 适用 3–10月时段），拝観料 一般¥700 / 中高生¥400。苔庭+往生極楽院很有名。（查证日期 2026-08-23）
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
@@ -1001,7 +989,7 @@
 
 #### 💧 貴船神社 (Kifune Shrine / 貴船神社)
 
-> 💡 跟三千院同在北边山区，车程约20分钟。参拝时间 6:00–20:00（5/1–11/30期间，Sep 14 适用），免费参拜。水占卜御神签是特色。（查证日期 2026-08-23）
+> 💡 跟三千院同在北边山区，车程约20分钟。参拝时间 6:00–20:00（5/1–11/30期间，Sep 15 适用），免费参拜。水占卜御神签是特色。（查证日期 2026-08-23）
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
@@ -1027,9 +1015,11 @@
 
 ---
 
-### Sep 16 (Wed) — 🌊 海の京都：丹後あおまつ号观光列车 + 伊根舟屋
+### Sep 16 (Wed) — 🌊 海の京都：丹後あおまつ号观光列车 + 伊根舟屋 → 返回大阪
 
-> ⚠️ 伊根舟屋部分细节还没查证；丹後あおまつ号的时刻表已核实（见下方），出发前仍建议再上官网确认当天班次有没有变动。顺序改成先到西舞鶴搭观光列车，再开车去伊根。
+> ⚠️ 伊根舟屋部分细节还没查证；丹後あおまつ号的时刻表已核实（见下方），出发前仍建议再上官网确认当天班次有没有变动。顺序：先到西舞鶴搭观光列车，再开车去伊根。
+> 🏨 **今天换酒店**：一早在 Rinn Kyoto Station 退房、行李上车，海の京都玩完**不回京都**，直接开去大阪的 Miyako City Osaka Hommachi（之后 5 晚都住这里）check-in。
+> 🕐 下面时间是你们的预估：07:00 出酒店 / 08:42 搭丹後あおまつ号 / 10:30 开车去伊根 / 12:00 到伊根 / 15:30 出发去大阪 / 18:00 到 Miyako。⚠️ 07:00 出发赶 08:42 那班有点紧（京都→西舞鶴开车约1.5小时），保险起见可提前到 06:30。
 
 #### 🚃 丹後あおまつ号 (Tango Aomatsu-go / 丹後あおまつ号)
 
@@ -1040,10 +1030,10 @@
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| — | 酒店开车前往西舞鶴駅 (Nishi-Maizuru Station)，停车（车程待查） | [📍](https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=Nishi-Maizuru+Station%2C+Kyoto&travelmode=driving) | — | [官网](https://willer-travel.com/en/train/tantetsu/aomatsu.html) |
-| 08:42 | 搭乘丹後あおまつ号出发，车上喝咖啡吃甜点，途经由良川橋梁 | — | 普通车资 | [参考1](https://www.rednote.com/discovery/item/69f94c00000000003701fb61?xsec_token=AB4MPUFMBarS8VG6-d-KM69VnYZFcTsW9UPQeNksICw0o=&xsec_source=pc_search&source=web_search_result_notes) · [参考2](https://www.rednote.com/discovery/item/684abaf1000000000f039cc3?xsec_token=AB_Bhp45ADDzSqvqjw_LWzVi9B4nzf0vkn6GiFCjdU8fg=&xsec_source=pc_search&source=web_search_result_notes) |
+| 07:00 | Rinn Kyoto Station 退房、行李上车，开车前往西舞鶴駅 (Nishi-Maizuru Station)，停车（车程约1.5小时） | [📍](https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=Nishi-Maizuru+Station%2C+Kyoto&travelmode=driving) | — | [官网](https://willer-travel.com/en/train/tantetsu/aomatsu.html) |
+| 08:42 | 搭乘丹後あおまつ号出发（约08:20 抵站买票候车），车上喝咖啡吃甜点，途经由良川橋梁 | — | 普通车资 | [参考1](https://www.rednote.com/discovery/item/69f94c00000000003701fb61?xsec_token=AB4MPUFMBarS8VG6-d-KM69VnYZFcTsW9UPQeNksICw0o=&xsec_source=pc_search&source=web_search_result_notes) · [参考2](https://www.rednote.com/discovery/item/684abaf1000000000f039cc3?xsec_token=AB_Bhp45ADDzSqvqjw_LWzVi9B4nzf0vkn6GiFCjdU8fg=&xsec_source=pc_search&source=web_search_result_notes) · [参考3](https://www.rednote.com/discovery/item/668cef7e00000000250073c0?xsec_token=ABAB-jE3GRowp-j2BkSHHo5qM4IFEpwYHFJe1SmT-HGIE=&xsec_source=pc_search&source=web_note_detail_r10) |
 | 09:02 | 抵达丹後由良駅 (Tango-Yura Station) 下车，附近散步/拍照 | — | — | — |
-| — | 搭任一班返回西舞鶴駅的普通列车（不限定车次） | — | 普通车资 | — |
+| 09:30 | 搭任一班返回西舞鶴駅的普通列车（不限定车次），现场看站内时刻表 | — | 普通车资 | — |
 
 #### ⛵ 伊根舟屋 (Ine Fishing Village / 伊根の舟屋)
 
@@ -1051,14 +1041,15 @@
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| — | 西舞鶴駅取车，开车前往伊根（车程待查） | [📍](https://www.google.com/maps/dir/?api=1&origin=Nishi-Maizuru+Station%2C+Kyoto&destination=Ine%2C+Kyoto&travelmode=driving) | 高速过路费待查 | [伊根参考1](https://www.instagram.com/reels/DYbZovKs-kB/) · [伊根参考2](https://www.instagram.com/reels/Db2nm55pWq-/) |
-| — | 看舟屋群，海边漫步/拍照，午餐/下午茶海鲜丼 | — | 餐费待查 | — |
+| 10:30 | 西舞鶴駅取车，开车前往伊根（车程约1–1.5小时） | [📍](https://www.google.com/maps/dir/?api=1&origin=Nishi-Maizuru+Station%2C+Kyoto&destination=Ine%2C+Kyoto&travelmode=driving) | 高速过路费待查 | [伊根参考1](https://www.instagram.com/reels/DYbZovKs-kB/) · [伊根参考2](https://www.instagram.com/reels/Db2nm55pWq-/) |
+| 12:00 | 抵达伊根，看舟屋群，海边漫步/拍照，海鲜丼午餐/下午茶 | — | 餐费待查 | — |
 
-#### 🏨 返回酒店
+#### 🏨 前往大阪酒店（换酒店）
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| — | 伊根开车返回 Rinn Kyoto Station（约2小时，待查） | [📍](https://www.google.com/maps/dir/?api=1&origin=Ine%2C+Kyoto&destination=Rinn+Kyoto+Station%2C+Kyoto&travelmode=driving) | — | — |
+| 15:30 | 伊根出发，开车前往大阪 Miyako City Osaka Hommachi（约2.5–3小时，含高速过路费待查） | [📍](https://www.google.com/maps/dir/?api=1&origin=Ine%2C+Kyoto&destination=Miyako+City+Osaka+Hommachi%2C+Osaka&travelmode=driving) | — | — |
+| 18:00 | 抵达 Miyako City Osaka Hommachi，车停酒店/附近停车场过夜（Sep 17 17:00 才还车），check-in，酒店附近晚餐 | — | ¥1,500–2,500 | — |
 
 ---
 
@@ -1070,7 +1061,7 @@
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| — | 酒店退房，开车前往 Noah Dolphin Dome（还留着车，直接开车去，先不还车） | [📍](https://www.google.com/maps/dir/?api=1&origin=Rinn+Kyoto+Station%2C+Kyoto&destination=Noah+Dolphin+Dome%2C+Osaka&travelmode=driving) | 车程待查 | — |
+| — | 从 Miyako City Osaka Hommachi 出发，开车前往 Noah Dolphin Dome（车 17:00 才还，今天先开车用一天，行李留酒店） | [📍](https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=Noah+Dolphin+Dome%2C+Osaka&travelmode=driving) | 车程待查 | — |
 | 10:00 | 抵达入馆 | — | 成人¥1,210 / 儿童¥770 | [官网](https://www.dolphindome.jp/english-page/) |
 | 10:30 | 🐬 餌やり体験 喂食体验（15分钟），现场排队 | — | ¥1,100/人 | — |
 | 12:00 | 🌊 浅瀬で遊ぼう 浅水区互动（15分钟） | — | 大人¥7,700 / 小孩¥6,600 | — |
@@ -1086,13 +1077,13 @@
 
 #### 🚗 还车（Miyako City Osaka Hommachi · 17:00）
 
-> ⚠️ 还车硬性时间 **17:00**，地点就在最后 5 晚的酒店 Miyako City Osaka Hommachi 门口（Easy Car 人员来收车）。勝尾寺在箕面（大阪北），开到本町约 40–60 分钟，16:00 前要离开勝尾寺。还车顺便把行李搬进酒店 check-in。还车前拍照存证（车身、油表、里程），油箱先加满、收据留着（满油还车）。
+> ⚠️ 还车硬性时间 **17:00**，地点就在酒店 Miyako City Osaka Hommachi 门口（Easy Car 人员来收车；已 Sep 16 入住，行李本来就在房间）。勝尾寺在箕面（大阪北），开到本町约 40–60 分钟，16:00 前要离开勝尾寺。还车前拍照存证（车身、油表、里程），油箱先加满、收据留着（满油还车）。
 > ⚠️ **这天时间表要重排：** 新世界 + Abeno Harukas 只能挪到还车后的傍晚（搭地铁去天王寺，Abeno Harukas 展望台开到 22:00），或往前挤在上午——目前的 12:30 午餐 / 14:00 Abeno 跟 17:00 还车对不上。跟我说要怎么调。
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
 | 16:00 | 勝尾寺开车前往 Miyako City Osaka Hommachi（约 40–60 分钟） | [📍](https://www.google.com/maps/dir/?api=1&origin=Katsuo-ji+Temple%2C+Osaka&destination=Miyako+City+Osaka+Hommachi%2C+Osaka&travelmode=driving) | — | — |
-| 17:00 | 酒店门口跟 Easy Car 人员碰面还车，行李搬进酒店 check-in | — | 满油还车 | — |
+| 17:00 | 酒店门口跟 Easy Car 人员碰面还车 | — | 满油还车 | — |
 | — | 之后转搭地铁前往新世界 / Abeno Harukas（见下方，时间需重排） | [📍](https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=Shinsekai%2C+Osaka&travelmode=transit) | — | — |
 
 #### 🍢 新世界 + 🏙 Abeno Harukas 300 展望台
@@ -1182,23 +1173,30 @@
 
 ---
 
-### Sep 20 (Sun) — 难波八阪神社 + 美国村 + 心斋桥筋一带重游 + 收行李
+### Sep 20 (Sun) — 🛍 梅田 Umeda 一带逛街 + 收行李
 
-> 💡 跟 Sep 19 排的是同一组景点，到现场再看看要重游哪些、要不要走完全部——最后都要留时间回酒店收行李、吃最后一餐。
+> 💡 最后一整天，轻松逛。梅田站一带（阪急/大丸/茶屋町/地下街/Grand Front）跟着孩子的节奏走，顺便补买伴手礼。
 
-#### 🦁 难波八阪神社 + 🛍 美国村 + 🛍 心斋桥筋 + 🐟 黑门市场（重游，弹性安排）
-
-| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
-|------|------|------|-----------|---------|
-| 09:30 | 酒店（本町）→ 难波八阪神社 / 美国村 / 心斋桥筋 / 黑门市场，补买伴手礼、唐吉诃德零食・药妆 | [📍](https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=Shinsaibashi%2C+Osaka&travelmode=transit) | ¥1,500–3,000（餐+采购） | — |
-
-#### 🎏 道顿堀 + 🧳 收行李 / 最后晚餐
+#### 🛍 梅田 Umeda 一带
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
-| 16:00 | 最后傍晚散步，格力高牌最后合照！ | [📍](https://www.google.com/maps/dir/?api=1&origin=Shinsaibashi%2C+Osaka&destination=Dotonbori%2C+Osaka&travelmode=walking) | — | — |
-| 17:30 | 返回酒店整理行李（明天退房飞KIX） | [📍](https://www.google.com/maps/dir/?api=1&origin=Dotonbori%2C+Osaka&destination=Miyako+City+Osaka+Hommachi%2C+Osaka&travelmode=walking) | — | — |
-| 19:00 | 最后晚餐，大阪烧 + 章鱼烧 | — | ¥1,500–2,500 | — |
+| 10:00 | 酒店（本町）→ 地铁御堂筋线 → 梅田駅 (Umeda Station / 梅田駅)，梅田一带自由逛街 + 购物（阪急百货 / 大丸 / 茶屋町 / Grand Front / 地下街），午餐随处解决 | [📍](https://www.google.com/maps/dir/?api=1&origin=Miyako+City+Osaka+Hommachi%2C+Osaka&destination=Umeda+Station%2C+Osaka&travelmode=transit) | 约8分 ¥240 | — |
+
+#### 🍜 晚餐：香川 (Kagawa / 香川) 讃岐うどん · 北新地
+
+> 📍 大阪市北区曽根崎新地1-5-25 曽根崎新地ビル 1F（JR東西線 北新地駅步行2分）· 讃岐手打 udon / 咖喱 udon · 人均 ¥1,000–1,999
+> ⚠️ **周日・假日公休**（Tabelog 查证 2026-08）——Sep 20 是星期日，行前务必再确认，去不了就在梅田/北新地另找一家。平日 18:00–翌03:00 / 周六 18:00–翌02:00。
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 18:00 | 梅田步行至北新地，香川 讃岐うどん 晚餐 | [📍](https://www.google.com/maps/dir/?api=1&origin=Umeda+Station%2C+Osaka&destination=Kitashinchi+Station%2C+Osaka&travelmode=walking) | ¥1,000–1,999 | [IG参考](https://www.instagram.com/reel/DZwkteoAckD/?igsi=MW02dm9pa2g3d3Y4ZQ==) · [Tabelog](https://tabelog.com/en/osaka/A2701/A270101/27000166/) |
+
+#### 🧳 收行李 / 返回酒店
+
+| 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
+|------|------|------|-----------|---------|
+| 20:00 | 晚餐后返回酒店整理行李（明天退房飞KIX） | [📍](https://www.google.com/maps/dir/?api=1&origin=Kitashinchi+Station%2C+Osaka&destination=Miyako+City+Osaka+Hommachi%2C+Osaka&travelmode=transit) | — | — |
 
 ---
 
@@ -1238,6 +1236,8 @@
 | 景点 | 特色 | 交通方式 | 所需时间 | 参考链接 |
 |------|------|---------|---------|---------|
 | 二条城 (Nijo Castle / 二条城) | 德川家康将军御所，走廊会发出鶯鳴声 (Nightingale Floor / 鶯張り)，孩子好奇，Day 7 排不进去先移出来 | 地下鉄烏丸線→烏丸御池→東西線→二条城前駅 约15分 ¥260 | 约1.5–2小时 | — |
+| 🦊 伏见稻荷大社 (Fushimi Inari Taisha / 伏見稲荷大社) | 千本鳥居，只走前段20分钟即可，孩子爱穿越；Sep 15 京都自驾巡礼按新路线重排后移出 | JR奈良線 京都駅直達2站 约5分 ¥150（超近）；自驾山下有停车场 | 约1–1.5小时 | [参考](https://www.rednote.com/discovery/item/6916ef700000000004020668?xsec_token=AB6o9ebiCsradpx2vfmnrJUfRli4zbptfDmF1XH5BJbYg=&xsec_source=pc_search&source=web_search_result_notes) |
+| 💰 御金神社 (Mikane Jinja / 御金神社) | 日本唯一金箔鸟居，洗钱・福財布・银杏御神签；开放 10:00–16:00；Sep 15 京都自驾巡礼按新路线重排后移出 | 地下鉄烏丸線→烏丸御池駅 约8分 ¥260 + 步行8分 | 约30–40分钟 | [参考](https://www.rednote.com/discovery/item/66c9671a000000001d039152?xsec_token=AB9rVoc23o1zKeagd-reT8b_C1HmZ5D4WdiKOmcVWxz3M=&xsec_source=pc_search&source=web_search_result_notes) |
 | 嵐山竹林 + 嵯峨野小火车 + 保津川游船 (Arashiyama Bamboo Grove + Sagano Scenic Railway + Hozugawa River Boat Ride / 嵐山竹林の道・嵯峨野トロッコ・保津川下り) | 竹林之道・野宮神社・天龍寺 → 嵯峨野小火车穿越保津川峡谷（25分）→ 保津川游船顺流而下（约2小时）抵达嵐山渡月桥；自驾可停车在トロッコ嵯峨駅旁停车场（¥1,000/天）走环状路线；小火车/游船都建议提前网上预约，9月旺季秒杀 | 自驾最方便，或搭 JR 到嵯峨嵐山駅 | 半天～全天 | [嵐山隐藏路线](https://www.instagram.com/reels/DXLxzw_ji8a/) · [小火车官网](https://sagano-kanko.co.jp) · [游船官网](https://www.hozugawakudari.jp) |
 | 海女 (Ama Divers / 海女) | 传统女性素潜采海鲜的渔业文化，Tango半岛/丹後地区沿海一带有相关体验或参观点；⚠️ 参考链接内容打不开确认具体地点，需要再跟你确认是哪个村/哪个体验设施 | 待查 | 待查 | [参考](https://www.instagram.com/reels/DZj0DjHxJkP/) |
 | 天橋立 (Amanohashidate / 天橋立) | 日本三景之一，松树林沙洲横跨海湾，缆车绝景，可骑脚车 & 搭船慢慢探索 | 京都站 (Kyoto Station / 京都駅) 搭 JR特急约2小时 → 天橋立駅 (Amanohashidate Station / 天橋立駅)，步行到缆车 | 全天 | [天橋立参考](https://www.instagram.com/p/DX85i_PTZZu/) |
@@ -1385,6 +1385,7 @@
 
 ---
 
+*最后更新：2026-09-02 · 自驾版 Sep 16 海の京都：当天从 Rinn Kyoto 退房、玩完直接开去大阪 Miyako City Osaka Hommachi check-in（不回京都）；丹後あおまつ号 + 伊根 补上预估时间（07:00 出酒店 / 08:42 搭车 / 10:30 去伊根 / 12:00 到 / 15:30 出发 / 18:00 到大阪），丹後あおまつ号小节加一条 rednote 参考链接；Sep 17 起点由 Rinn 改为 Miyako、拿掉「还车顺便 check-in」（已 Sep 16 入住）；路线地图 Sep 17 起点同步改为 Miyako。自驾版 Sep 15 京都巡礼按新路线短链重排（Rinn → 清水寺 → 檀王法林寺 → 平安神宮 → 三千院 → 貴船神社 → 金阁寺 → つじや），伏见稻荷大社、御金神社移到「可选景点 · 京都周边延伸」，路线地图 Kyoto 换新短链。Sep 20（主行程 Day 12 + 自驾版）整天改为梅田 Umeda 逛街 + 收行李，晚餐 香川 讃岐うどん（北新地，⚠️ 周日公休需行前确认）。*
 *最后更新：2026-09-01 · 自驾版租车已确认（Easy Car / Trip.com，预约号 1658114656320034）：取车点由「557-0001」占位改为 Hotel Universal Port Vita 送车上门（9/12 09:30），还车点改为 Miyako City Osaka Hommachi（9/17 17:00，就在最后段酒店门口）；新增「## 🎫 凭证 · 租车」区块（车型、费用、取车必带证件、门店/紧急联络、取消政策），md-to-html.js 增加把「凭证」h2 渲染进「住宿 & 凭证」分页的逻辑；Sep 12 取车段与 Sep 17 还车段重写、路线地图与 Google Map 链接同步更新；行前 Checklist 交通表「租车」由待办改为已订；Sep 17 标注 17:00 还车硬性时间、当天新世界+Abeno Harukas 时间表待重排。*
 *最后更新：2026-08-25 · Day 3（Sep 11）改成海游馆水族馆后搭车进城逛心斎橋/道頓堀，天保山大摩天轮移到可选景点（大阪周边延伸）；路线地图新增 Sep 11 水族馆→心斎橋路线，Google Map 区块标题改为「路线地图」；Abeno Harukas 300 展望台补充楼层导览（含柯南联名活动 2026-07-24～11-29）与门票价格更新为成人¥2,000；自驾版 Sep 12 新增世界の山ちゃん (Sekai no Yamachan) 手羽先晚餐，大须商业街新增 Super Kids Land Osu；清水寺、檀王法林寺标注必去；多个景点补充参考链接（生駒山、東大寺、名古屋城、ROSA & BERRY Tawada、京都多个神社寺庙、道顿堀、住吉大社、大阪城公园、黑门市场、难波八阪神社、Onigiri Gorichan、美国村等）；可选景点新增海女、招财猫小镇（两条参考链接内容打不开，地点待确认）。*
 *最后更新：2026-08-09 · USJ门票已确认购买（成人¥9,900/儿童¥6,200，无Express Pass，2026-09-10入场）：Day 2 与 Day 3 行程互换，USJ 改到 Day 2（Sep 10 周四），海游馆水族馆+天保山摩天轮改到 Day 3（Sep 11 周五）；清单新增旅游保险（Generali，已购买，全家3人）；Day 7 清水寺"日式古装"改为"日服"备注。*
