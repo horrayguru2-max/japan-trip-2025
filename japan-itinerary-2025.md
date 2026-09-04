@@ -476,16 +476,16 @@
 
 #### 🥬 锦市场 + 🍶 晚餐：炭火串焼つじや 四条御幸町店
 
-> 📍 つじや地址：京都府京都市下京区四条御幸町下ル大寿町400（阪急河原町駅步行2分，就在锦市场旁边）· 电话：075-371-5825 · 建议用 [Tabelog](https://tabelog.com/en/kyoto/A2601/A260201/26020272/) 线上即时订位，不需打电话 · 营业 17:00–24:00（LO 23:00）
+> 📍 つじや地址：京都府京都市下京区四条御幸町下ル大寿町400（阪急河原町駅步行2分，就在锦市场旁边）· 电话：075-371-5825 · ✅ **已订位：9/15（二）19:30・3位**（透过 Google／Resty 系统订，确认信已寄 ginntsp@gmail.com）· ⚠️ 需取消请提前 30 天 · 到店以日文或英文报姓名入座 · 营业 17:00–24:00（LO 23:00）
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
 | 15:30 | 步行回 嵯峨嵐山駅 → JR嵯峨野線直達 → 京都駅 | [📍](https://www.google.com/maps/dir/?api=1&origin=Togetsukyo+Bridge%2C+Kyoto&destination=Kyoto+Station%2C+Kyoto&travelmode=transit) | 约16分 ¥240 | — |
 | 15:50 | 抵达京都站，稍作休整 | — | — | — |
 | 16:15 | 地下鉄烏丸線 京都→四条，步行至锦市场逛逛试吃，抹茶 (Matcha / 抹茶)・厚蛋烧 (Tamagoyaki / 厚焼き玉子)・京漬物 (Tsukemono / 京漬物) | [📍](https://www.google.com/maps/dir/?api=1&origin=Kyoto+Station%2C+Kyoto&destination=Nishiki+Market%2C+Kyoto&travelmode=transit) | 约5分 ¥220，小食¥200–500 | — |
-| 16:45 | 步行至四条河原町，抵达炭火串焼つじや排队，17:00开门（IG博主4:45到场为第二组，顺利吃到第一轮） | [📍](https://www.google.com/maps/dir/?api=1&origin=Nishiki+Market%2C+Kyoto&destination=Shijo+Kawaramachi%2C+Kyoto&travelmode=walking) | — | [IG参考](https://www.instagram.com/p/DXwcD1Byf2Y/) |
-| 17:00 | 晚餐：几乎每道都好吃，原隻烧鱿鱼/扇贝/大虾/多春鱼/刺身拼盘 | — | 人均约¥4,800 | [Tabelog订位](https://tabelog.com/en/kyoto/A2601/A260201/26020272/) |
-| 18:30 | 步行至阪急/京阪河原町駅 → 巴士或地铁转乘 → 京都駅，返回酒店休息，整理行李（明天退房返回大阪） | [📍](https://www.google.com/maps/dir/?api=1&origin=Shijo+Kawaramachi%2C+Kyoto&destination=Rinn+Kyoto+Station%2C+Kyoto&travelmode=transit) | — | — |
+| 16:45 | 步行至四条河原町 炭火串焼つじや 一带，**已订位 19:30・3位**，到店报姓名入座、无需排队；这段有空档，可在锦市场／四条一带多逛会儿、喝杯咖啡 | [📍](https://www.google.com/maps/dir/?api=1&origin=Nishiki+Market%2C+Kyoto&destination=Shijo+Kawaramachi%2C+Kyoto&travelmode=walking) | — | [IG参考](https://www.instagram.com/p/DXwcD1Byf2Y/) |
+| 19:30 | 晚餐（已订位）：几乎每道都好吃，原隻烧鱿鱼/扇贝/大虾/多春鱼/刺身拼盘，厨房 LO 23:00 | — | 人均约¥4,800 | [Tabelog](https://tabelog.com/en/kyoto/A2601/A260201/26020272/) |
+| 21:00 | 步行至阪急/京阪河原町駅 → 巴士或地铁转乘 → 京都駅，返回酒店休息，整理行李（明天退房返回大阪） | [📍](https://www.google.com/maps/dir/?api=1&origin=Shijo+Kawaramachi%2C+Kyoto&destination=Rinn+Kyoto+Station%2C+Kyoto&travelmode=transit) | — | — |
 
 ---
 
@@ -1005,12 +1005,12 @@
 
 #### 🥬 锦市场 + 🍶 晚餐：炭火串焼つじや 四条御幸町店
 
-> 📍 つじや地址：京都府京都市下京区四条御幸町下ル大寿町400 · 建议用 [Tabelog](https://tabelog.com/en/kyoto/A2601/A260201/26020272/) 线上即时订位 · 营业 17:00–24:00（LO 23:00）
+> 📍 つじや地址：京都府京都市下京区四条御幸町下ル大寿町400（锦市场旁）· 电话：075-371-5825 · ✅ **已订位：9/15（二）19:30・3位**（透过 Google／Resty 系统订，确认信已寄 ginntsp@gmail.com）· ⚠️ 需取消请提前 30 天 · 到店以日文或英文报姓名入座 · 营业 17:00–24:00（LO 23:00）
 
 | 时间 | 行程 | 地图 | 交通 / 费用 | 参考链接 |
 |------|------|------|-----------|---------|
 | — | 金閣寺开车前往锦市场附近，逛逛试吃 | [📍](https://www.google.com/maps/dir/?api=1&origin=Kinkaku-ji%2C+Kyoto&destination=Nishiki+Market%2C+Kyoto&travelmode=driving) | 小食¥200–500 | — |
-| — | 步行至四条河原町，つじや排队晚餐 | — | 人均约¥4,800 | [Tabelog订位](https://tabelog.com/en/kyoto/A2601/A260201/26020272/) |
+| 19:30 | 步行至四条河原町 つじや，到店报姓名入座（**已订位 19:30・3位**）| — | 人均约¥4,800 | [Tabelog](https://tabelog.com/en/kyoto/A2601/A260201/26020272/) |
 | — | 晚餐后开车返回酒店 | [📍](https://www.google.com/maps/dir/?api=1&origin=Shijo+Kawaramachi%2C+Kyoto&destination=Rinn+Kyoto+Station%2C+Kyoto&travelmode=driving) | — | — |
 
 ---
